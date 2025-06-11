@@ -1,0 +1,9 @@
+---
+title: Singapore
+params:
+  country: Singapore
+---
+
+
+
+{{< include /_includes/_country.qmd >}}

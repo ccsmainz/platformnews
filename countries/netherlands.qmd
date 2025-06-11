@@ -1,0 +1,9 @@
+---
+title: Netherlands
+params:
+  country: Netherlands
+---
+
+
+
+{{< include /_includes/_country.qmd >}}

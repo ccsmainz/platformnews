@@ -1,0 +1,9 @@
+---
+title: Chile
+params:
+  country: Chile
+---
+
+
+
+{{< include /_includes/_country.qmd >}}

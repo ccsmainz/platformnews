@@ -1,0 +1,9 @@
+---
+title: Romania
+params:
+  country: Romania
+---
+
+
+
+{{< include /_includes/_country.qmd >}}

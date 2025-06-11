@@ -1,0 +1,9 @@
+---
+title: Colombia
+params:
+  country: Colombia
+---
+
+
+
+{{< include /_includes/_country.qmd >}}

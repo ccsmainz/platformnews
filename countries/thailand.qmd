@@ -1,0 +1,9 @@
+---
+title: Thailand
+params:
+  country: Thailand
+---
+
+
+
+{{< include /_includes/_country.qmd >}}

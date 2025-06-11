@@ -1,0 +1,17 @@
+{
+  "hash": "759ebd2c963f3badee60976a36cef842",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: Australia\nparams:\n  country: Australia\n---\n\n\n\n\n\n\n\n\n\n\n::: {.cell}\n\n:::\n\n\nWe collected data from **12 news outlets** on TikTok. Overall, these outlets published  **1651 posts** between 2025-03-15 and 2025-04-14.\n\n\n## Basics \n\n\n::: {.cell}\n::: {.cell-output-display}\n<div class=\"kable-table\">\n\n|brand                       |   n|\n|:---------------------------|---:|\n|BBC News                    | 419|\n|ABC News                    | 313|\n|Channel 7 News              | 238|\n|Channel 9 News              | 170|\n|Sydney Morning Herald       | 163|\n|SBS News                    |  97|\n|Daily Telegraph             |  77|\n|Guardian Australia          |  54|\n|Herald Sun                  |  49|\n|The Australian              |  31|\n|News.com.au                 |  26|\n|Australian Financial Review |  14|\n\n</div>\n:::\n:::\n\n\n\n## Publication patterns\n\n## Content duplication\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

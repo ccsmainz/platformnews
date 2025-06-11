@@ -1,0 +1,9 @@
+---
+title: Kenya
+params:
+  country: Kenya
+---
+
+
+
+{{< include /_includes/_country.qmd >}}

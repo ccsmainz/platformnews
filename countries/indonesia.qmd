@@ -1,0 +1,9 @@
+---
+title: Indonesia
+params:
+  country: Indonesia
+---
+
+
+
+{{< include /_includes/_country.qmd >}}

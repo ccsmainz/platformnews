@@ -1,0 +1,9 @@
+---
+title: Mexico
+params:
+  country: Mexico
+---
+
+
+
+{{< include /_includes/_country.qmd >}}

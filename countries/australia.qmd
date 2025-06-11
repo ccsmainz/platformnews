@@ -1,0 +1,9 @@
+---
+title: Australia
+params:
+  country: Australia
+---
+
+
+
+{{< include /_includes/_country.qmd >}}

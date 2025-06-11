@@ -1,0 +1,45 @@
+project:
+  type: website
+  preview: 
+    port: 4000
+
+website:
+  title: "Platform News Report"
+  bread-crumbs: false
+  sidebar:
+    title: false
+    logo: logo.png
+    background: white
+    contents: auto
+    collapse-level: 1
+#      - href: index.qmd
+#        text: Platform News
+      #- about.qmd
+      #- auto: countries/index.qmd
+  #sidebar: 
+  #  logo: logo.png
+  #  style: docked
+  #sidebar:
+  #  #style: "docked"
+  #  #search: true
+  #  contents: auto
+
+format:
+  html:
+    theme:
+      - simplex
+      - brand
+    css: styles.css
+    toc: true
+    df-print: kable
+    #shift-heading-level-by: -1
+    brand: _brand.yml
+    page-layout: full
+
+execute: 
+  echo: false
+  freeze: auto
+  warning: false
+  
+
+

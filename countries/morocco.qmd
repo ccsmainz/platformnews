@@ -1,0 +1,9 @@
+---
+title: Morocco
+params:
+  country: Morocco
+---
+
+
+
+{{< include /_includes/_country.qmd >}}

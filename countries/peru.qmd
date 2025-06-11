@@ -1,0 +1,9 @@
+---
+title: Peru
+params:
+  country: Peru
+---
+
+
+
+{{< include /_includes/_country.qmd >}}

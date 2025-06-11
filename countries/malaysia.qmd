@@ -1,0 +1,9 @@
+---
+title: Malaysia
+params:
+  country: Malaysia
+---
+
+
+
+{{< include /_includes/_country.qmd >}}

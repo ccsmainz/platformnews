@@ -1,0 +1,9 @@
+---
+title: Czech Republic
+params:
+  country: Czech Republic
+---
+
+
+
+{{< include /_includes/_country.qmd >}}

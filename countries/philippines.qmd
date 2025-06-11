@@ -1,0 +1,9 @@
+---
+title: Philippines
+params:
+  country: Philippines
+---
+
+
+
+{{< include /_includes/_country.qmd >}}

@@ -1,0 +1,12 @@
+---
+title: "Country reports"
+listing: 
+  #contents: "!index"
+  type: table
+  page-size: 50
+  filter-ui: false
+  sort-ui: false
+  fields: [title]
+  field-display-names: 
+    title: Country
+---

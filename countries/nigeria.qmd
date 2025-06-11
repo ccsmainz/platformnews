@@ -1,0 +1,9 @@
+---
+title: Nigeria
+params:
+  country: Nigeria
+---
+
+
+
+{{< include /_includes/_country.qmd >}}

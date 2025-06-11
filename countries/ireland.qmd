@@ -1,0 +1,9 @@
+---
+title: Ireland
+params:
+  country: Ireland
+---
+
+
+
+{{< include /_includes/_country.qmd >}}

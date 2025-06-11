@@ -1,0 +1,9 @@
+---
+title: Finland
+params:
+  country: Finland
+---
+
+
+
+{{< include /_includes/_country.qmd >}}

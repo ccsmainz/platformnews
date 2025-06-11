@@ -1,0 +1,9 @@
+---
+title: Greece
+params:
+  country: Greece
+---
+
+
+
+{{< include /_includes/_country.qmd >}}
