@@ -1,0 +1,17 @@
+{
+  "hash": "324a2771a7af5e817afe0db9f4780112",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: Bulgaria\nparams:\n  country: Bulgaria\n---\n\n\n\n\n\n\n\n\n\n\n::: {.cell}\n\n:::\n\n\nWe collected data from **9 news outlets** on TikTok. Overall, these outlets published  **483 posts** between 2025-03-15 and 2025-04-14.\n\n\n## Basics \n\n\n::: {.cell}\n::: {.cell-output-display}\n<div class=\"kable-table\">\n\n|brand                               |   n|\n|:-----------------------------------|---:|\n|Nova TV News                        | 179|\n|Darik                               |  81|\n|Bulgarian National Television (BNT) |  69|\n|Dir                                 |  52|\n|24 Chasa                            |  30|\n|BTV News                            |  27|\n|Capital                             |  24|\n|Bulgarian National Radio (BNR)      |  13|\n|Dnevnik                             |   8|\n\n</div>\n:::\n:::\n\n\n\n## Publication patterns\n\n## Content duplication\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

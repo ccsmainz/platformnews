@@ -1,0 +1,17 @@
+{
+  "hash": "9d08ee9ce3e11eb52f369664afddc723",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: Norway\nparams:\n  country: Norway\n---\n\n\n\n\n\n\n\n\n\n\n::: {.cell}\n\n:::\n\n\nWe collected data from **10 news outlets** on TikTok. Overall, these outlets published  **610 posts** between 2025-03-15 and 2025-04-14.\n\n\n## Basics \n\n\n::: {.cell}\n::: {.cell-output-display}\n<div class=\"kable-table\">\n\n|brand                         |   n|\n|:-----------------------------|---:|\n|VG                            | 171|\n|TV2 News                      | 149|\n|Nettavisen                    |  98|\n|Aftenposten                   |  61|\n|ABC News                      |  51|\n|NRK News (public broadcaster) |  34|\n|Dagbladet                     |  24|\n|P4                            |  18|\n|Radio Norge                   |   3|\n|Document.no                   |   1|\n\n</div>\n:::\n:::\n\n\n\n## Publication patterns\n\n## Content duplication\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

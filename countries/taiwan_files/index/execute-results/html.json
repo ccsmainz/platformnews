@@ -1,0 +1,17 @@
+{
+  "hash": "ad41b4aa034a32ef3d520219097cdf55",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: Taiwan\nparams:\n  country: Taiwan\n---\n\n\n\n\n\n\n\n\n\n\n::: {.cell}\n\n:::\n\n\nWe collected data from **4 news outlets** on TikTok. Overall, these outlets published  **465 posts** between 2025-03-15 and 2025-04-14.\n\n\n## Basics \n\n\n::: {.cell}\n::: {.cell-output-display}\n<div class=\"kable-table\">\n\n|brand        |   n|\n|:------------|---:|\n|Storm Media  | 213|\n|Ettoday.net  | 119|\n|United Daily |  99|\n|TVBS News    |  34|\n\n</div>\n:::\n:::\n\n\n\n## Publication patterns\n\n## Content duplication\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

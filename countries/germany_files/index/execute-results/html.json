@@ -1,0 +1,17 @@
+{
+  "hash": "048f661df28c3a38ec0be3e53a206805",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: Germany\nparams:\n  country: Germany\n---\n\n\n\n\n\n\n\n\n\n\n::: {.cell}\n\n:::\n\n\nWe collected data from **10 news outlets** on TikTok. Overall, these outlets published  **613 posts** between 2025-03-15 and 2025-04-14.\n\n\n## Basics \n\n\n::: {.cell}\n::: {.cell-output-display}\n<div class=\"kable-table\">\n\n|brand               |   n|\n|:-------------------|---:|\n|ARD Tagesschau      | 123|\n|RTL aktuell         | 118|\n|web.de              |  65|\n|n-tv                |  63|\n|Der Spiegel         |  59|\n|ZDF heute           |  55|\n|Die ZEIT            |  38|\n|Stern               |  36|\n|Süddeutsche Zeitung |  29|\n|FAZ                 |  27|\n\n</div>\n:::\n:::\n\n\n\n## Publication patterns\n\n## Content duplication\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

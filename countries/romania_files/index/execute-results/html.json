@@ -1,0 +1,17 @@
+{
+  "hash": "8f485dbbc6e7b4f124b2074d60a14be5",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: Romania\nparams:\n  country: Romania\n---\n\n\n\n\n\n\n\n\n\n\n::: {.cell}\n\n:::\n\n\nWe collected data from **11 news outlets** on TikTok. Overall, these outlets published  **1927 posts** between 2025-03-15 and 2025-04-14.\n\n\n## Basics \n\n\n::: {.cell}\n::: {.cell-output-display}\n<div class=\"kable-table\">\n\n|brand           |   n|\n|:---------------|---:|\n|Antena 1        | 587|\n|Realitatea Plus | 488|\n|Kanal D         | 299|\n|Pro TV          | 160|\n|Ziare.com       | 129|\n|Digi 24         | 111|\n|Adevărul        |  60|\n|Libertatea      |  55|\n|Antena 3        |  24|\n|România TV      |  10|\n|HotNews         |   4|\n\n</div>\n:::\n:::\n\n\n\n## Publication patterns\n\n## Content duplication\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

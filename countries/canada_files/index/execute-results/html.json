@@ -1,0 +1,17 @@
+{
+  "hash": "a8789afe52265adb720f66ad076fae5c",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: Canada\nparams:\n  country: Canada\n---\n\n\n\n\n\n\n\n\n\n\n::: {.cell}\n\n:::\n\n\nWe collected data from **15 news outlets** on TikTok. Overall, these outlets published  **3092 posts** between 2025-03-15 and 2025-04-14.\n\n\n## Basics \n\n\n::: {.cell}\n::: {.cell-output-display}\n<div class=\"kable-table\">\n\n|brand                    |    n|\n|:------------------------|----:|\n|CTV News                 | 1200|\n|Fox News                 |  441|\n|BBC News                 |  419|\n|CNN                      |  375|\n|CBC News                 |  186|\n|CP24                     |  168|\n|The New York Times       |  132|\n|Global News              |   45|\n|Le Devoir                |   28|\n|Noovo info               |   24|\n|TV5                      |   21|\n|Yahoo! News              |   19|\n|ICI Radio-Canada/ICI RDI |   13|\n|Globe and Mail           |   11|\n|Toronto Star             |   10|\n\n</div>\n:::\n:::\n\n\n\n## Publication patterns\n\n## Content duplication\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "hash": "d1e57860707e2cccc177010e675898c3",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: Greece\nparams:\n  country: Greece\n---\n\n\n\n\n\n\n\n\n\n\n::: {.cell}\n\n:::\n\n\nWe collected data from **10 news outlets** on TikTok. Overall, these outlets published  **1262 posts** between 2025-03-15 and 2025-04-14.\n\n\n## Basics \n\n\n::: {.cell}\n::: {.cell-output-display}\n<div class=\"kable-table\">\n\n|brand                         |   n|\n|:-----------------------------|---:|\n|in.gr                         | 332|\n|Proto Thema                   | 259|\n|Alpha News                    | 181|\n|MEGA                          | 139|\n|SKAI News                     | 125|\n|Ant1 News                     |  93|\n|ERT News (public broadcaster) |  57|\n|Newsbomb.gr                   |  34|\n|news247.gr                    |  32|\n|Kathimerini                   |  10|\n\n</div>\n:::\n:::\n\n\n\n## Publication patterns\n\n## Content duplication\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

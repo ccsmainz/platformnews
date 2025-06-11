@@ -1,0 +1,17 @@
+{
+  "hash": "6c5fa91b8c012eb3e8a8369cf4f7b1ca",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: Malaysia\nparams:\n  country: Malaysia\n---\n\n\n\n\n\n\n\n\n\n\n::: {.cell}\n\n:::\n\n\nWe collected data from **13 news outlets** on TikTok. Overall, these outlets published  **6009 posts** between 2025-03-15 and 2025-04-14.\n\n\n## Basics \n\n\n::: {.cell}\n::: {.cell-output-display}\n<div class=\"kable-table\">\n\n|brand                     |    n|\n|:-------------------------|----:|\n|Astro Awani               | 2458|\n|Sinar Harian              |  986|\n|Berita Harian             |  509|\n|Harian Metro              |  478|\n|TV3 News                  |  477|\n|Utusan Malaysia           |  280|\n|TV9 News                  |  254|\n|Free Malaysia Today       |  202|\n|Radio Televisyen Malaysia |  119|\n|The Star                  |  102|\n|Malaysiakini              |   64|\n|Sin Chew Daily            |   61|\n|Yahoo! News               |   19|\n\n</div>\n:::\n:::\n\n\n\n## Publication patterns\n\n## Content duplication\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

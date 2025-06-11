@@ -1,0 +1,17 @@
+{
+  "hash": "0ad1c15955f841fefb8d4c82e4fad725",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: France\nparams:\n  country: France\n---\n\n\n\n\n\n\n\n\n\n\n::: {.cell}\n\n:::\n\n\nWe collected data from **12 news outlets** on TikTok. Overall, these outlets published  **1534 posts** between 2025-03-15 and 2025-04-14.\n\n\n## Basics \n\n\n::: {.cell}\n::: {.cell-output-display}\n<div class=\"kable-table\">\n\n|brand                             |   n|\n|:---------------------------------|---:|\n|France Info                       | 231|\n|Le Parisien/Aujourd’hui en France | 190|\n|TF1 News                          | 185|\n|BFM TV                            | 184|\n|CNews                             | 147|\n|Le Figaro                         | 140|\n|20 Minutes                        | 131|\n|France Inter                      | 121|\n|Le Monde                          |  79|\n|France Télévisions News           |  59|\n|Le HuffPost                       |  58|\n|Mediapart                         |   9|\n\n</div>\n:::\n:::\n\n\n\n## Publication patterns\n\n## Content duplication\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

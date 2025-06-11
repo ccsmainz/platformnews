@@ -1,0 +1,17 @@
+{
+  "hash": "b10835cddde000f4f2e7f3eaceab6797",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: Belgium\nparams:\n  country: Belgium\n---\n\n\n\n\n\n\n\n\n\n\n::: {.cell}\n\n:::\n\n\nWe collected data from **19 news outlets** on TikTok. Overall, these outlets published  **1633 posts** between 2025-03-15 and 2025-04-14.\n\n\n## Basics \n\n\n::: {.cell}\n::: {.cell-output-display}\n<div class=\"kable-table\">\n\n|brand                  |   n|\n|:----------------------|---:|\n|Bel-RTL                | 388|\n|RTL                    | 388|\n|TF1                    | 185|\n|Gazet van Antwerpen    | 126|\n|Het Laatste Nieuws     |  79|\n|Qmusic                 |  76|\n|Het Nieuwsblad         |  72|\n|Het Belang van Limburg |  67|\n|France 2               |  59|\n|VTM Nieuws             |  59|\n|RTBF News              |  25|\n|De Standaard           |  20|\n|VRT Nieuws             |  20|\n|7sur7                  |  17|\n|NWS (@nwsnwsnws)       |  15|\n|De Morgen              |  13|\n|Radio Contact          |  12|\n|De Tijd                |   8|\n|La Libre               |   4|\n\n</div>\n:::\n:::\n\n\n\n## Publication patterns\n\n## Content duplication\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

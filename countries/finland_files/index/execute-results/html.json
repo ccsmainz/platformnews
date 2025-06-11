@@ -1,0 +1,17 @@
+{
+  "hash": "693f714c4c7f978352fe8b09b1c6c7f0",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: Finland\nparams:\n  country: Finland\n---\n\n\n\n\n\n\n\n\n\n\n::: {.cell}\n\n:::\n\n\nWe collected data from **7 news outlets** on TikTok. Overall, these outlets published  **445 posts** between 2025-03-15 and 2025-04-14.\n\n\n## Basics \n\n\n::: {.cell}\n::: {.cell-output-display}\n<div class=\"kable-table\">\n\n|brand                         |   n|\n|:-----------------------------|---:|\n|Ilta-Sanomat                  | 114|\n|Iltalehti                     | 101|\n|MTV News                      |  90|\n|Helsingin Sanomat             |  61|\n|Yle News (public broadcaster) |  47|\n|Kauppalehti                   |  26|\n|Suomen Kuvalehti              |   6|\n\n</div>\n:::\n:::\n\n\n\n## Publication patterns\n\n## Content duplication\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

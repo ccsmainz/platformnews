@@ -1,0 +1,17 @@
+{
+  "hash": "dd7330edfb9c583169ff163d4f4af4c9",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: Indonesia\nparams:\n  country: Indonesia\n---\n\n\n\n\n\n\n\n\n\n\n::: {.cell}\n\n:::\n\n\nWe collected data from **14 news outlets** on TikTok. Overall, these outlets published  **4748 posts** between 2025-03-15 and 2025-04-14.\n\n\n## Basics \n\n\n::: {.cell}\n::: {.cell-output-display}\n<div class=\"kable-table\">\n\n|brand           |    n|\n|:---------------|----:|\n|Kompas          | 1278|\n|Kumparan.com    |  498|\n|Detik.com       |  470|\n|RCTI            |  457|\n|TVOne           |  400|\n|CNN             |  325|\n|Merdeka.com     |  282|\n|Tribunnews      |  261|\n|Suara.com       |  196|\n|SCTV (Liputan6) |  164|\n|TVRI            |  161|\n|Sindonews.com   |  138|\n|Tempo           |   95|\n|Jawa Pos        |   23|\n\n</div>\n:::\n:::\n\n\n\n## Publication patterns\n\n## Content duplication\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "hash": "519f7f23afd30ec5df3875e458ff44d7",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: Spain\nparams:\n  country: Spain\n---\n\n\n\n\n\n\n\n\n\n\n::: {.cell}\n\n:::\n\n\nWe collected data from **13 news outlets** on TikTok. Overall, these outlets published  **3181 posts** between 2025-03-15 and 2025-04-14.\n\n\n## Basics \n\n\n::: {.cell}\n::: {.cell-output-display}\n<div class=\"kable-table\">\n\n|brand                     |   n|\n|:-------------------------|---:|\n|ABC                       | 701|\n|OKdiario.com              | 355|\n|20 Minutos                | 340|\n|Cadena SER                | 330|\n|El Mundo                  | 269|\n|Antena 3                  | 259|\n|El País                   | 235|\n|La Vanguardia             | 189|\n|COPE                      | 182|\n|RTVE (public broadcaster) |  99|\n|elDiario.es               |  91|\n|ElConfidencial.com        |  69|\n|LaSexta                   |  62|\n\n</div>\n:::\n:::\n\n\n\n## Publication patterns\n\n## Content duplication\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

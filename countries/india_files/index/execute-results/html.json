@@ -1,0 +1,17 @@
+{
+  "hash": "9bd99cc35d8a651ff798c26bdcc2e05a",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: India\nparams:\n  country: India\n---\n\n\n\n\n\n\n\n\n\n\n::: {.cell}\n\n:::\n\n\nWe collected data from **3 news outlets** on TikTok. Overall, these outlets published  **795 posts** between 2025-03-15 and 2025-04-14.\n\n\n## Basics \n\n\n::: {.cell}\n::: {.cell-output-display}\n<div class=\"kable-table\">\n\n|brand       |   n|\n|:-----------|---:|\n|BBC News    | 419|\n|CNN         | 375|\n|India Today |   1|\n\n</div>\n:::\n:::\n\n\n\n## Publication patterns\n\n## Content duplication\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

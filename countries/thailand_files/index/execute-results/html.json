@@ -1,0 +1,17 @@
+{
+  "hash": "ee1993edd439efcddf3cd27669420369",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: Thailand\nparams:\n  country: Thailand\n---\n\n\n\n\n\n\n\n\n\n\n::: {.cell}\n\n:::\n\n\nWe collected data from **11 news outlets** on TikTok. Overall, these outlets published  **5318 posts** between 2025-03-15 and 2025-04-14.\n\n\n## Basics \n\n\n::: {.cell}\n::: {.cell-output-display}\n<div class=\"kable-table\">\n\n|brand                         |    n|\n|:-----------------------------|----:|\n|Amarin                        | 1336|\n|Khaosod                       |  833|\n|Manager                       |  742|\n|Thai Rath                     |  576|\n|MCOT News Network             |  521|\n|Channel 7 HD                  |  496|\n|Thai PBS (public broadcaster) |  458|\n|Matichon                      |  144|\n|Nation                        |  141|\n|Bangkok Post                  |   53|\n|Workpoint TV                  |   18|\n\n</div>\n:::\n:::\n\n\n\n## Publication patterns\n\n## Content duplication\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

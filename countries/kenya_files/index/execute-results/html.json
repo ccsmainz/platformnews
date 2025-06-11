@@ -1,0 +1,17 @@
+{
+  "hash": "2070d23b578dd79c98ddae14b10c1430",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: Kenya\nparams:\n  country: Kenya\n---\n\n\n\n\n\n\n\n\n\n\n::: {.cell}\n\n:::\n\n\nWe collected data from **11 news outlets** on TikTok. Overall, these outlets published  **2178 posts** between 2025-03-15 and 2025-04-14.\n\n\n## Basics \n\n\n::: {.cell}\n::: {.cell-output-display}\n<div class=\"kable-table\">\n\n|brand                    |   n|\n|:------------------------|---:|\n|Radio Maisha             | 737|\n|BBC News                 | 419|\n|Citizen TV               | 216|\n|NTV                      | 206|\n|Citizen Radio            | 205|\n|The Standard             |  96|\n|KTN News                 |  83|\n|K-24 TV                  |  77|\n|Radio Jambo              |  68|\n|The Star                 |  49|\n|KBC (public broadcaster) |  22|\n\n</div>\n:::\n:::\n\n\n\n## Publication patterns\n\n## Content duplication\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

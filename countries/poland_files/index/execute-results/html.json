@@ -1,0 +1,17 @@
+{
+  "hash": "7733e661ce9e53165302c24f50a1e0ad",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: Poland\nparams:\n  country: Poland\n---\n\n\n\n\n\n\n\n\n\n\n::: {.cell}\n\n:::\n\n\nWe collected data from **12 news outlets** on TikTok. Overall, these outlets published  **763 posts** between 2025-03-15 and 2025-04-14.\n\n\n## Basics \n\n\n::: {.cell}\n::: {.cell-output-display}\n<div class=\"kable-table\">\n\n|brand                         |   n|\n|:-----------------------------|---:|\n|Super Express                 | 146|\n|Onet.pl                       | 127|\n|WP.pl                         |  76|\n|TVP News (public broadcaster) |  67|\n|OKO.press                     |  62|\n|RMF FM                        |  60|\n|Gazeta Wyborcza               |  52|\n|Polsat News                   |  52|\n|TVN News                      |  44|\n|Radio Zet                     |  42|\n|Fakt                          |  21|\n|Interia                       |  14|\n\n</div>\n:::\n:::\n\n\n\n## Publication patterns\n\n## Content duplication\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

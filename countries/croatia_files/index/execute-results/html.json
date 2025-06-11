@@ -1,0 +1,17 @@
+{
+  "hash": "5c85086906638bfebd40f3681700a36c",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: Croatia\nparams:\n  country: Croatia\n---\n\n\n\n\n\n\n\n\n\n\n::: {.cell}\n\n:::\n\n\nWe collected data from **13 news outlets** on TikTok. Overall, these outlets published  **1257 posts** between 2025-03-15 and 2025-04-14.\n\n\n## Basics \n\n\n::: {.cell}\n::: {.cell-output-display}\n<div class=\"kable-table\">\n\n|brand              |   n|\n|:------------------|---:|\n|RTL News           | 281|\n|Net.hr             | 257|\n|Večernji list      | 202|\n|24sata             | 186|\n|Jutarnji list      | 112|\n|index.hr           |  73|\n|Telegram           |  32|\n|Tportal.hr         |  32|\n|N1                 |  30|\n|Slobodna Dalmacija |  22|\n|Dnevno.hr          |  18|\n|Otvoreni radio     |   7|\n|NovaTV             |   5|\n\n</div>\n:::\n:::\n\n\n\n## Publication patterns\n\n## Content duplication\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
