@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -41,7 +39,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-de070a7b0ab54f8780927367ac907214.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-12ead68272927c850afe0ab07f03ace7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-99f4832d39f502f36a81f6158d082447.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -69,65 +67,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -170,6 +110,12 @@ window.Quarto = {
   <div class="sidebar-item-container"> 
   <a href="../about.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">About</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../platformization.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Platformization</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -447,6 +393,12 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../countries/united_kingdom.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">United Kingdom</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../countries/united_states.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">United States</span></a>
   </div>
@@ -483,342 +435,267 @@ window.Quarto = {
 </header>
 
 
-
-
-
-
-<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
-<table class="quarto-listing-table table">
+<div class="cell">
+<div class="cell-output-display">
+<div class="kable-table">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 73%">
+<col style="width: 8%">
+<col style="width: 17%">
+</colgroup>
 <thead>
-<tr>
-
-<th>
-Country
-</th>
-
+<tr class="header">
+<th style="text-align: left;">Country</th>
+<th style="text-align: right;">TikTok</th>
+<th style="text-align: right;">YouTube Shorts</th>
 </tr>
 </thead>
-<tbody class="list">
-
-<tr data-index="0" data-listing-file-modified-sort="1749655284947" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Argentina" data-listing-filename-sort="argentina.qmd">
-<td>
-<a href="../countries/argentina.html" class="title listing-title">Argentina</a>
-</td>
-
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><a href="../countries/argentina.html">Argentina</a></td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">7</td>
 </tr>
-
-<tr data-index="1" data-listing-file-modified-sort="1749655284943" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Australia" data-listing-filename-sort="australia.qmd">
-<td>
-<a href="../countries/australia.html" class="title listing-title">Australia</a>
-</td>
-
+<tr class="even">
+<td style="text-align: left;"><a href="../countries/australia.html">Australia</a></td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">6</td>
 </tr>
-
-<tr data-index="2" data-listing-file-modified-sort="1749655284957" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Austria" data-listing-filename-sort="austria.qmd">
-<td>
-<a href="../countries/austria.html" class="title listing-title">Austria</a>
-</td>
-
+<tr class="odd">
+<td style="text-align: left;"><a href="../countries/austria.html">Austria</a></td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">5</td>
 </tr>
-
-<tr data-index="3" data-listing-file-modified-sort="1749655284943" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Belgium" data-listing-filename-sort="belgium.qmd">
-<td>
-<a href="../countries/belgium.html" class="title listing-title">Belgium</a>
-</td>
-
+<tr class="even">
+<td style="text-align: left;"><a href="../countries/belgium.html">Belgium</a></td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">7</td>
 </tr>
-
-<tr data-index="4" data-listing-file-modified-sort="1749655284961" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Brazil" data-listing-filename-sort="brazil.qmd">
-<td>
-<a href="../countries/brazil.html" class="title listing-title">Brazil</a>
-</td>
-
+<tr class="odd">
+<td style="text-align: left;"><a href="../countries/brazil.html">Brazil</a></td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">6</td>
 </tr>
-
-<tr data-index="5" data-listing-file-modified-sort="1749655284934" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Bulgaria" data-listing-filename-sort="bulgaria.qmd">
-<td>
-<a href="../countries/bulgaria.html" class="title listing-title">Bulgaria</a>
-</td>
-
+<tr class="even">
+<td style="text-align: left;"><a href="../countries/bulgaria.html">Bulgaria</a></td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">0</td>
 </tr>
-
-<tr data-index="6" data-listing-file-modified-sort="1749655284961" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Canada" data-listing-filename-sort="canada.qmd">
-<td>
-<a href="../countries/canada.html" class="title listing-title">Canada</a>
-</td>
-
+<tr class="odd">
+<td style="text-align: left;"><a href="../countries/canada.html">Canada</a></td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">7</td>
 </tr>
-
-<tr data-index="7" data-listing-file-modified-sort="1749655284938" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Chile" data-listing-filename-sort="chile.qmd">
-<td>
-<a href="../countries/chile.html" class="title listing-title">Chile</a>
-</td>
-
+<tr class="even">
+<td style="text-align: left;"><a href="../countries/chile.html">Chile</a></td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">2</td>
 </tr>
-
-<tr data-index="8" data-listing-file-modified-sort="1749655284976" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Colombia" data-listing-filename-sort="colombia.qmd">
-<td>
-<a href="../countries/colombia.html" class="title listing-title">Colombia</a>
-</td>
-
+<tr class="odd">
+<td style="text-align: left;"><a href="../countries/colombia.html">Colombia</a></td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">3</td>
 </tr>
-
-<tr data-index="9" data-listing-file-modified-sort="1749655284941" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Croatia" data-listing-filename-sort="croatia.qmd">
-<td>
-<a href="../countries/croatia.html" class="title listing-title">Croatia</a>
-</td>
-
+<tr class="even">
+<td style="text-align: left;"><a href="../countries/croatia.html">Croatia</a></td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">3</td>
 </tr>
-
-<tr data-index="10" data-listing-file-modified-sort="1749655284953" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Czech Republic" data-listing-filename-sort="czech_republic.qmd">
-<td>
-<a href="../countries/czech_republic.html" class="title listing-title">Czech Republic</a>
-</td>
-
+<tr class="odd">
+<td style="text-align: left;"><a href="../countries/czech_republic.html">Czech Republic</a></td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">3</td>
 </tr>
-
-<tr data-index="11" data-listing-file-modified-sort="1749655284959" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Denmark" data-listing-filename-sort="denmark.qmd">
-<td>
-<a href="../countries/denmark.html" class="title listing-title">Denmark</a>
-</td>
-
+<tr class="even">
+<td style="text-align: left;"><a href="../countries/denmark.html">Denmark</a></td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">2</td>
 </tr>
-
-<tr data-index="12" data-listing-file-modified-sort="1749655284978" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Finland" data-listing-filename-sort="finland.qmd">
-<td>
-<a href="../countries/finland.html" class="title listing-title">Finland</a>
-</td>
-
+<tr class="odd">
+<td style="text-align: left;"><a href="../countries/finland.html">Finland</a></td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">2</td>
 </tr>
-
-<tr data-index="13" data-listing-file-modified-sort="1749655284938" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="France" data-listing-filename-sort="france.qmd">
-<td>
-<a href="../countries/france.html" class="title listing-title">France</a>
-</td>
-
+<tr class="even">
+<td style="text-align: left;"><a href="../countries/france.html">France</a></td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">4</td>
 </tr>
-
-<tr data-index="14" data-listing-file-modified-sort="1749655284978" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Germany" data-listing-filename-sort="germany.qmd">
-<td>
-<a href="../countries/germany.html" class="title listing-title">Germany</a>
-</td>
-
+<tr class="odd">
+<td style="text-align: left;"><a href="../countries/germany.html">Germany</a></td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">7</td>
 </tr>
-
-<tr data-index="15" data-listing-file-modified-sort="1749655284931" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Greece" data-listing-filename-sort="greece.qmd">
-<td>
-<a href="../countries/greece.html" class="title listing-title">Greece</a>
-</td>
-
+<tr class="even">
+<td style="text-align: left;"><a href="../countries/greece.html">Greece</a></td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">3</td>
 </tr>
-
-<tr data-index="16" data-listing-file-modified-sort="1749655284939" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Hungary" data-listing-filename-sort="hungary.qmd">
-<td>
-<a href="../countries/hungary.html" class="title listing-title">Hungary</a>
-</td>
-
+<tr class="odd">
+<td style="text-align: left;"><a href="../countries/hong_kong.html">Hong Kong</a></td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">2</td>
 </tr>
-
-<tr data-index="17" data-listing-file-modified-sort="1749655284962" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="India" data-listing-filename-sort="india.qmd">
-<td>
-<a href="../countries/india.html" class="title listing-title">India</a>
-</td>
-
+<tr class="even">
+<td style="text-align: left;"><a href="../countries/hungary.html">Hungary</a></td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">5</td>
 </tr>
-
-<tr data-index="18" data-listing-file-modified-sort="1749655284977" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Indonesia" data-listing-filename-sort="indonesia.qmd">
-<td>
-<a href="../countries/indonesia.html" class="title listing-title">Indonesia</a>
-</td>
-
+<tr class="odd">
+<td style="text-align: left;"><a href="../countries/india.html">India</a></td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">4</td>
 </tr>
-
-<tr data-index="19" data-listing-file-modified-sort="1749655284965" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Ireland" data-listing-filename-sort="ireland.qmd">
-<td>
-<a href="../countries/ireland.html" class="title listing-title">Ireland</a>
-</td>
-
+<tr class="even">
+<td style="text-align: left;"><a href="../countries/indonesia.html">Indonesia</a></td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">7</td>
 </tr>
-
-<tr data-index="20" data-listing-file-modified-sort="1749655284977" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Italy" data-listing-filename-sort="italy.qmd">
-<td>
-<a href="../countries/italy.html" class="title listing-title">Italy</a>
-</td>
-
+<tr class="odd">
+<td style="text-align: left;"><a href="../countries/ireland.html">Ireland</a></td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">6</td>
 </tr>
-
-<tr data-index="21" data-listing-file-modified-sort="1749655284926" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Japan" data-listing-filename-sort="japan.qmd">
-<td>
-<a href="../countries/japan.html" class="title listing-title">Japan</a>
-</td>
-
+<tr class="even">
+<td style="text-align: left;"><a href="../countries/italy.html">Italy</a></td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">6</td>
 </tr>
-
-<tr data-index="22" data-listing-file-modified-sort="1749655284966" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Kenya" data-listing-filename-sort="kenya.qmd">
-<td>
-<a href="../countries/kenya.html" class="title listing-title">Kenya</a>
-</td>
-
+<tr class="odd">
+<td style="text-align: left;"><a href="../countries/japan.html">Japan</a></td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">5</td>
 </tr>
-
-<tr data-index="23" data-listing-file-modified-sort="1749655284956" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Malaysia" data-listing-filename-sort="malaysia.qmd">
-<td>
-<a href="../countries/malaysia.html" class="title listing-title">Malaysia</a>
-</td>
-
+<tr class="even">
+<td style="text-align: left;"><a href="../countries/kenya.html">Kenya</a></td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">6</td>
 </tr>
-
-<tr data-index="24" data-listing-file-modified-sort="1749655284958" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Mexico" data-listing-filename-sort="mexico.qmd">
-<td>
-<a href="../countries/mexico.html" class="title listing-title">Mexico</a>
-</td>
-
+<tr class="odd">
+<td style="text-align: left;"><a href="../countries/malaysia.html">Malaysia</a></td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">6</td>
 </tr>
-
-<tr data-index="25" data-listing-file-modified-sort="1749655284942" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Morocco" data-listing-filename-sort="morocco.qmd">
-<td>
-<a href="../countries/morocco.html" class="title listing-title">Morocco</a>
-</td>
-
+<tr class="even">
+<td style="text-align: left;"><a href="../countries/mexico.html">Mexico</a></td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">5</td>
 </tr>
-
-<tr data-index="26" data-listing-file-modified-sort="1749655284972" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Netherlands" data-listing-filename-sort="netherlands.qmd">
-<td>
-<a href="../countries/netherlands.html" class="title listing-title">Netherlands</a>
-</td>
-
+<tr class="odd">
+<td style="text-align: left;"><a href="../countries/morocco.html">Morocco</a></td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">3</td>
 </tr>
-
-<tr data-index="27" data-listing-file-modified-sort="1749655284950" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Nigeria" data-listing-filename-sort="nigeria.qmd">
-<td>
-<a href="../countries/nigeria.html" class="title listing-title">Nigeria</a>
-</td>
-
+<tr class="even">
+<td style="text-align: left;"><a href="../countries/netherlands.html">Netherlands</a></td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">4</td>
 </tr>
-
-<tr data-index="28" data-listing-file-modified-sort="1749655284949" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Norway" data-listing-filename-sort="norway.qmd">
-<td>
-<a href="../countries/norway.html" class="title listing-title">Norway</a>
-</td>
-
+<tr class="odd">
+<td style="text-align: left;"><a href="../countries/nigeria.html">Nigeria</a></td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">2</td>
 </tr>
-
-<tr data-index="29" data-listing-file-modified-sort="1749655284955" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Peru" data-listing-filename-sort="peru.qmd">
-<td>
-<a href="../countries/peru.html" class="title listing-title">Peru</a>
-</td>
-
+<tr class="even">
+<td style="text-align: left;"><a href="../countries/norway.html">Norway</a></td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">3</td>
 </tr>
-
-<tr data-index="30" data-listing-file-modified-sort="1749655284948" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Philippines" data-listing-filename-sort="philippines.qmd">
-<td>
-<a href="../countries/philippines.html" class="title listing-title">Philippines</a>
-</td>
-
+<tr class="odd">
+<td style="text-align: left;"><a href="../countries/peru.html">Peru</a></td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">8</td>
 </tr>
-
-<tr data-index="31" data-listing-file-modified-sort="1749655284978" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Poland" data-listing-filename-sort="poland.qmd">
-<td>
-<a href="../countries/poland.html" class="title listing-title">Poland</a>
-</td>
-
+<tr class="even">
+<td style="text-align: left;"><a href="../countries/philippines.html">Philippines</a></td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">6</td>
 </tr>
-
-<tr data-index="32" data-listing-file-modified-sort="1749655284956" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Portugal" data-listing-filename-sort="portugal.qmd">
-<td>
-<a href="../countries/portugal.html" class="title listing-title">Portugal</a>
-</td>
-
+<tr class="odd">
+<td style="text-align: left;"><a href="../countries/poland.html">Poland</a></td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">5</td>
 </tr>
-
-<tr data-index="33" data-listing-file-modified-sort="1749655284946" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Romania" data-listing-filename-sort="romania.qmd">
-<td>
-<a href="../countries/romania.html" class="title listing-title">Romania</a>
-</td>
-
+<tr class="even">
+<td style="text-align: left;"><a href="../countries/portugal.html">Portugal</a></td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">1</td>
 </tr>
-
-<tr data-index="34" data-listing-file-modified-sort="1749655284932" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Singapore" data-listing-filename-sort="singapore.qmd">
-<td>
-<a href="../countries/singapore.html" class="title listing-title">Singapore</a>
-</td>
-
+<tr class="odd">
+<td style="text-align: left;"><a href="../countries/romania.html">Romania</a></td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">4</td>
 </tr>
-
-<tr data-index="35" data-listing-file-modified-sort="1749655284951" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Slovakia" data-listing-filename-sort="slovakia.qmd">
-<td>
-<a href="../countries/slovakia.html" class="title listing-title">Slovakia</a>
-</td>
-
+<tr class="even">
+<td style="text-align: left;"><a href="../countries/singapore.html">Singapore</a></td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">4</td>
 </tr>
-
-<tr data-index="36" data-listing-file-modified-sort="1749655284968" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="South Africa" data-listing-filename-sort="south_africa.qmd">
-<td>
-<a href="../countries/south_africa.html" class="title listing-title">South Africa</a>
-</td>
-
+<tr class="odd">
+<td style="text-align: left;"><a href="../countries/slovakia.html">Slovakia</a></td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">3</td>
 </tr>
-
-<tr data-index="37" data-listing-file-modified-sort="1749655284945" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="South Korea" data-listing-filename-sort="south_korea.qmd">
-<td>
-<a href="../countries/south_korea.html" class="title listing-title">South Korea</a>
-</td>
-
+<tr class="even">
+<td style="text-align: left;"><a href="../countries/south_africa.html">South Africa</a></td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">2</td>
 </tr>
-
-<tr data-index="38" data-listing-file-modified-sort="1749655284956" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Spain" data-listing-filename-sort="spain.qmd">
-<td>
-<a href="../countries/spain.html" class="title listing-title">Spain</a>
-</td>
-
+<tr class="odd">
+<td style="text-align: left;"><a href="../countries/south_korea.html">South Korea</a></td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">9</td>
 </tr>
-
-<tr data-index="39" data-listing-file-modified-sort="1749655284951" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Sweden" data-listing-filename-sort="sweden.qmd">
-<td>
-<a href="../countries/sweden.html" class="title listing-title">Sweden</a>
-</td>
-
+<tr class="even">
+<td style="text-align: left;"><a href="../countries/spain.html">Spain</a></td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">5</td>
 </tr>
-
-<tr data-index="40" data-listing-file-modified-sort="1749655284936" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Switzerland" data-listing-filename-sort="switzerland.qmd">
-<td>
-<a href="../countries/switzerland.html" class="title listing-title">Switzerland</a>
-</td>
-
+<tr class="odd">
+<td style="text-align: left;"><a href="../countries/sweden.html">Sweden</a></td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">5</td>
 </tr>
-
-<tr data-index="41" data-listing-file-modified-sort="1749655284928" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Taiwan" data-listing-filename-sort="taiwan.qmd">
-<td>
-<a href="../countries/taiwan.html" class="title listing-title">Taiwan</a>
-</td>
-
+<tr class="even">
+<td style="text-align: left;"><a href="../countries/switzerland.html">Switzerland</a></td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">4</td>
 </tr>
-
-<tr data-index="42" data-listing-file-modified-sort="1749655284954" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Thailand" data-listing-filename-sort="thailand.qmd">
-<td>
-<a href="../countries/thailand.html" class="title listing-title">Thailand</a>
-</td>
-
+<tr class="odd">
+<td style="text-align: left;"><a href="../countries/taiwan.html">Taiwan</a></td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">5</td>
 </tr>
-
-<tr data-index="43" data-listing-file-modified-sort="1749655284944" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Turkey" data-listing-filename-sort="turkey.qmd">
-<td>
-<a href="../countries/turkey.html" class="title listing-title">Turkey</a>
-</td>
-
+<tr class="even">
+<td style="text-align: left;"><a href="../countries/thailand.html">Thailand</a></td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">4</td>
 </tr>
-
-<tr data-index="44" data-listing-file-modified-sort="1749655284948" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="United States" data-listing-filename-sort="united_states.qmd">
-<td>
-<a href="../countries/united_states.html" class="title listing-title">United States</a>
-</td>
-
+<tr class="odd">
+<td style="text-align: left;"><a href="../countries/turkey.html">Turkey</a></td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">6</td>
 </tr>
-
+<tr class="even">
+<td style="text-align: left;"><a href="../countries/united_kingdom.html">United Kingdom</a></td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="../countries/united_states.html">United States</a></td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">7</td>
+</tr>
 </tbody>
 </table>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</div>
+</div>
+</div>
+
+
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
