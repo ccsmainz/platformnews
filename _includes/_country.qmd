@@ -1,18 +1,13 @@
-
-```{r, include = F}
-library(tidyverse)
-library(tinythemes)
-theme_set(tinythemes::theme_ipsum_rc())
-```
+{{< include /_includes/_data.qmd >}}
 
 
-```{r, include=F}
+```{r}
 country = params$country
-d = read_tsv("../_data/posts.tsv.gz") |> 
-  filter(country == params$country) |> 
-  filter(timestamp >= as.Date("2025-03-15")) |> 
-  filter(timestamp < as.Date("2025-04-15"))
+d = d |> 
+      filter(country == params$country) 
+
 ```
+
 
 ```{r}
 n_posts = nrow(d)
@@ -25,6 +20,10 @@ last_day = max(as.Date(d$timestamp))
 
 We collected data from **`r n_outlets` news outlets** on TikTok and YouTube Shorts. Overall, these outlets published  **`r n_posts` posts**, or an average of **`r per_day` posts per day**.
 
+```{r}
+d |> count(platform)
+```
+
 
 ## Basics 
 
@@ -33,9 +32,10 @@ d |>
   count(brand, platform, sort = T) |> 
   group_by(brand) |> 
   mutate(Posts = sum(n)) |> 
+  ungroup() |> 
   spread(platform, n, fill = 0) |> 
-  mutate(`TikTok (per day)` = TikTok/n_days,
-         `YouTube (per day)` = `YouTube Shorts`/n_days) |> 
+ mutate(`TikTok (per day)` = TikTok/n_days,
+        `YouTube (per day)` = `YouTube Shorts`/n_days) |> 
   mutate_if(is.numeric, round) |> 
   select(Outlet = brand, Posts, starts_with("TikTok"), starts_with("YouTube"))
 ```

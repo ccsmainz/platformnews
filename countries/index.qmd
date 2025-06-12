@@ -1,12 +1,25 @@
 ---
 title: "Country reports"
-listing: 
-  #contents: "!index"
-  type: table
-  page-size: 50
-  filter-ui: false
-  sort-ui: false
-  fields: [title]
-  field-display-names: 
-    title: Country
+#listing: 
+#  #contents: "!index"
+#  type: table
+#  page-size: 50
+#  filter-ui: false
+#  sort-ui: false
+#  fields: [title]
+#  field-display-names: 
+#    title: Country
 ---
+
+
+{{< include /_includes/_data.qmd >}}
+
+```{r}
+d |> 
+  distinct(country, brand, platform) |> 
+  count(country, platform) |> 
+  spread(platform, n, fill = 0) |> 
+  mutate(c2 = country |> tolower() |> str_replace(" ", "_"),
+         country = glue::glue("<a href = '/countries/{c2}.html'>{country}</a>")) |> 
+  select(Country = country, everything(), -c2)
+```

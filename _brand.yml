@@ -16,6 +16,6 @@ typography:
       source: bunny
     - family: "Inter"
       source: bunny
-  base: Inter
+  base: Roboto
   headings: "Roboto Condensed"
   

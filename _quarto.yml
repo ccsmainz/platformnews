@@ -12,17 +12,6 @@ website:
     background: white
     contents: auto
     collapse-level: 1
-#      - href: index.qmd
-#        text: Platform News
-      #- about.qmd
-      #- auto: countries/index.qmd
-  #sidebar: 
-  #  logo: logo.png
-  #  style: docked
-  #sidebar:
-  #  #style: "docked"
-  #  #search: true
-  #  contents: auto
 
 format:
   html:
@@ -32,7 +21,6 @@ format:
     css: styles.css
     toc: true
     df-print: kable
-    #shift-heading-level-by: -1
     brand: _brand.yml
     page-layout: full
 
@@ -41,5 +29,7 @@ execute:
   freeze: auto
   warning: false
   
-
+knitr:
+  opts_chunk:
+    out.width: "100%"
 

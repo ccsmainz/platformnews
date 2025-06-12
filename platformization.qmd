@@ -1,0 +1,52 @@
+---
+title: Platformization
+---
+
+{{< include /_includes/_data.qmd >}}
+
+
+*Platformization* describes the growing trend of news being produced and distributed through – and increasingly by – digital platforms like Instagram, YouTube, and TikTok. This process fundamentally alters news production, prioritizing algorithmic engagement over traditional journalistic norms. Consequently, news are assumed to be more visually-driven, emotionalized, and personalized, often delivered by non-traditional actors. 
+
+
+## Titles, captions and other text
+
+
+```{r}
+m1 = d |>
+  mutate(n_emoji = emoji::emoji_detect(title) |> as.numeric()) |>
+  glmer(n_emoji ~ 1 + (1|country), data = _, family = binomial)
+
+m2 = d |>
+  mutate(n_emoji = emoji::emoji_detect(title) |> as.numeric()) |>
+  glmer(n_emoji ~ 1 + (1|country) + (1|outlet), data = _, family = binomial)
+
+country_preds = m1 |> avg_predictions(variables = "country") |> 
+  as_tibble() |> 
+  left_join(regions)
+```
+
+
+```{r}
+#| fig-height: 10
+
+
+brand_preds = m2 |> avg_predictions(variables = "outlet") |> 
+  left_join(distinct(d, outlet, country, region)) |> 
+  as_tibble() |> 
+  left_join(country_preds |> select(country, avg = estimate))
+
+
+brand_preds |> 
+  left_join(regions) |> 
+  ggplot(aes(x = reorder(country, avg),  y = estimate, color = region))+
+  geom_point(alpha = .33, size = 1)+
+  geom_pointrange(data =country_preds, aes(x = country, y = estimate, ymin = conf.low, ymax = conf.high, color = region))+
+  #geom_point(data = country_preds, size = 5)+
+#  geom_point(data = brand_preds, size = 1, alpha = .5) +
+  coord_flip(ylim = c(0,1))+
+  scale_y_continuous(labels = scales::percent)+
+  #scale_color_manual(values = c("#ff0050", "#00aaaa"))+
+  labs(x = "", y = "Share of posts with emojis", title = "Who uses emojis?", subtitle = "Proportion of posts containing emojis, by country", color = "Region")
+```
+
+

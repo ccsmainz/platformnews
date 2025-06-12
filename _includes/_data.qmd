@@ -1,0 +1,27 @@
+```{r, include = F}
+library(lme4)
+library(marginaleffects)
+library(tidyverse)
+library(tinythemes)
+theme_set(tinythemes::theme_ipsum_rc()+
+  theme(legend.position = "top", plot.title.position = "plot",
+        plot.margin = margin(t = 0,  # Top margin
+                             r = 0,  # Right margin
+                             b = 0,  # Bottom margin
+                             l = 0))
+)
+```
+
+
+```{r, include=F}
+d = read_tsv(here::here("_data/posts.tsv.gz")) |> 
+  filter(timestamp >= as.Date("2025-03-15")) |> 
+  filter(timestamp < as.Date("2025-04-15")) |> 
+  mutate(outlet = paste(brand, country))
+
+regions = read_csv(here::here("_data/regions.csv")) |> 
+  rename(country = Market, region = Region)
+
+d = d |> 
+  left_join(regions, by = "country")
+```
