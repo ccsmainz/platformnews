@@ -1066,28 +1066,38 @@
     ]
   },
   {
+    "objectID": "about.html#headline-2",
+    "href": "about.html#headline-2",
+    "title": "About",
+    "section": "",
+    "text": "About this site",
+    "crumbs": [
+      "About"
+    ]
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Platform News",
+    "title": "Platform News Report",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Platformization describes the growing trend of news being produced and distributed through – and increasingly by – digital platforms like TikTok, YouTube, and Instagram. This process fundamentally alters news production, often prioritizing engagement over traditional journalistic norms. Consequently, platform news are supposedly more visually-driven, emotionalized, and personalized, often delivered by non-traditional actors and in new formats.\nTo systematically investigate these shifts, we introduce the Platform News Report, a large-scale computational communication research project examining news content on TikTok, YouTube Shorts, and Instagram. The project collects data from 548 news outlets across 47 countries, enabling analysis of the topics covered, the presentation styles employed, and the patterns of publication on these platforms. Through this comprehensive dataset, the Platform News Report aims to provide empirical insights into the evolving landscape of digital news and the consequences of platformization for public discourse.\n\n\n\n\n\n\nNote\n\n\n\nThe Platform News Report is an ongoing work-in-progress, and we actively encourage engagement from the research community and beyond. We welcome suggestions for improvement, new analyses, comments on preliminary findings, and – crucially – bug reports to help ensure the accuracy and robustness of our data and analyses.\n\n\nThe Platform News Report is a project of the Computational Communication Research Group at the Department of Communication, Johannes-Gutenberg University Mainz, Germany.\nContact: Michael Scharkow"
   },
   {
     "objectID": "platformization.html",
     "href": "platformization.html",
     "title": "Platformization",
     "section": "",
-    "text": "Platformization describes the growing trend of news being produced and distributed through – and increasingly by – digital platforms like Instagram, YouTube, and TikTok. This process fundamentally alters news production, prioritizing algorithmic engagement over traditional journalistic norms. Consequently, news are assumed to be more visually-driven, emotionalized, and personalized, often delivered by non-traditional actors.",
+    "text": "Emoji usage in headlines and captions is considered a typical feature of news platformization, but overall, only 14% of all posts contained emojis, and 187 outlets never used them. TikTok posts were more likely to include emojis than YouTube Shorts posts – on average, TikTok posts contained 11% more emojis. Emoji usage also varied significantly by outlet - with some outlets using emojis in over 80% of their posts - and country, with the highest rates observed in Switzerland, the Czech Republic, and Spain, and the lowest in India, Japan, and Taiwan.\n\nEmoji use by platformEmoji use by country",
     "crumbs": [
       "Platformization"
     ]
   },
   {
-    "objectID": "platformization.html#titles-captions-and-other-text",
-    "href": "platformization.html#titles-captions-and-other-text",
+    "objectID": "platformization.html#emojis-and-emotionalized-text",
+    "href": "platformization.html#emojis-and-emotionalized-text",
     "title": "Platformization",
-    "section": "Titles, captions and other text",
-    "text": "Titles, captions and other text",
+    "section": "",
+    "text": "Emoji usage in headlines and captions is considered a typical feature of news platformization, but overall, only 14% of all posts contained emojis, and 187 outlets never used them. TikTok posts were more likely to include emojis than YouTube Shorts posts – on average, TikTok posts contained 11% more emojis. Emoji usage also varied significantly by outlet - with some outlets using emojis in over 80% of their posts - and country, with the highest rates observed in Switzerland, the Czech Republic, and Spain, and the lowest in India, Japan, and Taiwan.\n\nEmoji use by platformEmoji use by country",
     "crumbs": [
       "Platformization"
     ]
