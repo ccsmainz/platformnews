@@ -12,10 +12,11 @@ color:
 
 typography:
   fonts:
-    - family: "Roboto Condensed"
+    - family: "Roboto Slab"
       source: bunny
-    - family: "Inter"
+    - family: "Roboto"
       source: bunny
-  base: Roboto
-  headings: "Roboto Condensed"
-  
+  base: Roboto Slab
+  headings:
+    family: Roboto Slab
+    weight: 700
