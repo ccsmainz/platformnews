@@ -1058,21 +1058,31 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "About the project",
     "section": "",
-    "text": "About this site",
+    "text": "This research project conducts a supply-side analysis of news content on social media platforms, including TikTok, Instagram, and YouTube Shorts. Complementing the Reuters Digital News Report 2024, which primarily focuses on survey data and news consumption patterns, our study examines the content and dissemination of news on these platforms. We investigate the characteristics of news content, analyzing its styles, formats, and publication patterns. By focusing on the strategies and content production from news organizations and creators, this project aims to provide an understanding of how news is presented within the evolving landscape of short-form video and visual-first platforms.",
     "crumbs": [
-      "About"
+      "About the project"
     ]
   },
   {
-    "objectID": "about.html#headline-2",
-    "href": "about.html#headline-2",
-    "title": "About",
+    "objectID": "about.html#project",
+    "href": "about.html#project",
+    "title": "About the project",
     "section": "",
-    "text": "About this site",
+    "text": "This research project conducts a supply-side analysis of news content on social media platforms, including TikTok, Instagram, and YouTube Shorts. Complementing the Reuters Digital News Report 2024, which primarily focuses on survey data and news consumption patterns, our study examines the content and dissemination of news on these platforms. We investigate the characteristics of news content, analyzing its styles, formats, and publication patterns. By focusing on the strategies and content production from news organizations and creators, this project aims to provide an understanding of how news is presented within the evolving landscape of short-form video and visual-first platforms.",
     "crumbs": [
-      "About"
+      "About the project"
+    ]
+  },
+  {
+    "objectID": "about.html#methods",
+    "href": "about.html#methods",
+    "title": "About the project",
+    "section": "Methods",
+    "text": "Methods\n\nSample\nOur sampling scheme directly aligns with the Reuters Digital News Report 2024, leveraging the same markets and referencing the news brands included in their study. This parallel approach ensures comparability and allows for a more holistic understanding of the news ecosystem, bridging insights from both demand and supply sides.\nThe Platform News Report is based on data from 518 news brands across 47 countries. For this study, we collected 120,596 posts published by these outlets on TikTok, Instagram (currently in progress), and YouTube Shorts from March 15 to April 15, 2025.",
+    "crumbs": [
+      "About the project"
     ]
   },
   {
@@ -1080,7 +1090,7 @@
     "href": "index.html",
     "title": "Platform News Report",
     "section": "",
-    "text": "Platformization describes the growing trend of news being produced and distributed through – and increasingly by – digital platforms like TikTok, YouTube, and Instagram. This process fundamentally alters news production, often prioritizing engagement over traditional journalistic norms. Consequently, platform news are supposedly more visually-driven, emotionalized, and personalized, often delivered by non-traditional actors and in new formats.\nTo systematically investigate these shifts, we introduce the Platform News Report, a large-scale computational communication research project examining news content on TikTok, YouTube Shorts, and Instagram. The project collects data from 548 news outlets across 47 countries, enabling analysis of the topics covered, the presentation styles employed, and the patterns of publication on these platforms. Through this comprehensive dataset, the Platform News Report aims to provide empirical insights into the evolving landscape of digital news and the consequences of platformization for public discourse.\n\n\n\n\n\n\nWork-in-progress\n\n\n\nThe Platform News Report is work-in-progress, and we actively encourage engagement from the research community and beyond. We welcome suggestions for improvement, new analyses, comments on preliminary findings, and – crucially – bug reports to help ensure the accuracy and robustness of our data and analyses.\n\n\nThe Platform News Report is a project of the Computational Communication Research Group at the Department of Communication, Johannes-Gutenberg University Mainz, Germany.\nContact: Michael Scharkow"
+    "text": "Platformization describes the growing trend of news being produced and distributed through – and increasingly by – digital platforms like TikTok, YouTube, and Instagram. This process fundamentally alters news production, often prioritizing engagement over traditional journalistic norms. Consequently, platform news are supposedly more visually-driven, emotionalized, and personalized, often delivered by non-traditional actors and in new formats.\nTo systematically investigate these shifts, we introduce the Platform News Report, a large-scale computational communication research project examining news content on TikTok, YouTube Shorts, and Instagram. The project collects data from 548 news outlets across 47 countries, enabling analysis of the topics covered, the presentation styles employed, and the patterns of publication on these platforms. Through this comprehensive dataset, the Platform News Report aims to provide empirical insights into the evolving landscape of digital news and the consequences of platformization for public discourse.\n\n\n\n\n\n\nWork-in-progress\n\n\n\nThe Platform News Report is work-in-progress, and we actively encourage engagement from the research community and beyond. We welcome suggestions for improvement, new analyses, comments on preliminary findings, and – crucially – bug reports to help ensure the accuracy and robustness of our data and analyses.\n\n\nThe Platform News Report is a project of the Computational Communication Research Group at the Department of Communication, Johannes-Gutenberg University Mainz, Germany."
   },
   {
     "objectID": "platformization.html",
