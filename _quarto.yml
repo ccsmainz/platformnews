@@ -4,22 +4,20 @@ project:
     port: 4000
 
 website:
-  title: "Platform News Report"
+  title: "**Platform News** **Report**"
   page-footer: "Department of Communication, JGU Mainz, Germany | [Legal Notice](https://www.uni-mainz.de/en/legal-notice/)"
   bread-crumbs: false
   sidebar:
-    title: false
-    logo: logo.png
-    background: white
+    #logo: logo.png
+    #background: white
     contents: auto
     collapse-level: 1
 
 format:
   html:
     theme:
-      - simplex
       - brand
-    css: styles.css
+      - styles.css
     toc: true
     df-print: kable
     brand: _brand.yml

@@ -1,6 +1,25 @@
+/*-- scss:defaults --*/
+$blue: #3A86FF !default;
+
+/*-- scss:rules --*/
+
+.quarto-title, .sidebar-title strong{
+  background-color: $primary;
+}
+
+h2 {background-color: $secondary;}
+
 /* css styles */
 
 h2 {text-decoration: none; border: none;}
+
+
+.quarto-title, .sidebar-title strong, h2 { border-bottom:2px solid white; 
+color: white; padding:2px 12px 2px 4px; display: inline-block;} 
+
+.sidebar-title {font-size:xlarge; transform: rotate(-.5deg);}
+
+.quarto-title, h2 {transform: rotate(-.33deg);}
 
 .navbar-logo {
   max-height: 85px;

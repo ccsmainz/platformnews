@@ -4,6 +4,8 @@
 .RData
 .Ruserdata
 
+*_cache/*
+
 /.quarto/
 /_freeze/
 /_site/

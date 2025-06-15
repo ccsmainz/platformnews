@@ -1,10 +1,15 @@
 color:
-#  palette:
-#    dark-grey: "#222222"
-#    blue: "#ddeaf1"
-  background: white
-#  foreground: dark-grey
-#  primary: black
+  palette:
+    dark-purple: "#390099"
+    blue: "#3A86FF"
+    purple: "#8338EC"
+    pink: "#FF006E"
+    orange: "#FB5607"
+    yellow: "#FFBE0B"
+  #background: blue
+  #foreground: dark-grey
+  primary: dark-purple
+  secondary: pink
 
 
 #logo: 
