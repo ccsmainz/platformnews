@@ -3,17 +3,51 @@ title: Platformization
 ---
 
 {{< include /_includes/_data.qmd >}}
+{{< include /_includes/_funcs.qmd >}}
+
+
+## Video duration
+
+
+```{r}
+#| include: false
+#| cache: true
+duration_results = std_analysis(d, "duration", family = poisson())
+```
+
+By definition, short video platforms usually restrict the duration of the clips that can be shared, and viewers typically spend even less time watching any given clip. For all news outlets,  we found that the average clip was about **`r round(duration_results$avg$estimate)`** seconds long. However, there was a clear difference between platforms: videos shared on YouTube Shorts typically ran for around 68 seconds, while TikTok content from these news sources was noticeably longer, averaging about 95 seconds per clip.
 
 
 
 
-## Emojis and emotionalized text
+::: {.panel-tabset}
+
+### Video duration by platform
+
+```{r}
+#| fig-height: 2
+duration_results$platform_plot +
+  labs(x = "", y = "Average video duration, in seconds", subtitle = "Average video duration, by platform", title = "Not-so-short videos")
+```
+
+### Video duration by country 
+
+```{r}
+#| fig-height: 10
+
+duration_results$country_plot +
+  coord_flip(ylim = c(0,200))+
+  labs(x = "", y = "Average video duration, in seconds", subtitle = "Average video duration, by country", color = "Region", title = "Not-so-short videos")
+```
+
+:::
+
+## Emoji usage
 
 Emoji usage in headlines and captions is considered a typical feature of news platformization, but overall, only **14%** of all posts contained emojis, and 187 outlets never used them. TikTok posts were more likely to include emojis than YouTube Shorts posts – on average, TikTok posts contained 11% more emojis. Emoji usage also varied significantly by outlet - with some outlets using emojis in over 80% of their posts - and country, with the highest rates observed in Switzerland, the Czech Republic, and Spain, and the lowest in India, Japan, and Taiwan. 
 
 
-```{r}
-#| cache: true
+```{r, eval = F}
 
 m1 = d |>
   mutate(n_emoji = emoji::emoji_detect(title) |> as.numeric()) |>
@@ -27,47 +61,44 @@ m3 = d |>
   mutate(n_emoji = emoji::emoji_detect(title) |> as.numeric()) |>
   glmer(n_emoji ~ platform + (platform|country), data = _, family = binomial)
 
-country_preds = m1 |> avg_predictions(variables = "country") |> 
+country_preds = m1 |> avg_predictions(by = "country") |> 
   as_tibble() |> 
   left_join(regions)
 
 
-brand_preds = m2 |> avg_predictions(variables = "outlet") |> 
+brand_preds = m2 |> avg_predictions(by = "outlet") |> 
   left_join(distinct(d, outlet, country, region)) |> 
   as_tibble() |> 
   left_join(country_preds |> select(country, avg = estimate))
 ```
 
 
-::: {.panel-tabset group="comparison"}
+```{r}
+#| include: false
+#| cache: true
+emo_results = d |> 
+  mutate(emoji = emoji::emoji_detect(title) |> as.numeric()) |> 
+  std_analysis("emoji", family = binomial())
+```
 
-### Emoji use by platform
+
+::: {.panel-tabset}
+
+### Emoji usage by platform
 
 ```{r}
 #| fig-height: 2
-avg_predictions(m3, variables = "platform", re.form = NA) |> 
-  ggplot(aes(x = platform, y = estimate, ymin = conf.low, ymax = conf.high))+
-  geom_pointrange()+
-  coord_flip(ylim = c(0,.2))+
+emo_results$platform_plot +
   scale_y_continuous(labels = scales::percent)+
   labs(x = "", y = "Share of posts with emojis", title = "Who uses emojis?", subtitle = "Share of posts containing emojis, by platform")
 ```
 
-
-
-### Emoji use by country 
+### Emoji usage by country 
 
 ```{r}
 #| fig-height: 10
 
-brand_preds |> 
-  left_join(regions) |> 
-  ggplot(aes(x = reorder(country, avg),  y = estimate, color = region))+
-  geom_point(alpha = .33, size = 1)+
-  geom_pointrange(data =country_preds, aes(x = country, y = estimate, ymin = conf.low, ymax = conf.high, color = region))+
-  #geom_point(data = country_preds, size = 5)+
-#  geom_point(data = brand_preds, size = 1, alpha = .5) +
-  coord_flip(ylim = c(0,1))+
+emo_results$country_plot +
   scale_y_continuous(labels = scales::percent)+
   #scale_color_manual(values = c("#ff0050", "#00aaaa"))+
   labs(x = "", y = "Share of posts with emojis", title = "Who uses emojis?", subtitle = "Proportion of posts containing emojis, by country", color = "Region")

@@ -20,5 +20,3 @@ The Platform News Report is work-in-progress, and we actively encourage engageme
 :::
 
 The Platform News Report is a project of the [Computational Communication Research Group](https://ccs.ifp.uni-mainz.de) at the [Department of Communication](https://www.ifp.uni-mainz.de), Johannes-Gutenberg University Mainz, Germany.
-
-Contact: [Michael Scharkow](scharkow@uni-mainz.de)

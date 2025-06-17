@@ -1,10 +1,45 @@
 ---
-title: "About"
+title: "About the project"
 ---
 
-
-## Headline #2 
-About this site
+{{< include /_includes/_data.qmd >}}
 
 
-### Headline 3
+## Project
+
+This research project conducts a supply-side analysis of news content on social media platforms, including TikTok, Instagram, and YouTube Shorts. Complementing the [Reuters Digital News Report 2024](https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2024), which primarily focuses on survey data and news consumption patterns, our study examines the content and dissemination of news on these platforms. We investigate the characteristics of news content, analyzing its styles, formats, and publication patterns. By focusing on the strategies and content production from news organizations and creators, this project aims to provide an understanding of how news is presented within the evolving landscape of short-form video and visual-first platforms.
+
+## Methods
+
+### Sample
+ 
+Our sampling scheme directly aligns with the [Reuters Digital News Report 2024](https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2024), leveraging the same markets and referencing the news brands included in their study. This parallel approach ensures comparability and allows for a more holistic understanding of the news ecosystem, bridging insights from both demand and supply sides.
+
+The Platform News Report is based on data from **`r n_distinct(d$brand)` news brands** across **`r n_distinct(d$country)` countries**. For this study, we collected **`r prettyNum(nrow(d), big.mark="," )`** posts published by these outlets on TikTok, Instagram (currently in progress), and YouTube Shorts from March 15 to April 15, 2025. 
+
+
+```{r}
+#| fig-height: 2.5
+
+d |> 
+  count(day = as.Date(timestamp)) |> 
+  #group_by(platform) |> 
+  #mutate(n = n/sum(n)) |> 
+  #filter(str_detect(platform, "You") & str_detect(region, "Asia")) |> 
+  ggplot(aes(x = day, y = n))+
+  geom_col()+
+  labs(title = "One month of platform news", subtitle = "Posts collected per day",
+       x = "Date", y = "# of posts")
+```
+
+
+<!--
+### Measures
+
+TODO
+
+### Data analysis
+
+TODO
+
+-->

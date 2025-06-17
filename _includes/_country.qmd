@@ -37,7 +37,7 @@ d |>
  mutate(`TikTok (per day)` = TikTok/n_days,
         `YouTube (per day)` = `YouTube Shorts`/n_days) |> 
   mutate_if(is.numeric, round) |> 
-  select(Outlet = brand, Posts, starts_with("TikTok"), starts_with("YouTube"))
+  select(Outlet = brand, Posts, starts_with("TikTok"), starts_with("YouTube")) 
 ```
 
 

@@ -1,25 +1,38 @@
 ---
 title: "Country reports"
-#listing: 
-#  #contents: "!index"
-#  type: table
-#  page-size: 50
-#  filter-ui: false
-#  sort-ui: false
-#  fields: [title]
-#  field-display-names: 
-#    title: Country
 ---
-
 
 {{< include /_includes/_data.qmd >}}
 
-```{r}
-d |> 
+```{r, include = F}
+tab = d |> 
   distinct(country, brand, platform) |> 
   count(country, platform) |> 
+  left_join(d |> distinct(country, brands_per_country)) |> 
   spread(platform, n, fill = 0) |> 
   mutate(c2 = country |> tolower() |> str_replace(" ", "_"),
-         country = glue::glue("<a href = '/countries/{c2}.html'>{country}</a>")) |> 
-  select(Country = country, everything(), -c2)
+         country = glue::glue("<a href = '/countries/{c2}.html'>{country}</a>"),
+         TikTok_pct = TikTok/brands_per_country*100,
+         YouTube_pct = `YouTube Shorts`/brands_per_country*100) |> 
+  mutate(Instagram = "", Insta_pct = "") |> 
+  select(Country = country, everything(), -c2) |> 
+  mutate_if(is.numeric, round)
+
+
+#  set_names(c("Country", "{{< fa brands tiktok >}}", "{{< fa brands youtube >}}"))
 ```
+
+```{r}
+library(kableExtra)
+
+col_names = c("Country", "Brands", rep(c("Active", "(%)"), 3))
+
+kable(tab, col.names = col_names, format = "html", escape = F) |> 
+   add_header_above(c(" " = 2, "TikTok" = 2, "YouTube Shorts" = 2, "Instagram" = 2)) 
+
+```
+
+::: {.callout-note}
+The data collection for the UK and for Instagram as a platform is not yet finished as of June, 2025.
+:::
+
