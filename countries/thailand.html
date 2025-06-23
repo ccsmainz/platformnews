@@ -39,7 +39,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-de070a7b0ab54f8780927367ac907214.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-bc01a6ce34aba58967b921597f697010.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-71c451f98905dd29a7b9310aeaa61d2a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -67,6 +67,8 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="../site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="../site_libs/lightable-0.0.1/lightable.css" rel="stylesheet">
 
 
 </head>
@@ -442,99 +444,178 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>We collected data from <strong>12 news outlets</strong> on TikTok and YouTube Shorts. Overall, these outlets published <strong>5816 posts</strong>, or an average of <strong>188 posts per day</strong>.</p>
+<p>We collected data from <strong>13 news outlets</strong> on TikTok and YouTube Shorts. Overall, these outlets published <strong>7309 posts</strong>, or an average of <strong>236 posts per day</strong>.</p>
 <section id="basics" class="level2">
 <h2 class="anchored" data-anchor-id="basics">Basics</h2>
+<section id="platforms-shares-by-brand-and-posts" class="level4">
+<h4 class="anchored" data-anchor-id="platforms-shares-by-brand-and-posts">Platforms shares by brand and posts</h4>
 <div class="cell">
 <div class="cell-output-display">
 <div class="kable-table">
 <table class="caption-top table table-sm table-striped small">
 <thead>
 <tr class="header">
-<th style="text-align: left;">Outlet</th>
+<th style="text-align: left;">Platform</th>
+<th style="text-align: right;">Active brands</th>
 <th style="text-align: right;">Posts</th>
-<th style="text-align: right;">TikTok</th>
-<th style="text-align: right;">YouTube Shorts</th>
+<th style="text-align: right;">% of brands</th>
+<th style="text-align: right;">% of posts</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">Amarin</td>
-<td style="text-align: right;">1336</td>
-<td style="text-align: right;">1336</td>
-<td style="text-align: right;">0</td>
+<td style="text-align: left;">TikTok</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">5318</td>
+<td style="text-align: right;">48</td>
+<td style="text-align: right;">73</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Bangkok Post</td>
-<td style="text-align: right;">53</td>
-<td style="text-align: right;">53</td>
-<td style="text-align: right;">0</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Channel 7 HD</td>
-<td style="text-align: right;">694</td>
-<td style="text-align: right;">496</td>
-<td style="text-align: right;">198</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Daily News</td>
-<td style="text-align: right;">124</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">124</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Khaosod</td>
-<td style="text-align: right;">833</td>
-<td style="text-align: right;">833</td>
-<td style="text-align: right;">0</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Manager</td>
-<td style="text-align: right;">742</td>
-<td style="text-align: right;">742</td>
-<td style="text-align: right;">0</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Matichon</td>
-<td style="text-align: right;">144</td>
-<td style="text-align: right;">144</td>
-<td style="text-align: right;">0</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">MCOT News Network</td>
-<td style="text-align: right;">521</td>
-<td style="text-align: right;">521</td>
-<td style="text-align: right;">0</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Nation</td>
-<td style="text-align: right;">141</td>
-<td style="text-align: right;">141</td>
-<td style="text-align: right;">0</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Thai PBS (public broadcaster)</td>
-<td style="text-align: right;">458</td>
-<td style="text-align: right;">458</td>
-<td style="text-align: right;">0</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Thai Rath</td>
-<td style="text-align: right;">727</td>
-<td style="text-align: right;">576</td>
-<td style="text-align: right;">151</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Workpoint TV</td>
-<td style="text-align: right;">43</td>
-<td style="text-align: right;">18</td>
-<td style="text-align: right;">25</td>
+<td style="text-align: left;">YouTube Shorts</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">1991</td>
+<td style="text-align: right;">52</td>
+<td style="text-align: right;">27</td>
 </tr>
 </tbody>
 </table>
 </div>
 </div>
 </div>
+</section>
+<section id="published-posts-by-brand-and-platform" class="level4">
+<h4 class="anchored" data-anchor-id="published-posts-by-brand-and-platform">Published posts by brand and platform</h4>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small" data-quarto-postprocess="true">
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th">Outlet</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">Posts</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">TikTok</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">TikTok (per day)</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">YouTube Shorts</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">YouTube (per day)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Amarin</td>
+<td style="text-align: right;">1600</td>
+<td style="text-align: right;">1336</td>
+<td style="text-align: right;">43</td>
+<td style="text-align: right;">264</td>
+<td style="text-align: right;">9</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Bangkok Post</td>
+<td style="text-align: right;">53</td>
+<td style="text-align: right;">53</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Channel 7 HD</td>
+<td style="text-align: right;">694</td>
+<td style="text-align: right;">496</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">198</td>
+<td style="text-align: right;">6</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Daily News</td>
+<td style="text-align: right;">124</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">124</td>
+<td style="text-align: right;">4</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Khaosod</td>
+<td style="text-align: right;">1102</td>
+<td style="text-align: right;">833</td>
+<td style="text-align: right;">27</td>
+<td style="text-align: right;">269</td>
+<td style="text-align: right;">9</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Manager</td>
+<td style="text-align: right;">824</td>
+<td style="text-align: right;">742</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">82</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Matichon</td>
+<td style="text-align: right;">250</td>
+<td style="text-align: right;">144</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">106</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">MCOT News Network</td>
+<td style="text-align: right;">644</td>
+<td style="text-align: right;">521</td>
+<td style="text-align: right;">17</td>
+<td style="text-align: right;">123</td>
+<td style="text-align: right;">4</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Nation</td>
+<td style="text-align: right;">239</td>
+<td style="text-align: right;">141</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">98</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">PPTV</td>
+<td style="text-align: right;">282</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">282</td>
+<td style="text-align: right;">9</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Thai PBS (public broadcaster)</td>
+<td style="text-align: right;">727</td>
+<td style="text-align: right;">458</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">269</td>
+<td style="text-align: right;">9</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Thai Rath</td>
+<td style="text-align: right;">727</td>
+<td style="text-align: right;">576</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">151</td>
+<td style="text-align: right;">5</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Workpoint TV</td>
+<td style="text-align: right;">43</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">25</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">Overall</td>
+<td style="text-align: right; font-weight: bold;">7309</td>
+<td style="text-align: right; font-weight: bold;">5318</td>
+<td style="text-align: right; font-weight: bold;">172</td>
+<td style="text-align: right; font-weight: bold;">1991</td>
+<td style="text-align: right; font-weight: bold;">64</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
 </section>
 <section id="publication-patterns" class="level2">
 <h2 class="anchored" data-anchor-id="publication-patterns">Publication patterns</h2>

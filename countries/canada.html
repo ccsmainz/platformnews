@@ -39,7 +39,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-de070a7b0ab54f8780927367ac907214.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-bc01a6ce34aba58967b921597f697010.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-71c451f98905dd29a7b9310aeaa61d2a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -67,6 +67,8 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="../site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="../site_libs/lightable-0.0.1/lightable.css" rel="stylesheet">
 
 
 </head>
@@ -442,19 +444,58 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>We collected data from <strong>16 news outlets</strong> on TikTok and YouTube Shorts. Overall, these outlets published <strong>3541 posts</strong>, or an average of <strong>114 posts per day</strong>.</p>
+<p>We collected data from <strong>16 news outlets</strong> on TikTok and YouTube Shorts. Overall, these outlets published <strong>4913 posts</strong>, or an average of <strong>158 posts per day</strong>.</p>
 <section id="basics" class="level2">
 <h2 class="anchored" data-anchor-id="basics">Basics</h2>
+<section id="platforms-shares-by-brand-and-posts" class="level4">
+<h4 class="anchored" data-anchor-id="platforms-shares-by-brand-and-posts">Platforms shares by brand and posts</h4>
 <div class="cell">
 <div class="cell-output-display">
 <div class="kable-table">
 <table class="caption-top table table-sm table-striped small">
 <thead>
 <tr class="header">
-<th style="text-align: left;">Outlet</th>
+<th style="text-align: left;">Platform</th>
+<th style="text-align: right;">Active brands</th>
 <th style="text-align: right;">Posts</th>
-<th style="text-align: right;">TikTok</th>
-<th style="text-align: right;">YouTube Shorts</th>
+<th style="text-align: right;">% of brands</th>
+<th style="text-align: right;">% of posts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">TikTok</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">3092</td>
+<td style="text-align: right;">56</td>
+<td style="text-align: right;">63</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">YouTube Shorts</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">1821</td>
+<td style="text-align: right;">44</td>
+<td style="text-align: right;">37</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</section>
+<section id="published-posts-by-brand-and-platform" class="level4">
+<h4 class="anchored" data-anchor-id="published-posts-by-brand-and-platform">Published posts by brand and platform</h4>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small" data-quarto-postprocess="true">
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th">Outlet</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">Posts</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">TikTok</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">TikTok (per day)</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">YouTube Shorts</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">YouTube (per day)</th>
 </tr>
 </thead>
 <tbody>
@@ -462,48 +503,64 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: left;">BBC News</td>
 <td style="text-align: right;">530</td>
 <td style="text-align: right;">419</td>
+<td style="text-align: right;">14</td>
 <td style="text-align: right;">111</td>
+<td style="text-align: right;">4</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">CBC News</td>
 <td style="text-align: right;">334</td>
 <td style="text-align: right;">186</td>
+<td style="text-align: right;">6</td>
 <td style="text-align: right;">148</td>
+<td style="text-align: right;">5</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">CNN</td>
+<td style="text-align: right;">738</td>
 <td style="text-align: right;">375</td>
-<td style="text-align: right;">375</td>
-<td style="text-align: right;">0</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">363</td>
+<td style="text-align: right;">12</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">CP24</td>
+<td style="text-align: right;">301</td>
 <td style="text-align: right;">168</td>
-<td style="text-align: right;">168</td>
-<td style="text-align: right;">0</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">133</td>
+<td style="text-align: right;">4</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">CTV News</td>
+<td style="text-align: right;">1746</td>
 <td style="text-align: right;">1200</td>
-<td style="text-align: right;">1200</td>
-<td style="text-align: right;">0</td>
+<td style="text-align: right;">39</td>
+<td style="text-align: right;">546</td>
+<td style="text-align: right;">18</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Fox News</td>
+<td style="text-align: right;">765</td>
 <td style="text-align: right;">441</td>
-<td style="text-align: right;">441</td>
-<td style="text-align: right;">0</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">324</td>
+<td style="text-align: right;">10</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Global News</td>
 <td style="text-align: right;">120</td>
 <td style="text-align: right;">45</td>
+<td style="text-align: right;">1</td>
 <td style="text-align: right;">75</td>
+<td style="text-align: right;">2</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Globe and Mail</td>
 <td style="text-align: right;">11</td>
 <td style="text-align: right;">11</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 </tr>
 <tr class="odd">
@@ -511,54 +568,78 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: right;">13</td>
 <td style="text-align: right;">13</td>
 <td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Le Devoir</td>
 <td style="text-align: right;">28</td>
 <td style="text-align: right;">28</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">National Post</td>
 <td style="text-align: right;">15</td>
 <td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
 <td style="text-align: right;">15</td>
+<td style="text-align: right;">0</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Noovo info</td>
 <td style="text-align: right;">59</td>
 <td style="text-align: right;">24</td>
+<td style="text-align: right;">1</td>
 <td style="text-align: right;">35</td>
+<td style="text-align: right;">1</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">The New York Times</td>
 <td style="text-align: right;">188</td>
 <td style="text-align: right;">132</td>
+<td style="text-align: right;">4</td>
 <td style="text-align: right;">56</td>
+<td style="text-align: right;">2</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Toronto Star</td>
 <td style="text-align: right;">10</td>
 <td style="text-align: right;">10</td>
 <td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">TV5</td>
+<td style="text-align: right;">27</td>
 <td style="text-align: right;">21</td>
-<td style="text-align: right;">21</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">6</td>
 <td style="text-align: right;">0</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Yahoo! News</td>
 <td style="text-align: right;">28</td>
 <td style="text-align: right;">19</td>
+<td style="text-align: right;">1</td>
 <td style="text-align: right;">9</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; font-weight: bold;">Overall</td>
+<td style="text-align: right; font-weight: bold;">4913</td>
+<td style="text-align: right; font-weight: bold;">3092</td>
+<td style="text-align: right; font-weight: bold;">100</td>
+<td style="text-align: right; font-weight: bold;">1821</td>
+<td style="text-align: right; font-weight: bold;">59</td>
 </tr>
 </tbody>
 </table>
 </div>
 </div>
-</div>
+</section>
 </section>
 <section id="publication-patterns" class="level2">
 <h2 class="anchored" data-anchor-id="publication-patterns">Publication patterns</h2>

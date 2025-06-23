@@ -39,7 +39,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-de070a7b0ab54f8780927367ac907214.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-bc01a6ce34aba58967b921597f697010.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-71c451f98905dd29a7b9310aeaa61d2a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -67,6 +67,8 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="../site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="../site_libs/lightable-0.0.1/lightable.css" rel="stylesheet">
 
 
 </head>
@@ -442,29 +444,58 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>We collected data from <strong>12 news outlets</strong> on TikTok and YouTube Shorts. Overall, these outlets published <strong>861 posts</strong>, or an average of <strong>28 posts per day</strong>.</p>
+<p>We collected data from <strong>13 news outlets</strong> on TikTok and YouTube Shorts. Overall, these outlets published <strong>960 posts</strong>, or an average of <strong>31 posts per day</strong>.</p>
 <section id="basics" class="level2">
 <h2 class="anchored" data-anchor-id="basics">Basics</h2>
+<section id="platforms-shares-by-brand-and-posts" class="level4">
+<h4 class="anchored" data-anchor-id="platforms-shares-by-brand-and-posts">Platforms shares by brand and posts</h4>
 <div class="cell">
 <div class="cell-output-display">
 <div class="kable-table">
 <table class="caption-top table table-sm table-striped small">
-<colgroup>
-<col style="width: 24%">
-<col style="width: 7%">
-<col style="width: 8%">
-<col style="width: 20%">
-<col style="width: 18%">
-<col style="width: 21%">
-</colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Outlet</th>
+<th style="text-align: left;">Platform</th>
+<th style="text-align: right;">Active brands</th>
 <th style="text-align: right;">Posts</th>
-<th style="text-align: right;">TikTok</th>
-<th style="text-align: right;">TikTok (per day)</th>
-<th style="text-align: right;">YouTube Shorts</th>
-<th style="text-align: right;">YouTube (per day)</th>
+<th style="text-align: right;">% of brands</th>
+<th style="text-align: right;">% of posts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">TikTok</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">613</td>
+<td style="text-align: right;">50</td>
+<td style="text-align: right;">64</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">YouTube Shorts</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">347</td>
+<td style="text-align: right;">50</td>
+<td style="text-align: right;">36</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</section>
+<section id="published-posts-by-brand-and-platform" class="level4">
+<h4 class="anchored" data-anchor-id="published-posts-by-brand-and-platform">Published posts by brand and platform</h4>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small" data-quarto-postprocess="true">
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th">Outlet</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">Posts</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">TikTok</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">TikTok (per day)</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">YouTube Shorts</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">YouTube (per day)</th>
 </tr>
 </thead>
 <tbody>
@@ -526,10 +557,10 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td style="text-align: left;">Stern</td>
-<td style="text-align: right;">36</td>
+<td style="text-align: right;">42</td>
 <td style="text-align: right;">36</td>
 <td style="text-align: right;">1</td>
-<td style="text-align: right;">0</td>
+<td style="text-align: right;">6</td>
 <td style="text-align: right;">0</td>
 </tr>
 <tr class="odd">
@@ -557,18 +588,34 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: right;">0</td>
 </tr>
 <tr class="even">
+<td style="text-align: left;">WELT</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
 <td style="text-align: left;">ZDF heute</td>
-<td style="text-align: right;">55</td>
+<td style="text-align: right;">124</td>
 <td style="text-align: right;">55</td>
 <td style="text-align: right;">2</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
+<td style="text-align: right;">69</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; font-weight: bold;">Overall</td>
+<td style="text-align: right; font-weight: bold;">960</td>
+<td style="text-align: right; font-weight: bold;">613</td>
+<td style="text-align: right; font-weight: bold;">20</td>
+<td style="text-align: right; font-weight: bold;">347</td>
+<td style="text-align: right; font-weight: bold;">11</td>
 </tr>
 </tbody>
 </table>
 </div>
 </div>
-</div>
+</section>
 </section>
 <section id="publication-patterns" class="level2">
 <h2 class="anchored" data-anchor-id="publication-patterns">Publication patterns</h2>
