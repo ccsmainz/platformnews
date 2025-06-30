@@ -1090,197 +1090,27 @@
     "href": "topics.html",
     "title": "Topics",
     "section": "",
-    "text": "On average, 34% of the short videos analyzed covered political topics. We found that the platform on which the video was posted had little effect on the share of posts about politics. However, we observed that digital outlets had a significantly smaller share of posts covering politics compared to public broadcast outlets, with a difference of -0.17. Finally, the share of posts about politics varied across countries, ranging from 18% in Croatia to 59% in Poland.\n\nTopic: Politics by platformby outlet typeby country",
+    "text": "We analyzed the topics of the posts by using zero-shot classification of the post title and transcript. Based on the topic list from the Electronic News Archive (ENA) of the University of Antwerp, we coded the presence of 19 from politics to sports, with a few platform-specific additions like user-generated performances, which includes typical dance and lip sync videos, or advertisements and promotions.\nPerhaps surprisingly, “hard news” topics like politics and crime dominate, while typical platform content is relatively rarely published by news outlets.",
     "crumbs": [
       "Topics"
     ]
   },
   {
-    "objectID": "topics.html#politics",
-    "href": "topics.html#politics",
+    "objectID": "topics.html#overview",
+    "href": "topics.html#overview",
     "title": "Topics",
     "section": "",
-    "text": "On average, 34% of the short videos analyzed covered political topics. We found that the platform on which the video was posted had little effect on the share of posts about politics. However, we observed that digital outlets had a significantly smaller share of posts covering politics compared to public broadcast outlets, with a difference of -0.17. Finally, the share of posts about politics varied across countries, ranging from 18% in Croatia to 59% in Poland.\n\nTopic: Politics by platformby outlet typeby country",
+    "text": "We analyzed the topics of the posts by using zero-shot classification of the post title and transcript. Based on the topic list from the Electronic News Archive (ENA) of the University of Antwerp, we coded the presence of 19 from politics to sports, with a few platform-specific additions like user-generated performances, which includes typical dance and lip sync videos, or advertisements and promotions.\nPerhaps surprisingly, “hard news” topics like politics and crime dominate, while typical platform content is relatively rarely published by news outlets.",
     "crumbs": [
       "Topics"
     ]
   },
   {
-    "objectID": "topics.html#law-enforcement-and-crime",
-    "href": "topics.html#law-enforcement-and-crime",
+    "objectID": "topics.html#topic-details",
+    "href": "topics.html#topic-details",
     "title": "Topics",
-    "section": "Law enforcement and crime",
-    "text": "Law enforcement and crime\nOur analysis of short videos revealed that, on average, 31% of posts covered law enforcement and crime. We found small, non-significant differences between TikTok (31%) and YouTube Shorts (33%). However, we observed that digital outlets had a significantly lower share of posts on this topic compared to private (8% higher) and public broadcast (10% higher) outlets. We observed a considerable range across countries, with Peru (50%) and Mexico (45%) having the highest shares, while Italy (19%) and Spain (20%) exhibited the lowest.\n\nTopic: Law by platformby outlet typeby country",
-    "crumbs": [
-      "Topics"
-    ]
-  },
-  {
-    "objectID": "topics.html#war-disasters-accidents",
-    "href": "topics.html#war-disasters-accidents",
-    "title": "Topics",
-    "section": "War disasters accidents",
-    "text": "War disasters accidents\nWe found that, on average, 21% of short video posts covered war, disasters, and accidents. We observed a significant, albeit small, difference between platforms, with YouTube Shorts (24%) featuring slightly more of this content than TikTok (22%). More substantial differences emerged across outlet types: digital outlets had the lowest share (10%), with print (18%) and private broadcast outlets (18%) showing higher shares. Public broadcast outlets posted the most content about war, disasters, and accidents, with a share of 34%. Across countries, we saw variance in the prevalence of this content, ranging from 13% in Indonesia, Peru, and Slovakia to 33% in South Africa.\n\nTopic: War by platformby outlet typeby country",
-    "crumbs": [
-      "Topics"
-    ]
-  },
-  {
-    "objectID": "topics.html#economy-and-finance",
-    "href": "topics.html#economy-and-finance",
-    "title": "Topics",
-    "section": "Economy and finance",
-    "text": "Economy and finance\nOur analysis of short video posts revealed that, on average, 21% of the content focused on economy and finance. We found minimal differences between TikTok (22%) and YouTube Shorts (23%). Similarly, the type of outlet (digital, print, private broadcast, public broadcast) showed small and non-significant differences in their coverage of these topics. However, there were notable variations across countries; for example, Turkey and Brazil showed notably lower shares (14%), while Taiwan showed the highest share (31%).\n\nTopic: Economy by platformby outlet typeby country",
-    "crumbs": [
-      "Topics"
-    ]
-  },
-  {
-    "objectID": "topics.html#social-affairs",
-    "href": "topics.html#social-affairs",
-    "title": "Topics",
-    "section": "Social affairs",
-    "text": "Social affairs\nOn average, 17% of the analyzed short video posts covered social affairs. We observed significant differences across platforms: TikTok showed a higher share of social affairs content compared to YouTube Shorts (a difference of 7%). Furthermore, public broadcast outlets featured a significantly higher proportion of social affairs posts compared to digital outlets, with an 8% difference. Finally, there was some variation across countries, with Kenya and South Africa showing the highest share (24%) and Hong Kong the lowest (11%).\n\nTopic: Social by platformby outlet typeby country",
-    "crumbs": [
-      "Topics"
-    ]
-  },
-  {
-    "objectID": "topics.html#health-and-fitness",
-    "href": "topics.html#health-and-fitness",
-    "title": "Topics",
-    "section": "Health and fitness",
-    "text": "Health and fitness\nWe found that, on average, 11% of short video posts covered health and fitness topics. We found no significant difference between TikTok and Youtube Shorts platforms. However, we observed a notable contrast between outlet types: public broadcast outlets had a higher share of health and fitness content (13%) compared to print outlets (8%). Across countries, Brazil showed a higher share of health and fitness content (16%) while Malaysia and Italy were among the lowest (8%).\n\nTopic: Health by platformby outlet typeby country",
-    "crumbs": [
-      "Topics"
-    ]
-  },
-  {
-    "objectID": "topics.html#mobility-and-infrastructure",
-    "href": "topics.html#mobility-and-infrastructure",
-    "title": "Topics",
-    "section": "Mobility and infrastructure",
-    "text": "Mobility and infrastructure\nOur analysis of short videos revealed that mobility and infrastructure were covered in an average of 9% of posts. We found a significant difference between platforms: YouTube Shorts had a 3% higher share of posts covering these topics compared to TikTok. There were also small, but significant differences across outlet types with print media having a higher share of posts (12%) compared to digital media (8%), private broadcasts (9%) and public broadcasts (9%). Country-level analysis showed variation, with Thailand having the highest share at 16% and Romania and Spain the lowest at 7%.\n\nTopic: Mobility by platformby outlet typeby country",
-    "crumbs": [
-      "Topics"
-    ]
-  },
-  {
-    "objectID": "topics.html#environment-and-energy",
-    "href": "topics.html#environment-and-energy",
-    "title": "Topics",
-    "section": "Environment and energy",
-    "text": "Environment and energy\nWe found that, on average, 7% of short video posts covered environment and energy topics. There were no significant differences between TikTok and YouTube Shorts. However, we observed significant contrasts across different outlet types: public broadcast outlets had a higher share of posts covering these topics compared to digital outlets, with a difference of 7 percentage points. Print and private broadcast outlets also showed a higher share compared to digital outlets, with differences of 4 and 3 percentage points respectively. Across countries, the share of posts varied, with Australia showing a notably higher share at 11%.\n\nTopic: Environment by platformby outlet typeby country",
-    "crumbs": [
-      "Topics"
-    ]
-  },
-  {
-    "objectID": "topics.html#science-technology-and-education",
-    "href": "topics.html#science-technology-and-education",
-    "title": "Topics",
-    "section": "Science technology and education",
-    "text": "Science technology and education\nWe found that, on average, 12% of short video posts across platforms covered science, technology, and education. While the platform (TikTok vs Youtube Shorts) did not significantly impact this share, we observed differences based on the outlet type, with public broadcast outlets showing a significantly higher share (18%) of science-related content compared to digital outlets (9%). There were also some differences across countries, but these were small.\n\nTopic: Science by platformby outlet typeby country",
-    "crumbs": [
-      "Topics"
-    ]
-  },
-  {
-    "objectID": "topics.html#culture-and-arts",
-    "href": "topics.html#culture-and-arts",
-    "title": "Topics",
-    "section": "Culture and arts",
-    "text": "Culture and arts\nWe found that, on average, 14% of short video posts across platforms covered culture and arts. There was little difference in the share of culture and arts content between TikTok (13%) and YouTube Shorts (12%). However, we observed significant differences based on the type of outlet, with print media showing a higher share of culture and arts content (17%) compared to digital outlets (12%), private broadcast (11%), and public broadcast (12%). At the country level, the share varied considerably, ranging from 9% in Brazil, South Korea and the United States to 23% in Italy and Spain.\n\nTopic: Culture by platformby outlet typeby country",
-    "crumbs": [
-      "Topics"
-    ]
-  },
-  {
-    "objectID": "topics.html#lifestyle-and-travel",
-    "href": "topics.html#lifestyle-and-travel",
-    "title": "Topics",
-    "section": "Lifestyle and travel",
-    "text": "Lifestyle and travel\nOn average, 9% of short video posts covered lifestyle and travel topics. We observed a significant difference between platforms: TikTok had a higher share of lifestyle and travel content (10%) compared to YouTube Shorts (6%). The differences between outlet types were small and non-significant. At the country level, Switzerland had the highest share of posts covering lifestyle and travel (30%), while other countries varied from 5% (Hong Kong, South Korea, Taiwan, Peru) to 14% (Germany).\n\nTopic: Lifestyle by platformby outlet typeby country",
-    "crumbs": [
-      "Topics"
-    ]
-  },
-  {
-    "objectID": "topics.html#fashion-and-beauty",
-    "href": "topics.html#fashion-and-beauty",
-    "title": "Topics",
-    "section": "Fashion and beauty",
-    "text": "Fashion and beauty\nOur analysis of short video posts revealed that, on average, 2% of the content focused on fashion and beauty. We observed small, non-significant differences between TikTok and YouTube Shorts. However, we found that digital and private broadcast outlets had slightly higher shares of fashion and beauty content compared to public broadcast. Country-specific analysis showed small variations, with Brazil and Romania posting a slightly higher fashion and beauty share with 3%, while countries such as Nigeria and South Africa posted a lower share with only 1%.\n\nTopic: Fashion by platformby outlet typeby country",
-    "crumbs": [
-      "Topics"
-    ]
-  },
-  {
-    "objectID": "topics.html#food-and-cooking",
-    "href": "topics.html#food-and-cooking",
-    "title": "Topics",
-    "section": "Food and cooking",
-    "text": "Food and cooking\nAcross various short video platforms, we found that an average of 5% of posts focused on food and cooking. The share of food-related content was similar on TikTok (5%) and YouTube Shorts (4%). However, we observed that digital outlets had a significantly higher share of food-related content (8%) compared to print outlets (4%), public broadcast outlets (3%) and private broadcast (6%). Across countries, we noticed some variation, with Switzerland showing the highest share of food-related content (16%), while Indonesia and Romania also had notably high shares at 12% each.\n\nTopic: Food by platformby outlet typeby country",
-    "crumbs": [
-      "Topics"
-    ]
-  },
-  {
-    "objectID": "topics.html#pets-and-animals",
-    "href": "topics.html#pets-and-animals",
-    "title": "Topics",
-    "section": "Pets and animals",
-    "text": "Pets and animals\nWe found that, on average, 3% of short video posts across various platforms and countries featured pets and animals. There were only small and non-significant differences between the platforms TikTok and YouTube Shorts. However, we observed a significant contrast in outlet types, with digital outlets showing a 3 percentage point higher share of pet and animal content compared to public broadcast outlets. Across different countries, the share of posts about pets and animals varied, but these differences were not statistically significant.\n\nTopic: Pets by platformby outlet typeby country",
-    "crumbs": [
-      "Topics"
-    ]
-  },
-  {
-    "objectID": "topics.html#entertainment-news-and-industry",
-    "href": "topics.html#entertainment-news-and-industry",
-    "title": "Topics",
-    "section": "Entertainment news and industry",
-    "text": "Entertainment news and industry\nWe found that, on average, 16% of short video posts covered entertainment news and industry topics. We observed small and non-significant differences between TikTok (15%) and YouTube Shorts (14%). However, we found significant contrasts in the share of entertainment content by outlet type: public broadcast outlets (18%) posted significantly more entertainment news than digital outlets (9%), and private broadcast outlets (14%) also posted significantly more entertainment news than digital outlets. Across countries, we saw some variation, ranging from Brazil and Malaysia at around 6-7% to Croatia at 24%, with other countries like Belgium (21%) also having high shares.\n\nTopic: Entertainment by platformby outlet typeby country",
-    "crumbs": [
-      "Topics"
-    ]
-  },
-  {
-    "objectID": "topics.html#celebrity-and-royalty",
-    "href": "topics.html#celebrity-and-royalty",
-    "title": "Topics",
-    "section": "Celebrity and royalty",
-    "text": "Celebrity and royalty\nWe found that short videos on average dedicate 15% of their content to celebrity and royalty topics. There were no significant differences in the share of celebrity and royalty content between TikTok and YouTube Shorts. However, significant differences emerged when considering the outlet type, with print outlets showing a higher share of celebrity and royalty content at 19% compared to digital outlets at 14% and private broadcast at 13%. At the country level, Spain and Argentina had the highest shares, with 23% and 22%, respectively, while Indonesia showed the lowest share at 10%.\n\nTopic: Celebrity by platformby outlet typeby country",
-    "crumbs": [
-      "Topics"
-    ]
-  },
-  {
-    "objectID": "topics.html#sports",
-    "href": "topics.html#sports",
-    "title": "Topics",
-    "section": "Sports",
-    "text": "Sports\nOur analysis of short video posts revealed that, on average, 8% of posts covered sports. We observed a significant difference between platforms, with TikTok showing a slightly higher proportion of sports content (8%) compared to YouTube Shorts (7%). We found that public broadcast outlets (9%) featured a slightly higher share of sports-related content compared to private broadcast outlets (6%). Finally, the proportion of sports content varied slightly across countries, ranging from 6% in Hong Kong to 9% in Australia, Ireland, Kenya, Nigeria and South Africa.\n\nTopic: Sports by platformby outlet typeby country",
-    "crumbs": [
-      "Topics"
-    ]
-  },
-  {
-    "objectID": "topics.html#promotion-and-advertisements",
-    "href": "topics.html#promotion-and-advertisements",
-    "title": "Topics",
-    "section": "Promotion and advertisements",
-    "text": "Promotion and advertisements\nWe found that, on average, 5% of short video posts involved promotion and advertisements. While the share was similar for TikTok (6%) and YouTube Shorts (5%), the type of outlet made a difference: digital outlets had a significantly higher share of promotional content (8%) compared to public broadcast channels (4%). Across countries, we observed some variation, with Indonesia and Thailand having the highest share of promotional posts at 13%, while Turkey and the United States had the lowest share at only 3%.\n\nTopic: Promotion by platformby outlet typeby country",
-    "crumbs": [
-      "Topics"
-    ]
-  },
-  {
-    "objectID": "topics.html#user-generated-performance-and-comedy",
-    "href": "topics.html#user-generated-performance-and-comedy",
-    "title": "Topics",
-    "section": "User generated performance and comedy",
-    "text": "User generated performance and comedy\nWe found that user-generated performance and comedy content constituted an average of 4% of short video posts. While differences between TikTok and YouTube Shorts were small, we observed a significant contrast between outlet types: public broadcast outlets featured substantially less of this content compared to digital outlets, with a 7% difference. Across countries, we saw considerable variation, with Hungary having the highest share at 17%, while Nigeria and South Africa showed the lowest, around 1%.\n\nTopic: User by platformby outlet typeby country",
+    "section": "Topic details",
+    "text": "Topic details\n\nPolitics\nWe found that, on average, 38% of short video posts across platforms covered political topics. The platform on which the content was shared had little impact, with TikTok posts having 37% and YouTube Shorts 43% of the content covering politics. However, we observed significant differences based on the type of outlet, as public broadcasters posted significantly less political content (around 17% less) compared to digital-only outlets. At the country level, there was a considerable range, with some countries like Poland showing 59% of posts related to politics while others like Sweden showed only 22%.\n\nTopic: Politics by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLaw enforcement and crime\nWe found that law enforcement and crime were the topic of 31% of the analyzed short video posts. We observed only small, non-significant differences between TikTok (31%) and YouTube Shorts (33%). There were significant differences across outlet types: digital outlets had a lower share of posts on law enforcement and crime, with private broadcasters having 8% more and public broadcasters having 10% more coverage compared to digital outlets. The share of posts also varied by country, with Peru having the highest share at 50% and Italy having the lowest at 19%.\n\nTopic: Law by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWar disasters accidents\nWe found that, on average, 22% of short video posts covered war, disasters, and accidents. We observed a small but significant difference between platforms, with YouTube Shorts having a slightly higher share than TikTok (24% vs 22%). We also observed significant differences based on the outlet type: public broadcasters had a considerably larger share (34%) compared to digital outlets (10%), while print (18%) and private broadcasters (18%) were in between. Finally, there were some differences by country, ranging from 13% (Indonesia, Peru, Slovakia) to 33% (South Africa)\n\nTopic: War by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEconomy and finance\nWe found that, on average, 22% of short video posts covered economy and finance topics. We observed only minor differences between platforms, with YouTube Shorts showing a slightly higher, but non-significant, share of such content compared to TikTok. However, there were significant differences based on outlet type: digital, private and public broadcasters had a higher share of posts than print outlets. Country-specific analysis revealed substantial variation, with some of the highest shares observed in Taiwan (31%), Switzerland and Singapore (28%), and Canada (27%), while Brazil and Turkey had notably lower shares (14%).\n\nTopic: Economy by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSocial affairs\nWe found that social affairs were covered in an average of 18% of the analyzed short video posts. Significant differences emerged between platforms, with TikTok (20%) featuring a higher share of social affairs content compared to YouTube Shorts (12%). We also observed a significant contrast based on outlet type: public broadcasters (24%) tended to dedicate a larger proportion of their short videos to social affairs than digital outlets (14%). At the country level, the share of posts about social affairs varied, ranging from 11% in Hong Kong to 24% in Kenya and South Africa.\n\nTopic: Social by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHealth and fitness\nWe found that health and fitness content constituted an average of 11% of short video posts. The share of health and fitness content showed small, non-significant differences between TikTok and YouTube Shorts. However, the share varied significantly by outlet type, with public broadcasters showing a higher share (13%) compared to print outlets (8%). We also observed differences across countries; for example, Brazil had a higher share (16%) while Malaysia had a lower share (7%).\n\nTopic: Health by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMobility and infrastructure\nWe found that mobility and infrastructure were addressed in 9% of the short video posts we analyzed. There was a significant difference in the share of posts by platform, with YouTube Shorts (12%) featuring this topic more often than TikTok (9%). We observed significant differences for outlet type, with print media (12%) showing a higher share of mobility and infrastructure content compared to digital media (8%). There were also differences by country, ranging from Thailand (16%) and Malaysia (14%) to Brazil and Spain (both 6%).\n\nTopic: Mobility by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEnvironment and energy\nWe found that, on average, 7% of short video posts covered environment and energy topics. The platform on which the video was posted (TikTok versus Youtube Shorts) had negligible impact. However, we observed significant differences depending on the type of outlet; specifically, public broadcasters (10%) showed a markedly higher share of environment and energy posts compared to digital outlets (3%), and the same was true when comparing print media (7%) to digital outlets. Examining country-specific data, Australia (11%) stood out with a higher share of posts on these topics.\n\nTopic: Environment by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nScience technology and education\nWe found that, on average, 12% of short video posts across platforms covered science, technology, and education. There were no significant differences in the share of posts covering these topics between TikTok and YouTube Shorts. However, we observed that public broadcasters (18%) posted significantly more content on science, technology, and education compared to digital outlets (9%). There were some differences across countries, ranging from 7% in Denmark to 17% in Nigeria and South Africa.\n\nTopic: Science by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCulture and arts\nOur analysis of short videos revealed that, on average, 13% of posts covered culture and the arts. We found minimal differences between platforms, with TikTok at 13% and YouTube Shorts at 12%. However, a significant contrast emerged among outlet types, as print media posts had a higher share of culture and arts content (17%) compared to digital outlets (12%), private broadcasters (11%), and public broadcasters (12%). Across countries, we observed variations, with Southern European countries like Italy and Spain showing higher percentages (23%), while countries such as Brazil, South Korea and the United States posted less content on culture and the arts (around 9%).\n\nTopic: Culture by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLifestyle and travel\nWe investigated the prevalence of lifestyle and travel content in short videos and found that, on average, 9% of posts covered these topics. There was a significant difference between platforms, with TikTok showing a higher share of lifestyle and travel content (10%) compared to YouTube Shorts (6%). Outlet type did not significantly impact the share of lifestyle and travel content. By country, we observed a range of estimates, with Switzerland showing a markedly higher share (30%) compared to other countries.\n\nTopic: Lifestyle by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFashion and beauty\nWe found that fashion and beauty content comprised an average of 2% of the analyzed short video posts. There were no significant differences in the share of fashion and beauty content between TikTok and YouTube Shorts. However, we observed a variance across outlet types, with public broadcasters showing a lower share (1%) compared to digital outlets and private broadcasters, which both had 3%. The share of posts did not vary significantly across the countries we analyzed.\n\nTopic: Fashion by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFood and cooking\nOur analysis of short video posts revealed that, on average, 5% of the content focused on food and cooking. We found only minor differences between platforms, with TikTok showing slightly higher share than YouTube Shorts. Outlet type mattered more, as digital outlets showed a higher share of food-related content compared to print and public broadcasters. Finally, when examining different countries, we observed variations, with Switzerland exhibiting the highest share at 16%, while several countries, including the United Kingdom and the United States, showed a lower share of 3%.\n\nTopic: Food by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPets and animals\nOur analysis of short videos revealed that, on average, 3% of posts covered pets and animals. We found little difference in the prevalence of pet and animal content between TikTok (4%) and YouTube Shorts (3%). However, we observed a significant difference based on outlet type, with public broadcasters (2%) showing a smaller share of posts about pets and animals compared to digital outlets (5%). Finally, the share of posts covering pets and animals varied across countries, ranging from 2% to 7%.\n\nTopic: Pets by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEntertainment news and industry\nOur analysis of short videos revealed that, on average, 15% of posts focused on entertainment news and industry topics. We found no significant differences in the share of entertainment-related content between TikTok (15%) and YouTube Shorts (14%). However, digital outlets from public broadcasters had a higher share of entertainment news (10%), as did digital outlets from private broadcasters (5%), when compared to digital-only outlets. Finally, there were variations across countries, with some countries like Croatia (24%) exhibiting higher shares and others, such as Malaysia (6%), showing lower shares.\n\nTopic: Entertainment by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCelebrity and royalty\nWe found that, on average, 15% of short video posts across platforms focused on celebrities and royalty. The platform used (TikTok vs. YouTube Shorts) did not significantly impact the share of celebrity and royalty content. However, we observed a significant difference based on the outlet type, with print media having a higher share (19%) of celebrity and royalty posts compared to digital outlets (14%) and private broadcasters (13%). There were also notable differences across countries, with Spain showing a higher share (23%) and Indonesia a lower share (10%) of posts about celebrities and royalty.\n\nTopic: Celebrity by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSports\nOur analysis of short video posts revealed that, on average, 8% of posts covered sports. We observed a slight difference between platforms, with TikTok (8%) having a slightly higher share of sports-related content compared to YouTube Shorts (7%). Furthermore, we found that public broadcasters (9%) had a significantly higher share of sports-related content compared to private broadcasters (6%). The share of sports-related content varies little between countries.\n\nTopic: Sports by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPromotion and advertisements\nWe found that, on average, 6% of short video posts across various platforms and outlets covered promotion and advertisements. The platform used (TikTok vs YouTube shorts) had small, non-significant differences in this share. However, there were differences depending on the type of outlet, with digital outlets showing a higher share (8%) compared to public broadcasters (4%). Considering different countries, Indonesia and Thailand stood out with a higher share of promotional content (13%), while Turkey and the United States exhibited the lowest share (3%).\n\nTopic: Promotion by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUser generated performance and comedy\nWe found that user-generated performance and comedy content constitutes an average of 5% of short video posts. The platform on which the content appeared had little impact on this share, with TikTok at 5% and YouTube Shorts at 4%. However, the type of outlet significantly influenced the share, with public broadcasters showing 7% less coverage of this content compared to digital-native outlets. Across countries, we observed some variation: Hungary showed the highest share at 17%, while Nigeria and South Africa showed the lowest share, at around 1%.\n\nTopic: User by platformby outlet typeby country",
     "crumbs": [
       "Topics"
     ]
