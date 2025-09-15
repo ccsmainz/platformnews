@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.30">
+<meta name="generator" content="quarto-1.7.34">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -36,7 +56,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-de070a7b0ab54f8780927367ac907214.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-5595ba1e9545addd50d0a6de1bc82767.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
@@ -429,6 +449,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#emoji-use" id="toc-emoji-use" class="nav-link" data-scroll-target="#emoji-use">Emoji use</a></li>
   <li><a href="#adressing-the-audience" id="toc-adressing-the-audience" class="nav-link" data-scroll-target="#adressing-the-audience">Adressing the audience</a></li>
   </ul></li>
+  <li><a href="#measures" id="toc-measures" class="nav-link" data-scroll-target="#measures">Measures</a></li>
   </ul>
 </nav>
     </div>
@@ -458,8 +479,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="video-formats-and-features">Video formats and features</h2>
 <section id="video-duration" class="level3">
 <h3 class="anchored" data-anchor-id="video-duration">Video duration</h3>
-<p>By definition, short video platforms usually restrict the duration of the clips that can be shared, and viewers typically spend even less time watching any given clip. We found that the average duration of the analyzed short videos was <strong>86</strong> seconds. Significant differences emerged between platforms, with YouTube Shorts (<strong>68</strong> seconds) being about <strong>23</strong> seconds shorter than TikTok (<strong>94</strong> seconds).</p>
-<p>We also observed significant differences across outlet types: videos from private broadcasters averaged nearly <strong>15</strong> seconds longer than those from digital outlets, while public broadcasters’ videos were around <strong>8</strong> seconds shorter than those from digital outlets. The differences between print and digital outlets were negligible. Finally, video duration varied considerably across countries, ranging from around <strong>50</strong> seconds in Sweden and Hungary to over <strong>144</strong> seconds in Kenya and nearly <strong>169</strong> seconds in Thailand.</p>
+<p>By definition, short video platforms usually restrict the duration of the clips that can be shared, and viewers typically spend even less time watching any given clip. We found that the average video length was about <strong>82</strong> seconds. There were small but significant differences in video length by platform: YouTube Shorts videos were significantly shorter than Instagram videos by about <strong>21</strong> seconds. We also found some meaningful differences depending on the outlet type. Videos from private broadcasters were about <strong>10</strong> seconds longer than those from digital outlets, averaging about <strong>89</strong> seconds, while public broadcasters posted videos that were around <strong>6</strong> seconds shorter, at roughly <strong>74</strong> seconds. Finally, we observed a substantial variation across countries, with videos from Thailand averaging <strong>165</strong> seconds, while those from Hungary and Slovakia were much shorter, around <strong>51</strong> seconds.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" aria-current="page">Video duration by platform</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">by outlet type</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">by country</a></li></ul>
 <div class="tab-content">
@@ -504,7 +524,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="text-features">Text features</h2>
 <section id="emoji-use" class="level3">
 <h3 class="anchored" data-anchor-id="emoji-use">Emoji use</h3>
-<p>Across all short video posts analyzed, we found that emojis appeared in an average of <strong>13%</strong> of posts. Significant differences emerged between platforms, with YouTube Shorts showing a markedly lower share of posts with emojis compared to TikTok (<strong>11%</strong> difference). We observed some significant contrasts regarding outlet types, with digital news outlets showing a higher percentage of posts with emojis compared to print outlets (<strong>3%</strong> difference). Digital outlets also had a lower percentage compared to both private (<strong>3%</strong> difference) and public broadcasters (<strong>7%</strong> difference). Emoji use also varied considerably by country, with Switzerland showing the highest share and India and the Japan the lowest.</p>
+<p>We found that emoji were used in <strong>25%</strong> of short video posts on average. Emoji use differed substantially by platform: Instagram posts used the most emoji, with <strong>39%</strong> using at least one emoji, while TikTok posts used fewer at <strong>19%</strong>, and YouTube Shorts used the least, at only <strong>6%</strong>. We also observed significant, though modest, differences by outlet type: Digital outlets used emoji more frequently (<strong>28%</strong>) than print outlets (<strong>22%</strong>), public broadcasters (<strong>24%</strong>) and private broadcasters (<strong>25%</strong>). Finally, there were notable differences between countries, with Latin American countries such as Argentina (<strong>57%</strong>), Chile (<strong>54%</strong>) and Peru (<strong>46%</strong>) using more emojis, and North American countries such as the United States (<strong>3%</strong>) and Canada (<strong>3%</strong>) using them the least.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">Emoji use by platform</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">by outlet type</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-3" role="tab" aria-controls="tabset-2-3" aria-selected="false">by country</a></li></ul>
 <div class="tab-content">
@@ -585,12 +605,21 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
+</section>
+</section>
+<section id="measures" class="level2">
+<h2 class="anchored" data-anchor-id="measures">Measures</h2>
+<p>The video duration for each post was available as part of the regular meta-data that <code>youtube-dlp</code> downloads along with the actual video files. Emoji use was measured using the <code>emo_detect()</code> function from the <strong>{emoji}</strong> package <span class="citation" data-cites="emoji">(<a href="#ref-emoji" role="doc-biblioref">Hvitfeldt 2024</a>)</span>.</p>
+
 
 
 </section>
-</section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-emoji" class="csl-entry" role="listitem">
+Hvitfeldt, Emil. 2024. <span>“Emoji: Data and Function to Work with Emojis.”</span> <a href="https://doi.org/10.32614/CRAN.package.emoji">https://doi.org/10.32614/CRAN.package.emoji</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
