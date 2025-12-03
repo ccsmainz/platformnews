@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -418,18 +438,16 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#gender" id="toc-gender" class="nav-link active" data-scroll-target="#gender">Gender</a>
+  <li><a href="#demographics" id="toc-demographics" class="nav-link active" data-scroll-target="#demographics">Demographics</a>
   <ul class="collapse">
   <li><a href="#gender-proportions" id="toc-gender-proportions" class="nav-link" data-scroll-target="#gender-proportions">Gender proportions</a></li>
-  </ul></li>
-  <li><a href="#age" id="toc-age" class="nav-link" data-scroll-target="#age">Age</a>
-  <ul class="collapse">
   <li><a href="#average-person-age" id="toc-average-person-age" class="nav-link" data-scroll-target="#average-person-age">Average person age</a></li>
   </ul></li>
-  <li><a href="#ethnicity" id="toc-ethnicity" class="nav-link" data-scroll-target="#ethnicity">Ethnicity</a>
+  <li><a href="#content" id="toc-content" class="nav-link" data-scroll-target="#content">Content</a>
   <ul class="collapse">
-  <li><a href="#share-of-white-people" id="toc-share-of-white-people" class="nav-link" data-scroll-target="#share-of-white-people">Share of white people</a></li>
+  <li><a href="#topic-diversity" id="toc-topic-diversity" class="nav-link" data-scroll-target="#topic-diversity">Topic diversity</a></li>
   </ul></li>
+  <li><a href="#measures" id="toc-measures" class="nav-link" data-scroll-target="#measures">Measures</a></li>
   </ul>
 </nav>
     </div>
@@ -468,11 +486,11 @@ AI summaries
 <p>Note that all the summary texts on this page are currently generated automatically using a Large Language Model (Google’s Gemini), based on the results tables and other information from the data. Therefore, please do not cite the verbal summary, but refer to the figures for accurate information.</p>
 </div>
 </div>
-<section id="gender" class="level2">
-<h2 class="anchored" data-anchor-id="gender">Gender</h2>
+<section id="demographics" class="level2">
+<h2 class="anchored" data-anchor-id="demographics">Demographics</h2>
 <section id="gender-proportions" class="level3">
 <h3 class="anchored" data-anchor-id="gender-proportions">Gender proportions</h3>
-<p>We found that, on average across all short video posts analyzed, visible women constituted <strong>34%</strong> of on-screen presence. This average, however, varied significantly across platforms, outlet types, and countries. Regarding platforms, we observed that TikTok posts featured visible women <strong>36%</strong> of the time, and Instagram posts had <strong>35%</strong>, while YouTube Shorts showed a notably lower share at <strong>29%</strong>, a statistically significant <strong>5-percentage point</strong> difference compared to TikTok. When examining outlet types, digital and public broadcasters presented women similarly, both around <strong>37%</strong>. In contrast, print outlets featured women in <strong>34%</strong> of posts, and private broadcasters showed them in <strong>32%</strong> of posts, with both print and private broadcasters having a significantly lower share of visible women compared to digital outlets (by <strong>4</strong> and <strong>5 percentage points</strong>, respectively). Finally, the share of visible women per post varied substantially across countries, ranging from a low of <strong>24%</strong> in South Korea to a high of <strong>45%</strong> in Norway.</p>
+<p>We found that, on average, women comprised <strong>34%</strong> of visible individuals in short video posts. This overall figure, however, masked notable differences across platforms and outlet types. When examining platforms, we observed a statistically significant difference, with YouTube Shorts featuring a lower proportion of visible women at <strong>29%</strong> compared to TikTok’s <strong>36%</strong>. Instagram posts were similar to TikTok, showing <strong>35%</strong> visible women. Differences were also significant across outlet types: digital outlets and public broadcasters led with the highest shares of visible women, both at <strong>37%</strong>. In contrast, print outlets featured <strong>34%</strong> visible women, while private broadcasters had the lowest share at <strong>32%</strong>. Both print and private broadcaster figures were significantly lower than those from digital outlets. Finally, we observed substantial variation in the representation of women across countries, ranging from a low of <strong>24%</strong> in South Korea to a high of <strong>45%</strong> in Norway, suggesting geographic factors played a role.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" aria-current="page">Gender proportions by platform</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">by outlet type</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">by country</a></li></ul>
 <div class="tab-content">
@@ -512,12 +530,9 @@ AI summaries
 </div>
 </div>
 </section>
-</section>
-<section id="age" class="level2">
-<h2 class="anchored" data-anchor-id="age">Age</h2>
 <section id="average-person-age" class="level3">
 <h3 class="anchored" data-anchor-id="average-person-age">Average person age</h3>
-<p>Our analysis of short video posts revealed that the average age of individuals featured across all posts was approximately <strong>34</strong> years. We observed statistically significant differences when examining platforms and outlet types. Posts on YouTube Shorts featured significantly older individuals, with an average age of about <strong>35</strong> years, compared to posts on TikTok, which featured individuals averaging around <strong>34</strong> years old. Differences in featured age between Instagram and the other platforms were small and not statistically significant. Regarding outlet type, digital outlets featured the youngest individuals, with an average age of approximately <strong>33</strong> years. In contrast, print, private broadcaster, and public broadcaster outlets all featured significantly older individuals compared to digital outlets, with average ages ranging from about <strong>34</strong> to <strong>35</strong> years. We found no statistically significant differences in featured age among print, private, and public broadcaster outlets themselves. Furthermore, we identified notable variations by country, with the average age of featured individuals ranging from as low as <strong>30</strong> years in countries like Sweden and Norway to as high as <strong>38</strong> years in Poland.</p>
+<p>We found that the average age of individuals featured in short video posts was approximately <strong>34</strong> years old. When examining differences by platform, we observed statistically significant variations, with posts on YouTube Shorts featuring slightly older individuals on average (<strong>35.1</strong> years) compared to TikTok (<strong>33.6</strong> years), while Instagram posts showed an average of <strong>34.1</strong> years. Analyzing by outlet type, digital outlets featured significantly younger individuals, with an average age of <strong>33.2</strong> years, which was about one year younger than those featured by private broadcasters (<strong>34.5</strong> years), print outlets (<strong>33.9</strong> years), and public broadcasters (<strong>34.0</strong> years). We also identified considerable variation across countries, with the average age ranging from around <strong>30</strong> years in countries like Norway and Sweden to as high as <strong>38</strong> years in Poland and Hungary.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">Average person age by platform</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">by outlet type</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-3" role="tab" aria-controls="tabset-2-3" aria-selected="false">by country</a></li></ul>
 <div class="tab-content">
@@ -558,20 +573,21 @@ AI summaries
 </div>
 </section>
 </section>
-<section id="ethnicity" class="level2">
-<h2 class="anchored" data-anchor-id="ethnicity">Ethnicity</h2>
-<section id="share-of-white-people" class="level3">
-<h3 class="anchored" data-anchor-id="share-of-white-people">Share of white people</h3>
-<p>We observed that short video posts, on average, featured white people in <strong>65%</strong> of their content. While we examined potential variations across platforms, such as Instagram posts predicting <strong>68%</strong> white representation compared to YouTube Shorts at <strong>60%</strong>, and across different outlet types, including digital outlets at <strong>63%</strong> and print outlets at <strong>67%</strong>, we found that these differences were small and not statistically significant. However, we identified substantial and statistically significant differences in the share of white people featured per post across countries. For instance, countries in Asia-Pacific and Africa generally exhibited lower rates, with South Korea showing the lowest at <strong>16%</strong>, followed by Taiwan at <strong>18%</strong>, and Kenya at <strong>20%</strong>. In stark contrast, several European countries displayed the highest proportions, notably the Czech Republic at <strong>89%</strong>, Denmark at <strong>88%</strong>, and Poland at <strong>88%</strong>.</p>
+<section id="content" class="level2">
+<h2 class="anchored" data-anchor-id="content">Content</h2>
+<p>For topical diversity, we estimated the effective number of topics per outlet-platform combination, based on our automatic <a href="topics.html">topic classification</a> with 19 news categories.</p>
+<section id="topic-diversity" class="level3">
+<h3 class="anchored" data-anchor-id="topic-diversity">Topic diversity</h3>
+<p>Our analysis of short video posts revealed an average topic diversity of <strong>5.4</strong> effective topics per outlet. We found significant differences across platforms and outlet types. Looking at platforms, TikTok exhibited the highest topic diversity at <strong>6.0</strong>, notably more diverse than Instagram (<strong>5.4</strong>) and YouTube Shorts (<strong>4.7</strong>), with YouTube Shorts showing the least variety. Regarding outlet types, public broadcasters covered the broadest range of topics, with an average diversity of <strong>6.4</strong>, closely followed by private broadcasters at <strong>5.8</strong>. Digital-only outlets and print outlets, on the other hand, displayed lower topic diversity, averaging <strong>4.8</strong> and <strong>5.0</strong> topics respectively, with both public and private broadcasters showing significantly greater diversity than digital outlets. Additionally, we observed considerable variation in topic diversity across countries, with some nations like Singapore (<strong>7.2</strong>) showing a much wider array of topics than others, such as Indonesia or Italy (around <strong>3.4</strong>).</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-3-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-1" role="tab" aria-controls="tabset-3-1" aria-selected="true">Share of white people by platform</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-2" role="tab" aria-controls="tabset-3-2" aria-selected="false">by outlet type</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-3" role="tab" aria-controls="tabset-3-3" aria-selected="false">by country</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-3-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-1" role="tab" aria-controls="tabset-3-1" aria-selected="true">Topic diversity by platform</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-2" role="tab" aria-controls="tabset-3-2" aria-selected="false">by outlet type</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-3" role="tab" aria-controls="tabset-3-3" aria-selected="false">by country</a></li></ul>
 <div class="tab-content">
 <div id="tabset-3-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-3-1-tab">
 <div class="cell">
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="diversity_files/figure-html/Share of white people_platform-1.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<p><img src="diversity_files/figure-html/Topic diversity_platform-1.png" class="img-fluid figure-img" style="width:100.0%"></p>
 </figure>
 </div>
 </div>
@@ -582,7 +598,7 @@ AI summaries
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="diversity_files/figure-html/Share of white people_type-1.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<p><img src="diversity_files/figure-html/Topic diversity_type-1.png" class="img-fluid figure-img" style="width:100.0%"></p>
 </figure>
 </div>
 </div>
@@ -593,7 +609,7 @@ AI summaries
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="diversity_files/figure-html/Share of white people_country-1.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<p><img src="diversity_files/figure-html/Topic diversity_country-1.png" class="img-fluid figure-img" style="width:100.0%"></p>
 </figure>
 </div>
 </div>
@@ -601,12 +617,25 @@ AI summaries
 </div>
 </div>
 </div>
+</section>
+</section>
+<section id="measures" class="level2">
+<h2 class="anchored" data-anchor-id="measures">Measures</h2>
+<p>We measured demographic diversity using the FairFace classifier <span class="citation" data-cites="kärkkäinen2019">(<a href="#ref-kärkkäinen2019" role="doc-biblioref">Kärkkäinen and Joo 2019</a>)</span>, which classifies apparent gender, age group and ethnicity.</p>
+<p>Topic diversity was estimated by computing the <em>effective</em> number of topics, which accounts for number of topics coded per outlet <em>and</em> their frequency distribution, see <span class="citation" data-cites="laakso1979">Laakso and Taagepera (<a href="#ref-laakso1979" role="doc-biblioref">1979</a>)</span> for a similar measure.</p>
+
 
 
 </section>
-</section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-kärkkäinen2019" class="csl-entry" role="listitem">
+Kärkkäinen, Kimmo, and Jungseock Joo. 2019. <span>“FairFace: Face Attribute Dataset for Balanced Race, Gender, and Age.”</span> <a href="https://doi.org/10.48550/ARXIV.1908.04913">https://doi.org/10.48550/ARXIV.1908.04913</a>.
+</div>
+<div id="ref-laakso1979" class="csl-entry" role="listitem">
+Laakso, Markku, and Rein Taagepera. 1979. <span>“<span>“</span>Effective<span>”</span> Number of Parties.”</span> <em>Comparative Political Studies</em> 12 (1): 3–27. <a href="https://doi.org/10.1177/001041407901200101">https://doi.org/10.1177/001041407901200101</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
