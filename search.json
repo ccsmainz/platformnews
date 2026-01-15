@@ -1,45 +1,5 @@
 [
   {
-    "objectID": "platformization.html",
-    "href": "platformization.html",
-    "title": "Platformization",
-    "section": "",
-    "text": "AI summaries\n\n\n\nNote that all the summary texts on this page are currently generated automatically using a Large Language Model (Google’s Gemini), based on the results tables and other information from the data. Therefore, please do not cite the verbal summary, but refer to the figures and tables for accurate information.",
-    "crumbs": [
-      "Platformization"
-    ]
-  },
-  {
-    "objectID": "platformization.html#video-and-text-features",
-    "href": "platformization.html#video-and-text-features",
-    "title": "Platformization",
-    "section": "Video and text features",
-    "text": "Video and text features\n\nVideo format\nWe found that, on average, 62% of short video posts were native vertical videos. Examining differences by platform, we observed statistically significant variations: TikTok had the highest share at 67%, while Instagram followed at 60%, and YouTube Shorts had the lowest at 56%. Significant differences also emerged across outlet types; public broadcasters stood out with the highest proportion of native vertical videos at 75%, whereas private broadcasters posted the lowest share at 50%. Digital and print outlets showed similar shares, both around 62%. Furthermore, we found substantial country-level variation, with the share of native vertical videos ranging widely, from a low of 34% in Hungary to a high of 77% in Sweden.\n\nVideo format by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nResult tables for video format\n\n\n\n\n\n\nOverall average\n\n\n\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\n0.62\n0\n0.59\n0.66\n\n\n\n\n\nContrasts\n\n\n\n\n\n\n\n\n\n\n\nterm\ncontrast\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\noutlet_type\nPrint - Digital\n-0.02\n0.49\n-0.10\n0.05\n\n\noutlet_type\nPrivate broadcaster - Digital\n-0.12\n0.00\n-0.19\n-0.06\n\n\noutlet_type\nPublic broadcaster - Digital\n0.11\n0.00\n0.05\n0.18\n\n\nplatform\nInstagram - TikTok\n-0.05\n0.02\n-0.09\n-0.01\n\n\nplatform\nYouTube Shorts - TikTok\n-0.08\n0.00\n-0.13\n-0.03\n\n\n\n\n\nPredictions by platform\n\n\n\nplatform\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\nTikTok\n0.67\n0\n0.63\n0.70\n\n\nInstagram\n0.60\n0\n0.55\n0.64\n\n\nYouTube Shorts\n0.56\n0\n0.51\n0.61\n\n\n\n\n\nPredictions by outlet type\n\n\n\noutlet_type\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\nDigital\n0.62\n0\n0.56\n0.69\n\n\nPrint\n0.62\n0\n0.57\n0.67\n\n\nPrivate broadcaster\n0.50\n0\n0.46\n0.54\n\n\nPublic broadcaster\n0.75\n0\n0.71\n0.79\n\n\n\n\n\nPredictions by country\n\n\n\n\n\n\n\n\n\n\n\ncountry\nestimate\np.value\nconf.low\nconf.high\nregion\n\n\n\n\nArgentina\n0.57\n0\n0.53\n0.61\nLatin America\n\n\nAustralia\n0.72\n0\n0.68\n0.75\nAsia-Pacific\n\n\nAustria\n0.62\n0\n0.59\n0.66\nWestern Europe\n\n\nBelgium\n0.64\n0\n0.61\n0.68\nWestern Europe\n\n\nBrazil\n0.64\n0\n0.60\n0.68\nLatin America\n\n\nBulgaria\n0.64\n0\n0.60\n0.68\nEastern Europe\n\n\nCanada\n0.67\n0\n0.64\n0.71\nNorth America\n\n\nChile\n0.54\n0\n0.50\n0.58\nLatin America\n\n\nColombia\n0.58\n0\n0.55\n0.62\nLatin America\n\n\nCroatia\n0.60\n0\n0.56\n0.63\nSouthern Europe\n\n\nCzech Republic\n0.52\n0\n0.48\n0.56\nEastern Europe\n\n\nDenmark\n0.57\n0\n0.52\n0.62\nNorthern Europe\n\n\nFinland\n0.75\n0\n0.72\n0.78\nNorthern Europe\n\n\nFrance\n0.69\n0\n0.65\n0.72\nWestern Europe\n\n\nGermany\n0.62\n0\n0.58\n0.65\nWestern Europe\n\n\nGreece\n0.52\n0\n0.48\n0.55\nSouthern Europe\n\n\nHungary\n0.34\n0\n0.31\n0.38\nEastern Europe\n\n\nIndia\n0.61\n0\n0.58\n0.65\nAsia-Pacific\n\n\nIndonesia\n0.68\n0\n0.64\n0.72\nAsia-Pacific\n\n\nIreland\n0.67\n0\n0.64\n0.71\nNorthern Europe\n\n\nItaly\n0.64\n0\n0.61\n0.68\nSouthern Europe\n\n\nJapan\n0.52\n0\n0.47\n0.56\nAsia-Pacific\n\n\nKenya\n0.68\n0\n0.65\n0.72\nAfrica\n\n\nMalaysia\n0.65\n0\n0.62\n0.69\nAsia-Pacific\n\n\nMexico\n0.55\n0\n0.51\n0.59\nLatin America\n\n\nMorocco\n0.52\n0\n0.48\n0.57\nAfrica\n\n\nNetherlands\n0.75\n0\n0.72\n0.78\nWestern Europe\n\n\nNigeria\n0.66\n0\n0.62\n0.69\nAfrica\n\n\nNorway\n0.76\n0\n0.73\n0.78\nNorthern Europe\n\n\nPeru\n0.57\n0\n0.54\n0.61\nLatin America\n\n\nPhilippines\n0.47\n0\n0.43\n0.51\nAsia-Pacific\n\n\nPoland\n0.50\n0\n0.46\n0.54\nEastern Europe\n\n\nPortugal\n0.50\n0\n0.46\n0.53\nSouthern Europe\n\n\nRomania\n0.50\n0\n0.46\n0.54\nEastern Europe\n\n\nSingapore\n0.71\n0\n0.67\n0.74\nAsia-Pacific\n\n\nSlovakia\n0.52\n0\n0.49\n0.56\nEastern Europe\n\n\nSouth Africa\n0.71\n0\n0.67\n0.74\nAfrica\n\n\nSouth Korea\n0.38\n0\n0.34\n0.42\nAsia-Pacific\n\n\nSpain\n0.54\n0\n0.50\n0.57\nSouthern Europe\n\n\nSweden\n0.77\n0\n0.74\n0.80\nNorthern Europe\n\n\nSwitzerland\n0.72\n0\n0.68\n0.75\nWestern Europe\n\n\nTaiwan\n0.53\n0\n0.49\n0.57\nAsia-Pacific\n\n\nThailand\n0.64\n0\n0.60\n0.67\nAsia-Pacific\n\n\nTurkey\n0.50\n0\n0.46\n0.54\nSouthern Europe\n\n\nUnited Kingdom\n0.67\n0\n0.63\n0.70\nNorthern Europe\n\n\nUnited States\n0.69\n0\n0.66\n0.72\nNorth America\n\n\n\n\n\n\n\n\n\nEmoji use\nWe found that emoji were used in 25% of short video posts on average. Emoji use differed substantially by platform: Instagram posts used the most emoji, with 39% using at least one emoji, while TikTok posts used fewer at 19%, and YouTube Shorts used the least, at only 6%. We also observed significant, though modest, differences by outlet type: Digital outlets used emoji more frequently (28%) than print outlets (22%), public broadcasters (24%) and private broadcasters (25%). Finally, there were notable differences between countries, with Latin American countries such as Argentina (57%), Chile (54%) and Peru (46%) using more emojis, and North American countries such as the United States (3%) and Canada (3%) using them the least.\n\nEmoji use by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nResult tables for emoji use\n\n\n\n\n\n\nOverall average\n\n\n\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\n0.25\n0\n0.2\n0.29\n\n\n\n\n\nContrasts\n\n\n\n\n\n\n\n\n\n\n\nterm\ncontrast\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\noutlet_type\nPrint - Digital\n-0.06\n0.00\n-0.09\n-0.04\n\n\noutlet_type\nPrivate broadcaster - Digital\n-0.02\n0.15\n-0.04\n0.01\n\n\noutlet_type\nPublic broadcaster - Digital\n0.05\n0.00\n0.02\n0.08\n\n\nplatform\nInstagram - TikTok\n0.19\n0.00\n0.16\n0.21\n\n\nplatform\nYouTube Shorts - TikTok\n-0.12\n0.00\n-0.15\n-0.09\n\n\n\n\n\nPredictions by platform\n\n\n\nplatform\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\nTikTok\n0.19\n0\n0.14\n0.23\n\n\nInstagram\n0.41\n0\n0.34\n0.47\n\n\nYouTube Shorts\n0.06\n0\n0.04\n0.08\n\n\n\n\n\nPredictions by outlet type\n\n\n\noutlet_type\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\nDigital\n0.31\n0\n0.25\n0.37\n\n\nPrint\n0.22\n0\n0.17\n0.27\n\n\nPrivate broadcaster\n0.24\n0\n0.20\n0.29\n\n\nPublic broadcaster\n0.24\n0\n0.19\n0.29\n\n\n\n\n\nPredictions by country\n\n\n\n\n\n\n\n\n\n\n\ncountry\nestimate\np.value\nconf.low\nconf.high\nregion\n\n\n\n\nArgentina\n0.58\n0\n0.51\n0.66\nLatin America\n\n\nAustralia\n0.07\n0\n0.05\n0.09\nAsia-Pacific\n\n\nAustria\n0.30\n0\n0.23\n0.37\nWestern Europe\n\n\nBelgium\n0.31\n0\n0.24\n0.38\nWestern Europe\n\n\nBrazil\n0.32\n0\n0.25\n0.39\nLatin America\n\n\nBulgaria\n0.39\n0\n0.32\n0.47\nEastern Europe\n\n\nCanada\n0.03\n0\n0.02\n0.04\nNorth America\n\n\nChile\n0.54\n0\n0.47\n0.62\nLatin America\n\n\nColombia\n0.34\n0\n0.27\n0.41\nLatin America\n\n\nCroatia\n0.40\n0\n0.33\n0.48\nSouthern Europe\n\n\nCzech Republic\n0.63\n0\n0.56\n0.70\nEastern Europe\n\n\nDenmark\n0.28\n0\n0.21\n0.35\nNorthern Europe\n\n\nFinland\n0.34\n0\n0.27\n0.41\nNorthern Europe\n\n\nFrance\n0.22\n0\n0.16\n0.27\nWestern Europe\n\n\nGermany\n0.07\n0\n0.05\n0.09\nWestern Europe\n\n\nGreece\n0.26\n0\n0.20\n0.32\nSouthern Europe\n\n\nHungary\n0.45\n0\n0.37\n0.52\nEastern Europe\n\n\nIndia\n0.11\n0\n0.08\n0.14\nAsia-Pacific\n\n\nIndonesia\n0.12\n0\n0.08\n0.15\nAsia-Pacific\n\n\nIreland\n0.08\n0\n0.06\n0.11\nNorthern Europe\n\n\nItaly\n0.12\n0\n0.08\n0.15\nSouthern Europe\n\n\nJapan\n0.02\n0\n0.01\n0.02\nAsia-Pacific\n\n\nKenya\n0.10\n0\n0.07\n0.14\nAfrica\n\n\nMalaysia\n0.03\n0\n0.02\n0.04\nAsia-Pacific\n\n\nMexico\n0.18\n0\n0.13\n0.23\nLatin America\n\n\nMorocco\n0.29\n0\n0.23\n0.36\nAfrica\n\n\nNetherlands\n0.11\n0\n0.07\n0.14\nWestern Europe\n\n\nNigeria\n0.16\n0\n0.11\n0.20\nAfrica\n\n\nNorway\n0.39\n0\n0.31\n0.47\nNorthern Europe\n\n\nPeru\n0.50\n0\n0.42\n0.58\nLatin America\n\n\nPhilippines\n0.16\n0\n0.11\n0.20\nAsia-Pacific\n\n\nPoland\n0.23\n0\n0.17\n0.28\nEastern Europe\n\n\nPortugal\n0.25\n0\n0.19\n0.31\nSouthern Europe\n\n\nRomania\n0.23\n0\n0.17\n0.29\nEastern Europe\n\n\nSingapore\n0.13\n0\n0.09\n0.17\nAsia-Pacific\n\n\nSlovakia\n0.59\n0\n0.52\n0.67\nEastern Europe\n\n\nSouth Africa\n0.09\n0\n0.06\n0.12\nAfrica\n\n\nSouth Korea\n0.03\n0\n0.02\n0.04\nAsia-Pacific\n\n\nSpain\n0.62\n0\n0.55\n0.69\nSouthern Europe\n\n\nSweden\n0.10\n0\n0.07\n0.13\nNorthern Europe\n\n\nSwitzerland\n0.56\n0\n0.48\n0.63\nWestern Europe\n\n\nTaiwan\n0.21\n0\n0.16\n0.26\nAsia-Pacific\n\n\nThailand\n0.16\n0\n0.12\n0.20\nAsia-Pacific\n\n\nTurkey\n0.11\n0\n0.08\n0.15\nSouthern Europe\n\n\nUnited Kingdom\n0.06\n0\n0.04\n0.08\nNorthern Europe\n\n\nUnited States\n0.03\n0\n0.02\n0.04\nNorth America",
-    "crumbs": [
-      "Platformization"
-    ]
-  },
-  {
-    "objectID": "platformization.html#audience-interactions",
-    "href": "platformization.html#audience-interactions",
-    "title": "Platformization",
-    "section": "Audience interactions",
-    "text": "Audience interactions\n\nAddressing the audience\nWe found that, on average, 4% of short video posts across all platforms and outlets addressed the audience directly. When examining differences by platform, posts on TikTok were more likely to address the audience, with an estimated 5% doing so, which was significantly higher than on Instagram and YouTube Shorts (both estimated at 3%). Analyzing outlet types, we saw that digital outlets had the highest share, at an estimated 6%, while private broadcasters showed the lowest share at 2%, a statistically significant difference; public broadcasters and print outlets fell in between. Finally, we observed some variation across countries, with the share of audience-addressing posts ranging from 2% in Chile to 6% in Austria and Italy.\n\nAddressing the audience by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInteraction calls\nWe found that, on average, 24% of short video posts across all platforms and outlets called for audience interactions such as liking, sharing, commenting, or visiting a website. This tendency varied significantly across platforms, with Instagram posts being the most likely to include such calls at 46%, substantially higher than TikTok posts at 16%, and dramatically higher than YouTube Shorts, where only 8% of posts contained interaction prompts. Differences also emerged across outlet types; posts from digital outlets had the highest share of interaction calls at 34%, which was significantly higher than both print outlets (25%) and private broadcasters (18%), with private broadcasters showing the lowest frequency of these prompts. Public broadcasters were similar to print outlets, with 26% of their posts including calls for interaction. Furthermore, we observed notable variation by country, ranging from a low of 7% in South Korea and 10% in Japan to a high of 47% in Slovakia, suggesting diverse engagement strategies globally.\n\nInteraction calls by platformby outlet typeby country",
-    "crumbs": [
-      "Platformization"
-    ]
-  },
-  {
-    "objectID": "platformization.html#measures",
-    "href": "platformization.html#measures",
-    "title": "Platformization",
-    "section": "Measures",
-    "text": "Measures\nEmoji use was measured using the emo_detect() function from the {emoji} package (Hvitfeldt 2024).\n\nReliability\nPost were coded using zero-shot classification by two different models: gemini-2.5-flash-lite, Qwen3 235B VL.",
-    "crumbs": [
-      "Platformization"
-    ]
-  },
-  {
     "objectID": "countries/austria.html",
     "href": "countries/austria.html",
     "title": "Austria",
@@ -744,6 +704,844 @@
     ]
   },
   {
+    "objectID": "countries/hungary.html",
+    "href": "countries/hungary.html",
+    "title": "Hungary",
+    "section": "",
+    "text": "We collected data from 14 news outlets on TikTok, Instagram and YouTube Shorts. Overall, these outlets published 1659 posts.\nThe median outlet published 1.1 TikToks, 0.8 Instagram reels, and 0.8 YouTube shorts per day.",
+    "crumbs": [
+      "Country reports",
+      "Hungary"
+    ]
+  },
+  {
+    "objectID": "countries/hungary.html#basics",
+    "href": "countries/hungary.html#basics",
+    "title": "Hungary",
+    "section": "Basics",
+    "text": "Basics\n\nPlatforms shares by brand and posts\n\n\n\n\n\n\nPlatform\nActive brands\nPosts\n% of brands\n% of posts\n\n\n\n\nTikTok\n13\n581\n93\n35\n\n\nInstagram\n12\n722\n86\n44\n\n\nYouTube Shorts\n10\n356\n71\n21\n\n\n\n\n\n\n\n\nPublished posts by brand and platform\n\n\n\n\n\nOutlet\nPosts\nTikTok\nInstagram\nYouTube Shorts\n\n\n\n\n24.hu\n88\n37\n25\n26\n\n\n444.hu\n62\n21\n20\n21\n\n\nATV\n26\n-\n12\n14\n\n\nBlikk\n95\n33\n28\n34\n\n\nHírTV\n246\n70\n104\n72\n\n\nHVG\n20\n4\n7\n9\n\n\nIndex.hu\n109\n47\n26\n36\n\n\nMagyar Nemzet\n215\n111\n-\n104\n\n\nMTV (public television)\n19\n3\n16\n-\n\n\nNépszava\n37\n18\n19\n-\n\n\nOrigo.hu\n46\n29\n-\n17\n\n\nRTL\n162\n116\n46\n-\n\n\ntelex.hu\n94\n18\n53\n23\n\n\nTV2\n440\n74\n366\n-\n\n\nOverall\n1659\n581\n722\n356",
+    "crumbs": [
+      "Country reports",
+      "Hungary"
+    ]
+  },
+  {
+    "objectID": "countries/hungary.html#publication-patterns",
+    "href": "countries/hungary.html#publication-patterns",
+    "title": "Hungary",
+    "section": "Publication patterns",
+    "text": "Publication patterns",
+    "crumbs": [
+      "Country reports",
+      "Hungary"
+    ]
+  },
+  {
+    "objectID": "countries/hungary.html#content-duplication",
+    "href": "countries/hungary.html#content-duplication",
+    "title": "Hungary",
+    "section": "Content duplication",
+    "text": "Content duplication",
+    "crumbs": [
+      "Country reports",
+      "Hungary"
+    ]
+  },
+  {
+    "objectID": "countries/argentina.html",
+    "href": "countries/argentina.html",
+    "title": "Argentina",
+    "section": "",
+    "text": "We collected data from 13 news outlets on TikTok, Instagram and YouTube Shorts. Overall, these outlets published 5852 posts.\nThe median outlet published 4.9 TikToks, 8.8 Instagram reels, and 3 YouTube shorts per day.",
+    "crumbs": [
+      "Country reports",
+      "Argentina"
+    ]
+  },
+  {
+    "objectID": "countries/argentina.html#basics",
+    "href": "countries/argentina.html#basics",
+    "title": "Argentina",
+    "section": "Basics",
+    "text": "Basics\n\nPlatforms shares by brand and posts\n\n\n\n\n\n\nPlatform\nActive brands\nPosts\n% of brands\n% of posts\n\n\n\n\nTikTok\n12\n1981\n86\n34\n\n\nInstagram\n12\n2885\n86\n49\n\n\nYouTube Shorts\n10\n986\n71\n17\n\n\n\n\n\n\n\n\nPublished posts by brand and platform\n\n\n\n\n\nOutlet\nPosts\nTikTok\nInstagram\nYouTube Shorts\n\n\n\n\nA24\n575\n114\n369\n92\n\n\nC5N\n1063\n539\n434\n90\n\n\nCanal 13 News\n31\n31\n-\n-\n\n\nClarín\n589\n179\n224\n186\n\n\nCronista\n92\n21\n58\n13\n\n\nInfobae\n630\n234\n297\n99\n\n\nLa Nación\n700\n182\n275\n243\n\n\nLa Voz\n447\n176\n269\n2\n\n\nMinuto Uno\n52\n-\n52\n-\n\n\nPágina/12\n176\n70\n47\n59\n\n\nPerfil\n478\n157\n225\n96\n\n\nTelefe News\n601\n148\n347\n106\n\n\nTN (Todo Noticias)\n418\n130\n288\n-\n\n\nOverall\n5852\n1981\n2885\n986",
+    "crumbs": [
+      "Country reports",
+      "Argentina"
+    ]
+  },
+  {
+    "objectID": "countries/argentina.html#publication-patterns",
+    "href": "countries/argentina.html#publication-patterns",
+    "title": "Argentina",
+    "section": "Publication patterns",
+    "text": "Publication patterns",
+    "crumbs": [
+      "Country reports",
+      "Argentina"
+    ]
+  },
+  {
+    "objectID": "countries/argentina.html#content-duplication",
+    "href": "countries/argentina.html#content-duplication",
+    "title": "Argentina",
+    "section": "Content duplication",
+    "text": "Content duplication",
+    "crumbs": [
+      "Country reports",
+      "Argentina"
+    ]
+  },
+  {
+    "objectID": "countries/south_korea.html",
+    "href": "countries/south_korea.html",
+    "title": "South Korea",
+    "section": "",
+    "text": "We collected data from 13 news outlets on TikTok, Instagram and YouTube Shorts. Overall, these outlets published 5556 posts.\nThe median outlet published 6.7 TikToks, 3.3 Instagram reels, and 5.4 YouTube shorts per day.",
+    "crumbs": [
+      "Country reports",
+      "South Korea"
+    ]
+  },
+  {
+    "objectID": "countries/south_korea.html#basics",
+    "href": "countries/south_korea.html#basics",
+    "title": "South Korea",
+    "section": "Basics",
+    "text": "Basics\n\nPlatforms shares by brand and posts\n\n\n\n\n\n\nPlatform\nActive brands\nPosts\n% of brands\n% of posts\n\n\n\n\nTikTok\n7\n1473\n54\n27\n\n\nInstagram\n8\n1100\n62\n20\n\n\nYouTube Shorts\n12\n2983\n92\n54\n\n\n\n\n\n\n\n\nPublished posts by brand and platform\n\n\n\n\n\nOutlet\nPosts\nTikTok\nInstagram\nYouTube Shorts\n\n\n\n\nChannel A News\n272\n135\n137\n-\n\n\nChosun Ilbo\n33\n-\n-\n33\n\n\nHankyoreh\n37\n-\n-\n37\n\n\nJoongang Ilbo\n421\n209\n80\n132\n\n\nJTBC News\n1292\n429\n390\n473\n\n\nKBS News\n658\n239\n235\n184\n\n\nKyunghyang Shinmun\n109\n-\n1\n108\n\n\nMBC News\n718\n-\n107\n611\n\n\nMBN News\n362\n68\n55\n239\n\n\nSBS News\n848\n273\n-\n575\n\n\nTV Chosun News\n359\n-\n-\n359\n\n\nYonhapNews TV\n294\n120\n95\n79\n\n\nYTN\n153\n-\n-\n153\n\n\nOverall\n5556\n1473\n1100\n2983",
+    "crumbs": [
+      "Country reports",
+      "South Korea"
+    ]
+  },
+  {
+    "objectID": "countries/south_korea.html#publication-patterns",
+    "href": "countries/south_korea.html#publication-patterns",
+    "title": "South Korea",
+    "section": "Publication patterns",
+    "text": "Publication patterns",
+    "crumbs": [
+      "Country reports",
+      "South Korea"
+    ]
+  },
+  {
+    "objectID": "countries/south_korea.html#content-duplication",
+    "href": "countries/south_korea.html#content-duplication",
+    "title": "South Korea",
+    "section": "Content duplication",
+    "text": "Content duplication",
+    "crumbs": [
+      "Country reports",
+      "South Korea"
+    ]
+  },
+  {
+    "objectID": "countries/malaysia.html",
+    "href": "countries/malaysia.html",
+    "title": "Malaysia",
+    "section": "",
+    "text": "We collected data from 13 news outlets on TikTok, Instagram and YouTube Shorts. Overall, these outlets published 11148 posts.\nThe median outlet published 8.2 TikToks, 11.5 Instagram reels, and 5.4 YouTube shorts per day.",
+    "crumbs": [
+      "Country reports",
+      "Malaysia"
+    ]
+  },
+  {
+    "objectID": "countries/malaysia.html#basics",
+    "href": "countries/malaysia.html#basics",
+    "title": "Malaysia",
+    "section": "Basics",
+    "text": "Basics\n\nPlatforms shares by brand and posts\n\n\n\n\n\n\nPlatform\nActive brands\nPosts\n% of brands\n% of posts\n\n\n\n\nTikTok\n13\n6009\n93\n54\n\n\nInstagram\n11\n2815\n79\n25\n\n\nYouTube Shorts\n12\n2324\n86\n21\n\n\n\n\n\n\n\n\nPublished posts by brand and platform\n\n\n\n\n\nOutlet\nPosts\nTikTok\nInstagram\nYouTube Shorts\n\n\n\n\nAstro Awani\n3395\n2458\n376\n561\n\n\nBerita Harian\n1225\n509\n377\n339\n\n\nFree Malaysia Today\n817\n202\n395\n220\n\n\nHarian Metro\n1174\n478\n342\n354\n\n\nMalaysiakini\n136\n64\n40\n32\n\n\nRadio Televisyen Malaysia\n267\n119\n105\n43\n\n\nSin Chew Daily\n61\n61\n-\n-\n\n\nSinar Harian\n1486\n986\n358\n142\n\n\nThe Star\n440\n102\n28\n310\n\n\nTV3 News\n1033\n477\n366\n190\n\n\nTV9 News\n330\n254\n-\n76\n\n\nUtusan Malaysia\n731\n280\n403\n48\n\n\nYahoo! News\n53\n19\n25\n9\n\n\nOverall\n11148\n6009\n2815\n2324",
+    "crumbs": [
+      "Country reports",
+      "Malaysia"
+    ]
+  },
+  {
+    "objectID": "countries/malaysia.html#publication-patterns",
+    "href": "countries/malaysia.html#publication-patterns",
+    "title": "Malaysia",
+    "section": "Publication patterns",
+    "text": "Publication patterns",
+    "crumbs": [
+      "Country reports",
+      "Malaysia"
+    ]
+  },
+  {
+    "objectID": "countries/malaysia.html#content-duplication",
+    "href": "countries/malaysia.html#content-duplication",
+    "title": "Malaysia",
+    "section": "Content duplication",
+    "text": "Content duplication",
+    "crumbs": [
+      "Country reports",
+      "Malaysia"
+    ]
+  },
+  {
+    "objectID": "countries/nigeria.html",
+    "href": "countries/nigeria.html",
+    "title": "Nigeria",
+    "section": "",
+    "text": "We collected data from 14 news outlets on TikTok, Instagram and YouTube Shorts. Overall, these outlets published 3193 posts.\nThe median outlet published 1 TikToks, 2.2 Instagram reels, and 0.6 YouTube shorts per day.",
+    "crumbs": [
+      "Country reports",
+      "Nigeria"
+    ]
+  },
+  {
+    "objectID": "countries/nigeria.html#basics",
+    "href": "countries/nigeria.html#basics",
+    "title": "Nigeria",
+    "section": "Basics",
+    "text": "Basics\n\nPlatforms shares by brand and posts\n\n\n\n\n\n\nPlatform\nActive brands\nPosts\n% of brands\n% of posts\n\n\n\n\nTikTok\n8\n1058\n53\n33\n\n\nInstagram\n12\n1904\n80\n60\n\n\nYouTube Shorts\n8\n231\n53\n7\n\n\n\n\n\n\n\n\nPublished posts by brand and platform\n\n\n\n\n\nOutlet\nPosts\nTikTok\nInstagram\nYouTube Shorts\n\n\n\n\nAfrica Independent Television\n394\n367\n27\n-\n\n\nArise TV News\n269\n-\n269\n-\n\n\nBBC News\n677\n419\n147\n111\n\n\nChannels TV\n36\n-\n19\n17\n\n\nNews Agency of Nigeria\n1\n1\n-\n-\n\n\nNigerian Television Authority (NTA)\n398\n-\n372\n26\n\n\nPremium Times\n49\n17\n31\n1\n\n\nPulse.ng\n664\n182\n441\n41\n\n\nThe Guardian\n35\n-\n32\n3\n\n\nThe Nation\n25\n25\n-\n-\n\n\nThe Punch\n102\n13\n79\n10\n\n\nThe Sun\n20\n-\n20\n-\n\n\nThe Vanguard\n94\n34\n60\n-\n\n\nTVC News\n429\n-\n407\n22\n\n\nOverall\n3193\n1058\n1904\n231",
+    "crumbs": [
+      "Country reports",
+      "Nigeria"
+    ]
+  },
+  {
+    "objectID": "countries/nigeria.html#publication-patterns",
+    "href": "countries/nigeria.html#publication-patterns",
+    "title": "Nigeria",
+    "section": "Publication patterns",
+    "text": "Publication patterns",
+    "crumbs": [
+      "Country reports",
+      "Nigeria"
+    ]
+  },
+  {
+    "objectID": "countries/nigeria.html#content-duplication",
+    "href": "countries/nigeria.html#content-duplication",
+    "title": "Nigeria",
+    "section": "Content duplication",
+    "text": "Content duplication",
+    "crumbs": [
+      "Country reports",
+      "Nigeria"
+    ]
+  },
+  {
+    "objectID": "countries/australia.html",
+    "href": "countries/australia.html",
+    "title": "Australia",
+    "section": "",
+    "text": "We collected data from 13 news outlets on TikTok, Instagram and YouTube Shorts. Overall, these outlets published 4033 posts.\nThe median outlet published 2.8 TikToks, 3.3 Instagram reels, and 2.9 YouTube shorts per day.",
+    "crumbs": [
+      "Country reports",
+      "Australia"
+    ]
+  },
+  {
+    "objectID": "countries/australia.html#basics",
+    "href": "countries/australia.html#basics",
+    "title": "Australia",
+    "section": "Basics",
+    "text": "Basics\n\nPlatforms shares by brand and posts\n\n\n\n\n\n\nPlatform\nActive brands\nPosts\n% of brands\n% of posts\n\n\n\n\nTikTok\n12\n1651\n92\n41\n\n\nInstagram\n11\n1517\n85\n38\n\n\nYouTube Shorts\n9\n865\n69\n21\n\n\n\n\n\n\n\n\nPublished posts by brand and platform\n\n\n\n\n\nOutlet\nPosts\nTikTok\nInstagram\nYouTube Shorts\n\n\n\n\nABC News\n659\n313\n257\n89\n\n\nAustralian Financial Review\n26\n14\n12\n-\n\n\nBBC News\n677\n419\n147\n111\n\n\nChannel 7 News\n815\n238\n376\n201\n\n\nChannel 9 News\n634\n170\n293\n171\n\n\nDaily Telegraph\n178\n77\n101\n-\n\n\nGuardian Australia\n165\n54\n60\n51\n\n\nHerald Sun\n60\n49\n-\n11\n\n\nNews.com.au\n112\n26\n86\n-\n\n\nSBS News\n293\n97\n101\n95\n\n\nSky News\n68\n-\n-\n68\n\n\nSydney Morning Herald\n281\n163\n50\n68\n\n\nThe Australian\n65\n31\n34\n-\n\n\nOverall\n4033\n1651\n1517\n865",
+    "crumbs": [
+      "Country reports",
+      "Australia"
+    ]
+  },
+  {
+    "objectID": "countries/australia.html#publication-patterns",
+    "href": "countries/australia.html#publication-patterns",
+    "title": "Australia",
+    "section": "Publication patterns",
+    "text": "Publication patterns",
+    "crumbs": [
+      "Country reports",
+      "Australia"
+    ]
+  },
+  {
+    "objectID": "countries/australia.html#content-duplication",
+    "href": "countries/australia.html#content-duplication",
+    "title": "Australia",
+    "section": "Content duplication",
+    "text": "Content duplication",
+    "crumbs": [
+      "Country reports",
+      "Australia"
+    ]
+  },
+  {
+    "objectID": "countries/belgium.html",
+    "href": "countries/belgium.html",
+    "title": "Belgium",
+    "section": "",
+    "text": "We collected data from 23 news outlets on TikTok, Instagram and YouTube Shorts. Overall, these outlets published 2635 posts.\nThe median outlet published 1.4 TikToks, 0.7 Instagram reels, and 0.7 YouTube shorts per day.",
+    "crumbs": [
+      "Country reports",
+      "Belgium"
+    ]
+  },
+  {
+    "objectID": "countries/belgium.html#basics",
+    "href": "countries/belgium.html#basics",
+    "title": "Belgium",
+    "section": "Basics",
+    "text": "Basics\n\nPlatforms shares by brand and posts\n\n\n\n\n\n\nPlatform\nActive brands\nPosts\n% of brands\n% of posts\n\n\n\n\nTikTok\n18\n1245\n69\n47\n\n\nInstagram\n21\n930\n81\n35\n\n\nYouTube Shorts\n8\n460\n31\n17\n\n\n\n\n\n\n\n\nPublished posts by brand and platform\n\n\n\n\n\nOutlet\nPosts\nTikTok\nInstagram\nYouTube Shorts\n\n\n\n\n7sur7\n17\n17\n-\n-\n\n\nBel-RTL\n441\n388\n53\n-\n\n\nDe Morgen\n34\n13\n21\n-\n\n\nDe Standaard\n44\n20\n6\n18\n\n\nDe Tijd\n29\n8\n19\n2\n\n\nFrance 2\n74\n59\n15\n-\n\n\nGazet van Antwerpen\n257\n126\n131\n-\n\n\nHet Belang van Limburg\n143\n67\n65\n11\n\n\nHet Laatste Nieuws\n91\n79\n12\n-\n\n\nHet Nieuwsblad\n143\n72\n71\n-\n\n\nJoe FM\n27\n-\n27\n-\n\n\nLa Libre\n4\n4\n-\n-\n\n\nLe Soir\n19\n-\n19\n-\n\n\nNWS (@nwsnwsnws)\n32\n15\n17\n-\n\n\nQmusic\n209\n76\n74\n59\n\n\nRadio 1\n24\n-\n24\n-\n\n\nRadio 2\n87\n-\n87\n-\n\n\nRadio Contact\n27\n12\n15\n-\n\n\nRTBF News\n121\n25\n79\n17\n\n\nRTL\n242\n-\n6\n236\n\n\nTF1\n438\n185\n159\n94\n\n\nVRT Nieuws\n62\n20\n19\n23\n\n\nVTM Nieuws\n70\n59\n11\n-\n\n\nOverall\n2635\n1245\n930\n460",
+    "crumbs": [
+      "Country reports",
+      "Belgium"
+    ]
+  },
+  {
+    "objectID": "countries/belgium.html#publication-patterns",
+    "href": "countries/belgium.html#publication-patterns",
+    "title": "Belgium",
+    "section": "Publication patterns",
+    "text": "Publication patterns",
+    "crumbs": [
+      "Country reports",
+      "Belgium"
+    ]
+  },
+  {
+    "objectID": "countries/belgium.html#content-duplication",
+    "href": "countries/belgium.html#content-duplication",
+    "title": "Belgium",
+    "section": "Content duplication",
+    "text": "Content duplication",
+    "crumbs": [
+      "Country reports",
+      "Belgium"
+    ]
+  },
+  {
+    "objectID": "countries/greece.html",
+    "href": "countries/greece.html",
+    "title": "Greece",
+    "section": "",
+    "text": "We collected data from 14 news outlets on TikTok, Instagram and YouTube Shorts. Overall, these outlets published 2363 posts.\nThe median outlet published 3.5 TikToks, 1.1 Instagram reels, and 0.5 YouTube shorts per day.",
+    "crumbs": [
+      "Country reports",
+      "Greece"
+    ]
+  },
+  {
+    "objectID": "countries/greece.html#basics",
+    "href": "countries/greece.html#basics",
+    "title": "Greece",
+    "section": "Basics",
+    "text": "Basics\n\nPlatforms shares by brand and posts\n\n\n\n\n\n\nPlatform\nActive brands\nPosts\n% of brands\n% of posts\n\n\n\n\nTikTok\n10\n1262\n71\n53\n\n\nInstagram\n12\n1024\n86\n43\n\n\nYouTube Shorts\n6\n77\n43\n3\n\n\n\n\n\n\n\n\nPublished posts by brand and platform\n\n\n\n\n\nOutlet\nPosts\nTikTok\nInstagram\nYouTube Shorts\n\n\n\n\nAlpha News\n458\n181\n277\n-\n\n\nAnt1 News\n401\n93\n308\n-\n\n\nDikaiologitika.gr\n12\n-\n-\n12\n\n\nEfimerida ton Syntakton\n4\n-\n4\n-\n\n\nERT News (public broadcaster)\n241\n57\n184\n-\n\n\nin.gr\n332\n332\n-\n-\n\n\nKathimerini\n25\n10\n14\n1\n\n\nMEGA\n173\n139\n34\n-\n\n\nnews247.gr\n81\n32\n33\n16\n\n\nNewsbomb.gr\n98\n34\n35\n29\n\n\nProto Thema\n268\n259\n9\n-\n\n\nReal News\n2\n-\n1\n1\n\n\nSKAI News\n250\n125\n107\n18\n\n\nTa Nea\n18\n-\n18\n-\n\n\nOverall\n2363\n1262\n1024\n77",
+    "crumbs": [
+      "Country reports",
+      "Greece"
+    ]
+  },
+  {
+    "objectID": "countries/greece.html#publication-patterns",
+    "href": "countries/greece.html#publication-patterns",
+    "title": "Greece",
+    "section": "Publication patterns",
+    "text": "Publication patterns",
+    "crumbs": [
+      "Country reports",
+      "Greece"
+    ]
+  },
+  {
+    "objectID": "countries/greece.html#content-duplication",
+    "href": "countries/greece.html#content-duplication",
+    "title": "Greece",
+    "section": "Content duplication",
+    "text": "Content duplication",
+    "crumbs": [
+      "Country reports",
+      "Greece"
+    ]
+  },
+  {
+    "objectID": "platformization.html",
+    "href": "platformization.html",
+    "title": "Platformization",
+    "section": "",
+    "text": "AI summaries\n\n\n\nNote that all the summary texts on this page are currently generated automatically using a Large Language Model (Google’s Gemini), based on the results tables and other information from the data. Therefore, please do not cite the verbal summary, but refer to the figures and tables for accurate information.",
+    "crumbs": [
+      "Platformization"
+    ]
+  },
+  {
+    "objectID": "platformization.html#video-and-text-features",
+    "href": "platformization.html#video-and-text-features",
+    "title": "Platformization",
+    "section": "Video and text features",
+    "text": "Video and text features\n\nVideo format\nWe found that, on average, 62% of short video posts were native vertical videos. Examining differences by platform, we observed statistically significant variations: TikTok had the highest share at 67%, while Instagram followed at 60%, and YouTube Shorts had the lowest at 56%. Significant differences also emerged across outlet types; public broadcasters stood out with the highest proportion of native vertical videos at 75%, whereas private broadcasters posted the lowest share at 50%. Digital and print outlets showed similar shares, both around 62%. Furthermore, we found substantial country-level variation, with the share of native vertical videos ranging widely, from a low of 34% in Hungary to a high of 77% in Sweden.\n\nVideo format by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nResult tables for video format\n\n\n\n\n\n\nOverall average\n\n\n\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\n0.62\n0\n0.59\n0.66\n\n\n\n\n\nContrasts\n\n\n\n\n\n\n\n\n\n\n\nterm\ncontrast\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\noutlet_type\nPrint - Digital\n-0.02\n0.49\n-0.10\n0.05\n\n\noutlet_type\nPrivate broadcaster - Digital\n-0.12\n0.00\n-0.19\n-0.06\n\n\noutlet_type\nPublic broadcaster - Digital\n0.11\n0.00\n0.05\n0.18\n\n\nplatform\nInstagram - TikTok\n-0.05\n0.02\n-0.09\n-0.01\n\n\nplatform\nYouTube Shorts - TikTok\n-0.08\n0.00\n-0.13\n-0.03\n\n\n\n\n\nPredictions by platform\n\n\n\nplatform\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\nTikTok\n0.67\n0\n0.63\n0.70\n\n\nInstagram\n0.60\n0\n0.55\n0.64\n\n\nYouTube Shorts\n0.56\n0\n0.51\n0.61\n\n\n\n\n\nPredictions by outlet type\n\n\n\noutlet_type\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\nDigital\n0.62\n0\n0.56\n0.69\n\n\nPrint\n0.62\n0\n0.57\n0.67\n\n\nPrivate broadcaster\n0.50\n0\n0.46\n0.54\n\n\nPublic broadcaster\n0.75\n0\n0.71\n0.79\n\n\n\n\n\nPredictions by country\n\n\n\n\n\n\n\n\n\n\n\ncountry\nestimate\np.value\nconf.low\nconf.high\nregion\n\n\n\n\nArgentina\n0.57\n0\n0.53\n0.61\nLatin America\n\n\nAustralia\n0.72\n0\n0.68\n0.75\nAsia-Pacific\n\n\nAustria\n0.62\n0\n0.59\n0.66\nWestern Europe\n\n\nBelgium\n0.64\n0\n0.61\n0.68\nWestern Europe\n\n\nBrazil\n0.64\n0\n0.60\n0.68\nLatin America\n\n\nBulgaria\n0.64\n0\n0.60\n0.68\nEastern Europe\n\n\nCanada\n0.67\n0\n0.64\n0.71\nNorth America\n\n\nChile\n0.54\n0\n0.50\n0.58\nLatin America\n\n\nColombia\n0.58\n0\n0.55\n0.62\nLatin America\n\n\nCroatia\n0.60\n0\n0.56\n0.63\nSouthern Europe\n\n\nCzech Republic\n0.52\n0\n0.48\n0.56\nEastern Europe\n\n\nDenmark\n0.57\n0\n0.52\n0.62\nNorthern Europe\n\n\nFinland\n0.75\n0\n0.72\n0.78\nNorthern Europe\n\n\nFrance\n0.69\n0\n0.65\n0.72\nWestern Europe\n\n\nGermany\n0.62\n0\n0.58\n0.65\nWestern Europe\n\n\nGreece\n0.52\n0\n0.48\n0.55\nSouthern Europe\n\n\nHungary\n0.34\n0\n0.31\n0.38\nEastern Europe\n\n\nIndia\n0.61\n0\n0.58\n0.65\nAsia-Pacific\n\n\nIndonesia\n0.68\n0\n0.64\n0.72\nAsia-Pacific\n\n\nIreland\n0.67\n0\n0.64\n0.71\nNorthern Europe\n\n\nItaly\n0.64\n0\n0.61\n0.68\nSouthern Europe\n\n\nJapan\n0.52\n0\n0.47\n0.56\nAsia-Pacific\n\n\nKenya\n0.68\n0\n0.65\n0.72\nAfrica\n\n\nMalaysia\n0.65\n0\n0.62\n0.69\nAsia-Pacific\n\n\nMexico\n0.55\n0\n0.51\n0.59\nLatin America\n\n\nMorocco\n0.52\n0\n0.48\n0.57\nAfrica\n\n\nNetherlands\n0.75\n0\n0.72\n0.78\nWestern Europe\n\n\nNigeria\n0.66\n0\n0.62\n0.69\nAfrica\n\n\nNorway\n0.76\n0\n0.73\n0.78\nNorthern Europe\n\n\nPeru\n0.57\n0\n0.54\n0.61\nLatin America\n\n\nPhilippines\n0.47\n0\n0.43\n0.51\nAsia-Pacific\n\n\nPoland\n0.50\n0\n0.46\n0.54\nEastern Europe\n\n\nPortugal\n0.50\n0\n0.46\n0.53\nSouthern Europe\n\n\nRomania\n0.50\n0\n0.46\n0.54\nEastern Europe\n\n\nSingapore\n0.71\n0\n0.67\n0.74\nAsia-Pacific\n\n\nSlovakia\n0.52\n0\n0.49\n0.56\nEastern Europe\n\n\nSouth Africa\n0.71\n0\n0.67\n0.74\nAfrica\n\n\nSouth Korea\n0.38\n0\n0.34\n0.42\nAsia-Pacific\n\n\nSpain\n0.54\n0\n0.50\n0.57\nSouthern Europe\n\n\nSweden\n0.77\n0\n0.74\n0.80\nNorthern Europe\n\n\nSwitzerland\n0.72\n0\n0.68\n0.75\nWestern Europe\n\n\nTaiwan\n0.53\n0\n0.49\n0.57\nAsia-Pacific\n\n\nThailand\n0.64\n0\n0.60\n0.67\nAsia-Pacific\n\n\nTurkey\n0.50\n0\n0.46\n0.54\nSouthern Europe\n\n\nUnited Kingdom\n0.67\n0\n0.63\n0.70\nNorthern Europe\n\n\nUnited States\n0.69\n0\n0.66\n0.72\nNorth America\n\n\n\n\n\n\n\n\n\nEmoji use\nWe found that emoji were used in 25% of short video posts on average. Emoji use differed substantially by platform: Instagram posts used the most emoji, with 39% using at least one emoji, while TikTok posts used fewer at 19%, and YouTube Shorts used the least, at only 6%. We also observed significant, though modest, differences by outlet type: Digital outlets used emoji more frequently (28%) than print outlets (22%), public broadcasters (24%) and private broadcasters (25%). Finally, there were notable differences between countries, with Latin American countries such as Argentina (57%), Chile (54%) and Peru (46%) using more emojis, and North American countries such as the United States (3%) and Canada (3%) using them the least.\n\nEmoji use by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nResult tables for emoji use\n\n\n\n\n\n\nOverall average\n\n\n\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\n0.25\n0\n0.2\n0.29\n\n\n\n\n\nContrasts\n\n\n\n\n\n\n\n\n\n\n\nterm\ncontrast\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\noutlet_type\nPrint - Digital\n-0.06\n0.00\n-0.09\n-0.04\n\n\noutlet_type\nPrivate broadcaster - Digital\n-0.02\n0.15\n-0.04\n0.01\n\n\noutlet_type\nPublic broadcaster - Digital\n0.05\n0.00\n0.02\n0.08\n\n\nplatform\nInstagram - TikTok\n0.19\n0.00\n0.16\n0.21\n\n\nplatform\nYouTube Shorts - TikTok\n-0.12\n0.00\n-0.15\n-0.09\n\n\n\n\n\nPredictions by platform\n\n\n\nplatform\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\nTikTok\n0.19\n0\n0.14\n0.23\n\n\nInstagram\n0.41\n0\n0.34\n0.47\n\n\nYouTube Shorts\n0.06\n0\n0.04\n0.08\n\n\n\n\n\nPredictions by outlet type\n\n\n\noutlet_type\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\nDigital\n0.31\n0\n0.25\n0.37\n\n\nPrint\n0.22\n0\n0.17\n0.27\n\n\nPrivate broadcaster\n0.24\n0\n0.20\n0.29\n\n\nPublic broadcaster\n0.24\n0\n0.19\n0.29\n\n\n\n\n\nPredictions by country\n\n\n\n\n\n\n\n\n\n\n\ncountry\nestimate\np.value\nconf.low\nconf.high\nregion\n\n\n\n\nArgentina\n0.58\n0\n0.51\n0.66\nLatin America\n\n\nAustralia\n0.07\n0\n0.05\n0.09\nAsia-Pacific\n\n\nAustria\n0.30\n0\n0.23\n0.37\nWestern Europe\n\n\nBelgium\n0.31\n0\n0.24\n0.38\nWestern Europe\n\n\nBrazil\n0.32\n0\n0.25\n0.39\nLatin America\n\n\nBulgaria\n0.39\n0\n0.32\n0.47\nEastern Europe\n\n\nCanada\n0.03\n0\n0.02\n0.04\nNorth America\n\n\nChile\n0.54\n0\n0.47\n0.62\nLatin America\n\n\nColombia\n0.34\n0\n0.27\n0.41\nLatin America\n\n\nCroatia\n0.40\n0\n0.33\n0.48\nSouthern Europe\n\n\nCzech Republic\n0.63\n0\n0.56\n0.70\nEastern Europe\n\n\nDenmark\n0.28\n0\n0.21\n0.35\nNorthern Europe\n\n\nFinland\n0.34\n0\n0.27\n0.41\nNorthern Europe\n\n\nFrance\n0.22\n0\n0.16\n0.27\nWestern Europe\n\n\nGermany\n0.07\n0\n0.05\n0.09\nWestern Europe\n\n\nGreece\n0.26\n0\n0.20\n0.32\nSouthern Europe\n\n\nHungary\n0.45\n0\n0.37\n0.52\nEastern Europe\n\n\nIndia\n0.11\n0\n0.08\n0.14\nAsia-Pacific\n\n\nIndonesia\n0.12\n0\n0.08\n0.15\nAsia-Pacific\n\n\nIreland\n0.08\n0\n0.06\n0.11\nNorthern Europe\n\n\nItaly\n0.12\n0\n0.08\n0.15\nSouthern Europe\n\n\nJapan\n0.02\n0\n0.01\n0.02\nAsia-Pacific\n\n\nKenya\n0.10\n0\n0.07\n0.14\nAfrica\n\n\nMalaysia\n0.03\n0\n0.02\n0.04\nAsia-Pacific\n\n\nMexico\n0.18\n0\n0.13\n0.23\nLatin America\n\n\nMorocco\n0.29\n0\n0.23\n0.36\nAfrica\n\n\nNetherlands\n0.11\n0\n0.07\n0.14\nWestern Europe\n\n\nNigeria\n0.16\n0\n0.11\n0.20\nAfrica\n\n\nNorway\n0.39\n0\n0.31\n0.47\nNorthern Europe\n\n\nPeru\n0.50\n0\n0.42\n0.58\nLatin America\n\n\nPhilippines\n0.16\n0\n0.11\n0.20\nAsia-Pacific\n\n\nPoland\n0.23\n0\n0.17\n0.28\nEastern Europe\n\n\nPortugal\n0.25\n0\n0.19\n0.31\nSouthern Europe\n\n\nRomania\n0.23\n0\n0.17\n0.29\nEastern Europe\n\n\nSingapore\n0.13\n0\n0.09\n0.17\nAsia-Pacific\n\n\nSlovakia\n0.59\n0\n0.52\n0.67\nEastern Europe\n\n\nSouth Africa\n0.09\n0\n0.06\n0.12\nAfrica\n\n\nSouth Korea\n0.03\n0\n0.02\n0.04\nAsia-Pacific\n\n\nSpain\n0.62\n0\n0.55\n0.69\nSouthern Europe\n\n\nSweden\n0.10\n0\n0.07\n0.13\nNorthern Europe\n\n\nSwitzerland\n0.56\n0\n0.48\n0.63\nWestern Europe\n\n\nTaiwan\n0.21\n0\n0.16\n0.26\nAsia-Pacific\n\n\nThailand\n0.16\n0\n0.12\n0.20\nAsia-Pacific\n\n\nTurkey\n0.11\n0\n0.08\n0.15\nSouthern Europe\n\n\nUnited Kingdom\n0.06\n0\n0.04\n0.08\nNorthern Europe\n\n\nUnited States\n0.03\n0\n0.02\n0.04\nNorth America",
+    "crumbs": [
+      "Platformization"
+    ]
+  },
+  {
+    "objectID": "platformization.html#audience-interactions",
+    "href": "platformization.html#audience-interactions",
+    "title": "Platformization",
+    "section": "Audience interactions",
+    "text": "Audience interactions\n\nAddressing the audience\nWe found that, on average, 4% of short video posts across all platforms and outlets addressed the audience directly. When examining differences by platform, posts on TikTok were more likely to address the audience, with an estimated 5% doing so, which was significantly higher than on Instagram and YouTube Shorts (both estimated at 3%). Analyzing outlet types, we saw that digital outlets had the highest share, at an estimated 6%, while private broadcasters showed the lowest share at 2%, a statistically significant difference; public broadcasters and print outlets fell in between. Finally, we observed some variation across countries, with the share of audience-addressing posts ranging from 2% in Chile to 6% in Austria and Italy.\n\nAddressing the audience by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInteraction calls\nWe found that, on average, 24% of short video posts across all platforms and outlets called for audience interactions such as liking, sharing, commenting, or visiting a website. This tendency varied significantly across platforms, with Instagram posts being the most likely to include such calls at 46%, substantially higher than TikTok posts at 16%, and dramatically higher than YouTube Shorts, where only 8% of posts contained interaction prompts. Differences also emerged across outlet types; posts from digital outlets had the highest share of interaction calls at 34%, which was significantly higher than both print outlets (25%) and private broadcasters (18%), with private broadcasters showing the lowest frequency of these prompts. Public broadcasters were similar to print outlets, with 26% of their posts including calls for interaction. Furthermore, we observed notable variation by country, ranging from a low of 7% in South Korea and 10% in Japan to a high of 47% in Slovakia, suggesting diverse engagement strategies globally.\n\nInteraction calls by platformby outlet typeby country",
+    "crumbs": [
+      "Platformization"
+    ]
+  },
+  {
+    "objectID": "platformization.html#measures",
+    "href": "platformization.html#measures",
+    "title": "Platformization",
+    "section": "Measures",
+    "text": "Measures\nEmoji use was measured using the emo_detect() function from the {emoji} package (Hvitfeldt 2024).\n\nReliability\nPost were coded using zero-shot classification by two different models: gemini-2.5-flash-lite, Qwen3 235B VL.",
+    "crumbs": [
+      "Platformization"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Platform News Report",
+    "section": "",
+    "text": "Platformization describes the growing trend of news being produced and distributed through – and increasingly by – digital platforms like TikTok, YouTube, and Instagram. This process fundamentally alters news production, often prioritizing engagement over traditional journalistic norms. Consequently, platform news are supposedly more visually-driven, emotionalized, and personalized, often delivered by non-traditional actors and in new formats.\nTo systematically investigate these shifts, we introduce the Platform News Report, a large-scale computational communication research project examining news content on TikTok, YouTube Shorts, and Instagram.\nComplementing the Reuters Digital News Report, which primarily focuses on survey data and news consumption patterns, our study examines the content and dissemination of news on these platforms. Our sampling scheme directly aligns with the DNR, leveraging the same markets and covering the news brands. This parallel approach ensures comparability and allows for a more holistic understanding of the news ecosystem, bridging insights from both demand and supply sides.\nThe project collects data from 571 news outlets across 46 countries, enabling analysis of the topics covered, the presentation styles employed, and the patterns of publication on these platforms. Through this comprehensive dataset, the Platform News Report aims to provide empirical insights into the evolving landscape of digital news and the consequences of platformization for public discourse.\n\n\n\n\n\n\nWork-in-progress\n\n\n\nThe Platform News Report is work-in-progress, and we actively encourage engagement from the research community and beyond. We welcome suggestions for improvement, new analyses, comments on preliminary findings, and – crucially – bug reports to help ensure the accuracy and robustness of our data and analyses.\n\n\n\nTeam\nThe Platform News Report is a project of the Computational Communication Research Group at the Department of Communication, Johannes-Gutenberg University Mainz, Germany.\nPrinciple investigator: Michael Scharkow\nResearch assistance: Yannick Winkler, Dennis Maus"
+  },
+  {
+    "objectID": "topics.html",
+    "href": "topics.html",
+    "title": "News topics",
+    "section": "",
+    "text": "We analyzed the topics of the posts by using zero-shot classification of the post title and transcript. Based on the topic list from the Electronic News Archive (ENA) of the University of Antwerp, we coded the presence of 19 from politics to sports, with a few platform-specific additions like user-generated performances, which includes typical dance and lip sync videos, or advertisements and promotions.\nPerhaps surprisingly, “hard news” topics like politics and crime dominate, while typical platform content is relatively rarely published by news outlets.",
+    "crumbs": [
+      "News topics"
+    ]
+  },
+  {
+    "objectID": "topics.html#overview",
+    "href": "topics.html#overview",
+    "title": "News topics",
+    "section": "",
+    "text": "We analyzed the topics of the posts by using zero-shot classification of the post title and transcript. Based on the topic list from the Electronic News Archive (ENA) of the University of Antwerp, we coded the presence of 19 from politics to sports, with a few platform-specific additions like user-generated performances, which includes typical dance and lip sync videos, or advertisements and promotions.\nPerhaps surprisingly, “hard news” topics like politics and crime dominate, while typical platform content is relatively rarely published by news outlets.",
+    "crumbs": [
+      "News topics"
+    ]
+  },
+  {
+    "objectID": "topics.html#topic-details",
+    "href": "topics.html#topic-details",
+    "title": "News topics",
+    "section": "Topic details",
+    "text": "Topic details\nIn the subsections below, we provide detailed information about all coded news topics, along with comparisons by platform, media type and country.\n\n\n\n\n\n\nAI summaries\n\n\n\nNote that all the summary texts are generated automatically using a Large Language Model (Google’s Gemini), based on the results tables and other information. Therefore, please do not cite the verbal summary, but refer to the figures for accurate information.\n\n\n\nPolitics\nOverall, we found that 28% of short video posts covered politics. When examining platforms, YouTube Shorts featured the highest share of political content at 34%, which was significantly higher than TikTok’s 27%, with the analysis indicating YouTube Shorts posted 4 percentage points more political content than TikTok. Instagram’s share of political content was similar to TikTok’s, at 26%. Differences by outlet type were also significant: public broadcasters showed a substantially lower share of political content, with a 13 percentage point difference compared to digital outlets (p=0.00), while private broadcasters also showed a slightly lower share, by 3 percentage points (p=0.02), compared to digital outlets. Overall, public broadcasters posted the lowest share of political content at 24%, whereas private broadcasters posted the highest at 30%, with digital outlets at 28% and print outlets at 29%. Finally, we observed considerable variation across countries, with the share of political content ranging from a low of 11% in Croatia to a high of 52% in Poland, followed by South Korea at 49% and Germany at 48%.\n\nTopic: Politics by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLaw enforcement and crime\nWe found that across all short video posts analyzed, an average of 24% covered law enforcement and crime. We observed notable differences across platforms and outlet types. Posts on TikTok (26%) and YouTube Shorts (27%) featured law enforcement and crime more frequently than those on Instagram, where only 20% of posts covered these topics; this difference between Instagram and TikTok was statistically significant, with Instagram having a 4 percentage point lower share. When examining outlet types, digital outlets posted significantly less about law enforcement and crime (19%) compared to print outlets (23%), private broadcasters (25%), and public broadcasters (24%); print outlets posted 4 percentage points more, private broadcasters 5 percentage points more, and public broadcasters 3 percentage points more than digital outlets, all significant differences. Furthermore, the share of posts on these topics varied considerably by country, ranging from a low of 12% in Denmark, Hong Kong, and Portugal to highs of 42% in Mexico and 38% in Peru.\n\nTopic: Law by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWar disasters accidents\nWe found that 22% of short video posts across all platforms and outlets covered war, disasters, or accidents. We observed significant differences across platforms, with YouTube Shorts having the highest share at 25% of posts, closely followed by TikTok at 23%, while Instagram featured these topics in a significantly lower proportion of its posts, at 17%. Outlet type also played a role; public broadcasters dedicated a significantly larger share of their posts to these topics, at 30%, which was substantially higher than digital outlets (16%) and also higher than print and private broadcasters (both around 18%). Finally, we saw considerable variation by country, with the share of posts on these topics ranging from as low as 9% in Slovakia to as high as 31% in countries like Ireland and the United Kingdom.\n\nTopic: War by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEconomy and finance\nWe found that, on average, 14% of short video posts covered economy and finance. We observed significant differences across platforms: content on TikTok and YouTube Shorts dedicated a higher share to this topic, at approximately 16% each, while Instagram posts featured a significantly lower proportion at 11%. Regarding outlet types, we identified a statistically significant but minor difference, with public broadcasters posting 2 percentage points less on economy and finance compared to digital outlets. Across all outlet types, the share of these posts ranged from 13% for digital to 15% for print and private broadcasters. We also noted considerable variation across countries, with the share of economy and finance posts ranging from a low of 9% in countries such as the Czech Republic and Hungary to a high of 22% in Mexico.\n\nTopic: Economy by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSocial affairs\nWe found that, on average, 17% of short video posts across all platforms and outlets covered social affairs. However, we observed statistically significant and substantively meaningful variations depending on the platform and outlet type. Among platforms, TikTok posts dedicated the largest share to social affairs at 20%, while Instagram posts covered these topics less frequently at 15%, and YouTube Shorts posts did so at 16%, with Instagram and YouTube Shorts featuring significantly fewer social affairs posts compared to TikTok. When examining outlet types, public broadcasters stood out, allocating 21% of their posts to social affairs, which was notably higher than digital outlets, which only dedicated 15% of their posts to these issues; print and private broadcasters showed small and non-significant differences between them, at 15% and 16% respectively. Finally, we observed substantial differences in coverage across countries, with the share of social affairs posts ranging from a low of 10% in the Czech Republic and Greece to a high of 24% in Bulgaria.\n\nTopic: Social by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHealth and fitness\nAcross all platforms, we found that an average of 8% of short video posts covered health and fitness topics. When examining differences by platform, we observed a statistically significant pattern: TikTok posts featured health and fitness content more frequently at 9%, while Instagram and YouTube Shorts both posted less frequently, each at 7%. Specifically, Instagram posts covered health and fitness 3 percentage points less than TikTok, and YouTube Shorts posts covered it 2 percentage points less than TikTok. Differences in health and fitness coverage across outlet types were small and not statistically significant, with public broadcasters at 9%, digital outlets at 8%, and print and private broadcasters each at 7%. However, we saw substantial variation across countries, with the share of health and fitness content ranging from lows of 5% in Italy, Poland, and Turkey, to highs of 14% in Sweden, 11% in Belgium, Norway, and Switzerland, and 10% in France, Hong Kong, Nigeria, and Peru.\n\nTopic: Health by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMobility and infrastructure\nOverall, we found that an average of 7% of short video posts covered mobility and infrastructure. When examining differences across platforms, we observed statistically significant variations: TikTok posts had the highest share, at 8%, while Instagram posts had the lowest at 5%, representing a significant 3 percentage point difference. YouTube Shorts fell in between, with 7% of its posts focusing on this topic. However, we found that the share of mobility and infrastructure content was consistent across different outlet types, with digital, print, private broadcaster, and public broadcaster outlets all dedicating around 7% of their posts to this theme; these differences were small and not statistically significant. Across countries, we observed a wider range of coverage, from a low of 4% in several countries including Chile, Croatia, Denmark, Hungary, Poland, Portugal, and Slovakia, to a high of 12% in Indonesia and Japan, with Bulgaria also reporting a high share at 11%.\n\nTopic: Mobility by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEnvironment and energy\nAcross all short video posts analyzed, we found that, on average, 5% of content covered environment and energy topics. When examining differences by platform, we observed a statistically significant pattern: posts on Instagram dedicated a smaller share to these topics, at 4%, compared to both TikTok and YouTube Shorts, which each had 6% of their posts covering environment and energy. This represented a 2 percentage point lower share for Instagram compared to TikTok. Regarding outlet type, we saw that public broadcasters allocated the largest share of their posts to environment and energy, at 7%, which was significantly higher than digital and print outlets, both at 4%, a 2 percentage point difference compared to digital outlets. Private broadcasters fell in the middle at 5%. While we did not identify specific statistically significant contrasts across all countries, we did find some variability in coverage, with the share of environment and energy posts ranging from as low as 3% in countries like Denmark, Hungary, and Slovakia, to as high as 8% in Japan.\n\nTopic: Environment by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nScience technology and education\nWe found that, on average, science, technology, and education topics constituted 8% of short video posts. When examining content across different platforms, we observed only small and non-significant differences, with TikTok and YouTube Shorts showing 8% of posts on these topics, and Instagram slightly lower at 7%. However, the type of outlet played a significant role: public broadcasters dedicated a substantially larger share of their short video content to science, technology, and education, at 11%, compared to digital, print, and private broadcaster outlets, all of which posted around 6% on these topics. For instance, public broadcasters posted 4 percentage points more on these topics than digital outlets. Furthermore, we saw considerable variation across countries, with some nations like Hungary posting as little as 2% of their short videos on science, technology, and education, while others like Finland, Switzerland, and the United States allocated as much as 11% of their posts to these subjects.\n\nTopic: Science by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCulture and arts\nWe found that on average, 6% of short video posts covered culture and arts content. The share of this content varied across platforms and outlet types. Looking at platforms, TikTok and Instagram both featured culture and arts in approximately 6% of their posts, which was significantly higher than YouTube Shorts, where only 4% of posts were dedicated to this category. For outlet types, digital, print, and public broadcasters each posted culture and arts content in about 6% of their videos, while private broadcasters did so in 5% of their posts. Although the overall percentages for digital, print, and public broadcasters were similar when rounded, we observed statistically significant, albeit small, differences: print outlets posted 1 percentage point more culture and arts content than digital outlets, and public broadcasters posted 3 percentage points more than digital outlets. Across countries, the coverage of culture and arts content varied widely, from a low of 2% in Taiwan and 3% in the United States and Finland, to a high of 16% in Hong Kong, 11% in Portugal, and 10% in Slovakia.\n\nTopic: Culture by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLifestyle and travel\nAcross all observed short video posts, we found an average of 6% of content covered lifestyle and travel topics. However, this share varied significantly by platform and outlet type. We observed that TikTok featured the highest proportion of lifestyle and travel content at 6%, which was significantly higher than both Instagram at 5% and YouTube Shorts at 4%. Regarding outlet types, digital outlets dedicated the largest share of their posts to lifestyle and travel, averaging 8%. This was significantly more than print outlets, which had a 6% share, and also substantially higher than both private and public broadcasters, which each posted around 5% of such content. Additionally, we noted variability in lifestyle and travel content across countries, with the share ranging from as low as 4% in several nations, including the United States and Germany, to as high as 10% in Norway.\n\nTopic: Lifestyle by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFashion and beauty\nAcross all analyzed short video posts, we found that fashion and beauty content constituted, on average, a small proportion, at approximately 1% of all posts. However, this share varied significantly depending on the platform and outlet type. We observed that posts on TikTok dedicated to fashion and beauty were notably higher, making up 2% of content, compared to Instagram and YouTube Shorts, where this share was around 1% for both. Similarly, digital outlets posted significantly more fashion and beauty content, accounting for 2% of their posts, whereas print, private broadcaster, and public broadcaster outlets each dedicated about 1% of their short video content to these topics. While the average share was low across most countries, we identified a few exceptions where fashion and beauty content appeared more frequently, such as in Slovakia, where it reached 4%, and in Sweden and Thailand, both at 3%.\n\nTopic: Fashion by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFood and cooking\nAcross all short video posts, we found that food and cooking content made up an average of 4% of posts. We observed some variations across platforms, where TikTok and YouTube Shorts each featured food and cooking in 4% of their posts, while Instagram showed a slightly lower share at 3%, a statistically significant difference. Differences also emerged across outlet types; public broadcasters dedicated a smaller share of 2% of their short videos to food and cooking, compared to digital, print, and private broadcaster outlets, which all consistently featured food and cooking in 4% of their posts. Country-level analyses revealed substantial variation; for instance, Romania had the highest proportion of food and cooking content at 8%, followed by Austria, Czech Republic, and Thailand at 7% each. In contrast, countries like South Africa and the United Kingdom featured food and cooking in only 1% of their posts, while Australia, Canada, India, Ireland, Italy, Kenya, Netherlands, Nigeria, Poland, and the United States were also among the lowest, with 2% of their short videos focused on this topic.\n\nTopic: Food by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPets and animals\nOverall, we found that posts covering pets and animals made up a small but consistent share of short video content, averaging 3% of all posts. When examining differences by platform, we observed that TikTok and YouTube Shorts dedicated a slightly larger share to pets and animals, both at 4%, compared to Instagram, which featured such content in 3% of its posts; this 1 percentage point difference between Instagram and TikTok was statistically significant. Differences also emerged based on the outlet type: Digital news outlets and Public broadcasters each allocated 4% of their posts to pets and animals, a significantly higher proportion compared to Print outlets and Private broadcasters, which both posted pet-related content in 3% of their short videos. Specifically, Print outlets showed a 2 percentage point lower share than Digital outlets, and Private broadcasters showed a 1 percentage point lower share than Digital outlets, both differences being statistically significant. While many countries showed a similar share of pet and animal content, we noted some variations, with Hong Kong standing out at 7%, and Chile, Finland, and Japan all at 5%, while Peru and Portugal had the lowest shares, at 2%.\n\nTopic: Pets by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEntertainment news and industry\nWe found that, on average, 12% of short video posts covered entertainment news and industry. This share varied significantly across platforms and outlet types. Looking at platforms, we observed that Instagram posts had a substantially higher share of entertainment content, at 16%, compared to TikTok (11%) and YouTube Shorts (8%). YouTube Shorts, in particular, featured significantly less entertainment content than TikTok. Regarding outlet types, public broadcasters (14%) and private broadcasters (13%) dedicated a greater share of their posts to entertainment news and industry than digital outlets (10%), with print outlets showing a very small but statistically significant difference from digital outlets, also at around 10%. Finally, we observed considerable variation across countries, with some nations like Slovakia (32%), Hungary (30%), and Hong Kong (28%) having a much higher proportion of entertainment content, while countries such as Germany (4%), South Korea (4%), Finland (5%), and Malaysia (5%) showed a notably lower share.\n\nTopic: Entertainment by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCelebrity and royalty\nWe analyzed short video posts to understand their coverage of celebrity and royalty, finding that on average, 9% of posts featured this content. We observed meaningful differences across platforms and outlet types. Posts on YouTube Shorts, at 6%, covered celebrity and royalty significantly less than those on TikTok, at 9%, while Instagram posts showed 10% coverage. Regarding outlet types, digital outlets featured celebrity and royalty content most frequently, at 11%. This was significantly higher than print outlets (at 10%), private broadcasters (at 8%), and public broadcasters (at 8%). Country-level analyses revealed a wide range of coverage, from a low of 5% in Bulgaria and Germany to a high of 13% in countries like Spain and Croatia, suggesting considerable geographical variation in the emphasis on celebrity and royalty in short video content.\n\nTopic: Celebrity by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSports\nAcross all short video posts, we found that, on average, 6% covered sports. When examining differences by platform, we observed only small and non-significant variations: TikTok and Instagram posts both featured sports 6% of the time, while YouTube Shorts had a slightly lower proportion at 5%. However, outlet type revealed statistically significant distinctions; digital outlets dedicated a higher share of their posts to sports, at 7%, compared to print outlets and public broadcasters, both of which allocated 5% of their posts to this content type. Private broadcasters fell in between at 6%. We also noted substantial variability across countries, with the share of sports content ranging from as low as 3% in Denmark, Malaysia, and Poland to as high as 11% in Colombia and 10% in Chile and Croatia.\n\nTopic: Sports by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPromotion and advertisements\nWe found that, on average, 3% of short video posts across all platforms, outlet types, and countries covered promotion and advertisements. This share varied significantly depending on the platform used: we observed the highest proportion on Instagram at 6%, followed by TikTok at 2%, and the lowest on YouTube Shorts at 1%. Outlet type also played a role; digital outlets featured promotion and advertisements in 5% of their posts, significantly more than print outlets (3%) and public broadcasters, which had the lowest share at 1%. Private broadcasters fell in between at 4%. We also noted substantial differences across countries, with the share of promotional content ranging from a low of 1% in countries like the United States, United Kingdom, and Australia, to a high of 14% in Slovakia and 11% in Hong Kong.\n\nTopic: Promotion by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUser generated performance and comedy\nAcross all observed short video posts, we found that user-generated performance and comedy content made up a small but consistent share, averaging 2%. However, this share varied significantly by platform and outlet type. On platforms, TikTok led with 2% of its content falling into this category. Instagram also averaged 2%, though this was a significantly smaller share compared to TikTok, and YouTube Shorts featured an even lower proportion at 1%. When examining outlet types, digital outlets and private broadcasters featured user-generated performance and comedy most prominently, both at 3%. In contrast, print outlets and public broadcasters published substantially less of this content, both averaging just 1%. We also observed considerable country-level differences; for instance, the Czech Republic showed a notably high share of 10% and Taiwan 8%, while countries such as Germany, Hong Kong, and the United Kingdom had very low shares, at or below 1%.\n\nTopic: User by platformby outlet typeby country",
+    "crumbs": [
+      "News topics"
+    ]
+  },
+  {
+    "objectID": "topics.html#measures",
+    "href": "topics.html#measures",
+    "title": "News topics",
+    "section": "Measures",
+    "text": "Measures\n\nInstructionsValidation\n\n\nThe following instructions were used for zero-shot classification of the posts:\nYour task is to analyze the provided short video content (derived from caption text and transcripts) and determine whether its topic explicitly falls into one or more of the following categories. Your decision for each category must be based only on direct and explicit mentions of the category’s subject matter within the caption text or transcript. Do not infer or extrapolate beyond the directly stated information. If a category’s subject is not explicitly mentioned, even if indirectly related, you must classify it as “False.”\nPlease evaluate the provided short video content against each of the following 19 categories independently:\npolitics: Code “True” if the caption text or transcript explicitly discusses political structures, electoral processes, or international governance. This includes explicit mentions of political organizations, elections, migration policies, and international relations between countries.\nlaw_enforcement_and_crime: Code “True” if the caption text or transcript explicitly deals with the legal system, law enforcement activities, or criminal acts. This includes explicit mentions of the judiciary, crime policy, specific instances of crime, and civil rights and freedoms.\nwar_disasters_accidents: Code “True” if the caption text or transcript explicitly reports on armed conflicts, defense matters, or major calamitous events. This includes explicit discussions of war and peace, weaponry, and natural or man-made disasters and accidents.\neconomy_and_finance: Code “True” if the caption text or transcript explicitly focuses on economic activity, financial markets, or labor. This includes explicit mentions of finance (e.g., banking, stock markets), the general economy, consumer affairs, and labor issues like employment or wages.\nsocial_affairs: Code “True” if the caption text or transcript explicitly is centered on broad societal issues and demographic trends. This includes explicit mentions of social policies like healthcare, social security, and housing, as well as population growth or aging.\nhealth_and_fitness: Code “True” if the caption text or transcript explicitly focuses on personal health, medical conditions, physical fitness, or wellness. This includes explicit mentions of diet, exercise, mental health, and general medical advice, distinct from healthcare policy.\nmobility_and_infrastructure: Code “True” if the caption text or transcript explicitly discusses transportation systems or public works. This includes explicit mentions of mobility, traffic, and spatial planning, such as urban development or infrastructure projects.\nenvironment_and_energy: Code “True” if the caption text or transcript explicitly concerns the natural world, energy resources, or food production. This includes explicit mentions of environmental protection, nature conservation, energy policy, and agriculture.\nscience_technology_and_education: Code “True” if the caption text or transcript explicitly is about scientific research, technological advancements, or education systems. This includes explicit mentions of cultural patrimony, the education sector, aerospace exploration, and telecommunication.\nculture_and_arts: Code “True” if the caption text or transcript explicitly focuses on creative and fine arts or matters of faith. This includes explicit mentions of performing arts (e.g., theater, dance), literature, visual arts (e.g., painting), and religion.\nlifestyle_and_travel: Code “True” if the caption text or transcript explicitly covers personal interests, leisure activities, travel, or daily routines. This includes explicit mentions of general lifestyle topics (e.g., hobbies), tourism, personal vlogs, and “day-in-the-life” content.\nfashion_and_beauty: Code “True” if the caption text or transcript explicitly focuses on clothing, accessories, personal style, makeup, skincare, or cosmetic products. This includes explicit mentions of fashion hauls, outfit styling, makeup tutorials, and product reviews within these areas.\nfood_and_cooking: Code “True” if the caption text or transcript explicitly discusses recipes, cooking techniques, food preparation, dining experiences, food reviews, or specific food items. This includes explicit mentions of quick meals, baking, restaurant reviews, and food-related challenges.\npets_and_animals: Code “True” if the caption text or transcript explicitly features or discusses domestic pets, wild animals, animal behavior, or animal care, with the primary focus being the animal itself.\nentertainment_news_and_industry: Code “True” if the caption text or transcript explicitly discusses news, releases, reviews, or industry aspects related to professional film, television, or music. This includes explicit mentions of movie releases, album launches, TV show reviews, film festivals, and the business operations of traditional media companies.\ncelebrity: Code “True” if the caption text or transcript explicitly focuses on the personal lives, private relationships, or non-professional activities of famous individuals. For any famous individual (e.g., politician, athlete, pop star, royals), code “True” only if the content explicitly concerns their personal life or non-professional activities. Otherwise, their professional activities should only be classified under the relevant category such as politics, sports, etc. Attention: Simply mentioning a famous person, e.g. a president or queen, is not sufficient for a post being coded as “True” celebrity news.\nsports: Code “True” if the caption text or transcript explicitly is about sports as a field of activity. This includes explicit coverage of sporting events, competitions, games, teams, and the professional performance of sports athletes.\npromotion_and_advertisements: Code “True” if the caption text or transcript explicitly promotes a product, service, brand, event, or specific call to action with a commercial intent. This includes explicit mentions of sales, discounts, sponsorships, brand endorsements, or direct calls to purchase or visit a business.\nuser_generated_performance_and_comedy: Code “True” if the caption text or transcript explicitly features or discusses performances by users, often for entertainment, and/or comedic content. This includes explicit mentions of dance routines, lip-sync videos, short-form skits, memes, and viral trends where a user’s performance or comedic element is central.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVariable\naccuracy\nf_meas\nprecision\nrecall\nsensitivity\nspecificity\n\n\n\n\nCelebrity and royalty\n0.98\n0.80\n0.67\n1.00\n1.00\n0.98\n\n\nCulture and arts\n0.96\n0.83\n1.00\n0.71\n0.71\n1.00\n\n\nEconomy and finance\n0.96\n0.85\n0.79\n0.92\n0.92\n0.97\n\n\nEntertainment news and industry\n0.97\n0.84\n0.73\n1.00\n1.00\n0.97\n\n\nEnvironment and energy\n0.96\n0.67\n0.50\n1.00\n1.00\n0.96\n\n\nFashion and beauty\n0.99\nNA\n0.00\nNA\nNA\n0.99\n\n\nFood and cooking\n0.94\n0.40\n0.33\n0.50\n0.50\n0.96\n\n\nHealth and fitness\n0.96\n0.33\n0.25\n0.50\n0.50\n0.97\n\n\nLaw enforcement and crime\n0.91\n0.84\n0.85\n0.82\n0.82\n0.94\n\n\nLifestyle and travel\n0.97\n0.73\n0.57\n1.00\n1.00\n0.97\n\n\nMobility and infrastructure\n0.99\n0.86\n1.00\n0.75\n0.75\n1.00\n\n\nPets and animals\n0.99\n0.80\n0.67\n1.00\n1.00\n0.99\n\n\nPolitics\n0.93\n0.89\n0.94\n0.85\n0.85\n0.97\n\n\nPromotion and advertisements\n0.96\n0.75\n0.75\n0.75\n0.75\n0.98\n\n\nScience technology and education\n0.97\n0.80\n0.86\n0.75\n0.75\n0.99\n\n\nSocial affairs\n0.84\n0.43\n0.38\n0.50\n0.50\n0.89\n\n\nSports\n1.00\n1.00\n1.00\n1.00\n1.00\n1.00\n\n\nUser generated performance and comedy\n0.98\nNA\nNA\n0.00\n0.00\n1.00\n\n\nWar disasters accidents\n0.92\n0.71\n0.83\n0.62\n0.62\n0.98\n\n\n\n\n\n\nClassifier agreement\nPost were coded using zero-shot classification by two different models: gemini-2.5-flash-lite, Qwen3 235B VL.\n\n\n\n\n\n\n\n\n\n\n\n\nVariable\nPosts\nModels\nAgreement\nKrippendorffs_Alpha\n\n\n\n\nPolitics\n200\n2\n0.95\n0.88\n\n\nLaw enforcement and crime\n200\n2\n0.96\n0.87\n\n\nWar disasters accidents\n200\n2\n0.98\n0.91\n\n\nEconomy and finance\n200\n2\n0.96\n0.82\n\n\nSocial affairs\n200\n2\n0.90\n0.60\n\n\nHealth and fitness\n200\n2\n0.95\n0.56\n\n\nMobility and infrastructure\n200\n2\n0.98\n0.85\n\n\nEnvironment and energy\n200\n2\n0.99\n0.90\n\n\nScience technology and education\n200\n2\n0.98\n0.85\n\n\nCulture and arts\n200\n2\n0.94\n0.66\n\n\nLifestyle and travel\n200\n2\n0.96\n0.68\n\n\nFashion and beauty\n200\n2\n0.98\n0.56\n\n\nFood and cooking\n200\n2\n0.98\n0.85\n\n\nPets and animals\n200\n2\n0.98\n0.79\n\n\nEntertainment news and industry\n200\n2\n0.94\n0.71\n\n\nCelebrity and royalty\n200\n2\n0.96\n0.76\n\n\nSports\n200\n2\n1.00\n0.93\n\n\nPromotion and advertisements\n200\n2\n0.97\n0.65\n\n\nUser generated performance and comedy\n200\n2\n0.96\n0.58",
+    "crumbs": [
+      "News topics"
+    ]
+  },
+  {
+    "objectID": "topics.html#classifier-agreement",
+    "href": "topics.html#classifier-agreement",
+    "title": "News topics",
+    "section": "Classifier agreement",
+    "text": "Classifier agreement\nPost were coded using zero-shot classification by two different models: gemini-2.5-flash-lite, Qwen3 235B VL.\n\n\n\n\n\n\n\n\n\n\n\n\nVariable\nPosts\nModels\nAgreement\nKrippendorffs_Alpha\n\n\n\n\nPolitics\n200\n2\n0.95\n0.88\n\n\nLaw enforcement and crime\n200\n2\n0.96\n0.87\n\n\nWar disasters accidents\n200\n2\n0.98\n0.91\n\n\nEconomy and finance\n200\n2\n0.96\n0.82\n\n\nSocial affairs\n200\n2\n0.90\n0.60\n\n\nHealth and fitness\n200\n2\n0.95\n0.56\n\n\nMobility and infrastructure\n200\n2\n0.98\n0.85\n\n\nEnvironment and energy\n200\n2\n0.99\n0.90\n\n\nScience technology and education\n200\n2\n0.98\n0.85\n\n\nCulture and arts\n200\n2\n0.94\n0.66\n\n\nLifestyle and travel\n200\n2\n0.96\n0.68\n\n\nFashion and beauty\n200\n2\n0.98\n0.56\n\n\nFood and cooking\n200\n2\n0.98\n0.85\n\n\nPets and animals\n200\n2\n0.98\n0.79\n\n\nEntertainment news and industry\n200\n2\n0.94\n0.71\n\n\nCelebrity and royalty\n200\n2\n0.96\n0.76\n\n\nSports\n200\n2\n1.00\n0.93\n\n\nPromotion and advertisements\n200\n2\n0.97\n0.65\n\n\nUser generated performance and comedy\n200\n2\n0.96\n0.58",
+    "crumbs": [
+      "News topics"
+    ]
+  },
+  {
+    "objectID": "diversity.html",
+    "href": "diversity.html",
+    "title": "Diversity",
+    "section": "",
+    "text": "AI summaries\n\n\n\nNote that all the summary texts on this page are currently generated automatically using a Large Language Model (Google’s Gemini), based on the results tables and other information from the data. Therefore, please do not cite the verbal summary, but refer to the figures and tables for accurate information.",
+    "crumbs": [
+      "Diversity"
+    ]
+  },
+  {
+    "objectID": "diversity.html#demographics",
+    "href": "diversity.html#demographics",
+    "title": "Diversity",
+    "section": "Demographics",
+    "text": "Demographics\n\nGender proportions\nWe found that the overall average share of visible women per post was 34%. When examining differences across platforms, we observed a statistically significant disparity: posts on YouTube Shorts featured a lower share of visible women, averaging 29%, compared to TikTok at 36% and Instagram at 35%, with differences between TikTok and Instagram being small and non-significant. Regarding outlet types, we saw meaningful differences, with digital outlets and public broadcasters both featuring women in 37% of their posts. In contrast, print outlets averaged 34% visible women, while private broadcasters showed the lowest share at 32%; these differences were statistically significant when compared to digital outlets. Finally, the share of visible women varied substantially by country, ranging from a low of 24% in South Korea to a high of 45% in Norway.\n\nGender proportions by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nResult tables for gender proportions\n\n\n\n\n\n\nOverall average\n\n\n\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\n0.34\n0\n0.32\n0.36\n\n\n\n\n\nContrasts\n\n\n\n\n\n\n\n\n\n\n\nterm\ncontrast\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\noutlet_type\nPrint - Digital\n-0.04\n0.02\n-0.08\n-0.01\n\n\noutlet_type\nPrivate broadcaster - Digital\n-0.04\n0.01\n-0.08\n-0.01\n\n\noutlet_type\nPublic broadcaster - Digital\n0.00\n0.96\n-0.04\n0.04\n\n\nplatform\nInstagram - TikTok\n-0.01\n0.49\n-0.03\n0.02\n\n\nplatform\nYouTube Shorts - TikTok\n-0.05\n0.00\n-0.08\n-0.02\n\n\n\n\n\nPredictions by platform\n\n\n\nplatform\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\nTikTok\n0.36\n0\n0.33\n0.38\n\n\nInstagram\n0.35\n0\n0.32\n0.37\n\n\nYouTube Shorts\n0.29\n0\n0.26\n0.32\n\n\n\n\n\nPredictions by outlet type\n\n\n\noutlet_type\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\nDigital\n0.37\n0\n0.33\n0.40\n\n\nPrint\n0.34\n0\n0.31\n0.36\n\n\nPrivate broadcaster\n0.32\n0\n0.30\n0.34\n\n\nPublic broadcaster\n0.37\n0\n0.34\n0.40\n\n\n\n\n\nPredictions by country\n\n\n\n\n\n\n\n\n\n\n\ncountry\nestimate\np.value\nconf.low\nconf.high\nregion\n\n\n\n\nArgentina\n0.32\n0\n0.30\n0.34\nLatin America\n\n\nAustralia\n0.33\n0\n0.31\n0.35\nAsia-Pacific\n\n\nAustria\n0.36\n0\n0.35\n0.38\nWestern Europe\n\n\nBelgium\n0.33\n0\n0.31\n0.35\nWestern Europe\n\n\nBrazil\n0.34\n0\n0.32\n0.36\nLatin America\n\n\nBulgaria\n0.33\n0\n0.31\n0.35\nEastern Europe\n\n\nCanada\n0.34\n0\n0.32\n0.36\nNorth America\n\n\nChile\n0.35\n0\n0.33\n0.37\nLatin America\n\n\nColombia\n0.31\n0\n0.30\n0.33\nLatin America\n\n\nCroatia\n0.37\n0\n0.35\n0.39\nSouthern Europe\n\n\nCzech Republic\n0.32\n0\n0.30\n0.33\nEastern Europe\n\n\nDenmark\n0.36\n0\n0.34\n0.39\nNorthern Europe\n\n\nFinland\n0.40\n0\n0.38\n0.42\nNorthern Europe\n\n\nFrance\n0.31\n0\n0.29\n0.33\nWestern Europe\n\n\nGermany\n0.36\n0\n0.34\n0.38\nWestern Europe\n\n\nGreece\n0.38\n0\n0.36\n0.40\nSouthern Europe\n\n\nHungary\n0.27\n0\n0.25\n0.28\nEastern Europe\n\n\nIndia\n0.28\n0\n0.26\n0.29\nAsia-Pacific\n\n\nIndonesia\n0.32\n0\n0.30\n0.34\nAsia-Pacific\n\n\nIreland\n0.34\n0\n0.32\n0.36\nNorthern Europe\n\n\nItaly\n0.33\n0\n0.31\n0.35\nSouthern Europe\n\n\nJapan\n0.30\n0\n0.28\n0.32\nAsia-Pacific\n\n\nKenya\n0.33\n0\n0.32\n0.35\nAfrica\n\n\nMalaysia\n0.29\n0\n0.27\n0.30\nAsia-Pacific\n\n\nMexico\n0.33\n0\n0.32\n0.35\nLatin America\n\n\nMorocco\n0.31\n0\n0.29\n0.33\nAfrica\n\n\nNetherlands\n0.36\n0\n0.34\n0.38\nWestern Europe\n\n\nNigeria\n0.33\n0\n0.31\n0.34\nAfrica\n\n\nNorway\n0.45\n0\n0.43\n0.47\nNorthern Europe\n\n\nPeru\n0.32\n0\n0.30\n0.33\nLatin America\n\n\nPhilippines\n0.38\n0\n0.36\n0.40\nAsia-Pacific\n\n\nPoland\n0.28\n0\n0.26\n0.29\nEastern Europe\n\n\nPortugal\n0.38\n0\n0.36\n0.40\nSouthern Europe\n\n\nRomania\n0.41\n0\n0.39\n0.43\nEastern Europe\n\n\nSingapore\n0.33\n0\n0.31\n0.34\nAsia-Pacific\n\n\nSlovakia\n0.37\n0\n0.35\n0.39\nEastern Europe\n\n\nSouth Africa\n0.32\n0\n0.30\n0.34\nAfrica\n\n\nSouth Korea\n0.24\n0\n0.22\n0.25\nAsia-Pacific\n\n\nSpain\n0.33\n0\n0.32\n0.35\nSouthern Europe\n\n\nSweden\n0.42\n0\n0.40\n0.44\nNorthern Europe\n\n\nSwitzerland\n0.37\n0\n0.35\n0.39\nWestern Europe\n\n\nTaiwan\n0.30\n0\n0.28\n0.32\nAsia-Pacific\n\n\nThailand\n0.33\n0\n0.32\n0.35\nAsia-Pacific\n\n\nTurkey\n0.28\n0\n0.27\n0.30\nSouthern Europe\n\n\nUnited Kingdom\n0.32\n0\n0.30\n0.34\nNorthern Europe\n\n\nUnited States\n0.34\n0\n0.32\n0.35\nNorth America\n\n\n\n\n\n\n\n\n\nAverage person age\nWe found that the average age of persons featured in short video posts was 34.1 years. This average varied significantly by platform and outlet type. On platforms, YouTube Shorts featured significantly older individuals at 35.2 years compared to TikTok’s 33.6 years, while Instagram posts featured individuals around 34.2 years. Regarding outlet type, digital outlets featured the youngest persons, averaging 33.3 years. In contrast, print, private broadcaster, and public broadcaster outlets all featured significantly older individuals, with average ages ranging from 34.0 to 34.6 years, approximately one year older than those in digital posts. Country also played a substantial role in the featured age; we observed a wide spread, from the youngest featured individuals in Sweden at 30.1 years to the oldest in Poland at 38.2 years, indicating noticeable geographical differences.\n\nAverage person age by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nResult tables for average person age\n\n\n\n\n\n\nOverall average\n\n\n\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\n34.12\n0\n33.5\n34.74\n\n\n\n\n\nContrasts\n\n\n\n\n\n\n\n\n\n\n\nterm\ncontrast\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\noutlet_type\nPrint - Digital\n1.16\n0.00\n0.39\n1.92\n\n\noutlet_type\nPrivate broadcaster - Digital\n1.12\n0.00\n0.40\n1.84\n\n\noutlet_type\nPublic broadcaster - Digital\n1.00\n0.02\n0.15\n1.86\n\n\nplatform\nInstagram - TikTok\n0.35\n0.18\n-0.16\n0.86\n\n\nplatform\nYouTube Shorts - TikTok\n1.27\n0.00\n0.64\n1.91\n\n\n\n\n\nPredictions by platform\n\n\n\nplatform\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\nTikTok\n33.59\n0\n32.92\n34.26\n\n\nInstagram\n34.21\n0\n33.52\n34.89\n\n\nYouTube Shorts\n35.16\n0\n34.38\n35.94\n\n\n\n\n\nPredictions by outlet type\n\n\n\noutlet_type\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\nDigital\n33.29\n0\n32.45\n34.13\n\n\nPrint\n33.97\n0\n33.23\n34.70\n\n\nPrivate broadcaster\n34.56\n0\n33.87\n35.24\n\n\nPublic broadcaster\n34.02\n0\n33.20\n34.84\n\n\n\n\n\nPredictions by country\n\n\n\n\n\n\n\n\n\n\n\ncountry\nestimate\np.value\nconf.low\nconf.high\nregion\n\n\n\n\nArgentina\n34.49\n0\n33.85\n35.12\nLatin America\n\n\nAustralia\n34.29\n0\n33.64\n34.95\nAsia-Pacific\n\n\nAustria\n32.53\n0\n31.88\n33.17\nWestern Europe\n\n\nBelgium\n34.35\n0\n33.72\n34.98\nWestern Europe\n\n\nBrazil\n33.56\n0\n32.92\n34.20\nLatin America\n\n\nBulgaria\n35.85\n0\n35.20\n36.49\nEastern Europe\n\n\nCanada\n35.88\n0\n35.22\n36.53\nNorth America\n\n\nChile\n35.84\n0\n35.19\n36.49\nLatin America\n\n\nColombia\n34.03\n0\n33.39\n34.66\nLatin America\n\n\nCroatia\n34.00\n0\n33.35\n34.64\nSouthern Europe\n\n\nCzech Republic\n34.44\n0\n33.82\n35.07\nEastern Europe\n\n\nDenmark\n35.46\n0\n34.75\n36.17\nNorthern Europe\n\n\nFinland\n31.94\n0\n31.30\n32.57\nNorthern Europe\n\n\nFrance\n34.82\n0\n34.20\n35.45\nWestern Europe\n\n\nGermany\n34.42\n0\n33.78\n35.05\nWestern Europe\n\n\nGreece\n34.15\n0\n33.51\n34.79\nSouthern Europe\n\n\nHungary\n37.46\n0\n36.83\n38.09\nEastern Europe\n\n\nIndia\n37.25\n0\n36.60\n37.90\nAsia-Pacific\n\n\nIndonesia\n31.75\n0\n31.07\n32.42\nAsia-Pacific\n\n\nIreland\n34.77\n0\n34.13\n35.41\nNorthern Europe\n\n\nItaly\n35.28\n0\n34.64\n35.91\nSouthern Europe\n\n\nJapan\n34.32\n0\n33.67\n34.97\nAsia-Pacific\n\n\nKenya\n31.17\n0\n30.52\n31.81\nAfrica\n\n\nMalaysia\n33.58\n0\n32.94\n34.23\nAsia-Pacific\n\n\nMexico\n35.87\n0\n35.22\n36.51\nLatin America\n\n\nMorocco\n34.85\n0\n34.16\n35.53\nAfrica\n\n\nNetherlands\n33.47\n0\n32.82\n34.11\nWestern Europe\n\n\nNigeria\n33.95\n0\n33.28\n34.61\nAfrica\n\n\nNorway\n30.17\n0\n29.54\n30.81\nNorthern Europe\n\n\nPeru\n35.68\n0\n35.04\n36.32\nLatin America\n\n\nPhilippines\n30.85\n0\n30.20\n31.50\nAsia-Pacific\n\n\nPoland\n38.23\n0\n37.59\n38.87\nEastern Europe\n\n\nPortugal\n35.10\n0\n34.47\n35.73\nSouthern Europe\n\n\nRomania\n31.85\n0\n31.20\n32.50\nEastern Europe\n\n\nSingapore\n33.35\n0\n32.71\n33.99\nAsia-Pacific\n\n\nSlovakia\n33.25\n0\n32.62\n33.89\nEastern Europe\n\n\nSouth Africa\n32.84\n0\n32.18\n33.50\nAfrica\n\n\nSouth Korea\n35.18\n0\n34.49\n35.88\nAsia-Pacific\n\n\nSpain\n35.82\n0\n35.20\n36.45\nSouthern Europe\n\n\nSweden\n30.08\n0\n29.41\n30.75\nNorthern Europe\n\n\nSwitzerland\n31.76\n0\n31.10\n32.42\nWestern Europe\n\n\nTaiwan\n33.23\n0\n32.58\n33.88\nAsia-Pacific\n\n\nThailand\n31.65\n0\n31.02\n32.28\nAsia-Pacific\n\n\nTurkey\n37.20\n0\n36.55\n37.84\nSouthern Europe\n\n\nUnited Kingdom\n35.61\n0\n34.97\n36.25\nNorthern Europe\n\n\nUnited States\n33.65\n0\n33.02\n34.28\nNorth America",
+    "crumbs": [
+      "Diversity"
+    ]
+  },
+  {
+    "objectID": "diversity.html#content",
+    "href": "diversity.html#content",
+    "title": "Diversity",
+    "section": "Content",
+    "text": "Content\nFor topical diversity, we estimated the effective number of topics per outlet-platform combination, based on our automatic topic classification with 19 news categories.\n\nTopic diversity\nOur analysis of short video posts revealed an average topic diversity of 5.4 effective topics per outlet. We found significant differences across platforms and outlet types. Looking at platforms, TikTok exhibited the highest topic diversity at 6.0, notably more diverse than Instagram (5.4) and YouTube Shorts (4.7), with YouTube Shorts showing the least variety. Regarding outlet types, public broadcasters covered the broadest range of topics, with an average diversity of 6.4, closely followed by private broadcasters at 5.8. Digital-only outlets and print outlets, on the other hand, displayed lower topic diversity, averaging 4.8 and 5.0 topics respectively, with both public and private broadcasters showing significantly greater diversity than digital outlets. Additionally, we observed considerable variation in topic diversity across countries, with some nations like Singapore (7.2) showing a much wider array of topics than others, such as Indonesia or Italy (around 3.4).\n\nTopic diversity by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nResult tables for topic diversity\n\n\n\n\n\n\nOverall average\n\n\n\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\n5.44\n0\n5.07\n5.82\n\n\n\n\n\nContrasts\n\n\n\n\n\n\n\n\n\n\n\nterm\ncontrast\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\noutlet_type\nPrint - Digital\n-0.09\n0.74\n-0.61\n0.43\n\n\noutlet_type\nPrivate broadcaster - Digital\n1.10\n0.00\n0.58\n1.62\n\n\noutlet_type\nPublic broadcaster - Digital\n1.46\n0.00\n0.83\n2.10\n\n\nplatform\nInstagram - TikTok\n-0.66\n0.00\n-1.05\n-0.26\n\n\nplatform\nYouTube Shorts - TikTok\n-1.34\n0.00\n-1.78\n-0.90\n\n\n\n\n\nPredictions by platform\n\n\n\nplatform\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\nTikTok\n6.04\n0\n5.61\n6.48\n\n\nInstagram\n5.35\n0\n4.92\n5.78\n\n\nYouTube Shorts\n4.72\n0\n4.25\n5.20\n\n\n\n\n\nPredictions by outlet type\n\n\n\noutlet_type\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\nDigital\n4.81\n0\n4.28\n5.35\n\n\nPrint\n5.01\n0\n4.56\n5.45\n\n\nPrivate broadcaster\n5.81\n0\n5.36\n6.26\n\n\nPublic broadcaster\n6.41\n0\n5.84\n6.99\n\n\n\n\n\nPredictions by country\n\n\n\n\n\n\n\n\n\n\n\ncountry\nestimate\np.value\nconf.low\nconf.high\nregion\n\n\n\n\nArgentina\n6.74\n0\n6.36\n7.12\nLatin America\n\n\nAustralia\n6.34\n0\n5.96\n6.72\nAsia-Pacific\n\n\nAustria\n6.27\n0\n5.87\n6.66\nWestern Europe\n\n\nBelgium\n5.23\n0\n4.85\n5.61\nWestern Europe\n\n\nBrazil\n5.37\n0\n4.99\n5.76\nLatin America\n\n\nBulgaria\n5.46\n0\n5.07\n5.85\nEastern Europe\n\n\nCanada\n5.86\n0\n5.47\n6.26\nNorth America\n\n\nChile\n5.81\n0\n5.41\n6.21\nLatin America\n\n\nColombia\n3.80\n0\n3.42\n4.18\nLatin America\n\n\nCroatia\n4.01\n0\n3.63\n4.38\nSouthern Europe\n\n\nCzech Republic\n3.83\n0\n3.44\n4.22\nEastern Europe\n\n\nDenmark\n3.80\n0\n3.38\n4.22\nNorthern Europe\n\n\nFinland\n4.94\n0\n4.55\n5.33\nNorthern Europe\n\n\nFrance\n4.49\n0\n4.11\n4.87\nWestern Europe\n\n\nGermany\n3.72\n0\n3.34\n4.10\nWestern Europe\n\n\nGreece\n4.25\n0\n3.86\n4.64\nSouthern Europe\n\n\nHong Kong\n5.70\n0\n5.30\n6.10\nAsia-Pacific\n\n\nHungary\n3.79\n0\n3.41\n4.17\nEastern Europe\n\n\nIndia\n5.06\n0\n4.67\n5.46\nAsia-Pacific\n\n\nIndonesia\n3.43\n0\n3.01\n3.85\nAsia-Pacific\n\n\nIreland\n5.50\n0\n5.11\n5.89\nNorthern Europe\n\n\nItaly\n3.46\n0\n3.07\n3.84\nSouthern Europe\n\n\nJapan\n4.64\n0\n4.26\n5.02\nAsia-Pacific\n\n\nKenya\n5.23\n0\n4.83\n5.62\nAfrica\n\n\nMalaysia\n4.63\n0\n4.26\n5.01\nAsia-Pacific\n\n\nMexico\n5.95\n0\n5.57\n6.33\nLatin America\n\n\nMorocco\n5.76\n0\n5.34\n6.18\nAfrica\n\n\nNetherlands\n5.64\n0\n5.26\n6.01\nWestern Europe\n\n\nNigeria\n5.36\n0\n4.98\n5.74\nAfrica\n\n\nNorway\n6.50\n0\n6.13\n6.88\nNorthern Europe\n\n\nPeru\n6.05\n0\n5.67\n6.44\nLatin America\n\n\nPhilippines\n5.48\n0\n5.10\n5.86\nAsia-Pacific\n\n\nPoland\n4.96\n0\n4.58\n5.34\nEastern Europe\n\n\nPortugal\n6.23\n0\n5.85\n6.61\nSouthern Europe\n\n\nRomania\n4.91\n0\n4.52\n5.29\nEastern Europe\n\n\nSingapore\n7.22\n0\n6.82\n7.61\nAsia-Pacific\n\n\nSlovakia\n5.85\n0\n5.47\n6.23\nEastern Europe\n\n\nSouth Africa\n5.77\n0\n5.38\n6.16\nAfrica\n\n\nSouth Korea\n5.48\n0\n5.08\n5.88\nAsia-Pacific\n\n\nSpain\n6.13\n0\n5.76\n6.50\nSouthern Europe\n\n\nSweden\n6.82\n0\n6.43\n7.21\nNorthern Europe\n\n\nSwitzerland\n7.09\n0\n6.69\n7.49\nWestern Europe\n\n\nTaiwan\n4.97\n0\n4.59\n5.36\nAsia-Pacific\n\n\nThailand\n6.09\n0\n5.71\n6.46\nAsia-Pacific\n\n\nTurkey\n4.19\n0\n3.79\n4.58\nSouthern Europe\n\n\nUnited Kingdom\n6.24\n0\n5.86\n6.62\nNorthern Europe\n\n\nUnited States\n6.21\n0\n5.84\n6.59\nNorth America",
+    "crumbs": [
+      "Diversity"
+    ]
+  },
+  {
+    "objectID": "diversity.html#measures",
+    "href": "diversity.html#measures",
+    "title": "Diversity",
+    "section": "Measures",
+    "text": "Measures\nWe measured demographic diversity using the FairFace classifier (Kärkkäinen and Joo 2019), which classifies apparent gender, age group and ethnicity.\nTopic diversity was estimated by computing the effective number of topics, which accounts for number of topics coded per outlet and their frequency distribution, see Laakso and Taagepera (1979) for a similar measure.",
+    "crumbs": [
+      "Diversity"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About the project",
+    "section": "",
+    "text": "This research project conducts a supply-side analysis of news content on social media platforms, including TikTok, Instagram, and YouTube Shorts. Complementing the Reuters Digital News Report, which primarily focuses on survey data and news consumption patterns, our study examines the content and dissemination of news on these platforms. We investigate the characteristics of news content, analyzing its styles, formats, and publication patterns. By focusing on the strategies and content production from news organizations and creators, this project aims to provide an understanding of how news is presented within the evolving landscape of short-form video and visual-first platforms."
+  },
+  {
+    "objectID": "about.html#project",
+    "href": "about.html#project",
+    "title": "About the project",
+    "section": "",
+    "text": "This research project conducts a supply-side analysis of news content on social media platforms, including TikTok, Instagram, and YouTube Shorts. Complementing the Reuters Digital News Report, which primarily focuses on survey data and news consumption patterns, our study examines the content and dissemination of news on these platforms. We investigate the characteristics of news content, analyzing its styles, formats, and publication patterns. By focusing on the strategies and content production from news organizations and creators, this project aims to provide an understanding of how news is presented within the evolving landscape of short-form video and visual-first platforms."
+  },
+  {
+    "objectID": "about.html#methods",
+    "href": "about.html#methods",
+    "title": "About the project",
+    "section": "Methods",
+    "text": "Methods\n\nSample"
+  },
+  {
+    "objectID": "basics.html",
+    "href": "basics.html",
+    "title": "Key metrics",
+    "section": "",
+    "text": "AI summaries\n\n\n\nNote that all the summary texts on this page are currently generated automatically using a Large Language Model (Google’s Gemini), based on the results tables and other information from the data. Therefore, please do not cite the verbal summary, but refer to the figures and tables for accurate information.",
+    "crumbs": [
+      "Key metrics"
+    ]
+  },
+  {
+    "objectID": "basics.html#publication-patterns",
+    "href": "basics.html#publication-patterns",
+    "title": "Key metrics",
+    "section": "Publication patterns",
+    "text": "Publication patterns\nThe Platform News Report is based on data from 571 news outlets across 46 countries. We collected 185,969 posts published by these outlets on TikTok, Instagram, and YouTube Shorts from March 15 to April 15, 2025.\n\n\n\n\n\n\nPlatform\nOutlets\nPosts\n%\n\n\n\n\nTikTok\n472\n85,696\n46\n\n\nInstagram\n486\n62,936\n34\n\n\nYouTube Shorts\n395\n37,337\n20\n\n\n\n\n\n\nWhile Instagram had the biggest market share in terms of active news outlets, the amount of content posted on TikTok was much larger overall, with almost half of all posts in our sample coming from this platform, followed by Instagram, and YouTube Shorts, which also attracted far fewer outlets overall.\n\nFrequency\nNews outlets published an average of 4.2 short video posts per day across all platforms and countries. Outlets posted the most videos on TikTok, averaging 5.6 posts per day, followed by Instagram with 3.9 videos, and YouTube Shorts with the fewest at 2.8 videos daily. Significant differences also emerged based on outlet type, with private broadcasters publishing the highest volume, averaging 6.2 videos per day. Public broadcasters posted fewer, at 4.2 videos daily, while both digital and print outlets posted similar, lower volumes, averaging 3.5 and 2.8 videos per day, respectively. We also noted considerable variation by country, ranging from as few as 1 video per day in Denmark, the Netherlands, and Switzerland, to as many as 10 videos daily in Malaysia, with Brazil also standing out at 9 videos per day and Indonesia at 8 videos.\n\nFrequency by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nResult tables for publishing frequency\n\n\n\n\n\n\nOverall average\n\n\n\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\n4.19\n0\n3.4\n4.98\n\n\n\n\n\nContrasts\n\n\n\n\n\n\n\n\n\n\n\nterm\ncontrast\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\noutlet_type\nPrint - Digital\n-0.49\n0\n-0.78\n-0.20\n\n\noutlet_type\nPrivate broadcaster - Digital\n2.49\n0\n1.92\n3.06\n\n\noutlet_type\nPublic broadcaster - Digital\n0.71\n0\n0.31\n1.11\n\n\nplatform\nInstagram - TikTok\n-1.36\n0\n-1.74\n-0.98\n\n\nplatform\nYouTube Shorts - TikTok\n-2.93\n0\n-3.54\n-2.33\n\n\n\n\n\nPredictions by platform\n\n\n\nplatform\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\nTikTok\n5.55\n0\n4.49\n6.61\n\n\nInstagram\n3.96\n0\n3.20\n4.72\n\n\nYouTube Shorts\n2.85\n0\n2.30\n3.41\n\n\n\n\n\nPredictions by outlet type\n\n\n\noutlet_type\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\nDigital\n3.50\n0\n2.81\n4.19\n\n\nPrint\n2.84\n0\n2.29\n3.39\n\n\nPrivate broadcaster\n6.19\n0\n5.01\n7.37\n\n\nPublic broadcaster\n4.21\n0\n3.37\n5.05\n\n\n\n\n\nPredictions by country\n\n\n\n\n\n\n\n\n\n\n\ncountry\nestimate\np.value\nconf.low\nconf.high\nregion\n\n\n\n\nArgentina\n5.55\n0\n4.50\n6.60\nLatin America\n\n\nAustralia\n4.01\n0\n3.26\n4.77\nAsia-Pacific\n\n\nAustria\n1.31\n0\n1.06\n1.56\nWestern Europe\n\n\nBelgium\n1.86\n0\n1.51\n2.21\nWestern Europe\n\n\nBrazil\n8.62\n0\n6.99\n10.25\nLatin America\n\n\nBulgaria\n1.74\n0\n1.41\n2.07\nEastern Europe\n\n\nCanada\n4.68\n0\n3.79\n5.57\nNorth America\n\n\nChile\n3.77\n0\n3.06\n4.49\nLatin America\n\n\nColombia\n4.02\n0\n3.26\n4.78\nLatin America\n\n\nCroatia\n3.27\n0\n2.65\n3.88\nSouthern Europe\n\n\nCzech Republic\n1.47\n0\n1.19\n1.75\nEastern Europe\n\n\nDenmark\n0.86\n0\n0.69\n1.02\nNorthern Europe\n\n\nFinland\n1.53\n0\n1.24\n1.82\nNorthern Europe\n\n\nFrance\n3.36\n0\n2.73\n3.99\nWestern Europe\n\n\nGermany\n1.94\n0\n1.57\n2.30\nWestern Europe\n\n\nGreece\n2.70\n0\n2.19\n3.22\nSouthern Europe\n\n\nHungary\n1.62\n0\n1.31\n1.93\nEastern Europe\n\n\nIndia\n7.03\n0\n5.70\n8.36\nAsia-Pacific\n\n\nIndonesia\n7.97\n0\n6.46\n9.48\nAsia-Pacific\n\n\nIreland\n3.54\n0\n2.88\n4.21\nNorthern Europe\n\n\nItaly\n3.53\n0\n2.86\n4.20\nSouthern Europe\n\n\nJapan\n1.95\n0\n1.58\n2.32\nAsia-Pacific\n\n\nKenya\n4.40\n0\n3.56\n5.23\nAfrica\n\n\nMalaysia\n9.87\n0\n8.00\n11.73\nAsia-Pacific\n\n\nMexico\n8.52\n0\n6.91\n10.13\nLatin America\n\n\nMorocco\n6.11\n0\n4.94\n7.27\nAfrica\n\n\nNetherlands\n0.93\n0\n0.76\n1.11\nWestern Europe\n\n\nNigeria\n3.77\n0\n3.06\n4.48\nAfrica\n\n\nNorway\n1.63\n0\n1.32\n1.94\nNorthern Europe\n\n\nPeru\n5.82\n0\n4.72\n6.92\nLatin America\n\n\nPhilippines\n6.72\n0\n5.45\n7.99\nAsia-Pacific\n\n\nPoland\n2.01\n0\n1.63\n2.39\nEastern Europe\n\n\nPortugal\n1.64\n0\n1.33\n1.95\nSouthern Europe\n\n\nRomania\n3.32\n0\n2.70\n3.95\nEastern Europe\n\n\nSingapore\n5.17\n0\n4.19\n6.16\nAsia-Pacific\n\n\nSlovakia\n3.27\n0\n2.65\n3.89\nEastern Europe\n\n\nSouth Africa\n2.10\n0\n1.70\n2.50\nAfrica\n\n\nSouth Korea\n6.65\n0\n5.39\n7.91\nAsia-Pacific\n\n\nSpain\n6.12\n0\n4.97\n7.27\nSouthern Europe\n\n\nSweden\n2.00\n0\n1.62\n2.37\nNorthern Europe\n\n\nSwitzerland\n0.93\n0\n0.75\n1.11\nWestern Europe\n\n\nTaiwan\n4.08\n0\n3.31\n4.86\nAsia-Pacific\n\n\nThailand\n9.32\n0\n7.56\n11.08\nAsia-Pacific\n\n\nTurkey\n5.31\n0\n4.31\n6.32\nSouthern Europe\n\n\nUnited Kingdom\n4.68\n0\n3.80\n5.57\nNorthern Europe\n\n\nUnited States\n5.08\n0\n4.12\n6.04\nNorth America\n\n\n\n\n\n\n\n\n\nVideo duration\nWe found that the average duration of short video posts was around 80 seconds. This average varied significantly depending on the platform and the type of outlet. For platforms, we observed that videos posted on YouTube Shorts were notably shorter, averaging around 67 seconds, much shorter than TikTok and Instagram posts. When examining outlet types, private broadcasters produced the longest videos, with only small differences between the other outlet types. Finally, average video durations also varied substantially across countries, ranging from as short as 52 seconds in Slovakia to as long as 143 seconds in Thailand.\n\nVideo duration by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nResult tables for average video duration\n\n\n\n\n\n\nOverall average\n\n\n\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\n80.32\n0\n74.74\n85.89\n\n\n\n\n\nContrasts\n\n\n\n\n\n\n\n\n\n\n\nterm\ncontrast\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\noutlet_type\nPrint - Digital\n2.62\n0\n2.02\n3.23\n\n\noutlet_type\nPrivate broadcaster - Digital\n8.76\n0\n7.94\n9.57\n\n\noutlet_type\nPublic broadcaster - Digital\n-7.21\n0\n-8.02\n-6.41\n\n\nplatform\nInstagram - TikTok\n0.73\n0\n0.34\n1.13\n\n\nplatform\nYouTube Shorts - TikTok\n-16.58\n0\n-17.82\n-15.35\n\n\n\n\n\nPredictions by platform\n\n\n\nplatform\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\nTikTok\n84.20\n0\n78.36\n90.05\n\n\nInstagram\n82.28\n0\n76.56\n87.99\n\n\nYouTube Shorts\n66.97\n0\n62.31\n71.64\n\n\n\n\n\nPredictions by outlet type\n\n\n\noutlet_type\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\nDigital\n76.45\n0\n71.12\n81.77\n\n\nPrint\n76.18\n0\n70.89\n81.48\n\n\nPrivate broadcaster\n87.22\n0\n81.16\n93.28\n\n\nPublic broadcaster\n71.59\n0\n66.60\n76.57\n\n\n\n\n\nPredictions by country\n\n\n\n\n\n\n\n\n\n\n\ncountry\nestimate\np.value\nconf.low\nconf.high\nregion\n\n\n\n\nArgentina\n85.18\n0\n79.27\n91.09\nLatin America\n\n\nAustralia\n72.05\n0\n67.05\n77.05\nAsia-Pacific\n\n\nAustria\n62.24\n0\n57.91\n66.56\nWestern Europe\n\n\nBelgium\n67.19\n0\n62.52\n71.85\nWestern Europe\n\n\nBrazil\n88.83\n0\n82.66\n94.99\nLatin America\n\n\nBulgaria\n88.54\n0\n82.39\n94.68\nEastern Europe\n\n\nCanada\n70.98\n0\n66.05\n75.91\nNorth America\n\n\nChile\n93.38\n0\n86.89\n99.86\nLatin America\n\n\nColombia\n122.58\n0\n114.07\n131.08\nLatin America\n\n\nCroatia\n61.50\n0\n57.23\n65.77\nSouthern Europe\n\n\nCzech Republic\n60.12\n0\n55.95\n64.30\nEastern Europe\n\n\nDenmark\n66.50\n0\n61.88\n71.12\nNorthern Europe\n\n\nFinland\n55.06\n0\n51.24\n58.88\nNorthern Europe\n\n\nFrance\n93.43\n0\n86.94\n99.91\nWestern Europe\n\n\nGermany\n63.47\n0\n59.07\n67.88\nWestern Europe\n\n\nGreece\n71.98\n0\n66.99\n76.98\nSouthern Europe\n\n\nHungary\n53.16\n0\n49.47\n56.85\nEastern Europe\n\n\nIndia\n84.30\n0\n78.45\n90.15\nAsia-Pacific\n\n\nIndonesia\n77.05\n0\n71.70\n82.40\nAsia-Pacific\n\n\nIreland\n71.81\n0\n66.83\n76.79\nNorthern Europe\n\n\nItaly\n73.16\n0\n68.08\n78.24\nSouthern Europe\n\n\nJapan\n94.47\n0\n87.91\n101.02\nAsia-Pacific\n\n\nKenya\n131.25\n0\n122.13\n140.36\nAfrica\n\n\nMalaysia\n91.33\n0\n84.99\n97.67\nAsia-Pacific\n\n\nMexico\n102.98\n0\n95.83\n110.12\nLatin America\n\n\nMorocco\n108.84\n0\n101.28\n116.40\nAfrica\n\n\nNetherlands\n58.56\n0\n54.49\n62.62\nWestern Europe\n\n\nNigeria\n116.70\n0\n108.60\n124.80\nAfrica\n\n\nNorway\n54.07\n0\n50.32\n57.82\nNorthern Europe\n\n\nPeru\n90.14\n0\n83.88\n96.39\nLatin America\n\n\nPhilippines\n107.46\n0\n100.00\n114.92\nAsia-Pacific\n\n\nPoland\n70.22\n0\n65.35\n75.10\nEastern Europe\n\n\nPortugal\n84.14\n0\n78.30\n89.98\nSouthern Europe\n\n\nRomania\n87.15\n0\n81.10\n93.21\nEastern Europe\n\n\nSingapore\n80.45\n0\n74.87\n86.04\nAsia-Pacific\n\n\nSlovakia\n51.76\n0\n48.17\n55.36\nEastern Europe\n\n\nSouth Africa\n84.84\n0\n78.95\n90.73\nAfrica\n\n\nSouth Korea\n66.27\n0\n61.66\n70.87\nAsia-Pacific\n\n\nSpain\n69.69\n0\n64.85\n74.53\nSouthern Europe\n\n\nSweden\n53.45\n0\n49.74\n57.16\nNorthern Europe\n\n\nSwitzerland\n72.89\n0\n67.83\n77.95\nWestern Europe\n\n\nTaiwan\n66.52\n0\n61.90\n71.14\nAsia-Pacific\n\n\nThailand\n143.44\n0\n133.48\n153.39\nAsia-Pacific\n\n\nTurkey\n85.14\n0\n79.23\n91.05\nSouthern Europe\n\n\nUnited Kingdom\n67.80\n0\n63.09\n72.51\nNorthern Europe\n\n\nUnited States\n72.66\n0\n67.62\n77.71\nNorth America\n\n\n\n\n\n\n\n\n\nContent duplication\nWe found that, on average, 5% of short video posts were cross-platform duplicates. When examining duplication rates across platforms, TikTok and Instagram had similar shares around 5%, while YouTube Shorts showed a slightly lower rate of 4%, a statistically significant difference from TikTok. For outlet types, we observed significant variations: print outlets had the highest share of duplicates at 7%, public broadcasters the lowest at 2%, and digital and private broadcasters both posted around 5% of their content as duplicates. The share of duplicate posts varied considerably across countries, ranging from as low as 1% in several countries such as Austria, Germany, and the UK, to as high as 21% in Denmark, with other countries like Japan, South Korea, Norway, and Morocco also showing relatively high duplication rates around 13-15%.\n\nContent duplication by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nResult tables for cross-platform duplicates\n\n\n\n\n\n\nOverall average\n\n\n\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\n0.05\n0\n0.03\n0.07\n\n\n\n\n\nContrasts\n\n\n\n\n\n\n\n\n\n\n\nterm\ncontrast\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\noutlet_type\nPrint - Digital\n0.02\n0.01\n0.01\n0.04\n\n\noutlet_type\nPrivate broadcaster - Digital\n0.00\n0.94\n-0.01\n0.01\n\n\noutlet_type\nPublic broadcaster - Digital\n-0.02\n0.00\n-0.04\n-0.01\n\n\nplatform\nInstagram - TikTok\n0.00\n0.67\n-0.01\n0.01\n\n\nplatform\nYouTube Shorts - TikTok\n-0.02\n0.01\n-0.03\n0.00\n\n\n\n\n\nPredictions by platform\n\n\n\nplatform\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\nTikTok\n0.05\n0\n0.03\n0.07\n\n\nInstagram\n0.05\n0\n0.04\n0.07\n\n\nYouTube Shorts\n0.04\n0\n0.03\n0.06\n\n\n\n\n\nPredictions by outlet type\n\n\n\noutlet_type\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\nDigital\n0.05\n0\n0.03\n0.07\n\n\nPrint\n0.07\n0\n0.04\n0.09\n\n\nPrivate broadcaster\n0.05\n0\n0.03\n0.07\n\n\nPublic broadcaster\n0.02\n0\n0.01\n0.03\n\n\n\n\n\nPredictions by country\n\n\n\n\n\n\n\n\n\n\n\ncountry\nestimate\np.value\nconf.low\nconf.high\nregion\n\n\n\n\nArgentina\n0.10\n0\n0.06\n0.13\nLatin America\n\n\nAustralia\n0.05\n0\n0.03\n0.07\nAsia-Pacific\n\n\nAustria\n0.01\n0\n0.01\n0.02\nWestern Europe\n\n\nBelgium\n0.03\n0\n0.02\n0.04\nWestern Europe\n\n\nBrazil\n0.07\n0\n0.04\n0.09\nLatin America\n\n\nBulgaria\n0.01\n0\n0.01\n0.02\nEastern Europe\n\n\nCanada\n0.02\n0\n0.01\n0.03\nNorth America\n\n\nChile\n0.11\n0\n0.07\n0.15\nLatin America\n\n\nColombia\n0.11\n0\n0.07\n0.15\nLatin America\n\n\nCroatia\n0.01\n0\n0.01\n0.02\nSouthern Europe\n\n\nCzech Republic\n0.10\n0\n0.07\n0.14\nEastern Europe\n\n\nDenmark\n0.21\n0\n0.14\n0.28\nNorthern Europe\n\n\nFinland\n0.01\n0\n0.01\n0.01\nNorthern Europe\n\n\nFrance\n0.02\n0\n0.01\n0.03\nWestern Europe\n\n\nGermany\n0.01\n0\n0.00\n0.01\nWestern Europe\n\n\nGreece\n0.01\n0\n0.00\n0.01\nSouthern Europe\n\n\nHungary\n0.01\n0\n0.00\n0.01\nEastern Europe\n\n\nIndia\n0.01\n0\n0.01\n0.02\nAsia-Pacific\n\n\nIndonesia\n0.05\n0\n0.03\n0.07\nAsia-Pacific\n\n\nIreland\n0.01\n0\n0.01\n0.01\nNorthern Europe\n\n\nItaly\n0.01\n0\n0.00\n0.01\nSouthern Europe\n\n\nJapan\n0.15\n0\n0.10\n0.19\nAsia-Pacific\n\n\nKenya\n0.10\n0\n0.07\n0.14\nAfrica\n\n\nMalaysia\n0.08\n0\n0.05\n0.10\nAsia-Pacific\n\n\nMexico\n0.07\n0\n0.05\n0.10\nLatin America\n\n\nMorocco\n0.13\n0\n0.09\n0.18\nAfrica\n\n\nNetherlands\n0.02\n0\n0.01\n0.03\nWestern Europe\n\n\nNigeria\n0.01\n0\n0.01\n0.01\nAfrica\n\n\nNorway\n0.14\n0\n0.09\n0.19\nNorthern Europe\n\n\nPeru\n0.05\n0\n0.03\n0.07\nLatin America\n\n\nPhilippines\n0.01\n0\n0.01\n0.02\nAsia-Pacific\n\n\nPoland\n0.03\n0\n0.02\n0.04\nEastern Europe\n\n\nPortugal\n0.04\n0\n0.03\n0.06\nSouthern Europe\n\n\nRomania\n0.03\n0\n0.02\n0.05\nEastern Europe\n\n\nSingapore\n0.06\n0\n0.04\n0.08\nAsia-Pacific\n\n\nSlovakia\n0.03\n0\n0.02\n0.04\nEastern Europe\n\n\nSouth Africa\n0.03\n0\n0.02\n0.05\nAfrica\n\n\nSouth Korea\n0.14\n0\n0.09\n0.18\nAsia-Pacific\n\n\nSpain\n0.01\n0\n0.01\n0.01\nSouthern Europe\n\n\nSweden\n0.02\n0\n0.01\n0.03\nNorthern Europe\n\n\nSwitzerland\n0.01\n0\n0.00\n0.01\nWestern Europe\n\n\nTaiwan\n0.06\n0\n0.04\n0.09\nAsia-Pacific\n\n\nThailand\n0.08\n0\n0.05\n0.10\nAsia-Pacific\n\n\nTurkey\n0.04\n0\n0.03\n0.06\nSouthern Europe\n\n\nUnited Kingdom\n0.01\n0\n0.00\n0.01\nNorthern Europe\n\n\nUnited States\n0.05\n0\n0.03\n0.07\nNorth America",
+    "crumbs": [
+      "Key metrics"
+    ]
+  },
+  {
+    "objectID": "countries/brazil.html",
+    "href": "countries/brazil.html",
+    "title": "Brazil",
+    "section": "",
+    "text": "We collected data from 14 news outlets on TikTok, Instagram and YouTube Shorts. Overall, these outlets published 8596 posts.\nThe median outlet published 7.4 TikToks, 6.9 Instagram reels, and 1.6 YouTube shorts per day.",
+    "crumbs": [
+      "Country reports",
+      "Brazil"
+    ]
+  },
+  {
+    "objectID": "countries/brazil.html#basics",
+    "href": "countries/brazil.html#basics",
+    "title": "Brazil",
+    "section": "Basics",
+    "text": "Basics\n\nPlatforms shares by brand and posts\n\n\n\n\n\n\nPlatform\nActive brands\nPosts\n% of brands\n% of posts\n\n\n\n\nTikTok\n12\n5643\n86\n66\n\n\nInstagram\n10\n2035\n71\n24\n\n\nYouTube Shorts\n10\n918\n71\n11\n\n\n\n\n\n\n\n\nPublished posts by brand and platform\n\n\n\n\n\nOutlet\nPosts\nTikTok\nInstagram\nYouTube Shorts\n\n\n\n\nBand News (incl. Jornal da Band)\n751\n360\n357\n34\n\n\nFolha de S. Paulo\n333\n333\n-\n-\n\n\nGlobo (incl. TV Globo, GloboNews, G1)\n653\n653\n-\n-\n\n\nMetrópoles.com\n2592\n2592\n-\n-\n\n\nO Estado de S Paulo\n452\n149\n225\n78\n\n\nO Globo (newspaper)\n256\n95\n156\n5\n\n\nRecord News (incl. Jornal da Record, R7)\n406\n133\n237\n36\n\n\nRede TV\n532\n270\n200\n62\n\n\nSBT News (incl. SBT Brasil)\n1262\n546\n314\n402\n\n\nTerra.com.br\n321\n169\n67\n85\n\n\nUOL\n741\n156\n414\n171\n\n\nValor Econômico\n40\n-\n40\n-\n\n\nVeja\n223\n187\n-\n36\n\n\nYahoo! News\n34\n-\n25\n9\n\n\nOverall\n8596\n5643\n2035\n918",
+    "crumbs": [
+      "Country reports",
+      "Brazil"
+    ]
+  },
+  {
+    "objectID": "countries/brazil.html#publication-patterns",
+    "href": "countries/brazil.html#publication-patterns",
+    "title": "Brazil",
+    "section": "Publication patterns",
+    "text": "Publication patterns",
+    "crumbs": [
+      "Country reports",
+      "Brazil"
+    ]
+  },
+  {
+    "objectID": "countries/brazil.html#content-duplication",
+    "href": "countries/brazil.html#content-duplication",
+    "title": "Brazil",
+    "section": "Content duplication",
+    "text": "Content duplication",
+    "crumbs": [
+      "Country reports",
+      "Brazil"
+    ]
+  },
+  {
+    "objectID": "countries/sweden.html",
+    "href": "countries/sweden.html",
+    "title": "Sweden",
+    "section": "",
+    "text": "We collected data from 10 news outlets on TikTok, Instagram and YouTube Shorts. Overall, these outlets published 1554 posts.\nThe median outlet published 2 TikToks, 1.7 Instagram reels, and 0.9 YouTube shorts per day.",
+    "crumbs": [
+      "Country reports",
+      "Sweden"
+    ]
+  },
+  {
+    "objectID": "countries/sweden.html#basics",
+    "href": "countries/sweden.html#basics",
+    "title": "Sweden",
+    "section": "Basics",
+    "text": "Basics\n\nPlatforms shares by brand and posts\n\n\n\n\n\n\nPlatform\nActive brands\nPosts\n% of brands\n% of posts\n\n\n\n\nTikTok\n9\n651\n64\n42\n\n\nInstagram\n10\n608\n71\n39\n\n\nYouTube Shorts\n7\n295\n50\n19\n\n\n\n\n\n\n\n\nPublished posts by brand and platform\n\n\n\n\n\nOutlet\nPosts\nTikTok\nInstagram\nYouTube Shorts\n\n\n\n\nAftonbladet\n214\n62\n49\n103\n\n\nDagens Industri\n61\n31\n30\n-\n\n\nDagens Nyheter\n183\n75\n81\n27\n\n\nExpressen\n257\n89\n86\n82\n\n\nGöteborgs-Posten\n286\n131\n155\n-\n\n\nNyheter 24\n86\n32\n16\n38\n\n\nSvenska Dagbladet\n74\n32\n37\n5\n\n\nSveriges Radio (SR) News\n5\n-\n5\n-\n\n\nSveriges Television (SVT) News\n250\n141\n95\n14\n\n\nTV4 News\n138\n58\n54\n26\n\n\nOverall\n1554\n651\n608\n295",
+    "crumbs": [
+      "Country reports",
+      "Sweden"
+    ]
+  },
+  {
+    "objectID": "countries/sweden.html#publication-patterns",
+    "href": "countries/sweden.html#publication-patterns",
+    "title": "Sweden",
+    "section": "Publication patterns",
+    "text": "Publication patterns",
+    "crumbs": [
+      "Country reports",
+      "Sweden"
+    ]
+  },
+  {
+    "objectID": "countries/sweden.html#content-duplication",
+    "href": "countries/sweden.html#content-duplication",
+    "title": "Sweden",
+    "section": "Content duplication",
+    "text": "Content duplication",
+    "crumbs": [
+      "Country reports",
+      "Sweden"
+    ]
+  },
+  {
+    "objectID": "countries/turkey.html",
+    "href": "countries/turkey.html",
+    "title": "Turkey",
+    "section": "",
+    "text": "We collected data from 15 news outlets on TikTok, Instagram and YouTube Shorts. Overall, these outlets published 6463 posts.\nThe median outlet published 5.7 TikToks, 6.4 Instagram reels, and 2.5 YouTube shorts per day.",
+    "crumbs": [
+      "Country reports",
+      "Turkey"
+    ]
+  },
+  {
+    "objectID": "countries/turkey.html#basics",
+    "href": "countries/turkey.html#basics",
+    "title": "Turkey",
+    "section": "Basics",
+    "text": "Basics\n\nPlatforms shares by brand and posts\n\n\n\n\n\n\nPlatform\nActive brands\nPosts\n% of brands\n% of posts\n\n\n\n\nTikTok\n11\n1753\n73\n27\n\n\nInstagram\n14\n2813\n93\n44\n\n\nYouTube Shorts\n14\n1897\n93\n29\n\n\n\n\n\n\n\n\nPublished posts by brand and platform\n\n\n\n\n\nOutlet\nPosts\nTikTok\nInstagram\nYouTube Shorts\n\n\n\n\nA Haber\n661\n210\n188\n263\n\n\nATV\n496\n178\n237\n81\n\n\nCNN Türk\n238\n71\n78\n89\n\n\nCumhuriyet\n709\n-\n354\n355\n\n\nHabertürk\n263\n55\n145\n63\n\n\nHalk TV\n1125\n231\n395\n499\n\n\nHürriyet\n400\n154\n210\n36\n\n\nKanal D News\n681\n188\n362\n131\n\n\nMilliyet\n296\n-\n257\n39\n\n\nNOW TV News (formerly Fox)\n347\n103\n244\n-\n\n\nNTV News\n57\n-\n43\n14\n\n\nSabah\n243\n165\n22\n56\n\n\nShow TV News\n355\n185\n94\n76\n\n\nSözcü\n238\n-\n184\n54\n\n\nTRT News\n354\n213\n-\n141\n\n\nOverall\n6463\n1753\n2813\n1897",
+    "crumbs": [
+      "Country reports",
+      "Turkey"
+    ]
+  },
+  {
+    "objectID": "countries/turkey.html#publication-patterns",
+    "href": "countries/turkey.html#publication-patterns",
+    "title": "Turkey",
+    "section": "Publication patterns",
+    "text": "Publication patterns",
+    "crumbs": [
+      "Country reports",
+      "Turkey"
+    ]
+  },
+  {
+    "objectID": "countries/turkey.html#content-duplication",
+    "href": "countries/turkey.html#content-duplication",
+    "title": "Turkey",
+    "section": "Content duplication",
+    "text": "Content duplication",
+    "crumbs": [
+      "Country reports",
+      "Turkey"
+    ]
+  },
+  {
+    "objectID": "countries/switzerland.html",
+    "href": "countries/switzerland.html",
+    "title": "Switzerland",
+    "section": "",
+    "text": "We collected data from 16 news outlets on TikTok, Instagram and YouTube Shorts. Overall, these outlets published 996 posts.\nThe median outlet published 0.9 TikToks, 0.6 Instagram reels, and 0.2 YouTube shorts per day.",
+    "crumbs": [
+      "Country reports",
+      "Switzerland"
+    ]
+  },
+  {
+    "objectID": "countries/switzerland.html#basics",
+    "href": "countries/switzerland.html#basics",
+    "title": "Switzerland",
+    "section": "Basics",
+    "text": "Basics\n\nPlatforms shares by brand and posts\n\n\n\n\n\n\nPlatform\nActive brands\nPosts\n% of brands\n% of posts\n\n\n\n\nTikTok\n11\n512\n61\n51\n\n\nInstagram\n16\n371\n89\n37\n\n\nYouTube Shorts\n8\n113\n44\n11\n\n\n\n\n\n\n\n\nPublished posts by brand and platform\n\n\n\n\n\nOutlet\nPosts\nTikTok\nInstagram\nYouTube Shorts\n\n\n\n\n20 Minuten\n242\n169\n6\n67\n\n\n20 minutes\n83\n38\n42\n3\n\n\n24 heures\n12\n5\n5\n2\n\n\nArcinfo\n8\n-\n8\n-\n\n\nBlick\n62\n25\n18\n19\n\n\nBlue News\n58\n30\n28\n-\n\n\nLe Matin\n1\n-\n1\n-\n\n\nLe Nouvelliste\n19\n-\n19\n-\n\n\nLe Temps\n32\n12\n10\n10\n\n\nnau.ch\n4\n-\n4\n-\n\n\nNZZ\n38\n20\n17\n1\n\n\nRTS News\n34\n-\n24\n10\n\n\nSRF News\n205\n106\n99\n-\n\n\nTages Anzeiger\n57\n28\n29\n-\n\n\nTribune de Genève\n10\n7\n2\n1\n\n\nWatson\n131\n72\n59\n-\n\n\nOverall\n996\n512\n371\n113",
+    "crumbs": [
+      "Country reports",
+      "Switzerland"
+    ]
+  },
+  {
+    "objectID": "countries/switzerland.html#publication-patterns",
+    "href": "countries/switzerland.html#publication-patterns",
+    "title": "Switzerland",
+    "section": "Publication patterns",
+    "text": "Publication patterns",
+    "crumbs": [
+      "Country reports",
+      "Switzerland"
+    ]
+  },
+  {
+    "objectID": "countries/switzerland.html#content-duplication",
+    "href": "countries/switzerland.html#content-duplication",
+    "title": "Switzerland",
+    "section": "Content duplication",
+    "text": "Content duplication",
+    "crumbs": [
+      "Country reports",
+      "Switzerland"
+    ]
+  },
+  {
+    "objectID": "countries/united_kingdom.html",
+    "href": "countries/united_kingdom.html",
+    "title": "United Kingdom",
+    "section": "",
+    "text": "We collected data from 14 news outlets on TikTok, Instagram and YouTube Shorts. Overall, these outlets published 4551 posts.\nThe median outlet published 4.4 TikToks, 3.3 Instagram reels, and 0.6 YouTube shorts per day.",
+    "crumbs": [
+      "Country reports",
+      "United Kingdom"
+    ]
+  },
+  {
+    "objectID": "countries/united_kingdom.html#basics",
+    "href": "countries/united_kingdom.html#basics",
+    "title": "United Kingdom",
+    "section": "Basics",
+    "text": "Basics\n\nPlatforms shares by brand and posts\n\n\n\n\n\n\nPlatform\nActive brands\nPosts\n% of brands\n% of posts\n\n\n\n\nTikTok\n14\n3173\n100\n70\n\n\nInstagram\n9\n950\n64\n21\n\n\nYouTube Shorts\n8\n428\n57\n9\n\n\n\n\n\n\n\n\nPublished posts by brand and platform\n\n\n\n\n\nOutlet\nPosts\nTikTok\nInstagram\nYouTube Shorts\n\n\n\n\nBBC News\n677\n419\n147\n111\n\n\nChannel 4 News\n575\n300\n275\n-\n\n\nDaily Mail/ MailOnline\n2\n2\n-\n-\n\n\nDaily Mirror\n117\n116\n-\n1\n\n\nDaily Telegraph\n201\n77\n101\n23\n\n\nFinancial Times\n95\n48\n43\n4\n\n\nGB News\n446\n446\n-\n-\n\n\nGuardian\n75\n40\n22\n13\n\n\nIndependent\n352\n155\n143\n54\n\n\nITV News\n416\n416\n-\n-\n\n\nSky News\n986\n609\n170\n207\n\n\nSun\n485\n470\n-\n15\n\n\nTalkTV\n21\n8\n13\n-\n\n\nThe Times\n103\n67\n36\n-\n\n\nOverall\n4551\n3173\n950\n428",
+    "crumbs": [
+      "Country reports",
+      "United Kingdom"
+    ]
+  },
+  {
+    "objectID": "countries/united_kingdom.html#publication-patterns",
+    "href": "countries/united_kingdom.html#publication-patterns",
+    "title": "United Kingdom",
+    "section": "Publication patterns",
+    "text": "Publication patterns",
+    "crumbs": [
+      "Country reports",
+      "United Kingdom"
+    ]
+  },
+  {
+    "objectID": "countries/united_kingdom.html#content-duplication",
+    "href": "countries/united_kingdom.html#content-duplication",
+    "title": "United Kingdom",
+    "section": "Content duplication",
+    "text": "Content duplication",
+    "crumbs": [
+      "Country reports",
+      "United Kingdom"
+    ]
+  },
+  {
+    "objectID": "countries/colombia.html",
+    "href": "countries/colombia.html",
+    "title": "Colombia",
+    "section": "",
+    "text": "We collected data from 12 news outlets on TikTok, Instagram and YouTube Shorts. Overall, these outlets published 4074 posts.\nThe median outlet published 3 TikToks, 4.6 Instagram reels, and 2.7 YouTube shorts per day.",
+    "crumbs": [
+      "Country reports",
+      "Colombia"
+    ]
+  },
+  {
+    "objectID": "countries/colombia.html#basics",
+    "href": "countries/colombia.html#basics",
+    "title": "Colombia",
+    "section": "Basics",
+    "text": "Basics\n\nPlatforms shares by brand and posts\n\n\n\n\n\n\nPlatform\nActive brands\nPosts\n% of brands\n% of posts\n\n\n\n\nTikTok\n12\n1362\n92\n33\n\n\nInstagram\n12\n2015\n92\n49\n\n\nYouTube Shorts\n9\n697\n69\n17\n\n\n\n\n\n\n\n\nPublished posts by brand and platform\n\n\n\n\n\nOutlet\nPosts\nTikTok\nInstagram\nYouTube Shorts\n\n\n\n\nCaracol Radio\n670\n54\n411\n205\n\n\nCaracol Televisión\n363\n143\n205\n15\n\n\nEl Espectador\n689\n264\n310\n115\n\n\nEl Tiempo\n418\n212\n117\n89\n\n\nLas2Orillas\n51\n27\n22\n2\n\n\nNoticias Uno\n63\n18\n17\n28\n\n\nPulzo\n331\n123\n168\n40\n\n\nQ´Hubo\n166\n60\n106\n-\n\n\nRCN Radio\n178\n136\n42\n-\n\n\nRCN Televisión\n382\n62\n235\n85\n\n\nSemana\n599\n218\n263\n118\n\n\nSeñal Colombia\n164\n45\n119\n-\n\n\nOverall\n4074\n1362\n2015\n697",
+    "crumbs": [
+      "Country reports",
+      "Colombia"
+    ]
+  },
+  {
+    "objectID": "countries/colombia.html#publication-patterns",
+    "href": "countries/colombia.html#publication-patterns",
+    "title": "Colombia",
+    "section": "Publication patterns",
+    "text": "Publication patterns",
+    "crumbs": [
+      "Country reports",
+      "Colombia"
+    ]
+  },
+  {
+    "objectID": "countries/colombia.html#content-duplication",
+    "href": "countries/colombia.html#content-duplication",
+    "title": "Colombia",
+    "section": "Content duplication",
+    "text": "Content duplication",
+    "crumbs": [
+      "Country reports",
+      "Colombia"
+    ]
+  },
+  {
+    "objectID": "countries/poland.html",
+    "href": "countries/poland.html",
+    "title": "Poland",
+    "section": "",
+    "text": "We collected data from 13 news outlets on TikTok, Instagram and YouTube Shorts. Overall, these outlets published 1991 posts.\nThe median outlet published 1.8 TikToks, 1.6 Instagram reels, and 1.6 YouTube shorts per day.",
+    "crumbs": [
+      "Country reports",
+      "Poland"
+    ]
+  },
+  {
+    "objectID": "countries/poland.html#basics",
+    "href": "countries/poland.html#basics",
+    "title": "Poland",
+    "section": "Basics",
+    "text": "Basics\n\nPlatforms shares by brand and posts\n\n\n\n\n\n\nPlatform\nActive brands\nPosts\n% of brands\n% of posts\n\n\n\n\nTikTok\n12\n763\n86\n38\n\n\nInstagram\n11\n659\n79\n33\n\n\nYouTube Shorts\n10\n569\n71\n29\n\n\n\n\n\n\n\n\nPublished posts by brand and platform\n\n\n\n\n\nOutlet\nPosts\nTikTok\nInstagram\nYouTube Shorts\n\n\n\n\nFakt\n82\n21\n22\n39\n\n\nGazeta Wyborcza\n52\n52\n-\n-\n\n\nInteria\n20\n14\n-\n6\n\n\nNewsweek Polska\n9\n-\n9\n-\n\n\nOKO.press\n161\n62\n65\n34\n\n\nOnet.pl\n389\n127\n180\n82\n\n\nPolsat News\n141\n52\n86\n3\n\n\nRadio Zet\n185\n42\n61\n82\n\n\nRMF FM\n230\n60\n49\n121\n\n\nSuper Express\n280\n146\n10\n124\n\n\nTVN News\n142\n44\n81\n17\n\n\nTVP News (public broadcaster)\n178\n67\n50\n61\n\n\nWP.pl\n122\n76\n46\n-\n\n\nOverall\n1991\n763\n659\n569",
+    "crumbs": [
+      "Country reports",
+      "Poland"
+    ]
+  },
+  {
+    "objectID": "countries/poland.html#publication-patterns",
+    "href": "countries/poland.html#publication-patterns",
+    "title": "Poland",
+    "section": "Publication patterns",
+    "text": "Publication patterns",
+    "crumbs": [
+      "Country reports",
+      "Poland"
+    ]
+  },
+  {
+    "objectID": "countries/poland.html#content-duplication",
+    "href": "countries/poland.html#content-duplication",
+    "title": "Poland",
+    "section": "Content duplication",
+    "text": "Content duplication",
+    "crumbs": [
+      "Country reports",
+      "Poland"
+    ]
+  },
+  {
     "objectID": "countries/kenya.html",
     "href": "countries/kenya.html",
     "title": "Kenya",
@@ -1411,123 +2209,6 @@
     "crumbs": [
       "Country reports",
       "South Africa"
-    ]
-  },
-  {
-    "objectID": "diversity.html",
-    "href": "diversity.html",
-    "title": "Diversity",
-    "section": "",
-    "text": "AI summaries\n\n\n\nNote that all the summary texts on this page are currently generated automatically using a Large Language Model (Google’s Gemini), based on the results tables and other information from the data. Therefore, please do not cite the verbal summary, but refer to the figures and tables for accurate information.",
-    "crumbs": [
-      "Diversity"
-    ]
-  },
-  {
-    "objectID": "diversity.html#demographics",
-    "href": "diversity.html#demographics",
-    "title": "Diversity",
-    "section": "Demographics",
-    "text": "Demographics\n\nGender proportions\nWe found that the overall average share of visible women per post was 34%. When examining differences across platforms, we observed a statistically significant disparity: posts on YouTube Shorts featured a lower share of visible women, averaging 29%, compared to TikTok at 36% and Instagram at 35%, with differences between TikTok and Instagram being small and non-significant. Regarding outlet types, we saw meaningful differences, with digital outlets and public broadcasters both featuring women in 37% of their posts. In contrast, print outlets averaged 34% visible women, while private broadcasters showed the lowest share at 32%; these differences were statistically significant when compared to digital outlets. Finally, the share of visible women varied substantially by country, ranging from a low of 24% in South Korea to a high of 45% in Norway.\n\nGender proportions by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nResult tables for gender proportions\n\n\n\n\n\n\nOverall average\n\n\n\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\n0.34\n0\n0.32\n0.36\n\n\n\n\n\nContrasts\n\n\n\n\n\n\n\n\n\n\n\nterm\ncontrast\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\noutlet_type\nPrint - Digital\n-0.04\n0.02\n-0.08\n-0.01\n\n\noutlet_type\nPrivate broadcaster - Digital\n-0.04\n0.01\n-0.08\n-0.01\n\n\noutlet_type\nPublic broadcaster - Digital\n0.00\n0.96\n-0.04\n0.04\n\n\nplatform\nInstagram - TikTok\n-0.01\n0.49\n-0.03\n0.02\n\n\nplatform\nYouTube Shorts - TikTok\n-0.05\n0.00\n-0.08\n-0.02\n\n\n\n\n\nPredictions by platform\n\n\n\nplatform\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\nTikTok\n0.36\n0\n0.33\n0.38\n\n\nInstagram\n0.35\n0\n0.32\n0.37\n\n\nYouTube Shorts\n0.29\n0\n0.26\n0.32\n\n\n\n\n\nPredictions by outlet type\n\n\n\noutlet_type\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\nDigital\n0.37\n0\n0.33\n0.40\n\n\nPrint\n0.34\n0\n0.31\n0.36\n\n\nPrivate broadcaster\n0.32\n0\n0.30\n0.34\n\n\nPublic broadcaster\n0.37\n0\n0.34\n0.40\n\n\n\n\n\nPredictions by country\n\n\n\n\n\n\n\n\n\n\n\ncountry\nestimate\np.value\nconf.low\nconf.high\nregion\n\n\n\n\nArgentina\n0.32\n0\n0.30\n0.34\nLatin America\n\n\nAustralia\n0.33\n0\n0.31\n0.35\nAsia-Pacific\n\n\nAustria\n0.36\n0\n0.35\n0.38\nWestern Europe\n\n\nBelgium\n0.33\n0\n0.31\n0.35\nWestern Europe\n\n\nBrazil\n0.34\n0\n0.32\n0.36\nLatin America\n\n\nBulgaria\n0.33\n0\n0.31\n0.35\nEastern Europe\n\n\nCanada\n0.34\n0\n0.32\n0.36\nNorth America\n\n\nChile\n0.35\n0\n0.33\n0.37\nLatin America\n\n\nColombia\n0.31\n0\n0.30\n0.33\nLatin America\n\n\nCroatia\n0.37\n0\n0.35\n0.39\nSouthern Europe\n\n\nCzech Republic\n0.32\n0\n0.30\n0.33\nEastern Europe\n\n\nDenmark\n0.36\n0\n0.34\n0.39\nNorthern Europe\n\n\nFinland\n0.40\n0\n0.38\n0.42\nNorthern Europe\n\n\nFrance\n0.31\n0\n0.29\n0.33\nWestern Europe\n\n\nGermany\n0.36\n0\n0.34\n0.38\nWestern Europe\n\n\nGreece\n0.38\n0\n0.36\n0.40\nSouthern Europe\n\n\nHungary\n0.27\n0\n0.25\n0.28\nEastern Europe\n\n\nIndia\n0.28\n0\n0.26\n0.29\nAsia-Pacific\n\n\nIndonesia\n0.32\n0\n0.30\n0.34\nAsia-Pacific\n\n\nIreland\n0.34\n0\n0.32\n0.36\nNorthern Europe\n\n\nItaly\n0.33\n0\n0.31\n0.35\nSouthern Europe\n\n\nJapan\n0.30\n0\n0.28\n0.32\nAsia-Pacific\n\n\nKenya\n0.33\n0\n0.32\n0.35\nAfrica\n\n\nMalaysia\n0.29\n0\n0.27\n0.30\nAsia-Pacific\n\n\nMexico\n0.33\n0\n0.32\n0.35\nLatin America\n\n\nMorocco\n0.31\n0\n0.29\n0.33\nAfrica\n\n\nNetherlands\n0.36\n0\n0.34\n0.38\nWestern Europe\n\n\nNigeria\n0.33\n0\n0.31\n0.34\nAfrica\n\n\nNorway\n0.45\n0\n0.43\n0.47\nNorthern Europe\n\n\nPeru\n0.32\n0\n0.30\n0.33\nLatin America\n\n\nPhilippines\n0.38\n0\n0.36\n0.40\nAsia-Pacific\n\n\nPoland\n0.28\n0\n0.26\n0.29\nEastern Europe\n\n\nPortugal\n0.38\n0\n0.36\n0.40\nSouthern Europe\n\n\nRomania\n0.41\n0\n0.39\n0.43\nEastern Europe\n\n\nSingapore\n0.33\n0\n0.31\n0.34\nAsia-Pacific\n\n\nSlovakia\n0.37\n0\n0.35\n0.39\nEastern Europe\n\n\nSouth Africa\n0.32\n0\n0.30\n0.34\nAfrica\n\n\nSouth Korea\n0.24\n0\n0.22\n0.25\nAsia-Pacific\n\n\nSpain\n0.33\n0\n0.32\n0.35\nSouthern Europe\n\n\nSweden\n0.42\n0\n0.40\n0.44\nNorthern Europe\n\n\nSwitzerland\n0.37\n0\n0.35\n0.39\nWestern Europe\n\n\nTaiwan\n0.30\n0\n0.28\n0.32\nAsia-Pacific\n\n\nThailand\n0.33\n0\n0.32\n0.35\nAsia-Pacific\n\n\nTurkey\n0.28\n0\n0.27\n0.30\nSouthern Europe\n\n\nUnited Kingdom\n0.32\n0\n0.30\n0.34\nNorthern Europe\n\n\nUnited States\n0.34\n0\n0.32\n0.35\nNorth America\n\n\n\n\n\n\n\n\n\nAverage person age\nWe found that the average age of persons featured in short video posts was 34.1 years. This average varied significantly by platform and outlet type. On platforms, YouTube Shorts featured significantly older individuals at 35.2 years compared to TikTok’s 33.6 years, while Instagram posts featured individuals around 34.2 years. Regarding outlet type, digital outlets featured the youngest persons, averaging 33.3 years. In contrast, print, private broadcaster, and public broadcaster outlets all featured significantly older individuals, with average ages ranging from 34.0 to 34.6 years, approximately one year older than those in digital posts. Country also played a substantial role in the featured age; we observed a wide spread, from the youngest featured individuals in Sweden at 30.1 years to the oldest in Poland at 38.2 years, indicating noticeable geographical differences.\n\nAverage person age by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nResult tables for average person age\n\n\n\n\n\n\nOverall average\n\n\n\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\n34.12\n0\n33.5\n34.74\n\n\n\n\n\nContrasts\n\n\n\n\n\n\n\n\n\n\n\nterm\ncontrast\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\noutlet_type\nPrint - Digital\n1.16\n0.00\n0.39\n1.92\n\n\noutlet_type\nPrivate broadcaster - Digital\n1.12\n0.00\n0.40\n1.84\n\n\noutlet_type\nPublic broadcaster - Digital\n1.00\n0.02\n0.15\n1.86\n\n\nplatform\nInstagram - TikTok\n0.35\n0.18\n-0.16\n0.86\n\n\nplatform\nYouTube Shorts - TikTok\n1.27\n0.00\n0.64\n1.91\n\n\n\n\n\nPredictions by platform\n\n\n\nplatform\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\nTikTok\n33.59\n0\n32.92\n34.26\n\n\nInstagram\n34.21\n0\n33.52\n34.89\n\n\nYouTube Shorts\n35.16\n0\n34.38\n35.94\n\n\n\n\n\nPredictions by outlet type\n\n\n\noutlet_type\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\nDigital\n33.29\n0\n32.45\n34.13\n\n\nPrint\n33.97\n0\n33.23\n34.70\n\n\nPrivate broadcaster\n34.56\n0\n33.87\n35.24\n\n\nPublic broadcaster\n34.02\n0\n33.20\n34.84\n\n\n\n\n\nPredictions by country\n\n\n\n\n\n\n\n\n\n\n\ncountry\nestimate\np.value\nconf.low\nconf.high\nregion\n\n\n\n\nArgentina\n34.49\n0\n33.85\n35.12\nLatin America\n\n\nAustralia\n34.29\n0\n33.64\n34.95\nAsia-Pacific\n\n\nAustria\n32.53\n0\n31.88\n33.17\nWestern Europe\n\n\nBelgium\n34.35\n0\n33.72\n34.98\nWestern Europe\n\n\nBrazil\n33.56\n0\n32.92\n34.20\nLatin America\n\n\nBulgaria\n35.85\n0\n35.20\n36.49\nEastern Europe\n\n\nCanada\n35.88\n0\n35.22\n36.53\nNorth America\n\n\nChile\n35.84\n0\n35.19\n36.49\nLatin America\n\n\nColombia\n34.03\n0\n33.39\n34.66\nLatin America\n\n\nCroatia\n34.00\n0\n33.35\n34.64\nSouthern Europe\n\n\nCzech Republic\n34.44\n0\n33.82\n35.07\nEastern Europe\n\n\nDenmark\n35.46\n0\n34.75\n36.17\nNorthern Europe\n\n\nFinland\n31.94\n0\n31.30\n32.57\nNorthern Europe\n\n\nFrance\n34.82\n0\n34.20\n35.45\nWestern Europe\n\n\nGermany\n34.42\n0\n33.78\n35.05\nWestern Europe\n\n\nGreece\n34.15\n0\n33.51\n34.79\nSouthern Europe\n\n\nHungary\n37.46\n0\n36.83\n38.09\nEastern Europe\n\n\nIndia\n37.25\n0\n36.60\n37.90\nAsia-Pacific\n\n\nIndonesia\n31.75\n0\n31.07\n32.42\nAsia-Pacific\n\n\nIreland\n34.77\n0\n34.13\n35.41\nNorthern Europe\n\n\nItaly\n35.28\n0\n34.64\n35.91\nSouthern Europe\n\n\nJapan\n34.32\n0\n33.67\n34.97\nAsia-Pacific\n\n\nKenya\n31.17\n0\n30.52\n31.81\nAfrica\n\n\nMalaysia\n33.58\n0\n32.94\n34.23\nAsia-Pacific\n\n\nMexico\n35.87\n0\n35.22\n36.51\nLatin America\n\n\nMorocco\n34.85\n0\n34.16\n35.53\nAfrica\n\n\nNetherlands\n33.47\n0\n32.82\n34.11\nWestern Europe\n\n\nNigeria\n33.95\n0\n33.28\n34.61\nAfrica\n\n\nNorway\n30.17\n0\n29.54\n30.81\nNorthern Europe\n\n\nPeru\n35.68\n0\n35.04\n36.32\nLatin America\n\n\nPhilippines\n30.85\n0\n30.20\n31.50\nAsia-Pacific\n\n\nPoland\n38.23\n0\n37.59\n38.87\nEastern Europe\n\n\nPortugal\n35.10\n0\n34.47\n35.73\nSouthern Europe\n\n\nRomania\n31.85\n0\n31.20\n32.50\nEastern Europe\n\n\nSingapore\n33.35\n0\n32.71\n33.99\nAsia-Pacific\n\n\nSlovakia\n33.25\n0\n32.62\n33.89\nEastern Europe\n\n\nSouth Africa\n32.84\n0\n32.18\n33.50\nAfrica\n\n\nSouth Korea\n35.18\n0\n34.49\n35.88\nAsia-Pacific\n\n\nSpain\n35.82\n0\n35.20\n36.45\nSouthern Europe\n\n\nSweden\n30.08\n0\n29.41\n30.75\nNorthern Europe\n\n\nSwitzerland\n31.76\n0\n31.10\n32.42\nWestern Europe\n\n\nTaiwan\n33.23\n0\n32.58\n33.88\nAsia-Pacific\n\n\nThailand\n31.65\n0\n31.02\n32.28\nAsia-Pacific\n\n\nTurkey\n37.20\n0\n36.55\n37.84\nSouthern Europe\n\n\nUnited Kingdom\n35.61\n0\n34.97\n36.25\nNorthern Europe\n\n\nUnited States\n33.65\n0\n33.02\n34.28\nNorth America",
-    "crumbs": [
-      "Diversity"
-    ]
-  },
-  {
-    "objectID": "diversity.html#content",
-    "href": "diversity.html#content",
-    "title": "Diversity",
-    "section": "Content",
-    "text": "Content\nFor topical diversity, we estimated the effective number of topics per outlet-platform combination, based on our automatic topic classification with 19 news categories.\n\nTopic diversity\nOur analysis of short video posts revealed an average topic diversity of 5.4 effective topics per outlet. We found significant differences across platforms and outlet types. Looking at platforms, TikTok exhibited the highest topic diversity at 6.0, notably more diverse than Instagram (5.4) and YouTube Shorts (4.7), with YouTube Shorts showing the least variety. Regarding outlet types, public broadcasters covered the broadest range of topics, with an average diversity of 6.4, closely followed by private broadcasters at 5.8. Digital-only outlets and print outlets, on the other hand, displayed lower topic diversity, averaging 4.8 and 5.0 topics respectively, with both public and private broadcasters showing significantly greater diversity than digital outlets. Additionally, we observed considerable variation in topic diversity across countries, with some nations like Singapore (7.2) showing a much wider array of topics than others, such as Indonesia or Italy (around 3.4).\n\nTopic diversity by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nResult tables for topic diversity\n\n\n\n\n\n\nOverall average\n\n\n\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\n5.44\n0\n5.07\n5.82\n\n\n\n\n\nContrasts\n\n\n\n\n\n\n\n\n\n\n\nterm\ncontrast\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\noutlet_type\nPrint - Digital\n-0.09\n0.74\n-0.61\n0.43\n\n\noutlet_type\nPrivate broadcaster - Digital\n1.10\n0.00\n0.58\n1.62\n\n\noutlet_type\nPublic broadcaster - Digital\n1.46\n0.00\n0.83\n2.10\n\n\nplatform\nInstagram - TikTok\n-0.66\n0.00\n-1.05\n-0.26\n\n\nplatform\nYouTube Shorts - TikTok\n-1.34\n0.00\n-1.78\n-0.90\n\n\n\n\n\nPredictions by platform\n\n\n\nplatform\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\nTikTok\n6.04\n0\n5.61\n6.48\n\n\nInstagram\n5.35\n0\n4.92\n5.78\n\n\nYouTube Shorts\n4.72\n0\n4.25\n5.20\n\n\n\n\n\nPredictions by outlet type\n\n\n\noutlet_type\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\nDigital\n4.81\n0\n4.28\n5.35\n\n\nPrint\n5.01\n0\n4.56\n5.45\n\n\nPrivate broadcaster\n5.81\n0\n5.36\n6.26\n\n\nPublic broadcaster\n6.41\n0\n5.84\n6.99\n\n\n\n\n\nPredictions by country\n\n\n\n\n\n\n\n\n\n\n\ncountry\nestimate\np.value\nconf.low\nconf.high\nregion\n\n\n\n\nArgentina\n6.74\n0\n6.36\n7.12\nLatin America\n\n\nAustralia\n6.34\n0\n5.96\n6.72\nAsia-Pacific\n\n\nAustria\n6.27\n0\n5.87\n6.66\nWestern Europe\n\n\nBelgium\n5.23\n0\n4.85\n5.61\nWestern Europe\n\n\nBrazil\n5.37\n0\n4.99\n5.76\nLatin America\n\n\nBulgaria\n5.46\n0\n5.07\n5.85\nEastern Europe\n\n\nCanada\n5.86\n0\n5.47\n6.26\nNorth America\n\n\nChile\n5.81\n0\n5.41\n6.21\nLatin America\n\n\nColombia\n3.80\n0\n3.42\n4.18\nLatin America\n\n\nCroatia\n4.01\n0\n3.63\n4.38\nSouthern Europe\n\n\nCzech Republic\n3.83\n0\n3.44\n4.22\nEastern Europe\n\n\nDenmark\n3.80\n0\n3.38\n4.22\nNorthern Europe\n\n\nFinland\n4.94\n0\n4.55\n5.33\nNorthern Europe\n\n\nFrance\n4.49\n0\n4.11\n4.87\nWestern Europe\n\n\nGermany\n3.72\n0\n3.34\n4.10\nWestern Europe\n\n\nGreece\n4.25\n0\n3.86\n4.64\nSouthern Europe\n\n\nHong Kong\n5.70\n0\n5.30\n6.10\nAsia-Pacific\n\n\nHungary\n3.79\n0\n3.41\n4.17\nEastern Europe\n\n\nIndia\n5.06\n0\n4.67\n5.46\nAsia-Pacific\n\n\nIndonesia\n3.43\n0\n3.01\n3.85\nAsia-Pacific\n\n\nIreland\n5.50\n0\n5.11\n5.89\nNorthern Europe\n\n\nItaly\n3.46\n0\n3.07\n3.84\nSouthern Europe\n\n\nJapan\n4.64\n0\n4.26\n5.02\nAsia-Pacific\n\n\nKenya\n5.23\n0\n4.83\n5.62\nAfrica\n\n\nMalaysia\n4.63\n0\n4.26\n5.01\nAsia-Pacific\n\n\nMexico\n5.95\n0\n5.57\n6.33\nLatin America\n\n\nMorocco\n5.76\n0\n5.34\n6.18\nAfrica\n\n\nNetherlands\n5.64\n0\n5.26\n6.01\nWestern Europe\n\n\nNigeria\n5.36\n0\n4.98\n5.74\nAfrica\n\n\nNorway\n6.50\n0\n6.13\n6.88\nNorthern Europe\n\n\nPeru\n6.05\n0\n5.67\n6.44\nLatin America\n\n\nPhilippines\n5.48\n0\n5.10\n5.86\nAsia-Pacific\n\n\nPoland\n4.96\n0\n4.58\n5.34\nEastern Europe\n\n\nPortugal\n6.23\n0\n5.85\n6.61\nSouthern Europe\n\n\nRomania\n4.91\n0\n4.52\n5.29\nEastern Europe\n\n\nSingapore\n7.22\n0\n6.82\n7.61\nAsia-Pacific\n\n\nSlovakia\n5.85\n0\n5.47\n6.23\nEastern Europe\n\n\nSouth Africa\n5.77\n0\n5.38\n6.16\nAfrica\n\n\nSouth Korea\n5.48\n0\n5.08\n5.88\nAsia-Pacific\n\n\nSpain\n6.13\n0\n5.76\n6.50\nSouthern Europe\n\n\nSweden\n6.82\n0\n6.43\n7.21\nNorthern Europe\n\n\nSwitzerland\n7.09\n0\n6.69\n7.49\nWestern Europe\n\n\nTaiwan\n4.97\n0\n4.59\n5.36\nAsia-Pacific\n\n\nThailand\n6.09\n0\n5.71\n6.46\nAsia-Pacific\n\n\nTurkey\n4.19\n0\n3.79\n4.58\nSouthern Europe\n\n\nUnited Kingdom\n6.24\n0\n5.86\n6.62\nNorthern Europe\n\n\nUnited States\n6.21\n0\n5.84\n6.59\nNorth America",
-    "crumbs": [
-      "Diversity"
-    ]
-  },
-  {
-    "objectID": "diversity.html#measures",
-    "href": "diversity.html#measures",
-    "title": "Diversity",
-    "section": "Measures",
-    "text": "Measures\nWe measured demographic diversity using the FairFace classifier (Kärkkäinen and Joo 2019), which classifies apparent gender, age group and ethnicity.\nTopic diversity was estimated by computing the effective number of topics, which accounts for number of topics coded per outlet and their frequency distribution, see Laakso and Taagepera (1979) for a similar measure.",
-    "crumbs": [
-      "Diversity"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Platform News Report",
-    "section": "",
-    "text": "Platformization describes the growing trend of news being produced and distributed through – and increasingly by – digital platforms like TikTok, YouTube, and Instagram. This process fundamentally alters news production, often prioritizing engagement over traditional journalistic norms. Consequently, platform news are supposedly more visually-driven, emotionalized, and personalized, often delivered by non-traditional actors and in new formats.\nTo systematically investigate these shifts, we introduce the Platform News Report, a large-scale computational communication research project examining news content on TikTok, YouTube Shorts, and Instagram.\nComplementing the Reuters Digital News Report, which primarily focuses on survey data and news consumption patterns, our study examines the content and dissemination of news on these platforms. Our sampling scheme directly aligns with the DNR, leveraging the same markets and covering the news brands. This parallel approach ensures comparability and allows for a more holistic understanding of the news ecosystem, bridging insights from both demand and supply sides.\nThe project collects data from 571 news outlets across 46 countries, enabling analysis of the topics covered, the presentation styles employed, and the patterns of publication on these platforms. Through this comprehensive dataset, the Platform News Report aims to provide empirical insights into the evolving landscape of digital news and the consequences of platformization for public discourse.\n\n\n\n\n\n\nWork-in-progress\n\n\n\nThe Platform News Report is work-in-progress, and we actively encourage engagement from the research community and beyond. We welcome suggestions for improvement, new analyses, comments on preliminary findings, and – crucially – bug reports to help ensure the accuracy and robustness of our data and analyses.\n\n\n\nTeam\nThe Platform News Report is a project of the Computational Communication Research Group at the Department of Communication, Johannes-Gutenberg University Mainz, Germany.\nPrinciple investigator: Michael Scharkow\nResearch assistance: Yannick Winkler, Dennis Maus"
-  },
-  {
-    "objectID": "basics.html",
-    "href": "basics.html",
-    "title": "Key metrics",
-    "section": "",
-    "text": "AI summaries\n\n\n\nNote that all the summary texts on this page are currently generated automatically using a Large Language Model (Google’s Gemini), based on the results tables and other information from the data. Therefore, please do not cite the verbal summary, but refer to the figures and tables for accurate information.",
-    "crumbs": [
-      "Key metrics"
-    ]
-  },
-  {
-    "objectID": "basics.html#publication-patterns",
-    "href": "basics.html#publication-patterns",
-    "title": "Key metrics",
-    "section": "Publication patterns",
-    "text": "Publication patterns\nThe Platform News Report is based on data from 571 news outlets across 46 countries. We collected 185,969 posts published by these outlets on TikTok, Instagram, and YouTube Shorts from March 15 to April 15, 2025.\n\n\n\n\n\n\nPlatform\nOutlets\nPosts\n%\n\n\n\n\nTikTok\n472\n85,696\n46\n\n\nInstagram\n486\n62,936\n34\n\n\nYouTube Shorts\n395\n37,337\n20\n\n\n\n\n\n\nWhile Instagram had the biggest market share in terms of active news outlets, the amount of content posted on TikTok was much larger overall, with almost half of all posts in our sample coming from this platform, followed by Instagram, and YouTube Shorts, which also attracted far fewer outlets overall.\n\nFrequency\nNews outlets published an average of 4.2 short video posts per day across all platforms and countries. Outlets posted the most videos on TikTok, averaging 5.6 posts per day, followed by Instagram with 3.9 videos, and YouTube Shorts with the fewest at 2.8 videos daily. Significant differences also emerged based on outlet type, with private broadcasters publishing the highest volume, averaging 6.2 videos per day. Public broadcasters posted fewer, at 4.2 videos daily, while both digital and print outlets posted similar, lower volumes, averaging 3.5 and 2.8 videos per day, respectively. We also noted considerable variation by country, ranging from as few as 1 video per day in Denmark, the Netherlands, and Switzerland, to as many as 10 videos daily in Malaysia, with Brazil also standing out at 9 videos per day and Indonesia at 8 videos.\n\nFrequency by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nResult tables for publishing frequency\n\n\n\n\n\n\nOverall average\n\n\n\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\n4.19\n0\n3.4\n4.98\n\n\n\n\n\nContrasts\n\n\n\n\n\n\n\n\n\n\n\nterm\ncontrast\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\noutlet_type\nPrint - Digital\n-0.49\n0\n-0.78\n-0.20\n\n\noutlet_type\nPrivate broadcaster - Digital\n2.49\n0\n1.92\n3.06\n\n\noutlet_type\nPublic broadcaster - Digital\n0.71\n0\n0.31\n1.11\n\n\nplatform\nInstagram - TikTok\n-1.36\n0\n-1.74\n-0.98\n\n\nplatform\nYouTube Shorts - TikTok\n-2.93\n0\n-3.54\n-2.33\n\n\n\n\n\nPredictions by platform\n\n\n\nplatform\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\nTikTok\n5.55\n0\n4.49\n6.61\n\n\nInstagram\n3.96\n0\n3.20\n4.72\n\n\nYouTube Shorts\n2.85\n0\n2.30\n3.41\n\n\n\n\n\nPredictions by outlet type\n\n\n\noutlet_type\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\nDigital\n3.50\n0\n2.81\n4.19\n\n\nPrint\n2.84\n0\n2.29\n3.39\n\n\nPrivate broadcaster\n6.19\n0\n5.01\n7.37\n\n\nPublic broadcaster\n4.21\n0\n3.37\n5.05\n\n\n\n\n\nPredictions by country\n\n\n\n\n\n\n\n\n\n\n\ncountry\nestimate\np.value\nconf.low\nconf.high\nregion\n\n\n\n\nArgentina\n5.55\n0\n4.50\n6.60\nLatin America\n\n\nAustralia\n4.01\n0\n3.26\n4.77\nAsia-Pacific\n\n\nAustria\n1.31\n0\n1.06\n1.56\nWestern Europe\n\n\nBelgium\n1.86\n0\n1.51\n2.21\nWestern Europe\n\n\nBrazil\n8.62\n0\n6.99\n10.25\nLatin America\n\n\nBulgaria\n1.74\n0\n1.41\n2.07\nEastern Europe\n\n\nCanada\n4.68\n0\n3.79\n5.57\nNorth America\n\n\nChile\n3.77\n0\n3.06\n4.49\nLatin America\n\n\nColombia\n4.02\n0\n3.26\n4.78\nLatin America\n\n\nCroatia\n3.27\n0\n2.65\n3.88\nSouthern Europe\n\n\nCzech Republic\n1.47\n0\n1.19\n1.75\nEastern Europe\n\n\nDenmark\n0.86\n0\n0.69\n1.02\nNorthern Europe\n\n\nFinland\n1.53\n0\n1.24\n1.82\nNorthern Europe\n\n\nFrance\n3.36\n0\n2.73\n3.99\nWestern Europe\n\n\nGermany\n1.94\n0\n1.57\n2.30\nWestern Europe\n\n\nGreece\n2.70\n0\n2.19\n3.22\nSouthern Europe\n\n\nHungary\n1.62\n0\n1.31\n1.93\nEastern Europe\n\n\nIndia\n7.03\n0\n5.70\n8.36\nAsia-Pacific\n\n\nIndonesia\n7.97\n0\n6.46\n9.48\nAsia-Pacific\n\n\nIreland\n3.54\n0\n2.88\n4.21\nNorthern Europe\n\n\nItaly\n3.53\n0\n2.86\n4.20\nSouthern Europe\n\n\nJapan\n1.95\n0\n1.58\n2.32\nAsia-Pacific\n\n\nKenya\n4.40\n0\n3.56\n5.23\nAfrica\n\n\nMalaysia\n9.87\n0\n8.00\n11.73\nAsia-Pacific\n\n\nMexico\n8.52\n0\n6.91\n10.13\nLatin America\n\n\nMorocco\n6.11\n0\n4.94\n7.27\nAfrica\n\n\nNetherlands\n0.93\n0\n0.76\n1.11\nWestern Europe\n\n\nNigeria\n3.77\n0\n3.06\n4.48\nAfrica\n\n\nNorway\n1.63\n0\n1.32\n1.94\nNorthern Europe\n\n\nPeru\n5.82\n0\n4.72\n6.92\nLatin America\n\n\nPhilippines\n6.72\n0\n5.45\n7.99\nAsia-Pacific\n\n\nPoland\n2.01\n0\n1.63\n2.39\nEastern Europe\n\n\nPortugal\n1.64\n0\n1.33\n1.95\nSouthern Europe\n\n\nRomania\n3.32\n0\n2.70\n3.95\nEastern Europe\n\n\nSingapore\n5.17\n0\n4.19\n6.16\nAsia-Pacific\n\n\nSlovakia\n3.27\n0\n2.65\n3.89\nEastern Europe\n\n\nSouth Africa\n2.10\n0\n1.70\n2.50\nAfrica\n\n\nSouth Korea\n6.65\n0\n5.39\n7.91\nAsia-Pacific\n\n\nSpain\n6.12\n0\n4.97\n7.27\nSouthern Europe\n\n\nSweden\n2.00\n0\n1.62\n2.37\nNorthern Europe\n\n\nSwitzerland\n0.93\n0\n0.75\n1.11\nWestern Europe\n\n\nTaiwan\n4.08\n0\n3.31\n4.86\nAsia-Pacific\n\n\nThailand\n9.32\n0\n7.56\n11.08\nAsia-Pacific\n\n\nTurkey\n5.31\n0\n4.31\n6.32\nSouthern Europe\n\n\nUnited Kingdom\n4.68\n0\n3.80\n5.57\nNorthern Europe\n\n\nUnited States\n5.08\n0\n4.12\n6.04\nNorth America\n\n\n\n\n\n\n\n\n\nVideo duration\nWe found that the average duration of short video posts was around 80 seconds. This average varied significantly depending on the platform and the type of outlet. For platforms, we observed that videos posted on YouTube Shorts were notably shorter, averaging around 67 seconds, much shorter than TikTok and Instagram posts. When examining outlet types, private broadcasters produced the longest videos, with only small differences between the other outlet types. Finally, average video durations also varied substantially across countries, ranging from as short as 52 seconds in Slovakia to as long as 143 seconds in Thailand.\n\nVideo duration by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nResult tables for average video duration\n\n\n\n\n\n\nOverall average\n\n\n\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\n80.32\n0\n74.74\n85.89\n\n\n\n\n\nContrasts\n\n\n\n\n\n\n\n\n\n\n\nterm\ncontrast\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\noutlet_type\nPrint - Digital\n2.62\n0\n2.02\n3.23\n\n\noutlet_type\nPrivate broadcaster - Digital\n8.76\n0\n7.94\n9.57\n\n\noutlet_type\nPublic broadcaster - Digital\n-7.21\n0\n-8.02\n-6.41\n\n\nplatform\nInstagram - TikTok\n0.73\n0\n0.34\n1.13\n\n\nplatform\nYouTube Shorts - TikTok\n-16.58\n0\n-17.82\n-15.35\n\n\n\n\n\nPredictions by platform\n\n\n\nplatform\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\nTikTok\n84.20\n0\n78.36\n90.05\n\n\nInstagram\n82.28\n0\n76.56\n87.99\n\n\nYouTube Shorts\n66.97\n0\n62.31\n71.64\n\n\n\n\n\nPredictions by outlet type\n\n\n\noutlet_type\nestimate\np.value\nconf.low\nconf.high\n\n\n\n\nDigital\n76.45\n0\n71.12\n81.77\n\n\nPrint\n76.18\n0\n70.89\n81.48\n\n\nPrivate broadcaster\n87.22\n0\n81.16\n93.28\n\n\nPublic broadcaster\n71.59\n0\n66.60\n76.57\n\n\n\n\n\nPredictions by country\n\n\n\n\n\n\n\n\n\n\n\ncountry\nestimate\np.value\nconf.low\nconf.high\nregion\n\n\n\n\nArgentina\n85.18\n0\n79.27\n91.09\nLatin America\n\n\nAustralia\n72.05\n0\n67.05\n77.05\nAsia-Pacific\n\n\nAustria\n62.24\n0\n57.91\n66.56\nWestern Europe\n\n\nBelgium\n67.19\n0\n62.52\n71.85\nWestern Europe\n\n\nBrazil\n88.83\n0\n82.66\n94.99\nLatin America\n\n\nBulgaria\n88.54\n0\n82.39\n94.68\nEastern Europe\n\n\nCanada\n70.98\n0\n66.05\n75.91\nNorth America\n\n\nChile\n93.38\n0\n86.89\n99.86\nLatin America\n\n\nColombia\n122.58\n0\n114.07\n131.08\nLatin America\n\n\nCroatia\n61.50\n0\n57.23\n65.77\nSouthern Europe\n\n\nCzech Republic\n60.12\n0\n55.95\n64.30\nEastern Europe\n\n\nDenmark\n66.50\n0\n61.88\n71.12\nNorthern Europe\n\n\nFinland\n55.06\n0\n51.24\n58.88\nNorthern Europe\n\n\nFrance\n93.43\n0\n86.94\n99.91\nWestern Europe\n\n\nGermany\n63.47\n0\n59.07\n67.88\nWestern Europe\n\n\nGreece\n71.98\n0\n66.99\n76.98\nSouthern Europe\n\n\nHungary\n53.16\n0\n49.47\n56.85\nEastern Europe\n\n\nIndia\n84.30\n0\n78.45\n90.15\nAsia-Pacific\n\n\nIndonesia\n77.05\n0\n71.70\n82.40\nAsia-Pacific\n\n\nIreland\n71.81\n0\n66.83\n76.79\nNorthern Europe\n\n\nItaly\n73.16\n0\n68.08\n78.24\nSouthern Europe\n\n\nJapan\n94.47\n0\n87.91\n101.02\nAsia-Pacific\n\n\nKenya\n131.25\n0\n122.13\n140.36\nAfrica\n\n\nMalaysia\n91.33\n0\n84.99\n97.67\nAsia-Pacific\n\n\nMexico\n102.98\n0\n95.83\n110.12\nLatin America\n\n\nMorocco\n108.84\n0\n101.28\n116.40\nAfrica\n\n\nNetherlands\n58.56\n0\n54.49\n62.62\nWestern Europe\n\n\nNigeria\n116.70\n0\n108.60\n124.80\nAfrica\n\n\nNorway\n54.07\n0\n50.32\n57.82\nNorthern Europe\n\n\nPeru\n90.14\n0\n83.88\n96.39\nLatin America\n\n\nPhilippines\n107.46\n0\n100.00\n114.92\nAsia-Pacific\n\n\nPoland\n70.22\n0\n65.35\n75.10\nEastern Europe\n\n\nPortugal\n84.14\n0\n78.30\n89.98\nSouthern Europe\n\n\nRomania\n87.15\n0\n81.10\n93.21\nEastern Europe\n\n\nSingapore\n80.45\n0\n74.87\n86.04\nAsia-Pacific\n\n\nSlovakia\n51.76\n0\n48.17\n55.36\nEastern Europe\n\n\nSouth Africa\n84.84\n0\n78.95\n90.73\nAfrica\n\n\nSouth Korea\n66.27\n0\n61.66\n70.87\nAsia-Pacific\n\n\nSpain\n69.69\n0\n64.85\n74.53\nSouthern Europe\n\n\nSweden\n53.45\n0\n49.74\n57.16\nNorthern Europe\n\n\nSwitzerland\n72.89\n0\n67.83\n77.95\nWestern Europe\n\n\nTaiwan\n66.52\n0\n61.90\n71.14\nAsia-Pacific\n\n\nThailand\n143.44\n0\n133.48\n153.39\nAsia-Pacific\n\n\nTurkey\n85.14\n0\n79.23\n91.05\nSouthern Europe\n\n\nUnited Kingdom\n67.80\n0\n63.09\n72.51\nNorthern Europe\n\n\nUnited States\n72.66\n0\n67.62\n77.71\nNorth America",
-    "crumbs": [
-      "Key metrics"
-    ]
-  },
-  {
-    "objectID": "topics.html",
-    "href": "topics.html",
-    "title": "News topics",
-    "section": "",
-    "text": "We analyzed the topics of the posts by using zero-shot classification of the post title and transcript. Based on the topic list from the Electronic News Archive (ENA) of the University of Antwerp, we coded the presence of 19 from politics to sports, with a few platform-specific additions like user-generated performances, which includes typical dance and lip sync videos, or advertisements and promotions.\nPerhaps surprisingly, “hard news” topics like politics and crime dominate, while typical platform content is relatively rarely published by news outlets.",
-    "crumbs": [
-      "News topics"
-    ]
-  },
-  {
-    "objectID": "topics.html#overview",
-    "href": "topics.html#overview",
-    "title": "News topics",
-    "section": "",
-    "text": "We analyzed the topics of the posts by using zero-shot classification of the post title and transcript. Based on the topic list from the Electronic News Archive (ENA) of the University of Antwerp, we coded the presence of 19 from politics to sports, with a few platform-specific additions like user-generated performances, which includes typical dance and lip sync videos, or advertisements and promotions.\nPerhaps surprisingly, “hard news” topics like politics and crime dominate, while typical platform content is relatively rarely published by news outlets.",
-    "crumbs": [
-      "News topics"
-    ]
-  },
-  {
-    "objectID": "topics.html#topic-details",
-    "href": "topics.html#topic-details",
-    "title": "News topics",
-    "section": "Topic details",
-    "text": "Topic details\nIn the subsections below, we provide detailed information about all coded news topics, along with comparisons by platform, media type and country.\n\n\n\n\n\n\nAI summaries\n\n\n\nNote that all the summary texts are generated automatically using a Large Language Model (Google’s Gemini), based on the results tables and other information. Therefore, please do not cite the verbal summary, but refer to the figures for accurate information.\n\n\n\nPolitics\nOverall, we found that 28% of short video posts covered politics. When examining platforms, YouTube Shorts featured the highest share of political content at 34%, which was significantly higher than TikTok’s 27%, with the analysis indicating YouTube Shorts posted 4 percentage points more political content than TikTok. Instagram’s share of political content was similar to TikTok’s, at 26%. Differences by outlet type were also significant: public broadcasters showed a substantially lower share of political content, with a 13 percentage point difference compared to digital outlets (p=0.00), while private broadcasters also showed a slightly lower share, by 3 percentage points (p=0.02), compared to digital outlets. Overall, public broadcasters posted the lowest share of political content at 24%, whereas private broadcasters posted the highest at 30%, with digital outlets at 28% and print outlets at 29%. Finally, we observed considerable variation across countries, with the share of political content ranging from a low of 11% in Croatia to a high of 52% in Poland, followed by South Korea at 49% and Germany at 48%.\n\nTopic: Politics by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLaw enforcement and crime\nWe found that across all short video posts analyzed, an average of 24% covered law enforcement and crime. We observed notable differences across platforms and outlet types. Posts on TikTok (26%) and YouTube Shorts (27%) featured law enforcement and crime more frequently than those on Instagram, where only 20% of posts covered these topics; this difference between Instagram and TikTok was statistically significant, with Instagram having a 4 percentage point lower share. When examining outlet types, digital outlets posted significantly less about law enforcement and crime (19%) compared to print outlets (23%), private broadcasters (25%), and public broadcasters (24%); print outlets posted 4 percentage points more, private broadcasters 5 percentage points more, and public broadcasters 3 percentage points more than digital outlets, all significant differences. Furthermore, the share of posts on these topics varied considerably by country, ranging from a low of 12% in Denmark, Hong Kong, and Portugal to highs of 42% in Mexico and 38% in Peru.\n\nTopic: Law by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWar disasters accidents\nWe found that 22% of short video posts across all platforms and outlets covered war, disasters, or accidents. We observed significant differences across platforms, with YouTube Shorts having the highest share at 25% of posts, closely followed by TikTok at 23%, while Instagram featured these topics in a significantly lower proportion of its posts, at 17%. Outlet type also played a role; public broadcasters dedicated a significantly larger share of their posts to these topics, at 30%, which was substantially higher than digital outlets (16%) and also higher than print and private broadcasters (both around 18%). Finally, we saw considerable variation by country, with the share of posts on these topics ranging from as low as 9% in Slovakia to as high as 31% in countries like Ireland and the United Kingdom.\n\nTopic: War by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEconomy and finance\nWe found that, on average, 14% of short video posts covered economy and finance. We observed significant differences across platforms: content on TikTok and YouTube Shorts dedicated a higher share to this topic, at approximately 16% each, while Instagram posts featured a significantly lower proportion at 11%. Regarding outlet types, we identified a statistically significant but minor difference, with public broadcasters posting 2 percentage points less on economy and finance compared to digital outlets. Across all outlet types, the share of these posts ranged from 13% for digital to 15% for print and private broadcasters. We also noted considerable variation across countries, with the share of economy and finance posts ranging from a low of 9% in countries such as the Czech Republic and Hungary to a high of 22% in Mexico.\n\nTopic: Economy by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSocial affairs\nWe found that, on average, 17% of short video posts across all platforms and outlets covered social affairs. However, we observed statistically significant and substantively meaningful variations depending on the platform and outlet type. Among platforms, TikTok posts dedicated the largest share to social affairs at 20%, while Instagram posts covered these topics less frequently at 15%, and YouTube Shorts posts did so at 16%, with Instagram and YouTube Shorts featuring significantly fewer social affairs posts compared to TikTok. When examining outlet types, public broadcasters stood out, allocating 21% of their posts to social affairs, which was notably higher than digital outlets, which only dedicated 15% of their posts to these issues; print and private broadcasters showed small and non-significant differences between them, at 15% and 16% respectively. Finally, we observed substantial differences in coverage across countries, with the share of social affairs posts ranging from a low of 10% in the Czech Republic and Greece to a high of 24% in Bulgaria.\n\nTopic: Social by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHealth and fitness\nAcross all platforms, we found that an average of 8% of short video posts covered health and fitness topics. When examining differences by platform, we observed a statistically significant pattern: TikTok posts featured health and fitness content more frequently at 9%, while Instagram and YouTube Shorts both posted less frequently, each at 7%. Specifically, Instagram posts covered health and fitness 3 percentage points less than TikTok, and YouTube Shorts posts covered it 2 percentage points less than TikTok. Differences in health and fitness coverage across outlet types were small and not statistically significant, with public broadcasters at 9%, digital outlets at 8%, and print and private broadcasters each at 7%. However, we saw substantial variation across countries, with the share of health and fitness content ranging from lows of 5% in Italy, Poland, and Turkey, to highs of 14% in Sweden, 11% in Belgium, Norway, and Switzerland, and 10% in France, Hong Kong, Nigeria, and Peru.\n\nTopic: Health by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMobility and infrastructure\nOverall, we found that an average of 7% of short video posts covered mobility and infrastructure. When examining differences across platforms, we observed statistically significant variations: TikTok posts had the highest share, at 8%, while Instagram posts had the lowest at 5%, representing a significant 3 percentage point difference. YouTube Shorts fell in between, with 7% of its posts focusing on this topic. However, we found that the share of mobility and infrastructure content was consistent across different outlet types, with digital, print, private broadcaster, and public broadcaster outlets all dedicating around 7% of their posts to this theme; these differences were small and not statistically significant. Across countries, we observed a wider range of coverage, from a low of 4% in several countries including Chile, Croatia, Denmark, Hungary, Poland, Portugal, and Slovakia, to a high of 12% in Indonesia and Japan, with Bulgaria also reporting a high share at 11%.\n\nTopic: Mobility by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEnvironment and energy\nAcross all short video posts analyzed, we found that, on average, 5% of content covered environment and energy topics. When examining differences by platform, we observed a statistically significant pattern: posts on Instagram dedicated a smaller share to these topics, at 4%, compared to both TikTok and YouTube Shorts, which each had 6% of their posts covering environment and energy. This represented a 2 percentage point lower share for Instagram compared to TikTok. Regarding outlet type, we saw that public broadcasters allocated the largest share of their posts to environment and energy, at 7%, which was significantly higher than digital and print outlets, both at 4%, a 2 percentage point difference compared to digital outlets. Private broadcasters fell in the middle at 5%. While we did not identify specific statistically significant contrasts across all countries, we did find some variability in coverage, with the share of environment and energy posts ranging from as low as 3% in countries like Denmark, Hungary, and Slovakia, to as high as 8% in Japan.\n\nTopic: Environment by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nScience technology and education\nWe found that, on average, science, technology, and education topics constituted 8% of short video posts. When examining content across different platforms, we observed only small and non-significant differences, with TikTok and YouTube Shorts showing 8% of posts on these topics, and Instagram slightly lower at 7%. However, the type of outlet played a significant role: public broadcasters dedicated a substantially larger share of their short video content to science, technology, and education, at 11%, compared to digital, print, and private broadcaster outlets, all of which posted around 6% on these topics. For instance, public broadcasters posted 4 percentage points more on these topics than digital outlets. Furthermore, we saw considerable variation across countries, with some nations like Hungary posting as little as 2% of their short videos on science, technology, and education, while others like Finland, Switzerland, and the United States allocated as much as 11% of their posts to these subjects.\n\nTopic: Science by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCulture and arts\nWe found that on average, 6% of short video posts covered culture and arts content. The share of this content varied across platforms and outlet types. Looking at platforms, TikTok and Instagram both featured culture and arts in approximately 6% of their posts, which was significantly higher than YouTube Shorts, where only 4% of posts were dedicated to this category. For outlet types, digital, print, and public broadcasters each posted culture and arts content in about 6% of their videos, while private broadcasters did so in 5% of their posts. Although the overall percentages for digital, print, and public broadcasters were similar when rounded, we observed statistically significant, albeit small, differences: print outlets posted 1 percentage point more culture and arts content than digital outlets, and public broadcasters posted 3 percentage points more than digital outlets. Across countries, the coverage of culture and arts content varied widely, from a low of 2% in Taiwan and 3% in the United States and Finland, to a high of 16% in Hong Kong, 11% in Portugal, and 10% in Slovakia.\n\nTopic: Culture by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLifestyle and travel\nAcross all observed short video posts, we found an average of 6% of content covered lifestyle and travel topics. However, this share varied significantly by platform and outlet type. We observed that TikTok featured the highest proportion of lifestyle and travel content at 6%, which was significantly higher than both Instagram at 5% and YouTube Shorts at 4%. Regarding outlet types, digital outlets dedicated the largest share of their posts to lifestyle and travel, averaging 8%. This was significantly more than print outlets, which had a 6% share, and also substantially higher than both private and public broadcasters, which each posted around 5% of such content. Additionally, we noted variability in lifestyle and travel content across countries, with the share ranging from as low as 4% in several nations, including the United States and Germany, to as high as 10% in Norway.\n\nTopic: Lifestyle by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFashion and beauty\nAcross all analyzed short video posts, we found that fashion and beauty content constituted, on average, a small proportion, at approximately 1% of all posts. However, this share varied significantly depending on the platform and outlet type. We observed that posts on TikTok dedicated to fashion and beauty were notably higher, making up 2% of content, compared to Instagram and YouTube Shorts, where this share was around 1% for both. Similarly, digital outlets posted significantly more fashion and beauty content, accounting for 2% of their posts, whereas print, private broadcaster, and public broadcaster outlets each dedicated about 1% of their short video content to these topics. While the average share was low across most countries, we identified a few exceptions where fashion and beauty content appeared more frequently, such as in Slovakia, where it reached 4%, and in Sweden and Thailand, both at 3%.\n\nTopic: Fashion by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFood and cooking\nAcross all short video posts, we found that food and cooking content made up an average of 4% of posts. We observed some variations across platforms, where TikTok and YouTube Shorts each featured food and cooking in 4% of their posts, while Instagram showed a slightly lower share at 3%, a statistically significant difference. Differences also emerged across outlet types; public broadcasters dedicated a smaller share of 2% of their short videos to food and cooking, compared to digital, print, and private broadcaster outlets, which all consistently featured food and cooking in 4% of their posts. Country-level analyses revealed substantial variation; for instance, Romania had the highest proportion of food and cooking content at 8%, followed by Austria, Czech Republic, and Thailand at 7% each. In contrast, countries like South Africa and the United Kingdom featured food and cooking in only 1% of their posts, while Australia, Canada, India, Ireland, Italy, Kenya, Netherlands, Nigeria, Poland, and the United States were also among the lowest, with 2% of their short videos focused on this topic.\n\nTopic: Food by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPets and animals\nOverall, we found that posts covering pets and animals made up a small but consistent share of short video content, averaging 3% of all posts. When examining differences by platform, we observed that TikTok and YouTube Shorts dedicated a slightly larger share to pets and animals, both at 4%, compared to Instagram, which featured such content in 3% of its posts; this 1 percentage point difference between Instagram and TikTok was statistically significant. Differences also emerged based on the outlet type: Digital news outlets and Public broadcasters each allocated 4% of their posts to pets and animals, a significantly higher proportion compared to Print outlets and Private broadcasters, which both posted pet-related content in 3% of their short videos. Specifically, Print outlets showed a 2 percentage point lower share than Digital outlets, and Private broadcasters showed a 1 percentage point lower share than Digital outlets, both differences being statistically significant. While many countries showed a similar share of pet and animal content, we noted some variations, with Hong Kong standing out at 7%, and Chile, Finland, and Japan all at 5%, while Peru and Portugal had the lowest shares, at 2%.\n\nTopic: Pets by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEntertainment news and industry\nWe found that, on average, 12% of short video posts covered entertainment news and industry. This share varied significantly across platforms and outlet types. Looking at platforms, we observed that Instagram posts had a substantially higher share of entertainment content, at 16%, compared to TikTok (11%) and YouTube Shorts (8%). YouTube Shorts, in particular, featured significantly less entertainment content than TikTok. Regarding outlet types, public broadcasters (14%) and private broadcasters (13%) dedicated a greater share of their posts to entertainment news and industry than digital outlets (10%), with print outlets showing a very small but statistically significant difference from digital outlets, also at around 10%. Finally, we observed considerable variation across countries, with some nations like Slovakia (32%), Hungary (30%), and Hong Kong (28%) having a much higher proportion of entertainment content, while countries such as Germany (4%), South Korea (4%), Finland (5%), and Malaysia (5%) showed a notably lower share.\n\nTopic: Entertainment by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCelebrity and royalty\nWe analyzed short video posts to understand their coverage of celebrity and royalty, finding that on average, 9% of posts featured this content. We observed meaningful differences across platforms and outlet types. Posts on YouTube Shorts, at 6%, covered celebrity and royalty significantly less than those on TikTok, at 9%, while Instagram posts showed 10% coverage. Regarding outlet types, digital outlets featured celebrity and royalty content most frequently, at 11%. This was significantly higher than print outlets (at 10%), private broadcasters (at 8%), and public broadcasters (at 8%). Country-level analyses revealed a wide range of coverage, from a low of 5% in Bulgaria and Germany to a high of 13% in countries like Spain and Croatia, suggesting considerable geographical variation in the emphasis on celebrity and royalty in short video content.\n\nTopic: Celebrity by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSports\nAcross all short video posts, we found that, on average, 6% covered sports. When examining differences by platform, we observed only small and non-significant variations: TikTok and Instagram posts both featured sports 6% of the time, while YouTube Shorts had a slightly lower proportion at 5%. However, outlet type revealed statistically significant distinctions; digital outlets dedicated a higher share of their posts to sports, at 7%, compared to print outlets and public broadcasters, both of which allocated 5% of their posts to this content type. Private broadcasters fell in between at 6%. We also noted substantial variability across countries, with the share of sports content ranging from as low as 3% in Denmark, Malaysia, and Poland to as high as 11% in Colombia and 10% in Chile and Croatia.\n\nTopic: Sports by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPromotion and advertisements\nWe found that, on average, 3% of short video posts across all platforms, outlet types, and countries covered promotion and advertisements. This share varied significantly depending on the platform used: we observed the highest proportion on Instagram at 6%, followed by TikTok at 2%, and the lowest on YouTube Shorts at 1%. Outlet type also played a role; digital outlets featured promotion and advertisements in 5% of their posts, significantly more than print outlets (3%) and public broadcasters, which had the lowest share at 1%. Private broadcasters fell in between at 4%. We also noted substantial differences across countries, with the share of promotional content ranging from a low of 1% in countries like the United States, United Kingdom, and Australia, to a high of 14% in Slovakia and 11% in Hong Kong.\n\nTopic: Promotion by platformby outlet typeby country\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUser generated performance and comedy\nAcross all observed short video posts, we found that user-generated performance and comedy content made up a small but consistent share, averaging 2%. However, this share varied significantly by platform and outlet type. On platforms, TikTok led with 2% of its content falling into this category. Instagram also averaged 2%, though this was a significantly smaller share compared to TikTok, and YouTube Shorts featured an even lower proportion at 1%. When examining outlet types, digital outlets and private broadcasters featured user-generated performance and comedy most prominently, both at 3%. In contrast, print outlets and public broadcasters published substantially less of this content, both averaging just 1%. We also observed considerable country-level differences; for instance, the Czech Republic showed a notably high share of 10% and Taiwan 8%, while countries such as Germany, Hong Kong, and the United Kingdom had very low shares, at or below 1%.\n\nTopic: User by platformby outlet typeby country",
-    "crumbs": [
-      "News topics"
-    ]
-  },
-  {
-    "objectID": "topics.html#measures",
-    "href": "topics.html#measures",
-    "title": "News topics",
-    "section": "Measures",
-    "text": "Measures\n\nInstructionsValidation\n\n\nThe following instructions were used for zero-shot classification of the posts:\nYour task is to analyze the provided short video content (derived from caption text and transcripts) and determine whether its topic explicitly falls into one or more of the following categories. Your decision for each category must be based only on direct and explicit mentions of the category’s subject matter within the caption text or transcript. Do not infer or extrapolate beyond the directly stated information. If a category’s subject is not explicitly mentioned, even if indirectly related, you must classify it as “False.”\nPlease evaluate the provided short video content against each of the following 19 categories independently:\npolitics: Code “True” if the caption text or transcript explicitly discusses political structures, electoral processes, or international governance. This includes explicit mentions of political organizations, elections, migration policies, and international relations between countries.\nlaw_enforcement_and_crime: Code “True” if the caption text or transcript explicitly deals with the legal system, law enforcement activities, or criminal acts. This includes explicit mentions of the judiciary, crime policy, specific instances of crime, and civil rights and freedoms.\nwar_disasters_accidents: Code “True” if the caption text or transcript explicitly reports on armed conflicts, defense matters, or major calamitous events. This includes explicit discussions of war and peace, weaponry, and natural or man-made disasters and accidents.\neconomy_and_finance: Code “True” if the caption text or transcript explicitly focuses on economic activity, financial markets, or labor. This includes explicit mentions of finance (e.g., banking, stock markets), the general economy, consumer affairs, and labor issues like employment or wages.\nsocial_affairs: Code “True” if the caption text or transcript explicitly is centered on broad societal issues and demographic trends. This includes explicit mentions of social policies like healthcare, social security, and housing, as well as population growth or aging.\nhealth_and_fitness: Code “True” if the caption text or transcript explicitly focuses on personal health, medical conditions, physical fitness, or wellness. This includes explicit mentions of diet, exercise, mental health, and general medical advice, distinct from healthcare policy.\nmobility_and_infrastructure: Code “True” if the caption text or transcript explicitly discusses transportation systems or public works. This includes explicit mentions of mobility, traffic, and spatial planning, such as urban development or infrastructure projects.\nenvironment_and_energy: Code “True” if the caption text or transcript explicitly concerns the natural world, energy resources, or food production. This includes explicit mentions of environmental protection, nature conservation, energy policy, and agriculture.\nscience_technology_and_education: Code “True” if the caption text or transcript explicitly is about scientific research, technological advancements, or education systems. This includes explicit mentions of cultural patrimony, the education sector, aerospace exploration, and telecommunication.\nculture_and_arts: Code “True” if the caption text or transcript explicitly focuses on creative and fine arts or matters of faith. This includes explicit mentions of performing arts (e.g., theater, dance), literature, visual arts (e.g., painting), and religion.\nlifestyle_and_travel: Code “True” if the caption text or transcript explicitly covers personal interests, leisure activities, travel, or daily routines. This includes explicit mentions of general lifestyle topics (e.g., hobbies), tourism, personal vlogs, and “day-in-the-life” content.\nfashion_and_beauty: Code “True” if the caption text or transcript explicitly focuses on clothing, accessories, personal style, makeup, skincare, or cosmetic products. This includes explicit mentions of fashion hauls, outfit styling, makeup tutorials, and product reviews within these areas.\nfood_and_cooking: Code “True” if the caption text or transcript explicitly discusses recipes, cooking techniques, food preparation, dining experiences, food reviews, or specific food items. This includes explicit mentions of quick meals, baking, restaurant reviews, and food-related challenges.\npets_and_animals: Code “True” if the caption text or transcript explicitly features or discusses domestic pets, wild animals, animal behavior, or animal care, with the primary focus being the animal itself.\nentertainment_news_and_industry: Code “True” if the caption text or transcript explicitly discusses news, releases, reviews, or industry aspects related to professional film, television, or music. This includes explicit mentions of movie releases, album launches, TV show reviews, film festivals, and the business operations of traditional media companies.\ncelebrity: Code “True” if the caption text or transcript explicitly focuses on the personal lives, private relationships, or non-professional activities of famous individuals. For any famous individual (e.g., politician, athlete, pop star, royals), code “True” only if the content explicitly concerns their personal life or non-professional activities. Otherwise, their professional activities should only be classified under the relevant category such as politics, sports, etc. Attention: Simply mentioning a famous person, e.g. a president or queen, is not sufficient for a post being coded as “True” celebrity news.\nsports: Code “True” if the caption text or transcript explicitly is about sports as a field of activity. This includes explicit coverage of sporting events, competitions, games, teams, and the professional performance of sports athletes.\npromotion_and_advertisements: Code “True” if the caption text or transcript explicitly promotes a product, service, brand, event, or specific call to action with a commercial intent. This includes explicit mentions of sales, discounts, sponsorships, brand endorsements, or direct calls to purchase or visit a business.\nuser_generated_performance_and_comedy: Code “True” if the caption text or transcript explicitly features or discusses performances by users, often for entertainment, and/or comedic content. This includes explicit mentions of dance routines, lip-sync videos, short-form skits, memes, and viral trends where a user’s performance or comedic element is central.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVariable\naccuracy\nf_meas\nprecision\nrecall\nsensitivity\nspecificity\n\n\n\n\nCelebrity and royalty\n0.98\n0.80\n0.67\n1.00\n1.00\n0.98\n\n\nCulture and arts\n0.96\n0.83\n1.00\n0.71\n0.71\n1.00\n\n\nEconomy and finance\n0.96\n0.85\n0.79\n0.92\n0.92\n0.97\n\n\nEntertainment news and industry\n0.97\n0.84\n0.73\n1.00\n1.00\n0.97\n\n\nEnvironment and energy\n0.96\n0.67\n0.50\n1.00\n1.00\n0.96\n\n\nFashion and beauty\n0.99\nNA\n0.00\nNA\nNA\n0.99\n\n\nFood and cooking\n0.94\n0.40\n0.33\n0.50\n0.50\n0.96\n\n\nHealth and fitness\n0.96\n0.33\n0.25\n0.50\n0.50\n0.97\n\n\nLaw enforcement and crime\n0.91\n0.84\n0.85\n0.82\n0.82\n0.94\n\n\nLifestyle and travel\n0.97\n0.73\n0.57\n1.00\n1.00\n0.97\n\n\nMobility and infrastructure\n0.99\n0.86\n1.00\n0.75\n0.75\n1.00\n\n\nPets and animals\n0.99\n0.80\n0.67\n1.00\n1.00\n0.99\n\n\nPolitics\n0.93\n0.89\n0.94\n0.85\n0.85\n0.97\n\n\nPromotion and advertisements\n0.96\n0.75\n0.75\n0.75\n0.75\n0.98\n\n\nScience technology and education\n0.97\n0.80\n0.86\n0.75\n0.75\n0.99\n\n\nSocial affairs\n0.84\n0.43\n0.38\n0.50\n0.50\n0.89\n\n\nSports\n1.00\n1.00\n1.00\n1.00\n1.00\n1.00\n\n\nUser generated performance and comedy\n0.98\nNA\nNA\n0.00\n0.00\n1.00\n\n\nWar disasters accidents\n0.92\n0.71\n0.83\n0.62\n0.62\n0.98\n\n\n\n\n\n\nClassifier agreement\nPost were coded using zero-shot classification by two different models: gemini-2.5-flash-lite, Qwen3 235B VL.\n\n\n\n\n\n\n\n\n\n\n\n\nVariable\nPosts\nModels\nAgreement\nKrippendorffs_Alpha\n\n\n\n\nPolitics\n200\n2\n0.95\n0.88\n\n\nLaw enforcement and crime\n200\n2\n0.96\n0.87\n\n\nWar disasters accidents\n200\n2\n0.98\n0.91\n\n\nEconomy and finance\n200\n2\n0.96\n0.82\n\n\nSocial affairs\n200\n2\n0.90\n0.60\n\n\nHealth and fitness\n200\n2\n0.95\n0.56\n\n\nMobility and infrastructure\n200\n2\n0.98\n0.85\n\n\nEnvironment and energy\n200\n2\n0.99\n0.90\n\n\nScience technology and education\n200\n2\n0.98\n0.85\n\n\nCulture and arts\n200\n2\n0.94\n0.66\n\n\nLifestyle and travel\n200\n2\n0.96\n0.68\n\n\nFashion and beauty\n200\n2\n0.98\n0.56\n\n\nFood and cooking\n200\n2\n0.98\n0.85\n\n\nPets and animals\n200\n2\n0.98\n0.79\n\n\nEntertainment news and industry\n200\n2\n0.94\n0.71\n\n\nCelebrity and royalty\n200\n2\n0.96\n0.76\n\n\nSports\n200\n2\n1.00\n0.93\n\n\nPromotion and advertisements\n200\n2\n0.97\n0.65\n\n\nUser generated performance and comedy\n200\n2\n0.96\n0.58",
-    "crumbs": [
-      "News topics"
-    ]
-  },
-  {
-    "objectID": "topics.html#classifier-agreement",
-    "href": "topics.html#classifier-agreement",
-    "title": "News topics",
-    "section": "Classifier agreement",
-    "text": "Classifier agreement\nPost were coded using zero-shot classification by two different models: gemini-2.5-flash-lite, Qwen3 235B VL.\n\n\n\n\n\n\n\n\n\n\n\n\nVariable\nPosts\nModels\nAgreement\nKrippendorffs_Alpha\n\n\n\n\nPolitics\n200\n2\n0.95\n0.88\n\n\nLaw enforcement and crime\n200\n2\n0.96\n0.87\n\n\nWar disasters accidents\n200\n2\n0.98\n0.91\n\n\nEconomy and finance\n200\n2\n0.96\n0.82\n\n\nSocial affairs\n200\n2\n0.90\n0.60\n\n\nHealth and fitness\n200\n2\n0.95\n0.56\n\n\nMobility and infrastructure\n200\n2\n0.98\n0.85\n\n\nEnvironment and energy\n200\n2\n0.99\n0.90\n\n\nScience technology and education\n200\n2\n0.98\n0.85\n\n\nCulture and arts\n200\n2\n0.94\n0.66\n\n\nLifestyle and travel\n200\n2\n0.96\n0.68\n\n\nFashion and beauty\n200\n2\n0.98\n0.56\n\n\nFood and cooking\n200\n2\n0.98\n0.85\n\n\nPets and animals\n200\n2\n0.98\n0.79\n\n\nEntertainment news and industry\n200\n2\n0.94\n0.71\n\n\nCelebrity and royalty\n200\n2\n0.96\n0.76\n\n\nSports\n200\n2\n1.00\n0.93\n\n\nPromotion and advertisements\n200\n2\n0.97\n0.65\n\n\nUser generated performance and comedy\n200\n2\n0.96\n0.58",
-    "crumbs": [
-      "News topics"
     ]
   }
 ]
