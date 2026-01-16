@@ -441,7 +441,10 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#promotion-and-advertisements" id="toc-promotion-and-advertisements" class="nav-link" data-scroll-target="#promotion-and-advertisements">Promotion and advertisements</a></li>
   <li><a href="#user-generated-performance-and-comedy" id="toc-user-generated-performance-and-comedy" class="nav-link" data-scroll-target="#user-generated-performance-and-comedy">User generated performance and comedy</a></li>
   </ul></li>
-  <li><a href="#measures" id="toc-measures" class="nav-link" data-scroll-target="#measures">Measures</a></li>
+  <li><a href="#measures" id="toc-measures" class="nav-link" data-scroll-target="#measures">Measures</a>
+  <ul class="collapse">
+  <li><a href="#reliability" id="toc-reliability" class="nav-link" data-scroll-target="#reliability">Reliability</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -467,24 +470,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="overview" class="level2">
-<h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>We analyzed the topics of the posts by using zero-shot classification of the post title and transcript. Based on the topic list from the <a href="https://www.nieuwsarchief.be/">Electronic News Archive (ENA) of the University of Antwerp</a>, we coded the presence of 19 from politics to sports, with a few platform-specific additions like <em>user-generated performances</em>, which includes typical dance and lip sync videos, or <em>advertisements and promotions</em>.</p>
-<p>Perhaps surprisingly, “hard news” topics like politics and crime dominate, while typical platform content is relatively rarely published by news outlets.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="topics_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" style="width:100.0%"></p>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="topic-details" class="level2">
-<h2 class="anchored" data-anchor-id="topic-details">Topic details</h2>
-<p>In the subsections below, we provide detailed information about all coded news topics, along with comparisons by platform, media type and country.</p>
-<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -494,12 +480,29 @@ AI summaries
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Note that all the summary texts are generated automatically using a Large Language Model (Google’s Gemini), based on the results tables and other information. Therefore, please do not cite the verbal summary, but refer to the figures for accurate information.</p>
+<p>Note that all the summary texts on this page are currently generated automatically using a Large Language Model (Google’s Gemini), based on the results tables and other information from the data. Therefore, please do not cite the verbal summary, but refer to the figures and tables for accurate information.</p>
 </div>
 </div>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>We analyzed the topics of the posts by using zero-shot classification of the post title and transcript. Based on the topic list from the <a href="https://www.nieuwsarchief.be/">Electronic News Archive (ENA) of the University of Antwerp</a>, we coded the presence of 19 from politics to sports, with a few platform-specific additions like <em>user-generated performances</em>, which includes typical dance and lip sync videos, or <em>advertisements and promotions</em>.</p>
+<p>Perhaps surprisingly, “hard news” topics like politics and crime dominate, while typical platform content is relatively rarely published by news outlets.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="topics_files/figure-html/topic_plot-1.png" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="topic-details" class="level2">
+<h2 class="anchored" data-anchor-id="topic-details">Topic details</h2>
+<p>In the subsections below, we provide detailed information about all coded news topics, along with comparisons by platform, media type and country.</p>
 <section id="politics" class="level3">
 <h3 class="anchored" data-anchor-id="politics">Politics</h3>
-<p>Overall, we found that <strong>28%</strong> of short video posts covered politics. When examining platforms, YouTube Shorts featured the highest share of political content at <strong>34%</strong>, which was significantly higher than TikTok’s <strong>27%</strong>, with the analysis indicating YouTube Shorts posted <strong>4 percentage points more</strong> political content than TikTok. Instagram’s share of political content was similar to TikTok’s, at <strong>26%</strong>. Differences by outlet type were also significant: public broadcasters showed a substantially lower share of political content, with a <strong>13 percentage point</strong> difference compared to digital outlets (p=0.00), while private broadcasters also showed a slightly lower share, by <strong>3 percentage points</strong> (p=0.02), compared to digital outlets. Overall, public broadcasters posted the lowest share of political content at <strong>24%</strong>, whereas private broadcasters posted the highest at <strong>30%</strong>, with digital outlets at <strong>28%</strong> and print outlets at <strong>29%</strong>. Finally, we observed considerable variation across countries, with the share of political content ranging from a low of <strong>11%</strong> in Croatia to a high of <strong>52%</strong> in Poland, followed by South Korea at <strong>49%</strong> and Germany at <strong>48%</strong>.</p>
+<p>Across all analyzed short video posts, we found that an average of <strong>27%</strong> covered politics. When examining differences by platform, we observed that posts on Instagram were slightly more likely to cover political topics at <strong>30%</strong> compared to <strong>25%</strong> on TikTok, a statistically significant distinction, while YouTube Shorts posts, at <strong>29%</strong>, were similar to Instagram. Outlet type also played a role, with public broadcasters dedicating significantly less of their short video content to politics, averaging <strong>23%</strong>, a notable contrast to digital outlets, print media, and private broadcasters, all of which had a higher and similar share around <strong>30%</strong>. Furthermore, we identified substantial variation across countries; for instance, Poland stood out with nearly half of its short video posts (<strong>49%</strong>) covering politics, whereas countries like Belgium, Croatia, and Norway presented a much lower proportion, around <strong>16%</strong>.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" aria-current="page">Topic: Politics by platform</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">by outlet type</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">by country</a></li></ul>
 <div class="tab-content">
@@ -541,7 +544,7 @@ AI summaries
 </section>
 <section id="law-enforcement-and-crime" class="level3">
 <h3 class="anchored" data-anchor-id="law-enforcement-and-crime">Law enforcement and crime</h3>
-<p>We found that across all short video posts analyzed, an average of <strong>24%</strong> covered law enforcement and crime. We observed notable differences across platforms and outlet types. Posts on TikTok (<strong>26%</strong>) and YouTube Shorts (<strong>27%</strong>) featured law enforcement and crime more frequently than those on Instagram, where only <strong>20%</strong> of posts covered these topics; this difference between Instagram and TikTok was statistically significant, with Instagram having a 4 percentage point lower share. When examining outlet types, digital outlets posted significantly less about law enforcement and crime (<strong>19%</strong>) compared to print outlets (<strong>23%</strong>), private broadcasters (<strong>25%</strong>), and public broadcasters (<strong>24%</strong>); print outlets posted 4 percentage points more, private broadcasters 5 percentage points more, and public broadcasters 3 percentage points more than digital outlets, all significant differences. Furthermore, the share of posts on these topics varied considerably by country, ranging from a low of <strong>12%</strong> in Denmark, Hong Kong, and Portugal to highs of <strong>42%</strong> in Mexico and <strong>38%</strong> in Peru.</p>
+<p>We found that <strong>26%</strong> of short video posts, on average, covered law enforcement and crime. When examining differences by platform, we observed that the share of posts ranged narrowly from <strong>25%</strong> on Instagram and YouTube Shorts to <strong>27%</strong> on TikTok, but these differences were small and not statistically significant based on the provided analysis. Similarly, differences across outlet types were also small and not statistically significant, with digital outlets covering law enforcement and crime in <strong>22%</strong> of posts, print outlets in <strong>24%</strong>, public broadcasters in <strong>27%</strong>, and private broadcasters in <strong>28%</strong>. However, we identified substantial variation across countries, with the share of posts ranging from a low of <strong>18%</strong> in Romania to a high of <strong>40%</strong> in Peru. Other countries with high coverage included Mexico (<strong>35%</strong>), South Africa (<strong>34%</strong>), and Turkey (<strong>34%</strong>), while Hungary (<strong>19%</strong>) and Croatia (<strong>19%</strong>) showed some of the lowest shares alongside Romania.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">Topic: Law by platform</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">by outlet type</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-3" role="tab" aria-controls="tabset-2-3" aria-selected="false">by country</a></li></ul>
 <div class="tab-content">
@@ -583,7 +586,7 @@ AI summaries
 </section>
 <section id="war-disasters-accidents" class="level3">
 <h3 class="anchored" data-anchor-id="war-disasters-accidents">War disasters accidents</h3>
-<p>We found that <strong>22%</strong> of short video posts across all platforms and outlets covered war, disasters, or accidents. We observed significant differences across platforms, with YouTube Shorts having the highest share at <strong>25%</strong> of posts, closely followed by TikTok at <strong>23%</strong>, while Instagram featured these topics in a significantly lower proportion of its posts, at <strong>17%</strong>. Outlet type also played a role; public broadcasters dedicated a significantly larger share of their posts to these topics, at <strong>30%</strong>, which was substantially higher than digital outlets (<strong>16%</strong>) and also higher than print and private broadcasters (both around <strong>18%</strong>). Finally, we saw considerable variation by country, with the share of posts on these topics ranging from as low as <strong>9%</strong> in Slovakia to as high as <strong>31%</strong> in countries like Ireland and the United Kingdom.</p>
+<p>Across all analyzed short video posts, we found that war, disasters, and accidents constituted an average of <strong>23</strong>% of the content. Looking at differences by platform, we observed that YouTube Shorts dedicated a notably higher share to these topics, at <strong>28</strong>%, compared to TikTok’s <strong>23</strong>% and Instagram’s <strong>21</strong>%; specifically, posts on YouTube Shorts featured war, disaster, and accident content <strong>6</strong> percentage points more often than on TikTok. Outlet types also showed significant variations: public broadcasters covered these topics most frequently, at <strong>30</strong>%, which was <strong>12</strong> percentage points higher than digital outlets, which had the lowest share at <strong>18</strong>%. Print and private broadcasters had similar coverage levels, around <strong>20</strong>%. Finally, we found considerable differences across countries, with the share of posts on war, disasters, and accidents ranging from a low of <strong>18</strong>% in countries like Brazil and the Czech Republic to a high of <strong>29</strong>% in Australia.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-3-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-1" role="tab" aria-controls="tabset-3-1" aria-selected="true">Topic: War by platform</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-2" role="tab" aria-controls="tabset-3-2" aria-selected="false">by outlet type</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-3" role="tab" aria-controls="tabset-3-3" aria-selected="false">by country</a></li></ul>
 <div class="tab-content">
@@ -625,7 +628,7 @@ AI summaries
 </section>
 <section id="economy-and-finance" class="level3">
 <h3 class="anchored" data-anchor-id="economy-and-finance">Economy and finance</h3>
-<p>We found that, on average, <strong>14%</strong> of short video posts covered economy and finance. We observed significant differences across platforms: content on TikTok and YouTube Shorts dedicated a higher share to this topic, at approximately <strong>16%</strong> each, while Instagram posts featured a significantly lower proportion at <strong>11%</strong>. Regarding outlet types, we identified a statistically significant but minor difference, with public broadcasters posting <strong>2 percentage points less</strong> on economy and finance compared to digital outlets. Across all outlet types, the share of these posts ranged from <strong>13%</strong> for digital to <strong>15%</strong> for print and private broadcasters. We also noted considerable variation across countries, with the share of economy and finance posts ranging from a low of <strong>9%</strong> in countries such as the Czech Republic and Hungary to a high of <strong>22%</strong> in Mexico.</p>
+<p>We observed that an average of <strong>17%</strong> of short video posts across all analyzed platforms and outlets covered economy and finance. However, we found that this share varied significantly by platform: posts on TikTok were more likely to cover these topics, at <strong>19%</strong>, compared to Instagram, where only <strong>13%</strong> of posts did, a difference of 6 percentage points. YouTube Shorts fell in between, with <strong>17%</strong> of posts focusing on economy and finance. When examining outlet types, we found only small and non-significant differences, with digital and print outlets posting about economy and finance in approximately <strong>15%</strong> of their videos, while private and public broadcasters did so in <strong>17%</strong> and <strong>18%</strong> of their videos, respectively. Finally, we saw a broader range of coverage across countries, from a low of <strong>13%</strong> in the Czech Republic to a high of <strong>20%</strong> in Mexico.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-4-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-1" role="tab" aria-controls="tabset-4-1" aria-selected="true">Topic: Economy by platform</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-4-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-2" role="tab" aria-controls="tabset-4-2" aria-selected="false">by outlet type</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-4-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-3" role="tab" aria-controls="tabset-4-3" aria-selected="false">by country</a></li></ul>
 <div class="tab-content">
@@ -667,7 +670,7 @@ AI summaries
 </section>
 <section id="social-affairs" class="level3">
 <h3 class="anchored" data-anchor-id="social-affairs">Social affairs</h3>
-<p>We found that, on average, <strong>17%</strong> of short video posts across all platforms and outlets covered social affairs. However, we observed statistically significant and substantively meaningful variations depending on the platform and outlet type. Among platforms, TikTok posts dedicated the largest share to social affairs at <strong>20%</strong>, while Instagram posts covered these topics less frequently at <strong>15%</strong>, and YouTube Shorts posts did so at <strong>16%</strong>, with Instagram and YouTube Shorts featuring significantly fewer social affairs posts compared to TikTok. When examining outlet types, public broadcasters stood out, allocating <strong>21%</strong> of their posts to social affairs, which was notably higher than digital outlets, which only dedicated <strong>15%</strong> of their posts to these issues; print and private broadcasters showed small and non-significant differences between them, at <strong>15%</strong> and <strong>16%</strong> respectively. Finally, we observed substantial differences in coverage across countries, with the share of social affairs posts ranging from a low of <strong>10%</strong> in the Czech Republic and Greece to a high of <strong>24%</strong> in Bulgaria.</p>
+<p>We found that, across all observed short video posts, an average of <strong>21%</strong> covered social affairs. Regarding platforms, TikTok posts featured social affairs content at a slightly higher rate of <strong>23%</strong>, while Instagram and YouTube Shorts showed smaller shares, both at <strong>18%</strong>. When examining different outlet types, public broadcasters stood out, dedicating a substantially larger share of their posts to social affairs at <strong>27%</strong>, which was an <strong>8 percentage point</strong> higher share than digital outlets, for example, which covered social affairs in <strong>16%</strong> of their posts. Print and private broadcasters showed similar shares to digital outlets, ranging from <strong>17%</strong> to <strong>18%</strong>. Finally, the coverage of social affairs varied considerably by country, ranging from a low of <strong>13%</strong> in Taiwan, and around <strong>15%</strong> in countries like Brazil, Chile, and Greece, to a high of <strong>29%</strong> in Nigeria, with other nations such as Germany, Ireland, and South Africa also featuring higher proportions of social affairs content (around <strong>25-26%</strong>).</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-5-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-1" role="tab" aria-controls="tabset-5-1" aria-selected="true">Topic: Social by platform</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-5-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-2" role="tab" aria-controls="tabset-5-2" aria-selected="false">by outlet type</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-5-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-3" role="tab" aria-controls="tabset-5-3" aria-selected="false">by country</a></li></ul>
 <div class="tab-content">
@@ -709,7 +712,7 @@ AI summaries
 </section>
 <section id="health-and-fitness" class="level3">
 <h3 class="anchored" data-anchor-id="health-and-fitness">Health and fitness</h3>
-<p>Across all platforms, we found that an average of <strong>8%</strong> of short video posts covered health and fitness topics. When examining differences by platform, we observed a statistically significant pattern: TikTok posts featured health and fitness content more frequently at <strong>9%</strong>, while Instagram and YouTube Shorts both posted less frequently, each at <strong>7%</strong>. Specifically, Instagram posts covered health and fitness 3 percentage points less than TikTok, and YouTube Shorts posts covered it 2 percentage points less than TikTok. Differences in health and fitness coverage across outlet types were small and not statistically significant, with public broadcasters at <strong>9%</strong>, digital outlets at <strong>8%</strong>, and print and private broadcasters each at <strong>7%</strong>. However, we saw substantial variation across countries, with the share of health and fitness content ranging from lows of <strong>5%</strong> in Italy, Poland, and Turkey, to highs of <strong>14%</strong> in Sweden, <strong>11%</strong> in Belgium, Norway, and Switzerland, and <strong>10%</strong> in France, Hong Kong, Nigeria, and Peru.</p>
+<p>We found that across all short video posts analyzed, an average of <strong>9%</strong> covered health and fitness topics. When we examined the distribution of this content across different platforms, such as TikTok, Instagram, and YouTube Shorts, we observed that the share of health and fitness posts remained consistently around <strong>9%</strong> to <strong>10%</strong>, with no statistically significant differences identified between them. Similarly, when we explored variations by outlet type, including digital, print, private broadcaster, and public broadcaster, the proportion of health and fitness content ranged narrowly from <strong>7%</strong> to <strong>10%</strong>, and these differences were also found to be small and not statistically significant. Lastly, our analysis across various countries revealed that the coverage of health and fitness content in short videos generally hovered between <strong>8%</strong> and <strong>10%</strong>, with no statistically significant variations noted across the individual nations studied.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-6-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-1" role="tab" aria-controls="tabset-6-1" aria-selected="true">Topic: Health by platform</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-6-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-2" role="tab" aria-controls="tabset-6-2" aria-selected="false">by outlet type</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-6-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-3" role="tab" aria-controls="tabset-6-3" aria-selected="false">by country</a></li></ul>
 <div class="tab-content">
@@ -751,7 +754,7 @@ AI summaries
 </section>
 <section id="mobility-and-infrastructure" class="level3">
 <h3 class="anchored" data-anchor-id="mobility-and-infrastructure">Mobility and infrastructure</h3>
-<p>Overall, we found that an average of <strong>7%</strong> of short video posts covered mobility and infrastructure. When examining differences across platforms, we observed statistically significant variations: TikTok posts had the highest share, at <strong>8%</strong>, while Instagram posts had the lowest at <strong>5%</strong>, representing a significant <strong>3</strong> percentage point difference. YouTube Shorts fell in between, with <strong>7%</strong> of its posts focusing on this topic. However, we found that the share of mobility and infrastructure content was consistent across different outlet types, with digital, print, private broadcaster, and public broadcaster outlets all dedicating around <strong>7%</strong> of their posts to this theme; these differences were small and not statistically significant. Across countries, we observed a wider range of coverage, from a low of <strong>4%</strong> in several countries including Chile, Croatia, Denmark, Hungary, Poland, Portugal, and Slovakia, to a high of <strong>12%</strong> in Indonesia and Japan, with Bulgaria also reporting a high share at <strong>11%</strong>.</p>
+<p>We found that across all short video posts analyzed, the share covering mobility and infrastructure was, on average, <strong>7%</strong>. When examining specific platforms, we observed only small and statistically non-significant variations in this coverage; posts on TikTok dedicated approximately <strong>6%</strong> to these topics, Instagram posts about <strong>7%</strong>, and YouTube Shorts posts roughly <strong>8%</strong>. Similarly, the outlet type—whether digital, print, private broadcaster, or public broadcaster—did not significantly influence the proportion of mobility and infrastructure content, with all types hovering around <strong>7%</strong>. Furthermore, we found no substantial differences in the share of these posts when comparing across individual countries, with the majority of nations showing a <strong>7%</strong> share, and a few, such as Brazil and Romania, exhibiting a slightly lower, though not statistically distinct, <strong>6%</strong>.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-7-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-7-1" role="tab" aria-controls="tabset-7-1" aria-selected="true">Topic: Mobility by platform</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-7-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-7-2" role="tab" aria-controls="tabset-7-2" aria-selected="false">by outlet type</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-7-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-7-3" role="tab" aria-controls="tabset-7-3" aria-selected="false">by country</a></li></ul>
 <div class="tab-content">
@@ -793,7 +796,7 @@ AI summaries
 </section>
 <section id="environment-and-energy" class="level3">
 <h3 class="anchored" data-anchor-id="environment-and-energy">Environment and energy</h3>
-<p>Across all short video posts analyzed, we found that, on average, <strong>5%</strong> of content covered environment and energy topics. When examining differences by platform, we observed a statistically significant pattern: posts on Instagram dedicated a smaller share to these topics, at <strong>4%</strong>, compared to both TikTok and YouTube Shorts, which each had <strong>6%</strong> of their posts covering environment and energy. This represented a <strong>2 percentage point</strong> lower share for Instagram compared to TikTok. Regarding outlet type, we saw that public broadcasters allocated the largest share of their posts to environment and energy, at <strong>7%</strong>, which was significantly higher than digital and print outlets, both at <strong>4%</strong>, a <strong>2 percentage point</strong> difference compared to digital outlets. Private broadcasters fell in the middle at <strong>5%</strong>. While we did not identify specific statistically significant contrasts across all countries, we did find some variability in coverage, with the share of environment and energy posts ranging from as low as <strong>3%</strong> in countries like Denmark, Hungary, and Slovakia, to as high as <strong>8%</strong> in Japan.</p>
+<p>Overall, we found that <strong>5%</strong> of short video posts covered environment and energy topics. When examining differences across platforms, we observed that YouTube Shorts posts were more likely to cover these topics (at <strong>7%</strong>) compared to Instagram posts (<strong>4%</strong>), while TikTok posts showed an intermediate share of <strong>5%</strong>. Regarding outlet types, public broadcasters dedicated a notably higher share of their posts to environment and energy (<strong>6%</strong>) compared to private broadcasters (<strong>3%</strong>); the shares for digital and print outlets were both <strong>4%</strong>, and these differences were small and not consistently distinct from other categories. Country-level variations also emerged, with the share of posts covering these topics ranging from <strong>3%</strong> in countries like the Czech Republic and Romania, to <strong>6%</strong> in countries such as Australia, Nigeria, Singapore, and South Africa.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-8-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-8-1" role="tab" aria-controls="tabset-8-1" aria-selected="true">Topic: Environment by platform</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-8-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-8-2" role="tab" aria-controls="tabset-8-2" aria-selected="false">by outlet type</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-8-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-8-3" role="tab" aria-controls="tabset-8-3" aria-selected="false">by country</a></li></ul>
 <div class="tab-content">
@@ -835,7 +838,7 @@ AI summaries
 </section>
 <section id="science-technology-and-education" class="level3">
 <h3 class="anchored" data-anchor-id="science-technology-and-education">Science technology and education</h3>
-<p>We found that, on average, science, technology, and education topics constituted <strong>8%</strong> of short video posts. When examining content across different platforms, we observed only small and non-significant differences, with TikTok and YouTube Shorts showing <strong>8%</strong> of posts on these topics, and Instagram slightly lower at <strong>7%</strong>. However, the type of outlet played a significant role: public broadcasters dedicated a substantially larger share of their short video content to science, technology, and education, at <strong>11%</strong>, compared to digital, print, and private broadcaster outlets, all of which posted around <strong>6%</strong> on these topics. For instance, public broadcasters posted <strong>4 percentage points more</strong> on these topics than digital outlets. Furthermore, we saw considerable variation across countries, with some nations like Hungary posting as little as <strong>2%</strong> of their short videos on science, technology, and education, while others like Finland, Switzerland, and the United States allocated as much as <strong>11%</strong> of their posts to these subjects.</p>
+<p>We found that, on average, approximately <strong>8%</strong> of short video posts covered science, technology, and education. This share varied significantly across platforms and outlet types. Looking at platforms, YouTube Shorts dedicated the largest share of its content to these topics at <strong>12%</strong>, which was substantially higher than TikTok, where only <strong>7%</strong> of posts covered science, technology, and education. Instagram posts for this category were around <strong>8%</strong>. When examining outlet types, public broadcasters were notable for featuring science, technology, and education content in <strong>12%</strong> of their posts, a significantly higher proportion compared to digital outlets, which allocated <strong>6%</strong> of their content to these areas. Private broadcasters and print outlets showed similar, lower shares, at <strong>7%</strong> and <strong>5%</strong> respectively. We also observed variability across countries, with the share of science, technology, and education posts ranging from a low of <strong>5%</strong> in countries like Brazil and Denmark to a high of <strong>11%</strong> in Singapore, and <strong>10%</strong> in several others, including Australia, Canada, the United Kingdom, and the United States.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-9-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-9-1" role="tab" aria-controls="tabset-9-1" aria-selected="true">Topic: Science by platform</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-9-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-9-2" role="tab" aria-controls="tabset-9-2" aria-selected="false">by outlet type</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-9-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-9-3" role="tab" aria-controls="tabset-9-3" aria-selected="false">by country</a></li></ul>
 <div class="tab-content">
@@ -877,7 +880,7 @@ AI summaries
 </section>
 <section id="culture-and-arts" class="level3">
 <h3 class="anchored" data-anchor-id="culture-and-arts">Culture and arts</h3>
-<p>We found that on average, <strong>6%</strong> of short video posts covered culture and arts content. The share of this content varied across platforms and outlet types. Looking at platforms, TikTok and Instagram both featured culture and arts in approximately <strong>6%</strong> of their posts, which was significantly higher than YouTube Shorts, where only <strong>4%</strong> of posts were dedicated to this category. For outlet types, digital, print, and public broadcasters each posted culture and arts content in about <strong>6%</strong> of their videos, while private broadcasters did so in <strong>5%</strong> of their posts. Although the overall percentages for digital, print, and public broadcasters were similar when rounded, we observed statistically significant, albeit small, differences: print outlets posted <strong>1</strong> percentage point more culture and arts content than digital outlets, and public broadcasters posted <strong>3</strong> percentage points more than digital outlets. Across countries, the coverage of culture and arts content varied widely, from a low of <strong>2%</strong> in Taiwan and <strong>3%</strong> in the United States and Finland, to a high of <strong>16%</strong> in Hong Kong, <strong>11%</strong> in Portugal, and <strong>10%</strong> in Slovakia.</p>
+<p>We found that, on average, <strong>5%</strong> of short video posts covered culture and arts content. Examining platform differences, we observed a statistically significant contrast: posts on TikTok had a notably higher share of culture and arts content, averaging <strong>6%</strong>, compared to YouTube Shorts at <strong>3%</strong>, while Instagram posts were in between at <strong>5%</strong>. For outlet types, we found only small and non-significant differences in the proportion of culture and arts posts, which ranged from <strong>4%</strong> for private broadcasters to <strong>7%</strong> for print outlets. Finally, the share of culture and arts posts varied across countries, ranging from a low of <strong>3%</strong> in South Korea to a high of <strong>8%</strong> in Morocco.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-10-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-10-1" role="tab" aria-controls="tabset-10-1" aria-selected="true">Topic: Culture by platform</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-10-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-10-2" role="tab" aria-controls="tabset-10-2" aria-selected="false">by outlet type</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-10-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-10-3" role="tab" aria-controls="tabset-10-3" aria-selected="false">by country</a></li></ul>
 <div class="tab-content">
@@ -919,7 +922,7 @@ AI summaries
 </section>
 <section id="lifestyle-and-travel" class="level3">
 <h3 class="anchored" data-anchor-id="lifestyle-and-travel">Lifestyle and travel</h3>
-<p>Across all observed short video posts, we found an average of <strong>6%</strong> of content covered lifestyle and travel topics. However, this share varied significantly by platform and outlet type. We observed that TikTok featured the highest proportion of lifestyle and travel content at <strong>6%</strong>, which was significantly higher than both Instagram at <strong>5%</strong> and YouTube Shorts at <strong>4%</strong>. Regarding outlet types, digital outlets dedicated the largest share of their posts to lifestyle and travel, averaging <strong>8%</strong>. This was significantly more than print outlets, which had a <strong>6%</strong> share, and also substantially higher than both private and public broadcasters, which each posted around <strong>5%</strong> of such content. Additionally, we noted variability in lifestyle and travel content across countries, with the share ranging from as low as <strong>4%</strong> in several nations, including the United States and Germany, to as high as <strong>10%</strong> in Norway.</p>
+<p>Overall, we found that lifestyle and travel content constituted a relatively small portion of short video posts, averaging <strong>7%</strong>. When examining differences across platforms, we observed that TikTok had a significantly higher share of such content, featuring lifestyle and travel in <strong>8%</strong> of posts, compared to YouTube Shorts at <strong>4%</strong>, a difference of 4 percentage points. Instagram posts featured lifestyle and travel content in <strong>7%</strong> of cases, but this difference was not statistically significant compared to other platforms based on the available contrasts. Differences by outlet type were small and not statistically significant; digital and print outlets showed shares of <strong>9%</strong> and <strong>8%</strong> respectively, while private and public broadcasters both had <strong>6%</strong>. Similarly, while the share of lifestyle and travel content varied by country, ranging from <strong>5%</strong> in South Korea to <strong>9%</strong> in Denmark, these differences were generally small and not statistically significant across countries.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-11-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-11-1" role="tab" aria-controls="tabset-11-1" aria-selected="true">Topic: Lifestyle by platform</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-11-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-11-2" role="tab" aria-controls="tabset-11-2" aria-selected="false">by outlet type</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-11-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-11-3" role="tab" aria-controls="tabset-11-3" aria-selected="false">by country</a></li></ul>
 <div class="tab-content">
@@ -961,7 +964,7 @@ AI summaries
 </section>
 <section id="fashion-and-beauty" class="level3">
 <h3 class="anchored" data-anchor-id="fashion-and-beauty">Fashion and beauty</h3>
-<p>Across all analyzed short video posts, we found that fashion and beauty content constituted, on average, a small proportion, at approximately <strong>1%</strong> of all posts. However, this share varied significantly depending on the platform and outlet type. We observed that posts on TikTok dedicated to fashion and beauty were notably higher, making up <strong>2%</strong> of content, compared to Instagram and YouTube Shorts, where this share was around <strong>1%</strong> for both. Similarly, digital outlets posted significantly more fashion and beauty content, accounting for <strong>2%</strong> of their posts, whereas print, private broadcaster, and public broadcaster outlets each dedicated about <strong>1%</strong> of their short video content to these topics. While the average share was low across most countries, we identified a few exceptions where fashion and beauty content appeared more frequently, such as in Slovakia, where it reached <strong>4%</strong>, and in Sweden and Thailand, both at <strong>3%</strong>.</p>
+<p>On average, we found that <strong>2%</strong> of all short video posts covered fashion and beauty. The prevalence of this content varied significantly across platforms: TikTok stood out with <strong>3%</strong> of its posts dedicated to fashion and beauty, which was notably higher than Instagram and YouTube Shorts, where only <strong>1%</strong> of posts featured such topics. We also observed statistically significant differences across outlet types: private and public broadcasters both had <strong>2%</strong> of their posts covering fashion and beauty, which was double the <strong>1%</strong> observed for print outlets; digital outlets similarly had <strong>1%</strong> of posts, but this estimate was not as robustly supported by the data. Across countries, however, the share of fashion and beauty content remained consistently low, ranging between <strong>1%</strong> and <strong>2%</strong>, with no large or substantially meaningful variations observed.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-12-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-12-1" role="tab" aria-controls="tabset-12-1" aria-selected="true">Topic: Fashion by platform</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-12-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-12-2" role="tab" aria-controls="tabset-12-2" aria-selected="false">by outlet type</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-12-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-12-3" role="tab" aria-controls="tabset-12-3" aria-selected="false">by country</a></li></ul>
 <div class="tab-content">
@@ -1003,7 +1006,7 @@ AI summaries
 </section>
 <section id="food-and-cooking" class="level3">
 <h3 class="anchored" data-anchor-id="food-and-cooking">Food and cooking</h3>
-<p>Across all short video posts, we found that food and cooking content made up an average of <strong>4%</strong> of posts. We observed some variations across platforms, where TikTok and YouTube Shorts each featured food and cooking in <strong>4%</strong> of their posts, while Instagram showed a slightly lower share at <strong>3%</strong>, a statistically significant difference. Differences also emerged across outlet types; public broadcasters dedicated a smaller share of <strong>2%</strong> of their short videos to food and cooking, compared to digital, print, and private broadcaster outlets, which all consistently featured food and cooking in <strong>4%</strong> of their posts. Country-level analyses revealed substantial variation; for instance, Romania had the highest proportion of food and cooking content at <strong>8%</strong>, followed by Austria, Czech Republic, and Thailand at <strong>7%</strong> each. In contrast, countries like South Africa and the United Kingdom featured food and cooking in only <strong>1%</strong> of their posts, while Australia, Canada, India, Ireland, Italy, Kenya, Netherlands, Nigeria, Poland, and the United States were also among the lowest, with <strong>2%</strong> of their short videos focused on this topic.</p>
+<p>We found that, on average, short video posts dedicated to food and cooking represented <strong>3%</strong> of all content. When examining this across platforms, we observed only small and statistically non-significant differences; for instance, YouTube Shorts had a predicted share of <strong>4%</strong>, while TikTok and Instagram both had <strong>3%</strong>. Outlet type, however, showed a notable distinction: digital, print, and private broadcasters each allocated approximately <strong>4%</strong> of their posts to food and cooking, whereas public broadcasters covered these topics significantly less often, at just <strong>1%</strong>. Among countries, the share of food and cooking content varied considerably, ranging from <strong>2%</strong> in countries like Australia, Canada, and the United Kingdom, to <strong>6%</strong> in Japan and Taiwan, with many other nations falling in between, such as Austria and Finland at <strong>5%</strong> or Argentina and Brazil at <strong>4%</strong>.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-13-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-13-1" role="tab" aria-controls="tabset-13-1" aria-selected="true">Topic: Food by platform</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-13-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-13-2" role="tab" aria-controls="tabset-13-2" aria-selected="false">by outlet type</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-13-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-13-3" role="tab" aria-controls="tabset-13-3" aria-selected="false">by country</a></li></ul>
 <div class="tab-content">
@@ -1045,7 +1048,7 @@ AI summaries
 </section>
 <section id="pets-and-animals" class="level3">
 <h3 class="anchored" data-anchor-id="pets-and-animals">Pets and animals</h3>
-<p>Overall, we found that posts covering pets and animals made up a small but consistent share of short video content, averaging <strong>3%</strong> of all posts. When examining differences by platform, we observed that TikTok and YouTube Shorts dedicated a slightly larger share to pets and animals, both at <strong>4%</strong>, compared to Instagram, which featured such content in <strong>3%</strong> of its posts; this 1 percentage point difference between Instagram and TikTok was statistically significant. Differences also emerged based on the outlet type: Digital news outlets and Public broadcasters each allocated <strong>4%</strong> of their posts to pets and animals, a significantly higher proportion compared to Print outlets and Private broadcasters, which both posted pet-related content in <strong>3%</strong> of their short videos. Specifically, Print outlets showed a <strong>2</strong> percentage point lower share than Digital outlets, and Private broadcasters showed a <strong>1</strong> percentage point lower share than Digital outlets, both differences being statistically significant. While many countries showed a similar share of pet and animal content, we noted some variations, with Hong Kong standing out at <strong>7%</strong>, and Chile, Finland, and Japan all at <strong>5%</strong>, while Peru and Portugal had the lowest shares, at <strong>2%</strong>.</p>
+<p>Across all analyzed short video posts, we found that content related to pets and animals constituted, on average, a share of <strong>3%</strong> of all posts. When examining variations by platform, we observed small and non-significant differences: TikTok and Instagram both featured an estimated <strong>3%</strong> pet and animal content, while YouTube Shorts was slightly higher at <strong>4%</strong>. Similarly, outlet type did not show statistically significant or substantially meaningful contrasts; while digital outlets posted an estimated <strong>5%</strong> share of such content compared to print outlets at <strong>2%</strong>, and private broadcasters at <strong>4%</strong> versus public broadcasters at <strong>3%</strong>, these observed differences were not statistically significant according to our analysis. Across the various countries studied, the share of pet and animal content also remained largely consistent, typically ranging between <strong>3%</strong> and <strong>4%</strong>, with minor fluctuations such as Indonesia at <strong>5%</strong> and Denmark at <strong>2%</strong>, but these country-level differences were also not statistically significant.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-14-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-14-1" role="tab" aria-controls="tabset-14-1" aria-selected="true">Topic: Pets by platform</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-14-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-14-2" role="tab" aria-controls="tabset-14-2" aria-selected="false">by outlet type</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-14-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-14-3" role="tab" aria-controls="tabset-14-3" aria-selected="false">by country</a></li></ul>
 <div class="tab-content">
@@ -1087,7 +1090,7 @@ AI summaries
 </section>
 <section id="entertainment-news-and-industry" class="level3">
 <h3 class="anchored" data-anchor-id="entertainment-news-and-industry">Entertainment news and industry</h3>
-<p>We found that, on average, <strong>12%</strong> of short video posts covered entertainment news and industry. This share varied significantly across platforms and outlet types. Looking at platforms, we observed that Instagram posts had a substantially higher share of entertainment content, at <strong>16%</strong>, compared to TikTok (11%) and YouTube Shorts (8%). YouTube Shorts, in particular, featured significantly less entertainment content than TikTok. Regarding outlet types, public broadcasters (14%) and private broadcasters (13%) dedicated a greater share of their posts to entertainment news and industry than digital outlets (10%), with print outlets showing a very small but statistically significant difference from digital outlets, also at around 10%. Finally, we observed considerable variation across countries, with some nations like Slovakia (<strong>32%</strong>), Hungary (<strong>30%</strong>), and Hong Kong (<strong>28%</strong>) having a much higher proportion of entertainment content, while countries such as Germany (<strong>4%</strong>), South Korea (<strong>4%</strong>), Finland (<strong>5%</strong>), and Malaysia (<strong>5%</strong>) showed a notably lower share.</p>
+<p>Across short video posts, we found that, on average, <strong>11%</strong> of content covered entertainment news and industry. While we observed numerical variations across platforms, with Instagram posts having a <strong>13%</strong> share of entertainment content, TikTok posts <strong>11%</strong>, and YouTube Shorts posts <strong>9%</strong>, these differences were numerically small and not statistically significant. However, the type of outlet notably influenced the share of entertainment content. Private broadcasters, for example, dedicated <strong>13%</strong> of their posts to entertainment, and public broadcasters <strong>12%</strong>, both significantly higher than digital outlets, which allocated only <strong>8%</strong> to the topic. Print outlets fell in between at <strong>10%</strong>. Looking at country-specific differences, we identified substantial variation in this topic’s coverage. For instance, Slovakia dedicated a notable <strong>30%</strong> of its short video posts to entertainment news, and Romania <strong>23%</strong>, while Germany covered it much less frequently at <strong>6%</strong>, and Finland at <strong>7%</strong>.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-15-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-15-1" role="tab" aria-controls="tabset-15-1" aria-selected="true">Topic: Entertainment by platform</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-15-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-15-2" role="tab" aria-controls="tabset-15-2" aria-selected="false">by outlet type</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-15-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-15-3" role="tab" aria-controls="tabset-15-3" aria-selected="false">by country</a></li></ul>
 <div class="tab-content">
@@ -1129,7 +1132,7 @@ AI summaries
 </section>
 <section id="celebrity-and-royalty" class="level3">
 <h3 class="anchored" data-anchor-id="celebrity-and-royalty">Celebrity and royalty</h3>
-<p>We analyzed short video posts to understand their coverage of celebrity and royalty, finding that on average, <strong>9%</strong> of posts featured this content. We observed meaningful differences across platforms and outlet types. Posts on YouTube Shorts, at <strong>6%</strong>, covered celebrity and royalty significantly less than those on TikTok, at <strong>9%</strong>, while Instagram posts showed <strong>10%</strong> coverage. Regarding outlet types, digital outlets featured celebrity and royalty content most frequently, at <strong>11%</strong>. This was significantly higher than print outlets (at <strong>10%</strong>), private broadcasters (at <strong>8%</strong>), and public broadcasters (at <strong>8%</strong>). Country-level analyses revealed a wide range of coverage, from a low of <strong>5%</strong> in Bulgaria and Germany to a high of <strong>13%</strong> in countries like Spain and Croatia, suggesting considerable geographical variation in the emphasis on celebrity and royalty in short video content.</p>
+<p>We found that across all short video posts analyzed, an average of <strong>9%</strong> covered celebrity and royalty. When examining differences by platform, we observed that while there were some numerical variations, such as <strong>10%</strong> on Instagram, <strong>9%</strong> on TikTok, and <strong>7%</strong> on YouTube Shorts, these differences were small and not statistically significant according to our analysis. Similarly, across different outlet types, differences in coverage of celebrity and royalty were also small and statistically non-significant, with print outlets at <strong>11%</strong>, digital outlets at <strong>10%</strong>, private broadcasters at <strong>8%</strong>, and public broadcasters at <strong>7%</strong>. However, we did identify more substantial variations across countries; the share of posts on celebrity and royalty ranged from a low of <strong>7%</strong> in countries like Australia, Canada, Ireland, Kenya, and South Korea, to a high of <strong>12%</strong> in Denmark.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-16-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-16-1" role="tab" aria-controls="tabset-16-1" aria-selected="true">Topic: Celebrity by platform</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-16-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-16-2" role="tab" aria-controls="tabset-16-2" aria-selected="false">by outlet type</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-16-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-16-3" role="tab" aria-controls="tabset-16-3" aria-selected="false">by country</a></li></ul>
 <div class="tab-content">
@@ -1171,7 +1174,7 @@ AI summaries
 </section>
 <section id="sports" class="level3">
 <h3 class="anchored" data-anchor-id="sports">Sports</h3>
-<p>Across all short video posts, we found that, on average, <strong>6%</strong> covered sports. When examining differences by platform, we observed only small and non-significant variations: TikTok and Instagram posts both featured sports <strong>6%</strong> of the time, while YouTube Shorts had a slightly lower proportion at <strong>5%</strong>. However, outlet type revealed statistically significant distinctions; digital outlets dedicated a higher share of their posts to sports, at <strong>7%</strong>, compared to print outlets and public broadcasters, both of which allocated <strong>5%</strong> of their posts to this content type. Private broadcasters fell in between at <strong>6%</strong>. We also noted substantial variability across countries, with the share of sports content ranging from as low as <strong>3%</strong> in Denmark, Malaysia, and Poland to as high as <strong>11%</strong> in Colombia and <strong>10%</strong> in Chile and Croatia.</p>
+<p>We found that, on average, sports content comprised <strong>5%</strong> of the short video posts analyzed. Looking at specific platforms, Instagram and YouTube Shorts featured sports in about <strong>6%</strong> of their posts, a slightly higher proportion than TikTok, where approximately <strong>4%</strong> of posts were sports-related. When examining outlet types, public broadcasters dedicated significantly less of their content to sports, with only <strong>2%</strong> of their posts covering this category. In contrast, digital outlets and print outlets both covered sports in <strong>7%</strong> of their posts, while private broadcasters did so in <strong>6%</strong>. Across countries, we observed considerable variation in sports coverage, ranging from a low of <strong>3%</strong> in countries like Australia, the Netherlands, and the UK, to a high of <strong>10%</strong> in Colombia and Croatia.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-17-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-17-1" role="tab" aria-controls="tabset-17-1" aria-selected="true">Topic: Sports by platform</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-17-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-17-2" role="tab" aria-controls="tabset-17-2" aria-selected="false">by outlet type</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-17-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-17-3" role="tab" aria-controls="tabset-17-3" aria-selected="false">by country</a></li></ul>
 <div class="tab-content">
@@ -1213,7 +1216,7 @@ AI summaries
 </section>
 <section id="promotion-and-advertisements" class="level3">
 <h3 class="anchored" data-anchor-id="promotion-and-advertisements">Promotion and advertisements</h3>
-<p>We found that, on average, <strong>3%</strong> of short video posts across all platforms, outlet types, and countries covered promotion and advertisements. This share varied significantly depending on the platform used: we observed the highest proportion on Instagram at <strong>6%</strong>, followed by TikTok at <strong>2%</strong>, and the lowest on YouTube Shorts at <strong>1%</strong>. Outlet type also played a role; digital outlets featured promotion and advertisements in <strong>5%</strong> of their posts, significantly more than print outlets (<strong>3%</strong>) and public broadcasters, which had the lowest share at <strong>1%</strong>. Private broadcasters fell in between at <strong>4%</strong>. We also noted substantial differences across countries, with the share of promotional content ranging from a low of <strong>1%</strong> in countries like the United States, United Kingdom, and Australia, to a high of <strong>14%</strong> in Slovakia and <strong>11%</strong> in Hong Kong.</p>
+<p>We found that, on average, promotion and advertisements constituted a small portion of short video posts, accounting for just <strong>2%</strong> of content overall. We observed statistically significant differences across platforms; Instagram posts contained a notably higher share of promotional content at <strong>3%</strong>, compared to <strong>1%</strong> for both TikTok and YouTube Shorts. Specifically, we found that Instagram posts were significantly more likely to include promotions than TikTok posts, with a <strong>2</strong> percentage point difference. Differences in promotional content across various outlet types, such as digital, print, and public or private broadcasters, were small and not statistically significant. When examining country-level variations, we identified more substantial differences. While many countries showed an average of <strong>2%</strong> promotional content, some, like Portugal, stood out with a higher share of <strong>4%</strong>, while others, such as Australia, Canada, Japan, and the United States, showed a lower share of <strong>1%</strong>.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-18-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-18-1" role="tab" aria-controls="tabset-18-1" aria-selected="true">Topic: Promotion by platform</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-18-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-18-2" role="tab" aria-controls="tabset-18-2" aria-selected="false">by outlet type</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-18-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-18-3" role="tab" aria-controls="tabset-18-3" aria-selected="false">by country</a></li></ul>
 <div class="tab-content">
@@ -1255,7 +1258,7 @@ AI summaries
 </section>
 <section id="user-generated-performance-and-comedy" class="level3">
 <h3 class="anchored" data-anchor-id="user-generated-performance-and-comedy">User generated performance and comedy</h3>
-<p>Across all observed short video posts, we found that user-generated performance and comedy content made up a small but consistent share, averaging <strong>2%</strong>. However, this share varied significantly by platform and outlet type. On platforms, TikTok led with <strong>2%</strong> of its content falling into this category. Instagram also averaged <strong>2%</strong>, though this was a significantly smaller share compared to TikTok, and YouTube Shorts featured an even lower proportion at <strong>1%</strong>. When examining outlet types, digital outlets and private broadcasters featured user-generated performance and comedy most prominently, both at <strong>3%</strong>. In contrast, print outlets and public broadcasters published substantially less of this content, both averaging just <strong>1%</strong>. We also observed considerable country-level differences; for instance, the Czech Republic showed a notably high share of <strong>10%</strong> and Taiwan <strong>8%</strong>, while countries such as Germany, Hong Kong, and the United Kingdom had very low shares, at or below <strong>1%</strong>.</p>
+<p>We found that, on average, posts covering user-generated performance and comedy represented <strong>2%</strong> of all short video content analyzed. Examining differences by platform, we observed a statistically significant pattern: TikTok posts were most likely to feature this content, accounting for <strong>3%</strong> of its share, while Instagram followed at <strong>2%</strong>. YouTube Shorts had a significantly lower proportion, with only <strong>1%</strong> of its posts falling into this category. Differences by outlet type were also notable. Digital and private broadcasters both dedicated a higher share of <strong>3%</strong> of their posts to user-generated performance and comedy. Public broadcasters followed with <strong>2%</strong>, while print outlets showed a significantly lower share, at just <strong>1%</strong>. Although specific country shares varied slightly, ranging from <strong>1%</strong> to <strong>3%</strong>, we did not find substantial or consistently distinct patterns across individual countries or regions for this content type.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-19-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-19-1" role="tab" aria-controls="tabset-19-1" aria-selected="true">Topic: User by platform</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-19-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-19-2" role="tab" aria-controls="tabset-19-2" aria-selected="false">by outlet type</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-19-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-19-3" role="tab" aria-controls="tabset-19-3" aria-selected="false">by country</a></li></ul>
 <div class="tab-content">
@@ -1298,11 +1301,19 @@ AI summaries
 </section>
 <section id="measures" class="level2">
 <h2 class="anchored" data-anchor-id="measures">Measures</h2>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-20-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-20-1" role="tab" aria-controls="tabset-20-1" aria-selected="true">Instructions</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-20-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-20-2" role="tab" aria-controls="tabset-20-2" aria-selected="false">Validation</a></li></ul>
-<div class="tab-content">
-<div id="tabset-20-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-20-1-tab">
-<p>The following instructions were used for zero-shot classification of the posts:</p>
+<p>Topics were coded using using zero-short classification on post text and transcript, with categories from the <a href="https://www.nieuwsarchief.be/">Electronic News Archive (ENA) of the University of Antwerp</a> and additional topics.</p>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Coding instructions
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
 <p>Your task is to analyze the provided short video content (derived from caption text and transcripts) and determine whether its topic explicitly falls into one or more of the following categories. Your decision for each category must be based only on direct and explicit mentions of the category’s subject matter within the caption text or transcript. Do not infer or extrapolate beyond the directly stated information. If a category’s subject is not explicitly mentioned, even if indirectly related, you must classify it as “False.”</p>
 <p>Please evaluate the provided short video content against each of the following 19 categories independently:</p>
 <p>politics: Code “True” if the caption text or transcript explicitly discusses political structures, electoral processes, or international governance. This includes explicit mentions of political organizations, elections, migration policies, and international relations between countries.</p>
@@ -1325,209 +1336,15 @@ AI summaries
 <p>promotion_and_advertisements: Code “True” if the caption text or transcript explicitly promotes a product, service, brand, event, or specific call to action with a commercial intent. This includes explicit mentions of sales, discounts, sponsorships, brand endorsements, or direct calls to purchase or visit a business.</p>
 <p>user_generated_performance_and_comedy: Code “True” if the caption text or transcript explicitly features or discusses performances by users, often for entertainment, and/or comedic content. This includes explicit mentions of dance routines, lip-sync videos, short-form skits, memes, and viral trends where a user’s performance or comedic element is central.</p>
 </div>
-<div id="tabset-20-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-20-2-tab">
-<div class="cell">
-<div class="cell-output-display">
-<table class="caption-top table table-sm table-striped small">
-<colgroup>
-<col style="width: 40%">
-<col style="width: 9%">
-<col style="width: 7%">
-<col style="width: 10%">
-<col style="width: 7%">
-<col style="width: 12%">
-<col style="width: 12%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Variable</th>
-<th style="text-align: right;">accuracy</th>
-<th style="text-align: right;">f_meas</th>
-<th style="text-align: right;">precision</th>
-<th style="text-align: right;">recall</th>
-<th style="text-align: right;">sensitivity</th>
-<th style="text-align: right;">specificity</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">Celebrity and royalty</td>
-<td style="text-align: right;">0.98</td>
-<td style="text-align: right;">0.80</td>
-<td style="text-align: right;">0.67</td>
-<td style="text-align: right;">1.00</td>
-<td style="text-align: right;">1.00</td>
-<td style="text-align: right;">0.98</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Culture and arts</td>
-<td style="text-align: right;">0.96</td>
-<td style="text-align: right;">0.83</td>
-<td style="text-align: right;">1.00</td>
-<td style="text-align: right;">0.71</td>
-<td style="text-align: right;">0.71</td>
-<td style="text-align: right;">1.00</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Economy and finance</td>
-<td style="text-align: right;">0.96</td>
-<td style="text-align: right;">0.85</td>
-<td style="text-align: right;">0.79</td>
-<td style="text-align: right;">0.92</td>
-<td style="text-align: right;">0.92</td>
-<td style="text-align: right;">0.97</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Entertainment news and industry</td>
-<td style="text-align: right;">0.97</td>
-<td style="text-align: right;">0.84</td>
-<td style="text-align: right;">0.73</td>
-<td style="text-align: right;">1.00</td>
-<td style="text-align: right;">1.00</td>
-<td style="text-align: right;">0.97</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Environment and energy</td>
-<td style="text-align: right;">0.96</td>
-<td style="text-align: right;">0.67</td>
-<td style="text-align: right;">0.50</td>
-<td style="text-align: right;">1.00</td>
-<td style="text-align: right;">1.00</td>
-<td style="text-align: right;">0.96</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Fashion and beauty</td>
-<td style="text-align: right;">0.99</td>
-<td style="text-align: right;">NA</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">NA</td>
-<td style="text-align: right;">NA</td>
-<td style="text-align: right;">0.99</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Food and cooking</td>
-<td style="text-align: right;">0.94</td>
-<td style="text-align: right;">0.40</td>
-<td style="text-align: right;">0.33</td>
-<td style="text-align: right;">0.50</td>
-<td style="text-align: right;">0.50</td>
-<td style="text-align: right;">0.96</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Health and fitness</td>
-<td style="text-align: right;">0.96</td>
-<td style="text-align: right;">0.33</td>
-<td style="text-align: right;">0.25</td>
-<td style="text-align: right;">0.50</td>
-<td style="text-align: right;">0.50</td>
-<td style="text-align: right;">0.97</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Law enforcement and crime</td>
-<td style="text-align: right;">0.91</td>
-<td style="text-align: right;">0.84</td>
-<td style="text-align: right;">0.85</td>
-<td style="text-align: right;">0.82</td>
-<td style="text-align: right;">0.82</td>
-<td style="text-align: right;">0.94</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Lifestyle and travel</td>
-<td style="text-align: right;">0.97</td>
-<td style="text-align: right;">0.73</td>
-<td style="text-align: right;">0.57</td>
-<td style="text-align: right;">1.00</td>
-<td style="text-align: right;">1.00</td>
-<td style="text-align: right;">0.97</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Mobility and infrastructure</td>
-<td style="text-align: right;">0.99</td>
-<td style="text-align: right;">0.86</td>
-<td style="text-align: right;">1.00</td>
-<td style="text-align: right;">0.75</td>
-<td style="text-align: right;">0.75</td>
-<td style="text-align: right;">1.00</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Pets and animals</td>
-<td style="text-align: right;">0.99</td>
-<td style="text-align: right;">0.80</td>
-<td style="text-align: right;">0.67</td>
-<td style="text-align: right;">1.00</td>
-<td style="text-align: right;">1.00</td>
-<td style="text-align: right;">0.99</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Politics</td>
-<td style="text-align: right;">0.93</td>
-<td style="text-align: right;">0.89</td>
-<td style="text-align: right;">0.94</td>
-<td style="text-align: right;">0.85</td>
-<td style="text-align: right;">0.85</td>
-<td style="text-align: right;">0.97</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Promotion and advertisements</td>
-<td style="text-align: right;">0.96</td>
-<td style="text-align: right;">0.75</td>
-<td style="text-align: right;">0.75</td>
-<td style="text-align: right;">0.75</td>
-<td style="text-align: right;">0.75</td>
-<td style="text-align: right;">0.98</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Science technology and education</td>
-<td style="text-align: right;">0.97</td>
-<td style="text-align: right;">0.80</td>
-<td style="text-align: right;">0.86</td>
-<td style="text-align: right;">0.75</td>
-<td style="text-align: right;">0.75</td>
-<td style="text-align: right;">0.99</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Social affairs</td>
-<td style="text-align: right;">0.84</td>
-<td style="text-align: right;">0.43</td>
-<td style="text-align: right;">0.38</td>
-<td style="text-align: right;">0.50</td>
-<td style="text-align: right;">0.50</td>
-<td style="text-align: right;">0.89</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Sports</td>
-<td style="text-align: right;">1.00</td>
-<td style="text-align: right;">1.00</td>
-<td style="text-align: right;">1.00</td>
-<td style="text-align: right;">1.00</td>
-<td style="text-align: right;">1.00</td>
-<td style="text-align: right;">1.00</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">User generated performance and comedy</td>
-<td style="text-align: right;">0.98</td>
-<td style="text-align: right;">NA</td>
-<td style="text-align: right;">NA</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">1.00</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">War disasters accidents</td>
-<td style="text-align: right;">0.92</td>
-<td style="text-align: right;">0.71</td>
-<td style="text-align: right;">0.83</td>
-<td style="text-align: right;">0.62</td>
-<td style="text-align: right;">0.62</td>
-<td style="text-align: right;">0.98</td>
-</tr>
-</tbody>
-</table>
 </div>
 </div>
-<section id="classifier-agreement" class="level2">
-<h2 class="anchored" data-anchor-id="classifier-agreement">Classifier agreement</h2>
-<p>Post were coded using zero-shot classification by two different models: gemini-2.5-flash-lite, Qwen3 235B VL.</p>
+<section id="reliability" class="level3">
+<h3 class="anchored" data-anchor-id="reliability">Reliability</h3>
+<p>Models used: gemini-2.5-flash-lite, Qwen3 235B VL.</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-20-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-20-1" role="tab" aria-controls="tabset-20-1" aria-selected="true">LLM-LLM agreement</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-20-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-20-2" role="tab" aria-controls="tabset-20-2" aria-selected="false">Human-LLM agreement</a></li></ul>
+<div class="tab-content">
+<div id="tabset-20-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-20-1-tab">
 <div class="cell">
 <div class="cell-output-display">
 <table class="caption-top table table-sm table-striped small">
@@ -1552,50 +1369,50 @@ AI summaries
 <td style="text-align: left;">Politics</td>
 <td style="text-align: right;">200</td>
 <td style="text-align: right;">2</td>
-<td style="text-align: right;">0.95</td>
-<td style="text-align: right;">0.88</td>
+<td style="text-align: right;">0.91</td>
+<td style="text-align: right;">0.79</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Law enforcement and crime</td>
 <td style="text-align: right;">200</td>
 <td style="text-align: right;">2</td>
-<td style="text-align: right;">0.96</td>
-<td style="text-align: right;">0.87</td>
+<td style="text-align: right;">0.94</td>
+<td style="text-align: right;">0.85</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">War disasters accidents</td>
 <td style="text-align: right;">200</td>
 <td style="text-align: right;">2</td>
-<td style="text-align: right;">0.98</td>
-<td style="text-align: right;">0.91</td>
+<td style="text-align: right;">0.96</td>
+<td style="text-align: right;">0.88</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Economy and finance</td>
 <td style="text-align: right;">200</td>
 <td style="text-align: right;">2</td>
 <td style="text-align: right;">0.96</td>
-<td style="text-align: right;">0.82</td>
+<td style="text-align: right;">0.83</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Social affairs</td>
 <td style="text-align: right;">200</td>
 <td style="text-align: right;">2</td>
-<td style="text-align: right;">0.90</td>
-<td style="text-align: right;">0.60</td>
+<td style="text-align: right;">0.92</td>
+<td style="text-align: right;">0.72</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Health and fitness</td>
 <td style="text-align: right;">200</td>
 <td style="text-align: right;">2</td>
-<td style="text-align: right;">0.95</td>
-<td style="text-align: right;">0.56</td>
+<td style="text-align: right;">0.96</td>
+<td style="text-align: right;">0.62</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Mobility and infrastructure</td>
 <td style="text-align: right;">200</td>
 <td style="text-align: right;">2</td>
-<td style="text-align: right;">0.98</td>
-<td style="text-align: right;">0.85</td>
+<td style="text-align: right;">0.99</td>
+<td style="text-align: right;">0.90</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Environment and energy</td>
@@ -1608,89 +1425,92 @@ AI summaries
 <td style="text-align: left;">Science technology and education</td>
 <td style="text-align: right;">200</td>
 <td style="text-align: right;">2</td>
-<td style="text-align: right;">0.98</td>
-<td style="text-align: right;">0.85</td>
+<td style="text-align: right;">1.00</td>
+<td style="text-align: right;">1.00</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Culture and arts</td>
 <td style="text-align: right;">200</td>
 <td style="text-align: right;">2</td>
 <td style="text-align: right;">0.94</td>
-<td style="text-align: right;">0.66</td>
+<td style="text-align: right;">0.67</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Lifestyle and travel</td>
 <td style="text-align: right;">200</td>
 <td style="text-align: right;">2</td>
-<td style="text-align: right;">0.96</td>
-<td style="text-align: right;">0.68</td>
+<td style="text-align: right;">0.97</td>
+<td style="text-align: right;">0.80</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Fashion and beauty</td>
 <td style="text-align: right;">200</td>
 <td style="text-align: right;">2</td>
-<td style="text-align: right;">0.98</td>
-<td style="text-align: right;">0.56</td>
+<td style="text-align: right;">1.00</td>
+<td style="text-align: right;">0.80</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Food and cooking</td>
 <td style="text-align: right;">200</td>
 <td style="text-align: right;">2</td>
-<td style="text-align: right;">0.98</td>
-<td style="text-align: right;">0.85</td>
+<td style="text-align: right;">0.99</td>
+<td style="text-align: right;">0.91</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Pets and animals</td>
 <td style="text-align: right;">200</td>
 <td style="text-align: right;">2</td>
-<td style="text-align: right;">0.98</td>
-<td style="text-align: right;">0.79</td>
+<td style="text-align: right;">0.99</td>
+<td style="text-align: right;">0.85</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Entertainment news and industry</td>
 <td style="text-align: right;">200</td>
 <td style="text-align: right;">2</td>
-<td style="text-align: right;">0.94</td>
-<td style="text-align: right;">0.71</td>
+<td style="text-align: right;">0.96</td>
+<td style="text-align: right;">0.76</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Celebrity and royalty</td>
 <td style="text-align: right;">200</td>
 <td style="text-align: right;">2</td>
 <td style="text-align: right;">0.96</td>
-<td style="text-align: right;">0.76</td>
+<td style="text-align: right;">0.77</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Sports</td>
 <td style="text-align: right;">200</td>
 <td style="text-align: right;">2</td>
-<td style="text-align: right;">1.00</td>
-<td style="text-align: right;">0.93</td>
+<td style="text-align: right;">0.99</td>
+<td style="text-align: right;">0.87</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Promotion and advertisements</td>
 <td style="text-align: right;">200</td>
 <td style="text-align: right;">2</td>
-<td style="text-align: right;">0.97</td>
-<td style="text-align: right;">0.65</td>
+<td style="text-align: right;">0.98</td>
+<td style="text-align: right;">0.74</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">User generated performance and comedy</td>
 <td style="text-align: right;">200</td>
 <td style="text-align: right;">2</td>
 <td style="text-align: right;">0.96</td>
-<td style="text-align: right;">0.58</td>
+<td style="text-align: right;">0.50</td>
 </tr>
 </tbody>
 </table>
 </div>
 </div>
+</div>
+<div id="tabset-20-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-20-2-tab">
+<p>TODO</p>
+</div>
+</div>
+</div>
+
+
 </section>
-</div>
-</div>
-</div>
-
-
 </section>
 
 </main> <!-- /main -->
