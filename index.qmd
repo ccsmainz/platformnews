@@ -1,9 +1,9 @@
 ---
 title: "Platform News Report"
-#title-block-banner: true
+index: true
 ---
 
-{{< include /_includes/_data.qmd >}}
+{{< include /_includes/common.qmd >}}
 
 ::: {.float-right}
 ![](logo.png){width=33% style="float: right; margin-left: 15px;"}
@@ -12,11 +12,28 @@ title: "Platform News Report"
 **Platformization** describes the growing trend of news being produced and distributed through – and increasingly by – digital platforms like TikTok, YouTube, and Instagram. This process fundamentally alters news production, often prioritizing engagement over traditional journalistic norms. Consequently, platform news are supposedly more visually-driven, emotionalized, and personalized, often delivered by non-traditional actors and in new formats.
 
 
-To systematically investigate these shifts, we introduce the **Platform News Report**, a large-scale computational communication research project examining news content on TikTok, YouTube Shorts, and Instagram. The project collects data from **`r n_distinct(d$outlet)` news outlets** across **`r n_distinct(d$country)` countries**, enabling analysis of the topics covered, the presentation styles employed, and the patterns of publication on these platforms. Through this comprehensive dataset, the Platform News Report aims to provide empirical insights into the evolving landscape of digital news and the consequences of platformization for public discourse.
+To systematically investigate these shifts, we introduce the **Platform News Report**, a large-scale computational communication research project examining news content on TikTok, YouTube Shorts, and Instagram.
+
+Complementing the [Reuters Digital News Report](https://www.digitalnewsreport.org/), which primarily focuses on survey data and news consumption patterns, our study examines the content and dissemination of news on these platforms. Our sampling scheme directly aligns with the DNR, leveraging the same markets and covering the news brands. This parallel approach ensures comparability and allows for a more holistic understanding of the news ecosystem, bridging insights from both demand and supply sides.
+
+The project collects data from **`r n_distinct(d$brand)` news outlets** across **`r n_distinct(d$country)` countries**, enabling analysis of the topics covered, the presentation styles employed, and the patterns of publication on these platforms. Through this comprehensive dataset, the Platform News Report aims to provide empirical insights into the evolving landscape of digital news and the consequences of platformization for public discourse.
+
 
 ::: callout-note
 ### Work-in-progress
 The Platform News Report is work-in-progress, and we actively encourage engagement from the research community and beyond. We welcome suggestions for improvement, new analyses, comments on preliminary findings, and – crucially – [bug reports](https://github.com/ccsmainz/platformnews/issues) to help ensure the accuracy and robustness of our data and analyses.
 :::
 
+
+
+### Team
+
 The Platform News Report is a project of the [Computational Communication Research Group](https://ccs.ifp.uni-mainz.de) at the [Department of Communication](https://www.ifp.uni-mainz.de), Johannes-Gutenberg University Mainz, Germany.
+
+Principle investigator: Michael Scharkow
+
+Research assistance: Yannick Winkler, Dennis Maus, Charlotte Tryba
+
+### Citation 
+
+Please cite as Scharkow, Michael (2026). Platform News Report 2025. Online at <https://ccsmainz.github.io/platformnews>

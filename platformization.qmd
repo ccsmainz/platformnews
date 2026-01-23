@@ -1,107 +1,115 @@
 ---
 title: Platformization
+bibliography: references.bib
 ---
 
-{{< include /_includes/_data.qmd >}}
-{{< include /_includes/_funcs.qmd >}}
+{{< include /_includes/common.qmd >}} 
 
+## Video and text features
 
-## Video duration
-
-
-```{r}
+```{r vid_analysis}
 #| include: false
-#| cache: true
-duration_results = std_analysis(d, "duration", family = poisson())
+vid_results = read_data("is_vertical") |> 
+  prep_for_analysis(d) |>  
+  std_analysis("is_vertical", family = binomial())
+
+vid_text = std_text(vid_results, title = "Video format", ylab = "Share of native vertical videos")
 ```
 
-By definition, short video platforms usually restrict the duration of the clips that can be shared, and viewers typically spend even less time watching any given clip. For all news outlets,  we found that the average clip was about **`r round(duration_results$avg$estimate)`** seconds long. However, there was a clear difference between platforms: videos shared on YouTube Shorts typically ran for around 68 seconds, while TikTok content from these news sources was noticeably longer, averaging about 95 seconds per clip.
+`r knitr::knit(text = std_plots(results = "vid_results",  title = "Video format", ylab = "Share of native vertical videos", text = vid_text))`
 
-
-
-
-::: {.panel-tabset}
-
-### Video duration by platform
+::: {.callout-note appearance="simple" collapse="true"}
+## Result tables for video format
 
 ```{r}
-#| fig-height: 2
-duration_results$platform_plot +
-  labs(x = "", y = "Average video duration, in seconds", subtitle = "Average video duration, by platform", title = "Not-so-short videos")
+#| results: asis
+results_to_md(vid_results)
 ```
-
-### Video duration by country 
-
-```{r}
-#| fig-height: 10
-
-duration_results$country_plot +
-  coord_flip(ylim = c(0,200))+
-  labs(x = "", y = "Average video duration, in seconds", subtitle = "Average video duration, by country", color = "Region", title = "Not-so-short videos")
-```
-
 :::
 
-## Emoji usage
-
-Emoji usage in headlines and captions is considered a typical feature of news platformization, but overall, only **14%** of all posts contained emojis, and 187 outlets never used them. TikTok posts were more likely to include emojis than YouTube Shorts posts – on average, TikTok posts contained 11% more emojis. Emoji usage also varied significantly by outlet - with some outlets using emojis in over 80% of their posts - and country, with the highest rates observed in Switzerland, the Czech Republic, and Spain, and the lowest in India, Japan, and Taiwan. 
 
 
-```{r, eval = F}
-
-m1 = d |>
-  mutate(n_emoji = emoji::emoji_detect(title) |> as.numeric()) |>
-  glmer(n_emoji ~ 1 + (1|country), data = _, family = binomial)
-
-m2 = d |>
-  mutate(n_emoji = emoji::emoji_detect(title) |> as.numeric()) |>
-  glmer(n_emoji ~ 1 + (1|country) + (1|outlet), data = _, family = binomial)
-
-m3 = d |>
-  mutate(n_emoji = emoji::emoji_detect(title) |> as.numeric()) |>
-  glmer(n_emoji ~ platform + (platform|country), data = _, family = binomial)
-
-country_preds = m1 |> avg_predictions(by = "country") |> 
-  as_tibble() |> 
-  left_join(regions)
-
-
-brand_preds = m2 |> avg_predictions(by = "outlet") |> 
-  left_join(distinct(d, outlet, country, region)) |> 
-  as_tibble() |> 
-  left_join(country_preds |> select(country, avg = estimate))
-```
-
-
-```{r}
+```{r emo_analysis}
 #| include: false
-#| cache: true
-emo_results = d |> 
-  mutate(emoji = emoji::emoji_detect(title) |> as.numeric()) |> 
+emo_results = d_analysis |> 
+  mutate(emoji = emoji::emoji_detect(title)) |> 
   std_analysis("emoji", family = binomial())
+
+emo_text = std_text(emo_results, ylab = "Share of posts with emojis", title = "Emoji use")
 ```
 
+`r knitr::knit(text = std_plots(results = "emo_results",  ylab = "Share of posts with emojis", title = "Emoji use", text = emo_text))`
 
-::: {.panel-tabset}
-
-### Emoji usage by platform
+::: {.callout-note appearance="simple" collapse="true"}
+## Result tables for emoji use
 
 ```{r}
-#| fig-height: 2
-emo_results$platform_plot +
-  scale_y_continuous(labels = scales::percent)+
-  labs(x = "", y = "Share of posts with emojis", title = "Who uses emojis?", subtitle = "Share of posts containing emojis, by platform")
+#| results: asis
+results_to_md(emo_results)
 ```
-
-### Emoji usage by country 
-
-```{r}
-#| fig-height: 10
-
-emo_results$country_plot +
-  scale_y_continuous(labels = scales::percent)+
-  #scale_color_manual(values = c("#ff0050", "#00aaaa"))+
-  labs(x = "", y = "Share of posts with emojis", title = "Who uses emojis?", subtitle = "Proportion of posts containing emojis, by country", color = "Region")
-```
-
 :::
+
+
+## Audience interactions
+
+```{r you_analysis}
+#| include: false
+
+you_results = read_data("interactions_new") |> 
+  prep_for_analysis(d) |>
+  mutate(you = direct_audience_address) |> 
+  #mutate(you = str_detect(tolower(title), "\\b(you|your|yours)\\b") |> as.numeric()) |> 
+  std_analysis("you", family = binomial)
+
+you_text = std_text(you_results, ylab = "Share of posts addressing the audience")
+```
+
+`r knitr::knit(text = std_plots(results = "you_results",  ylab = "Share of posts addressing the audience", title = "Addressing the audience", text = you_text))`
+
+::: {.callout-note appearance="simple" collapse="true"}
+## Result tables for addressing the audience
+
+```{r}
+#| results: asis
+results_to_md(you_results)
+```
+:::
+
+
+
+```{r inter_analysis}
+#| include: false
+
+inter_results = read_data("interactions_new") |> 
+  mutate(inter = if_any(starts_with("call"), ~ . == TRUE))|> 
+  prep_for_analysis(d)  |> 
+  std_analysis("inter", family = binomial)
+inter_text = std_text(inter_results, ylab = "Share of posts calling for audience interactions such as liking, sharing or commenting, or visiting a website etc.")
+```
+
+`r knitr::knit(text = std_plots(results = "inter_results",  ylab = "Share of posts calling for audience interactions", title = "Interaction calls", text = inter_text))`
+
+::: {.callout-note appearance="simple" collapse="true"}
+## Result tables for interaction calls
+
+```{r}
+#| results: asis
+results_to_md(inter_results)
+```
+:::
+
+## Measures
+
+Video format was coded using zero-shot classification with multimodal LLMs using video frames. Emoji use was measured using the `emo_detect()` function from the **{emoji}** package [@emoji]. Audience interactions were coded using zero-shot classification with multimodal LLMs using post text, transcript and video frames.
+
+```{r}
+#video_rel = read_data("vert")|> 
+#  distinct(id, model, .keep_all = T) 
+inter_rel = read_data("interactions_new")|> 
+  distinct(id, model, .keep_all = T) 
+d_rel = inter_rel
+codebook = get_codebook("interactions_new")
+```
+
+
+{{< include /_includes/_rel.qmd >}} 

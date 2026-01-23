@@ -1,0 +1,113 @@
+---
+title: Key metrics
+---
+
+{{< include /_includes/common.qmd >}}
+
+## Publication patterns
+
+The Platform News Report is based on data from **`r n_distinct(d$brand)` news outlets** across **`r n_distinct(d$country)` countries**. We collected **`r prettyNum(nrow(d), big.mark="," )`** posts published by these outlets on TikTok, Instagram, and YouTube Shorts from March 15 to April 15, 2025.
+
+```{r}
+platform_tab = d |> 
+  group_by(Platform = platform) |> 
+  summarise(`Outlets` = n_distinct(brand), 
+            Posts = n()) |> 
+  mutate(`%`= round(Posts/sum(Posts)*100)) |> 
+  mutate_if(is.numeric, ~ prettyNum(., big.mark="," )) 
+platform_tab
+```
+
+While Instagram had the biggest market share in terms of active news outlets, the amount of content posted on TikTok was much larger overall, with almost half of all posts in our sample coming from this platform, followed by Instagram, and YouTube Shorts, which also attracted far fewer outlets overall.
+
+```{r, eval = F}
+#| fig-height: 2.5
+d |> 
+  count(day = as.Date(timestamp)) |> 
+  #group_by(platform) |> 
+  #mutate(n = n/sum(n)) |> 
+  #filter(str_detect(platform, "You") & str_detect(region, "Asia")) |> 
+  ggplot(aes(x = day, y = n))+
+  geom_col()+
+  labs(title = "Posts collected per day", x = "Date", y = "# of posts")
+```
+
+```{r pub_analysis}
+#| include: false
+pub_results = d |> group_by(country, platform, outlet_type, region, brand) |> summarise(per_day = round(n()/31)) |>ungroup() |> std_analysis("per_day", family = poisson())
+pub_text = "News outlets published an average of **4.2** short video posts per day across all platforms and countries. 
+Outlets posted the most videos on TikTok, averaging **5.6** posts per day, followed by Instagram with **3.9** videos, and YouTube Shorts with the
+fewest at **2.8** videos daily. Significant differences also emerged based on outlet type, with private 
+broadcasters publishing the highest volume, averaging **6.2** videos per day. Public broadcasters posted fewer, 
+at **4.2** videos daily, while both digital and print outlets posted similar, lower volumes,  averaging **3.5**
+ and 2.8 videos per day, respectively. We also noted considerable variation by country, ranging from as few as **1** video per day in 
+Denmark, the Netherlands, and Switzerland, to as many as **10** videos daily in Malaysia, with Brazil also 
+standing out at **9** videos per day and Indonesia at **8** videos."
+```
+
+`r knitr::knit(text = std_plots(results = "pub_results",  ylab = "Posts per day",  title = "Frequency", text = pub_text, unit = "outlets"))`
+
+::: {.callout-note appearance="simple" collapse="true"}
+## Result tables for publishing frequency
+
+```{r}
+#| results: asis
+results_to_md(pub_results)
+```
+:::
+
+```{r duration_analysis}
+#| include: false
+duration_results = std_analysis(d_analysis, "duration", family = poisson())
+#duration_text = std_text(duration_results, title = "Video duration", ylab = "Average video duration")
+```
+
+```{r}
+duration_text = "We found that the average duration of short video posts was around **80 seconds**. This average varied significantly
+depending on the platform and the type of outlet. For platforms, we observed that videos posted on YouTube Shorts 
+were notably shorter, averaging around **67 seconds**, much shorter than  TikTok and Instagram
+posts.  When examining outlet types, private broadcasters produced
+the longest videos, with only small differences between the other outlet types. Finally, average video durations also varied substantially across countries, ranging from as short as **52 
+seconds** in Slovakia to as long as **143 seconds** in Thailand."
+```
+
+`r knitr::knit(text = std_plots(results = "duration_results",  ylab = "Average video duration, in seconds",  title = "Video duration", text = duration_text))`
+
+::: {.callout-note appearance="simple" collapse="true"}
+## Result tables for average video duration
+
+```{r}
+#| results: asis
+results_to_md(duration_results)
+```
+:::
+
+```{r dup_analysis}
+#| include: false
+
+dups = read_tsv(here::here("_data/duplicates.tsv.gz"))
+dupli_results = d_analysis |> 
+  group_by(outlet) |> 
+  mutate(n_platforms = n_distinct(platform)) |> 
+  ungroup() |> 
+  filter(n_platforms > 1) |> 
+  mutate(is_dup = id %in% c(dups$x, dups$y)) |> 
+  std_analysis("is_dup", family = binomial())
+
+dup_text = std_text(dupli_results, title = "Content duplication", ylab = "Share of posts that are cross-platform duplicates")
+```
+
+`r knitr::knit(text = std_plots(results = "dupli_results",  ylab = "Share of posts that are cross-platform duplicates",  title = "Content duplication", text = dup_text))`
+
+::: {.callout-note appearance="simple" collapse="true"}
+## Result tables for cross-platform duplicates
+
+```{r}
+#| results: asis
+results_to_md(dupli_results)
+```
+:::
+
+### Measures
+
+Video duration was provided as meta data from the platforms.  Content duplication was measured by computing pairwise Jaccard distances on the post transcripts, with a threshold of .70, using the textreuse package [@textreuse].

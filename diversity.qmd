@@ -1,0 +1,173 @@
+---
+title: Diversity
+bibliography: references.bib
+---
+
+{{< include /_includes/common.qmd >}} 
+
+## Demographics
+
+```{r, include = F}
+library(vegan)
+div <- function(x) diversity(table(na.omit(x)), index = "invsimpson")
+
+sample_age = function(age_range, n = 1){
+  age_range = str_split(age_range, "-|\\+")
+  min_age = unlist(age_range)[1]
+  max_age = unlist(age_range)[2]
+  max_age = ifelse(max_age=="", 80, max_age)
+  sample(min_age:max_age, n, replace = T )
+}
+
+set.seed(123)
+d_fair = read_csv(here::here("_data/fairface.csv.gz")) |> 
+  mutate(id = str_remove_all(image, ".mp4.jpg")) |> 
+  distinct(id, index, attribute, value) |> 
+  pivot_wider(names_from = attribute, values_from = value) |> 
+  mutate(age_int = map_int(age, sample_age)) 
+
+d_gender = d_fair |> 
+  group_by(id) |> 
+  summarise(prop_fem = mean(gender=="Female"), n_faces = n()) |> 
+  mutate(prop_fem = ifelse(n_faces == 0, NA, prop_fem))
+
+d_age = d_fair |> 
+  filter(age_int>=12) |> 
+  group_by(id) |> 
+  summarise(m_age = mean(age_int, na.rm = T), 
+            sd_age = sd(age_int, na.rm = T),
+            n_faces = n()) |> 
+    mutate(m_age = ifelse(n_faces == 0| m_age < 12, NA, m_age),
+           sd_age = ifelse(n_faces == 0| m_age < 12, NA, sd_age))
+
+
+d_age_gen = d_fair |> 
+  filter(age>=12) |> 
+  left_join(d_analysis) |> 
+  group_by(outlet, platform, outlet_type, region, country, gender) |> 
+  summarise(m_age = mean(age, na.rm = T)) |> 
+  spread(gender, m_age) |> 
+  mutate(age_diff = Male-Female) |> 
+  ungroup()
+
+```
+
+```{r gender_analysis}
+#| include: false
+
+gender_results = d_gender |> 
+  left_join(d_analysis) |> 
+  std_analysis("prop_fem", family = binomial())
+
+gender_text = std_text(gender_results, ylab = "Share of visible women per post")
+```
+
+`r knitr::knit(text = std_plots(results = "gender_results",  ylab = "Share of visible women per post", title = "Gender proportions", text = gender_text))`
+
+::: {.callout-note appearance="simple" collapse="true"}
+## Result tables for gender proportions
+
+```{r}
+#| results: asis
+results_to_md(gender_results)
+```
+:::
+
+
+```{r age_analysis}
+#| include: false
+
+age_results = d_age |> 
+  left_join(d_analysis) |> 
+  std_analysis("m_age")
+
+age_text = std_text(age_results, ylab = "Average age of persons featured in the post")
+```
+
+`r knitr::knit(text = std_plots(results = "age_results",  ylab = "Average person age per post", title = "Average person age", text = age_text))`
+
+::: {.callout-note appearance="simple" collapse="true"}
+## Result tables for average person age
+
+```{r}
+#| results: asis
+results_to_md(age_results)
+```
+:::
+
+
+```{r age_sd_analysis}
+#| include: false
+
+age_sd_results = d_fair |> 
+    filter(age_int>=12) |> 
+  left_join(d_analysis) |> 
+  group_by(brand, country, outlet_type, platform, region) |> 
+    summarise(sd_age = sd(age_int, na.rm = T), iqr_age = IQR(age_int, na.rm = T)) |> 
+    ungroup()|> 
+  std_analysis("iqr_age")
+
+age_sd_text = std_text(age_sd_results, ylab = "Age diversity (IQR of visible people age in posts) per outlet")
+```
+
+`r knitr::knit(text = std_plots(results = "age_sd_results",  ylab = "Age diversity (IQR) per outlet", title = "Age diversity", text = age_sd_text))`
+
+::: {.callout-note appearance="simple" collapse="true"}
+## Result tables for age diversity
+
+```{r}
+#| results: asis
+results_to_md(age_sd_results)
+```
+:::
+
+
+## Content
+
+For topical diversity, we estimated the effective number of topics per outlet-platform combination, based on our automatic [topic classification](topics.html) with 19 news categories.
+
+```{r topic_analysis}
+#| include: false
+#| cache: true
+compute_ent <- function(df) {
+  p <- colSums(df, na.rm = TRUE) / colSums(!is.na(df))
+  q <- p[p > 0]; if (length(q) == 0) return(0)
+  q <- q / sum(q)
+  exp(-sum(q * log(q)))
+}
+
+set.seed(12345)
+topics_all = read_data("topics") |> 
+  prep_for_analysis(d)
+
+d_topics = topics_all |> 
+  group_by(brand, platform, outlet_type, region, country) |> 
+  nest() |> 
+  mutate(n_articles = map_dbl(data, nrow),
+         topic_div = map_dbl(data, ~ select(.x, politics:user_generated_performance_and_comedy) |> compute_ent())) |> 
+  ungroup()
+
+topic_div_results =  d_topics |> 
+  std_analysis("topic_div")
+
+topic_div_text = std_text(topic_div_results, ylab = "Topic diversity, i.e. the effective number of topics covered per outlet")
+```
+
+`r knitr::knit(text = std_plots(results = "topic_div_results",  ylab = "Effective number of topics per outlet", title = "Topic diversity", text = topic_div_text, unit = "outlet-platform combinations"))`
+
+
+::: {.callout-note appearance="simple" collapse="true"}
+## Result tables for topic diversity
+
+```{r}
+#| results: asis
+results_to_md(topic_div_results)
+```
+:::
+
+
+## Measures
+
+We measured demographic diversity using the FairFace classifier [@kärkkäinen2019], which classifies apparent gender, age group and ethnicity.
+
+Topic diversity was estimated by computing the *effective* number of topics, which accounts for number of topics coded per outlet *and* their frequency distribution, see @laakso1979 for a similar measure.

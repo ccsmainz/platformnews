@@ -1,0 +1,28 @@
+::: {.callout-note appearance="simple" collapse="true"}
+### Coding instructions
+
+`r codebook`
+:::
+
+### Reliability
+
+Models used: `r unique(d_rel$model)`.
+
+::: {.panel-tabset}
+
+#### LLM-LLM agreement
+
+```{r}
+d_rel |> 
+  tidycomm::test_icr(unit_var = id, coder_var = model, na.omit = T) |> 
+  mutate(Variable = map_chr(Variable, var_name_to_text)) |> 
+  select(-n_Categories, -Level, -Holstis_CR) |> 
+  rename(Posts = n_Units, Models = n_Coders) |> 
+  knitr::kable(digits = 2)
+```
+
+#### Human-LLM agreement
+
+TODO
+
+:::

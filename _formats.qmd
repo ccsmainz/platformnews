@@ -1,0 +1,119 @@
+---
+title: News formats
+execute: 
+  cache: true
+---
+
+{{< include /_includes/common.qmd >}} 
+
+
+```{r format_data, include=F}
+
+set.seed(12345)
+formats_all = read_data("formats") |> 
+  prep_for_analysis(d)
+
+formats = formats_all |> 
+  select(journalistic_report:anchorman) |> 
+  names()
+
+results = future_map(formats, ~ std_analysis(formats_all, .x, family = "binomial")) |> 
+  set_names(formats)
+```
+
+
+## Overview 
+
+
+
+```{r format_plot}
+#|fig-height: 6
+results |> map_df("avg") |> 
+  mutate(format = map_chr(formats, var_name_to_text)) |> 
+  ggplot(aes(x = reorder(format,estimate), y = estimate, ymin = conf.low, ymax = conf.high))+
+  geom_pointrange()+
+  scale_y_continuous(labels = scales::percent, limits = c(0,.4))+
+  coord_flip()+
+  labs(x = "", y = "Share of posts covering the format", caption  = paste("n =", results[[1]]$nobs, "posts"),
+       title = "Posts formats on short video platforms") 
+```
+
+
+
+## format details
+
+In the subsections below, we provide detailed information about all coded news formats, along with comparisons by platform, media type and country. 
+
+
+```{r all_res, include=F}
+all_res = tibble(format = formats, result = results) |> 
+  mutate(
+         title = map_chr(format, var_name_to_text),
+         short = paste("format:", title |> str_extract("(\\w+)")),
+         result_obj = paste0("results$", format),
+         ylab = paste("Share of posts covering", tolower(title)),
+         text = pmap_chr(list(result, title, ylab), std_text)) |> 
+  mutate(out = pmap(list(result_obj, title, short, ylab, text), std_plots)) |> 
+  pull(out)
+```
+
+`r knitr::knit(text = paste0(all_res, collapse = "\n\n"))`
+
+## Measures
+
+formats were coded using using zero-short classification on post text and transcript, with categories from the [Electronic News Archive (ENA) of the University of Antwerp](https://www.nieuwsarchief.be/) and additional formats.
+
+
+```{r, cache = F }
+d_rel = read_data("post_formats_reli") |> 
+  distinct(id, model, .keep_all = T) 
+codebook = get_codebook("post_formats")
+```
+
+
+{{< include /_includes/_rel.qmd >}} 
+
+
+
+
+```{r, eval = F}
+formats_rel = read_tsv(here::here("_data/post_formats_reli_11d8890a87e00ea75a908bd61ab62b164f369eff.tsv.gz")) |> 
+  distinct(id, model, .keep_all = T) 
+```
+
+
+```{r, eval = F}
+formats_rel_man = readxl::read_excel("../codebooks/reli/reli codesheet formats DM 1-50.xlsx") |> 
+  select(1:22) |>  set_names(c("coder", "id", formats, "comment")) |> 
+  left_join(formats_rel, by = "id")
+
+library(yardstick)
+vali_metrics <- metric_set(accuracy, recall, precision, f_meas, sensitivity, specificity)
+
+vali_tab = formats |> set_names(formats) |> imap_dfr(
+  ~ formats_rel_man |> 
+    select(contains(.x)) |>
+    mutate_all(~ factor(as.numeric(.), levels = c(0,1))) |> 
+    set_names(c("x", "y")) |> 
+    vali_metrics(
+    truth = x, estimate = y,
+    event_level = "second"
+  ), .id = "Variable"
+) |> spread(.metric, .estimate) |> 
+  select(-.estimator)
+
+vali_tab |> 
+  mutate(Variable = map_chr(Variable, var_name_to_text)) |> 
+    knitr::kable(digits = 2)
+```
+
+
+
+```{r, eval=F}
+formats_rel |> 
+  tidycomm::test_icr(unit_var = id, coder_var = model) |> 
+  mutate(Variable = map_chr(Variable, var_name_to_text)) |> 
+  select(-n_Categories, -Level, -Holstis_CR) |> 
+  rename(Posts = n_Units, Models = n_Coders) |> 
+  knitr::kable(digits = 2)
+```

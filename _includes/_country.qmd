@@ -1,10 +1,16 @@
-{{< include /_includes/_data.qmd >}}
+---
+index: true
+---
 
+{{< include /_includes/common.qmd >}} 
 
-```{r}
+```{r, include = F}
 country = params$country
 d = d |> 
       filter(country == params$country) 
+
+
+options(knitr.kable.NA = '-')
 
 ```
 
@@ -16,31 +22,99 @@ n_days = n_distinct(as.Date(d$timestamp))
 per_day = round(n_posts/n_days,0)
 first_day = min(as.Date(d$timestamp))
 last_day = max(as.Date(d$timestamp))
+
+avg_per_day = d |> 
+  count(platform, outlet) |> 
+  group_by(platform) |> 
+  summarise(Posts = round(median(n, na.rm = T)/n_days,1))
 ```
 
-We collected data from **`r n_outlets` news outlets** on TikTok and YouTube Shorts. Overall, these outlets published  **`r n_posts` posts**, or an average of **`r per_day` posts per day**.
+We collected data from **`r n_outlets` news outlets** on TikTok, Instagram and YouTube Shorts: <br/> `r outlet_desc(d)`. 
 
-```{r}
-d |> count(platform)
-```
+Overall, these outlets published  **`r n_posts` posts**. 
 
+The median outlet published **`r filter(avg_per_day, platform =="TikTok")$Posts` TikToks**, **`r filter(avg_per_day, platform =="Instagram")$Posts` Instagram** reels, and **`r filter(avg_per_day, platform =="YouTube Shorts")$Posts` YouTube** shorts per day.
 
 ## Basics 
 
-```{r}
+### Platforms shares
+
+```{r platforms}
+b = mean(d$brands_per_country)
 d |> 
-  count(brand, platform, sort = T) |> 
-  group_by(brand) |> 
-  mutate(Posts = sum(n)) |> 
-  ungroup() |> 
-  spread(platform, n, fill = 0) |> 
- mutate(`TikTok (per day)` = TikTok/n_days,
-        `YouTube (per day)` = `YouTube Shorts`/n_days) |> 
+  group_by(Platform = platform) |> 
+  summarise(n_outlets = n_distinct(brand), n = n()) |> 
+  mutate(`% of brands` = n_outlets/b*100,
+         `% of posts` = n/sum(n)*100) |> 
   mutate_if(is.numeric, round) |> 
-  select(Outlet = brand, Posts, starts_with("TikTok"), starts_with("YouTube")) 
+  rename(`Active brands` = n_outlets, Posts = n)
 ```
 
 
-## Publication patterns
+### Published posts
 
-## Content duplication
+
+
+```{r pubs}
+dups = country_tab("is_dup", d = d) |> 
+  mutate(is_dup = round(is_dup*100))
+
+overall = d |> 
+  count(platform, sort = T) |> 
+  mutate(Posts = sum(n), outlet_type = "") |> 
+  mutate(brand = paste(fa("globe"), "Overall"))
+
+tab = d |> 
+  count(brand, platform, outlet_type, sort = T) |> 
+  group_by(brand) |> 
+  mutate(Posts = sum(n)) |> 
+  ungroup() |> 
+  rbind(overall) |> 
+  spread(platform, n, fill = 0) |> 
+  with_fa() |> 
+  select(-outlet_type) |> 
+  slice(2:n(), 1) |> 
+  select(Outlet = brand, Posts, TikTok, Instagram, `YouTube Shorts`)  |> 
+  left_join(dups) |> 
+  rename(`Content duplication (%)` = is_dup)
+
+
+tab |> 
+  to_kable()
+```
+## Outlet analyses 
+
+### Platformization
+
+
+```{r platformization}
+c("duration", "is_vertical", "you", "inter") |> 
+  map(country_tab,  d = d) |> 
+  reduce(left_join) |> 
+  mutate_at(vars(is_vertical:inter), ~ .*100) |> 
+  mutate_if(is.numeric, round) |> 
+  rename(`Video duration (sec)` = duration,
+         `Vertical videos (%)` = is_vertical,
+         `Addressing the audience (%)` = you,
+         `Calling for interactions (%)` = inter) |> 
+  to_kable()
+```
+### Diversity
+
+
+
+```{r diversity}
+c("prop_fem", "m_age", "iqr_age", "topic_div") |> 
+  map(country_tab,  d = d) |> 
+  reduce(left_join) |> 
+  mutate(prop_fem = prop_fem*100) |> 
+  mutate_if(is.numeric, round) |> 
+  rename(`Visible women (%)` = prop_fem,
+         `Mean age` = m_age,
+         `Age diversity (IQR)` = iqr_age,
+         `Topic diversity (topics)` = topic_div) |> 
+  to_kable()
+```
+
+
+**Note:** Outlet-level results are empirical Bayes estimates from the respective analyses.

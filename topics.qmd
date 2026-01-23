@@ -1,0 +1,121 @@
+---
+title: News topics
+execute: 
+  cache: true
+---
+
+{{< include /_includes/common.qmd >}} 
+
+
+```{r topic_data, include=F}
+
+set.seed(12345)
+topics_all = read_data("topics") |> 
+  prep_for_analysis(d)
+
+topics = topics_all |> 
+  select(politics:user_generated_performance_and_comedy) |> 
+  names()
+
+results = future_map(topics, ~ std_analysis(topics_all, .x, family = "binomial")) |> 
+  set_names(topics)
+```
+
+
+## Overview 
+
+We analyzed the topics of the posts by using zero-shot classification of the post title and transcript. Based on the topic list from the [Electronic News Archive (ENA) of the University of Antwerp](https://www.nieuwsarchief.be/), we coded the presence of `r length(topics)` from politics to sports, with a few platform-specific additions like *user-generated performances*, which includes typical dance and lip sync videos, or *advertisements and promotions*. 
+
+Perhaps surprisingly, "hard news" topics like politics and crime dominate, while typical platform content is relatively rarely published by news outlets.
+
+```{r topic_plot}
+#|fig-height: 6
+results |> map_df("avg") |> 
+  mutate(topic = map_chr(topics, var_name_to_text)) |> 
+  ggplot(aes(x = reorder(topic,estimate), y = estimate, ymin = conf.low, ymax = conf.high))+
+  geom_pointrange()+
+  scale_y_continuous(labels = scales::percent, limits = c(0,.4))+
+  coord_flip()+
+  labs(x = "", y = "Share of posts covering the topic", caption  = paste("n =", results[[1]]$nobs, "posts"),
+       title = "Posts topics on short video platforms") 
+```
+
+
+
+## Topic details
+
+In the subsections below, we provide detailed information about all coded news topics, along with comparisons by platform, media type and country. 
+
+
+```{r all_res, include=F}
+all_res = tibble(topic = topics, result = results) |> 
+  mutate(
+         title = map_chr(topic, var_name_to_text),
+         short = paste("Topic:", title |> str_extract("(\\w+)")),
+         result_obj = paste0("results$", topic),
+         ylab = paste("Share of posts covering", tolower(title)),
+         text = pmap_chr(list(result, title, ylab), std_text)) |> 
+  mutate(out = pmap(list(result_obj, title, short, ylab, text), std_plots)) |> 
+  pull(out)
+```
+
+`r knitr::knit(text = paste0(all_res, collapse = "\n\n"))`
+
+## Measures
+
+Topics were coded using using zero-short classification on post text and transcript, with categories from the [Electronic News Archive (ENA) of the University of Antwerp](https://www.nieuwsarchief.be/) and additional topics.
+
+
+```{r, cache = F }
+d_rel = read_data("post_topics_reli") |> 
+  distinct(id, model, .keep_all = T) 
+codebook = get_codebook("post_topics")
+```
+
+
+{{< include /_includes/_rel.qmd >}} 
+
+
+
+
+```{r, eval = F}
+topics_rel = read_tsv(here::here("_data/post_topics_reli_11d8890a87e00ea75a908bd61ab62b164f369eff.tsv.gz")) |> 
+  distinct(id, model, .keep_all = T) 
+```
+
+
+```{r, eval = F}
+topics_rel_man = readxl::read_excel("../codebooks/reli/reli codesheet topics DM 1-50.xlsx") |> 
+  select(1:22) |>  set_names(c("coder", "id", topics, "comment")) |> 
+  left_join(topics_rel, by = "id")
+
+library(yardstick)
+vali_metrics <- metric_set(accuracy, recall, precision, f_meas, sensitivity, specificity)
+
+vali_tab = topics |> set_names(topics) |> imap_dfr(
+  ~ topics_rel_man |> 
+    select(contains(.x)) |>
+    mutate_all(~ factor(as.numeric(.), levels = c(0,1))) |> 
+    set_names(c("x", "y")) |> 
+    vali_metrics(
+    truth = x, estimate = y,
+    event_level = "second"
+  ), .id = "Variable"
+) |> spread(.metric, .estimate) |> 
+  select(-.estimator)
+
+vali_tab |> 
+  mutate(Variable = map_chr(Variable, var_name_to_text)) |> 
+    knitr::kable(digits = 2)
+```
+
+
+
+```{r, eval=F}
+topics_rel |> 
+  tidycomm::test_icr(unit_var = id, coder_var = model) |> 
+  mutate(Variable = map_chr(Variable, var_name_to_text)) |> 
+  select(-n_Categories, -Level, -Holstis_CR) |> 
+  rename(Posts = n_Units, Models = n_Coders) |> 
+  knitr::kable(digits = 2)
+```

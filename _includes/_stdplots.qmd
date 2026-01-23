@@ -1,0 +1,36 @@
+### {{title}} 
+
+
+{{text}}
+
+::: {.panel-tabset}
+
+### {{short}} by platform
+
+```{r {{short}}_platform}
+#| fig-height: 2.5
+{{results}}$platform_plot +
+  labs(x = "", y = "{{ylab}}", title = "{{title}}", subtitle = "{{ylab}}, by platform", caption = paste("Empirical Bayes estimates and 95% confidence intervals, n =", {{results}}$nobs, "{{unit}}"))
+```
+
+### by outlet type 
+
+```{r {{short}}_type}
+#| fig-height: 2.5
+
+{{results}}$type_plot +
+  labs(x = "", y = "{{ylab}}", title = "{{title}}", subtitle = "{{ylab}}, by media type", caption = paste("Empirical Bayes estimates and 95% confidence intervals, n =", {{results}}$nobs, "{{unit}}"))
+
+```
+
+
+### by country 
+
+```{r {{short}}_country}
+#| fig-height: 10
+
+{{results}}$country_plot +
+  labs(x = "", y = "{{ylab}}", title = "{{title}}", subtitle = "{{ylab}}, by country", caption = paste("Empirical Bayes estimates and 95% confidence intervals, n =", {{results}}$nobs, "{{unit}}"))
+```
+
+:::

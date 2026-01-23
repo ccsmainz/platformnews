@@ -1,0 +1,40 @@
+```{r setup, include = F}
+#| cache: false
+source(here::here("_R/setup.R"))
+source(here::here("_R/funcs.R"))
+```
+
+
+```{r data, include=F}
+#| cache: false
+d = read_tsv(here::here("_data/d.tsv.gz")) |> 
+  mutate(outlet = paste(brand, country)) |> 
+  mutate(outlet_type = ifelse(outlet_type=="broadcast", paste(ownership, "broadcaster"), outlet_type) |> 
+           str_to_sentence()) |> 
+  mutate(platform = factor(platform) |> relevel("TikTok"))
+
+regions = read_csv(here::here("_data/regions.csv")) |> 
+  rename(country = Market, region = Region)
+
+d = d |> 
+  left_join(regions, by = "country") |> 
+  filter(country != "Hong Kong") |> 
+  left_join(read_tsv(here::here("_data/transcripts.tsv.gz"), col_names = c("id", "text")))
+
+d_analysis = bind_rows(
+  read_tsv(here::here("_data/d_big.tsv.gz")),
+  read_tsv(here::here("_data/d_small.tsv.gz"))
+) |> select(id, brand, country) |> 
+  left_join(d) |> 
+  distinct()
+```
+
+::: {.content-hidden when-meta="index"}
+
+:::: callout-warning 
+### AI summaries
+
+Note that all the summary texts on this page are currently generated automatically using a Large Language Model (Google's Gemini), based on the results tables and other information from the data. Therefore, please do not cite the verbal summary, but refer to the figures and tables for accurate information.
+::::
+
+:::
