@@ -68,13 +68,14 @@ std_analysis = function(df, outcome, ...){
   frm_outlets = paste(outcome, "~ 1 + (1|outlet)")
   m_outlets = glmer(frm_outlets, data = df, ...) 
   
-  frm_countries = paste(outcome, "~ 1 + (1|country)")
+  frm_countries = paste(outcome, "~ (1|outlet) + (1|country)")
   m_countries = glmer(frm_countries, data = df, ...) 
   
-  frm_platforms = paste(outcome, "~ platform + outlet_type + (1|country)")
+  frm_platforms = paste(outcome, "~ platform + outlet_type + (1|outlet) + (1|country)")
   m_platforms = glmer(frm_platforms, data = df, ...) 
   
-  avg = avg_predictions(m_platforms, re.form = NULL)
+
+  avg = avg_predictions(m_countries, re.form = NULL)
   
   avg_contrasts = avg_comparisons(m_platforms, re.form = NULL)
   
@@ -171,7 +172,7 @@ ellmer::chat_google_gemini(system_prompt = "You are a prolific science writer. Y
 
 results_to_md = function(results){
   require(glue)
-  rm_cols = c("df", "s.value", "std.error", "statistic")
+  rm_cols = c("df", "s.value", "std.error", "statistic", "rowid")
   out =  map(results[c("avg", "avg_contrasts", "platform_preds", "type_preds", "country_preds")], 
             ~ select(.x, -any_of(rm_cols))) |> 
     map( ~ knitr::kable(.x, format="pipe", digits = 2) |>
