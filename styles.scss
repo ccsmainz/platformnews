@@ -1,0 +1,69 @@
+/*-- scss:defaults --*/
+$table-striped-bg: #eeeeee; // Change this to any color you like
+
+/*-- scss:rules --*/
+
+.quarto-title,
+.sidebar-title strong {
+  background-color: $primary;
+}
+
+.sidebar-title em {
+  background-color: $secondary;
+}
+
+h2 {
+  background-color: $secondary;
+}
+h3 {
+  background-color: $brand-blue;
+}
+/* css styles */
+
+h2,
+h3,
+h4 {
+  text-decoration: none;
+  border: none;
+}
+h3 {
+  margin-top: 0em;
+}
+h4 {
+  font-size: 1.1em;
+}
+
+.quarto-title,
+.sidebar-title strong,
+.sidebar-title em,
+h2,
+h3 {
+  border-bottom: 2px solid white;
+  color: white;
+  padding: 2px 12px 2px 4px;
+  display: inline-block;
+}
+
+.sidebar-title {
+  font-size: xlarge;
+  transform: rotate(-0.5deg);
+}
+
+.quarto-title,
+h2,
+h3 {
+  transform: rotate(-0.33deg);
+}
+
+.navbar-logo {
+  max-height: 85px;
+}
+
+.callout {
+  font-size: .8rem;
+}
+
+.callout h3 {font-size: 1rem; margin-top:.5rem;}
+.callout td, .callout th {padding-top:.1rem; padding-bottom: .1rem;}
+
+table.table {margin-bottom:2rem;}
