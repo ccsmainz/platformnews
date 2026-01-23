@@ -59,7 +59,7 @@ div.csl-indent {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-305dc5d803cd2c92d54334bd7d0a69c6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-0303618a45bb4cf5c039e8c14f39aa90.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -494,7 +494,7 @@ AI summaries
 <h2 class="anchored" data-anchor-id="video-and-text-features">Video and text features</h2>
 <section id="video-format" class="level3">
 <h3 class="anchored" data-anchor-id="video-format">Video format</h3>
-<p>Across all analyzed short video posts, we found that, on average, <strong>76%</strong> were native vertical videos. When examining platforms, TikTok posts featured a higher share of native vertical videos at <strong>79%</strong>, significantly more than Instagram at <strong>71%</strong>, while YouTube Shorts fell in the middle at <strong>74%</strong>. Outlet types showed more pronounced differences; private broadcasters used native vertical videos for <strong>61%</strong> of their posts, which was substantially lower than other outlet types, with public broadcasters leading at <strong>88%</strong>, followed by print at <strong>81%</strong>, and digital outlets at <strong>78%</strong>. Finally, we observed considerable variation across countries, with some nations like South Korea producing only <strong>18%</strong> native vertical videos, in stark contrast to countries like Switzerland, where the figure reached <strong>96%</strong>.</p>
+<p>We found that, on average, <strong>76%</strong> of short video posts were native vertical videos. This share varied across platforms, with TikTok showing the highest proportion at <strong>79%</strong>, followed by YouTube Shorts at <strong>74%</strong>, and Instagram at <strong>71%</strong>; Instagram’s share was significantly lower than TikTok’s. When examining outlet types, public broadcasters led with <strong>88%</strong> native vertical videos, while private broadcasters had a significantly lower share at <strong>61%</strong>, with digital and print outlets falling in between at <strong>78%</strong> and <strong>81%</strong> respectively. We also observed considerable variation by country, ranging from lows of <strong>18%</strong> in South Korea and <strong>40%</strong> in Japan to highs of <strong>96%</strong> in Switzerland and <strong>95%</strong> in Sweden.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" aria-current="page">Video format by platform</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">by outlet type</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">by country</a></li></ul>
 <div class="tab-content">
@@ -716,390 +716,486 @@ Result tables for video format
 <h3 class="anchored" data-anchor-id="predictions-by-country">Predictions by country</h3>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 22%">
-<col style="width: 13%">
+<col style="width: 7%">
+<col style="width: 17%">
+<col style="width: 10%">
+<col style="width: 9%">
+<col style="width: 10%">
 <col style="width: 11%">
-<col style="width: 13%">
 <col style="width: 14%">
-<col style="width: 23%">
+<col style="width: 18%">
 </colgroup>
 <thead>
 <tr class="header">
+<th style="text-align: right;">rowid</th>
 <th style="text-align: left;">country</th>
 <th style="text-align: right;">estimate</th>
 <th style="text-align: right;">p.value</th>
 <th style="text-align: right;">conf.low</th>
 <th style="text-align: right;">conf.high</th>
+<th style="text-align: right;">rowid_dedup</th>
 <th style="text-align: left;">region</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
+<td style="text-align: right;">1</td>
 <td style="text-align: left;">Argentina</td>
 <td style="text-align: right;">0.62</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.55</td>
-<td style="text-align: right;">0.69</td>
+<td style="text-align: right;">0.54</td>
+<td style="text-align: right;">0.70</td>
+<td style="text-align: right;">1</td>
 <td style="text-align: left;">Latin America</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">2</td>
 <td style="text-align: left;">Australia</td>
 <td style="text-align: right;">0.91</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.88</td>
 <td style="text-align: right;">0.94</td>
+<td style="text-align: right;">2</td>
 <td style="text-align: left;">Asia-Pacific</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">3</td>
 <td style="text-align: left;">Austria</td>
 <td style="text-align: right;">0.85</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.81</td>
 <td style="text-align: right;">0.89</td>
+<td style="text-align: right;">3</td>
 <td style="text-align: left;">Western Europe</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">4</td>
 <td style="text-align: left;">Belgium</td>
 <td style="text-align: right;">0.94</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.92</td>
-<td style="text-align: right;">0.95</td>
+<td style="text-align: right;">0.96</td>
+<td style="text-align: right;">4</td>
 <td style="text-align: left;">Western Europe</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">5</td>
 <td style="text-align: left;">Brazil</td>
 <td style="text-align: right;">0.57</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.50</td>
+<td style="text-align: right;">0.49</td>
 <td style="text-align: right;">0.65</td>
+<td style="text-align: right;">5</td>
 <td style="text-align: left;">Latin America</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">6</td>
 <td style="text-align: left;">Bulgaria</td>
-<td style="text-align: right;">0.86</td>
+<td style="text-align: right;">0.87</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.82</td>
+<td style="text-align: right;">0.83</td>
 <td style="text-align: right;">0.90</td>
+<td style="text-align: right;">6</td>
 <td style="text-align: left;">Eastern Europe</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">7</td>
 <td style="text-align: left;">Canada</td>
 <td style="text-align: right;">0.86</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.82</td>
 <td style="text-align: right;">0.90</td>
+<td style="text-align: right;">7</td>
 <td style="text-align: left;">North America</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">8</td>
 <td style="text-align: left;">Chile</td>
 <td style="text-align: right;">0.73</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.67</td>
-<td style="text-align: right;">0.79</td>
+<td style="text-align: right;">0.80</td>
+<td style="text-align: right;">8</td>
 <td style="text-align: left;">Latin America</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">9</td>
 <td style="text-align: left;">Colombia</td>
 <td style="text-align: right;">0.64</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.57</td>
-<td style="text-align: right;">0.71</td>
+<td style="text-align: right;">0.72</td>
+<td style="text-align: right;">9</td>
 <td style="text-align: left;">Latin America</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">10</td>
 <td style="text-align: left;">Croatia</td>
 <td style="text-align: right;">0.77</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.72</td>
 <td style="text-align: right;">0.83</td>
+<td style="text-align: right;">10</td>
 <td style="text-align: left;">Southern Europe</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">11</td>
 <td style="text-align: left;">Czech Republic</td>
-<td style="text-align: right;">0.81</td>
+<td style="text-align: right;">0.82</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.77</td>
-<td style="text-align: right;">0.86</td>
+<td style="text-align: right;">0.78</td>
+<td style="text-align: right;">0.87</td>
+<td style="text-align: right;">11</td>
 <td style="text-align: left;">Eastern Europe</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">12</td>
 <td style="text-align: left;">Denmark</td>
 <td style="text-align: right;">0.83</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.77</td>
-<td style="text-align: right;">0.88</td>
+<td style="text-align: right;">0.78</td>
+<td style="text-align: right;">0.87</td>
+<td style="text-align: right;">12</td>
 <td style="text-align: left;">Northern Europe</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">13</td>
 <td style="text-align: left;">Finland</td>
 <td style="text-align: right;">0.89</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.86</td>
 <td style="text-align: right;">0.92</td>
+<td style="text-align: right;">13</td>
 <td style="text-align: left;">Northern Europe</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">14</td>
 <td style="text-align: left;">France</td>
-<td style="text-align: right;">0.91</td>
+<td style="text-align: right;">0.92</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.89</td>
 <td style="text-align: right;">0.94</td>
+<td style="text-align: right;">14</td>
 <td style="text-align: left;">Western Europe</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">15</td>
 <td style="text-align: left;">Germany</td>
 <td style="text-align: right;">0.93</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.90</td>
 <td style="text-align: right;">0.95</td>
+<td style="text-align: right;">15</td>
 <td style="text-align: left;">Western Europe</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">16</td>
 <td style="text-align: left;">Greece</td>
 <td style="text-align: right;">0.56</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.49</td>
-<td style="text-align: right;">0.64</td>
+<td style="text-align: right;">0.48</td>
+<td style="text-align: right;">0.65</td>
+<td style="text-align: right;">16</td>
 <td style="text-align: left;">Southern Europe</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">17</td>
 <td style="text-align: left;">Hungary</td>
 <td style="text-align: right;">0.66</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.59</td>
-<td style="text-align: right;">0.73</td>
+<td style="text-align: right;">0.74</td>
+<td style="text-align: right;">17</td>
 <td style="text-align: left;">Eastern Europe</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">18</td>
 <td style="text-align: left;">India</td>
 <td style="text-align: right;">0.82</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.77</td>
-<td style="text-align: right;">0.86</td>
+<td style="text-align: right;">0.87</td>
+<td style="text-align: right;">18</td>
 <td style="text-align: left;">Asia-Pacific</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">19</td>
 <td style="text-align: left;">Indonesia</td>
 <td style="text-align: right;">0.71</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.64</td>
-<td style="text-align: right;">0.77</td>
+<td style="text-align: right;">0.78</td>
+<td style="text-align: right;">19</td>
 <td style="text-align: left;">Asia-Pacific</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">20</td>
 <td style="text-align: left;">Ireland</td>
 <td style="text-align: right;">0.88</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.85</td>
 <td style="text-align: right;">0.92</td>
+<td style="text-align: right;">20</td>
 <td style="text-align: left;">Northern Europe</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">21</td>
 <td style="text-align: left;">Italy</td>
 <td style="text-align: right;">0.81</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.76</td>
 <td style="text-align: right;">0.86</td>
+<td style="text-align: right;">21</td>
 <td style="text-align: left;">Southern Europe</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">22</td>
 <td style="text-align: left;">Japan</td>
-<td style="text-align: right;">0.39</td>
+<td style="text-align: right;">0.40</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.32</td>
-<td style="text-align: right;">0.47</td>
+<td style="text-align: right;">0.48</td>
+<td style="text-align: right;">22</td>
 <td style="text-align: left;">Asia-Pacific</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">23</td>
 <td style="text-align: left;">Kenya</td>
 <td style="text-align: right;">0.72</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.66</td>
+<td style="text-align: right;">0.65</td>
 <td style="text-align: right;">0.78</td>
+<td style="text-align: right;">23</td>
 <td style="text-align: left;">Africa</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">24</td>
 <td style="text-align: left;">Malaysia</td>
 <td style="text-align: right;">0.68</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.61</td>
 <td style="text-align: right;">0.75</td>
+<td style="text-align: right;">24</td>
 <td style="text-align: left;">Asia-Pacific</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">25</td>
 <td style="text-align: left;">Mexico</td>
 <td style="text-align: right;">0.85</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.81</td>
 <td style="text-align: right;">0.89</td>
+<td style="text-align: right;">25</td>
 <td style="text-align: left;">Latin America</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">26</td>
 <td style="text-align: left;">Morocco</td>
-<td style="text-align: right;">0.53</td>
+<td style="text-align: right;">0.52</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.45</td>
-<td style="text-align: right;">0.61</td>
+<td style="text-align: right;">0.44</td>
+<td style="text-align: right;">0.60</td>
+<td style="text-align: right;">26</td>
 <td style="text-align: left;">Africa</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">27</td>
 <td style="text-align: left;">Netherlands</td>
-<td style="text-align: right;">0.91</td>
+<td style="text-align: right;">0.90</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.88</td>
-<td style="text-align: right;">0.94</td>
+<td style="text-align: right;">0.93</td>
+<td style="text-align: right;">27</td>
 <td style="text-align: left;">Western Europe</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">28</td>
 <td style="text-align: left;">Nigeria</td>
 <td style="text-align: right;">0.72</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.66</td>
 <td style="text-align: right;">0.79</td>
+<td style="text-align: right;">28</td>
 <td style="text-align: left;">Africa</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">29</td>
 <td style="text-align: left;">Norway</td>
 <td style="text-align: right;">0.91</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.88</td>
+<td style="text-align: right;">0.89</td>
 <td style="text-align: right;">0.94</td>
+<td style="text-align: right;">29</td>
 <td style="text-align: left;">Northern Europe</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">30</td>
 <td style="text-align: left;">Peru</td>
-<td style="text-align: right;">0.45</td>
+<td style="text-align: right;">0.46</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.38</td>
-<td style="text-align: right;">0.53</td>
+<td style="text-align: right;">0.37</td>
+<td style="text-align: right;">0.54</td>
+<td style="text-align: right;">30</td>
 <td style="text-align: left;">Latin America</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">31</td>
 <td style="text-align: left;">Philippines</td>
 <td style="text-align: right;">0.43</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.35</td>
 <td style="text-align: right;">0.51</td>
+<td style="text-align: right;">31</td>
 <td style="text-align: left;">Asia-Pacific</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">32</td>
 <td style="text-align: left;">Poland</td>
 <td style="text-align: right;">0.76</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.71</td>
+<td style="text-align: right;">0.70</td>
 <td style="text-align: right;">0.82</td>
+<td style="text-align: right;">32</td>
 <td style="text-align: left;">Eastern Europe</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">33</td>
 <td style="text-align: left;">Portugal</td>
 <td style="text-align: right;">0.71</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.64</td>
-<td style="text-align: right;">0.77</td>
+<td style="text-align: right;">0.78</td>
+<td style="text-align: right;">33</td>
 <td style="text-align: left;">Southern Europe</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">34</td>
 <td style="text-align: left;">Romania</td>
 <td style="text-align: right;">0.52</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.44</td>
 <td style="text-align: right;">0.60</td>
+<td style="text-align: right;">34</td>
 <td style="text-align: left;">Eastern Europe</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">35</td>
 <td style="text-align: left;">Singapore</td>
 <td style="text-align: right;">0.89</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.86</td>
 <td style="text-align: right;">0.92</td>
+<td style="text-align: right;">35</td>
 <td style="text-align: left;">Asia-Pacific</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">36</td>
 <td style="text-align: left;">Slovakia</td>
 <td style="text-align: right;">0.85</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.81</td>
 <td style="text-align: right;">0.89</td>
+<td style="text-align: right;">36</td>
 <td style="text-align: left;">Eastern Europe</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">37</td>
 <td style="text-align: left;">South Africa</td>
 <td style="text-align: right;">0.78</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.73</td>
+<td style="text-align: right;">0.72</td>
 <td style="text-align: right;">0.84</td>
+<td style="text-align: right;">37</td>
 <td style="text-align: left;">Africa</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">38</td>
 <td style="text-align: left;">South Korea</td>
 <td style="text-align: right;">0.18</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.13</td>
-<td style="text-align: right;">0.23</td>
+<td style="text-align: right;">0.22</td>
+<td style="text-align: right;">38</td>
 <td style="text-align: left;">Asia-Pacific</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">39</td>
 <td style="text-align: left;">Spain</td>
 <td style="text-align: right;">0.84</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.80</td>
-<td style="text-align: right;">0.88</td>
+<td style="text-align: right;">0.89</td>
+<td style="text-align: right;">39</td>
 <td style="text-align: left;">Southern Europe</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">40</td>
 <td style="text-align: left;">Sweden</td>
 <td style="text-align: right;">0.95</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.93</td>
 <td style="text-align: right;">0.96</td>
+<td style="text-align: right;">40</td>
 <td style="text-align: left;">Northern Europe</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">41</td>
 <td style="text-align: left;">Switzerland</td>
 <td style="text-align: right;">0.96</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.95</td>
-<td style="text-align: right;">0.98</td>
+<td style="text-align: right;">0.97</td>
+<td style="text-align: right;">41</td>
 <td style="text-align: left;">Western Europe</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">42</td>
 <td style="text-align: left;">Taiwan</td>
-<td style="text-align: right;">0.43</td>
+<td style="text-align: right;">0.42</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.35</td>
-<td style="text-align: right;">0.51</td>
+<td style="text-align: right;">0.34</td>
+<td style="text-align: right;">0.50</td>
+<td style="text-align: right;">42</td>
 <td style="text-align: left;">Asia-Pacific</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">43</td>
 <td style="text-align: left;">Thailand</td>
 <td style="text-align: right;">0.57</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.50</td>
+<td style="text-align: right;">0.49</td>
 <td style="text-align: right;">0.65</td>
+<td style="text-align: right;">43</td>
 <td style="text-align: left;">Asia-Pacific</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">44</td>
 <td style="text-align: left;">Turkey</td>
 <td style="text-align: right;">0.49</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.41</td>
-<td style="text-align: right;">0.57</td>
+<td style="text-align: right;">0.58</td>
+<td style="text-align: right;">44</td>
 <td style="text-align: left;">Southern Europe</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">45</td>
 <td style="text-align: left;">United Kingdom</td>
-<td style="text-align: right;">0.86</td>
+<td style="text-align: right;">0.85</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.82</td>
+<td style="text-align: right;">0.81</td>
 <td style="text-align: right;">0.90</td>
+<td style="text-align: right;">45</td>
 <td style="text-align: left;">Northern Europe</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">46</td>
 <td style="text-align: left;">United States</td>
 <td style="text-align: right;">0.87</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.83</td>
-<td style="text-align: right;">0.90</td>
+<td style="text-align: right;">0.91</td>
+<td style="text-align: right;">46</td>
 <td style="text-align: left;">North America</td>
 </tr>
 </tbody>
@@ -1111,7 +1207,7 @@ Result tables for video format
 </section>
 <section id="emoji-use" class="level3">
 <h3 class="anchored" data-anchor-id="emoji-use">Emoji use</h3>
-<p>We found that, on average, <strong>25%</strong> of short video posts included emojis. Emoji use varied significantly across platforms, with Instagram posts having the highest share at <strong>41%</strong>. This was significantly higher than TikTok, where <strong>19%</strong> of posts featured emojis, which in turn was considerably more than YouTube Shorts, where only <strong>6%</strong> of posts included them. Regarding outlet type, digital outlets utilized emojis most frequently, appearing in <strong>31%</strong> of their posts. In contrast, print outlets used emojis less often, with <strong>22%</strong> of their posts containing them, representing a significant <strong>6 percentage point</strong> difference compared to digital outlets. Private and public broadcasters displayed similar emoji usage rates, both around <strong>24%</strong>. Furthermore, emoji use varied substantially by country, ranging from as high as <strong>63%</strong> in the Czech Republic and <strong>62%</strong> in Spain, to as low as <strong>2%</strong> in Japan and <strong>3%</strong> in Canada, South Korea, and the United States.</p>
+<p>We found that, on average, short video posts incorporated emojis in <strong>25%</strong> of cases. This rate varied significantly across platforms, with Instagram posts featuring emojis most frequently at <strong>41%</strong>, followed by TikTok at <strong>19%</strong>, and YouTube Shorts showing the lowest usage at just <strong>6%</strong>. When examining outlet types, digital news sources included emojis in <strong>31%</strong> of their posts, which was significantly more than print outlets, which did so in <strong>22%</strong> of posts. Private and public broadcasters displayed similar rates of emoji use, both around <strong>24%</strong>. Country-level differences were also substantial; for instance, emoji use was notably high in countries like the Czech Republic (<strong>63%</strong>) and Spain (<strong>62%</strong>), while it was considerably lower in nations such as Japan (<strong>2%</strong>) and the United States (<strong>3%</strong>).</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">Emoji use by platform</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">by outlet type</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-3" role="tab" aria-controls="tabset-2-3" aria-selected="false">by country</a></li></ul>
 <div class="tab-content">
@@ -1333,390 +1429,486 @@ Result tables for emoji use
 <h3 class="anchored" data-anchor-id="predictions-by-country-1">Predictions by country</h3>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 22%">
-<col style="width: 13%">
+<col style="width: 7%">
+<col style="width: 17%">
+<col style="width: 10%">
+<col style="width: 9%">
+<col style="width: 10%">
 <col style="width: 11%">
-<col style="width: 13%">
 <col style="width: 14%">
-<col style="width: 23%">
+<col style="width: 18%">
 </colgroup>
 <thead>
 <tr class="header">
+<th style="text-align: right;">rowid</th>
 <th style="text-align: left;">country</th>
 <th style="text-align: right;">estimate</th>
 <th style="text-align: right;">p.value</th>
 <th style="text-align: right;">conf.low</th>
 <th style="text-align: right;">conf.high</th>
+<th style="text-align: right;">rowid_dedup</th>
 <th style="text-align: left;">region</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
+<td style="text-align: right;">1</td>
 <td style="text-align: left;">Argentina</td>
 <td style="text-align: right;">0.58</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.51</td>
-<td style="text-align: right;">0.66</td>
+<td style="text-align: right;">0.50</td>
+<td style="text-align: right;">0.67</td>
+<td style="text-align: right;">1</td>
 <td style="text-align: left;">Latin America</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">2</td>
 <td style="text-align: left;">Australia</td>
 <td style="text-align: right;">0.07</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.05</td>
 <td style="text-align: right;">0.09</td>
+<td style="text-align: right;">2</td>
 <td style="text-align: left;">Asia-Pacific</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">3</td>
 <td style="text-align: left;">Austria</td>
 <td style="text-align: right;">0.30</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.23</td>
-<td style="text-align: right;">0.37</td>
+<td style="text-align: right;">0.38</td>
+<td style="text-align: right;">3</td>
 <td style="text-align: left;">Western Europe</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">4</td>
 <td style="text-align: left;">Belgium</td>
 <td style="text-align: right;">0.31</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.24</td>
-<td style="text-align: right;">0.38</td>
+<td style="text-align: right;">0.39</td>
+<td style="text-align: right;">4</td>
 <td style="text-align: left;">Western Europe</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">5</td>
 <td style="text-align: left;">Brazil</td>
 <td style="text-align: right;">0.32</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.25</td>
-<td style="text-align: right;">0.39</td>
+<td style="text-align: right;">0.40</td>
+<td style="text-align: right;">5</td>
 <td style="text-align: left;">Latin America</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">6</td>
 <td style="text-align: left;">Bulgaria</td>
 <td style="text-align: right;">0.39</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.32</td>
-<td style="text-align: right;">0.47</td>
+<td style="text-align: right;">0.31</td>
+<td style="text-align: right;">0.48</td>
+<td style="text-align: right;">6</td>
 <td style="text-align: left;">Eastern Europe</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">7</td>
 <td style="text-align: left;">Canada</td>
 <td style="text-align: right;">0.03</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.02</td>
 <td style="text-align: right;">0.04</td>
+<td style="text-align: right;">7</td>
 <td style="text-align: left;">North America</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">8</td>
 <td style="text-align: left;">Chile</td>
 <td style="text-align: right;">0.54</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.47</td>
-<td style="text-align: right;">0.62</td>
+<td style="text-align: right;">0.45</td>
+<td style="text-align: right;">0.63</td>
+<td style="text-align: right;">8</td>
 <td style="text-align: left;">Latin America</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">9</td>
 <td style="text-align: left;">Colombia</td>
 <td style="text-align: right;">0.34</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.27</td>
-<td style="text-align: right;">0.41</td>
+<td style="text-align: right;">0.26</td>
+<td style="text-align: right;">0.42</td>
+<td style="text-align: right;">9</td>
 <td style="text-align: left;">Latin America</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">10</td>
 <td style="text-align: left;">Croatia</td>
 <td style="text-align: right;">0.40</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.33</td>
-<td style="text-align: right;">0.48</td>
+<td style="text-align: right;">0.32</td>
+<td style="text-align: right;">0.49</td>
+<td style="text-align: right;">10</td>
 <td style="text-align: left;">Southern Europe</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">11</td>
 <td style="text-align: left;">Czech Republic</td>
 <td style="text-align: right;">0.63</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.56</td>
-<td style="text-align: right;">0.70</td>
+<td style="text-align: right;">0.55</td>
+<td style="text-align: right;">0.71</td>
+<td style="text-align: right;">11</td>
 <td style="text-align: left;">Eastern Europe</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">12</td>
 <td style="text-align: left;">Denmark</td>
 <td style="text-align: right;">0.28</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.21</td>
 <td style="text-align: right;">0.35</td>
+<td style="text-align: right;">12</td>
 <td style="text-align: left;">Northern Europe</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">13</td>
 <td style="text-align: left;">Finland</td>
 <td style="text-align: right;">0.34</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.27</td>
-<td style="text-align: right;">0.41</td>
+<td style="text-align: right;">0.26</td>
+<td style="text-align: right;">0.42</td>
+<td style="text-align: right;">13</td>
 <td style="text-align: left;">Northern Europe</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">14</td>
 <td style="text-align: left;">France</td>
 <td style="text-align: right;">0.22</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.16</td>
-<td style="text-align: right;">0.27</td>
+<td style="text-align: right;">0.28</td>
+<td style="text-align: right;">14</td>
 <td style="text-align: left;">Western Europe</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">15</td>
 <td style="text-align: left;">Germany</td>
 <td style="text-align: right;">0.07</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.05</td>
+<td style="text-align: right;">0.04</td>
 <td style="text-align: right;">0.09</td>
+<td style="text-align: right;">15</td>
 <td style="text-align: left;">Western Europe</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">16</td>
 <td style="text-align: left;">Greece</td>
 <td style="text-align: right;">0.26</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.20</td>
+<td style="text-align: right;">0.19</td>
 <td style="text-align: right;">0.32</td>
+<td style="text-align: right;">16</td>
 <td style="text-align: left;">Southern Europe</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">17</td>
 <td style="text-align: left;">Hungary</td>
 <td style="text-align: right;">0.45</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.37</td>
-<td style="text-align: right;">0.52</td>
+<td style="text-align: right;">0.36</td>
+<td style="text-align: right;">0.53</td>
+<td style="text-align: right;">17</td>
 <td style="text-align: left;">Eastern Europe</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">18</td>
 <td style="text-align: left;">India</td>
 <td style="text-align: right;">0.11</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.08</td>
 <td style="text-align: right;">0.14</td>
+<td style="text-align: right;">18</td>
 <td style="text-align: left;">Asia-Pacific</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">19</td>
 <td style="text-align: left;">Indonesia</td>
 <td style="text-align: right;">0.12</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.08</td>
 <td style="text-align: right;">0.15</td>
+<td style="text-align: right;">19</td>
 <td style="text-align: left;">Asia-Pacific</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">20</td>
 <td style="text-align: left;">Ireland</td>
 <td style="text-align: right;">0.08</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.06</td>
 <td style="text-align: right;">0.11</td>
+<td style="text-align: right;">20</td>
 <td style="text-align: left;">Northern Europe</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">21</td>
 <td style="text-align: left;">Italy</td>
 <td style="text-align: right;">0.12</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.08</td>
 <td style="text-align: right;">0.15</td>
+<td style="text-align: right;">21</td>
 <td style="text-align: left;">Southern Europe</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">22</td>
 <td style="text-align: left;">Japan</td>
 <td style="text-align: right;">0.02</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.01</td>
-<td style="text-align: right;">0.02</td>
+<td style="text-align: right;">0.03</td>
+<td style="text-align: right;">22</td>
 <td style="text-align: left;">Asia-Pacific</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">23</td>
 <td style="text-align: left;">Kenya</td>
 <td style="text-align: right;">0.10</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.07</td>
-<td style="text-align: right;">0.14</td>
+<td style="text-align: right;">0.13</td>
+<td style="text-align: right;">23</td>
 <td style="text-align: left;">Africa</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">24</td>
 <td style="text-align: left;">Malaysia</td>
 <td style="text-align: right;">0.03</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.02</td>
 <td style="text-align: right;">0.04</td>
+<td style="text-align: right;">24</td>
 <td style="text-align: left;">Asia-Pacific</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">25</td>
 <td style="text-align: left;">Mexico</td>
 <td style="text-align: right;">0.18</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.13</td>
 <td style="text-align: right;">0.23</td>
+<td style="text-align: right;">25</td>
 <td style="text-align: left;">Latin America</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">26</td>
 <td style="text-align: left;">Morocco</td>
 <td style="text-align: right;">0.29</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.23</td>
+<td style="text-align: right;">0.22</td>
 <td style="text-align: right;">0.36</td>
+<td style="text-align: right;">26</td>
 <td style="text-align: left;">Africa</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">27</td>
 <td style="text-align: left;">Netherlands</td>
 <td style="text-align: right;">0.11</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.07</td>
 <td style="text-align: right;">0.14</td>
+<td style="text-align: right;">27</td>
 <td style="text-align: left;">Western Europe</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">28</td>
 <td style="text-align: left;">Nigeria</td>
-<td style="text-align: right;">0.16</td>
+<td style="text-align: right;">0.15</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.11</td>
 <td style="text-align: right;">0.20</td>
+<td style="text-align: right;">28</td>
 <td style="text-align: left;">Africa</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">29</td>
 <td style="text-align: left;">Norway</td>
 <td style="text-align: right;">0.39</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.31</td>
 <td style="text-align: right;">0.47</td>
+<td style="text-align: right;">29</td>
 <td style="text-align: left;">Northern Europe</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">30</td>
 <td style="text-align: left;">Peru</td>
 <td style="text-align: right;">0.50</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.42</td>
-<td style="text-align: right;">0.58</td>
+<td style="text-align: right;">0.41</td>
+<td style="text-align: right;">0.59</td>
+<td style="text-align: right;">30</td>
 <td style="text-align: left;">Latin America</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">31</td>
 <td style="text-align: left;">Philippines</td>
 <td style="text-align: right;">0.16</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.11</td>
-<td style="text-align: right;">0.20</td>
+<td style="text-align: right;">0.21</td>
+<td style="text-align: right;">31</td>
 <td style="text-align: left;">Asia-Pacific</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">32</td>
 <td style="text-align: left;">Poland</td>
 <td style="text-align: right;">0.23</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.17</td>
-<td style="text-align: right;">0.28</td>
+<td style="text-align: right;">0.29</td>
+<td style="text-align: right;">32</td>
 <td style="text-align: left;">Eastern Europe</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">33</td>
 <td style="text-align: left;">Portugal</td>
 <td style="text-align: right;">0.25</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.19</td>
-<td style="text-align: right;">0.31</td>
+<td style="text-align: right;">0.32</td>
+<td style="text-align: right;">33</td>
 <td style="text-align: left;">Southern Europe</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">34</td>
 <td style="text-align: left;">Romania</td>
 <td style="text-align: right;">0.23</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.17</td>
-<td style="text-align: right;">0.29</td>
+<td style="text-align: right;">0.30</td>
+<td style="text-align: right;">34</td>
 <td style="text-align: left;">Eastern Europe</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">35</td>
 <td style="text-align: left;">Singapore</td>
 <td style="text-align: right;">0.13</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.09</td>
 <td style="text-align: right;">0.17</td>
+<td style="text-align: right;">35</td>
 <td style="text-align: left;">Asia-Pacific</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">36</td>
 <td style="text-align: left;">Slovakia</td>
 <td style="text-align: right;">0.59</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.52</td>
-<td style="text-align: right;">0.67</td>
+<td style="text-align: right;">0.51</td>
+<td style="text-align: right;">0.68</td>
+<td style="text-align: right;">36</td>
 <td style="text-align: left;">Eastern Europe</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">37</td>
 <td style="text-align: left;">South Africa</td>
 <td style="text-align: right;">0.09</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.06</td>
 <td style="text-align: right;">0.12</td>
+<td style="text-align: right;">37</td>
 <td style="text-align: left;">Africa</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">38</td>
 <td style="text-align: left;">South Korea</td>
 <td style="text-align: right;">0.03</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.02</td>
 <td style="text-align: right;">0.04</td>
+<td style="text-align: right;">38</td>
 <td style="text-align: left;">Asia-Pacific</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">39</td>
 <td style="text-align: left;">Spain</td>
 <td style="text-align: right;">0.62</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.55</td>
-<td style="text-align: right;">0.69</td>
+<td style="text-align: right;">0.54</td>
+<td style="text-align: right;">0.71</td>
+<td style="text-align: right;">39</td>
 <td style="text-align: left;">Southern Europe</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">40</td>
 <td style="text-align: left;">Sweden</td>
 <td style="text-align: right;">0.10</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.07</td>
 <td style="text-align: right;">0.13</td>
+<td style="text-align: right;">40</td>
 <td style="text-align: left;">Northern Europe</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">41</td>
 <td style="text-align: left;">Switzerland</td>
 <td style="text-align: right;">0.56</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.48</td>
-<td style="text-align: right;">0.63</td>
+<td style="text-align: right;">0.47</td>
+<td style="text-align: right;">0.64</td>
+<td style="text-align: right;">41</td>
 <td style="text-align: left;">Western Europe</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">42</td>
 <td style="text-align: left;">Taiwan</td>
 <td style="text-align: right;">0.21</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.16</td>
-<td style="text-align: right;">0.26</td>
+<td style="text-align: right;">0.15</td>
+<td style="text-align: right;">0.27</td>
+<td style="text-align: right;">42</td>
 <td style="text-align: left;">Asia-Pacific</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">43</td>
 <td style="text-align: left;">Thailand</td>
 <td style="text-align: right;">0.16</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.12</td>
-<td style="text-align: right;">0.20</td>
+<td style="text-align: right;">0.11</td>
+<td style="text-align: right;">0.21</td>
+<td style="text-align: right;">43</td>
 <td style="text-align: left;">Asia-Pacific</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">44</td>
 <td style="text-align: left;">Turkey</td>
 <td style="text-align: right;">0.11</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.08</td>
 <td style="text-align: right;">0.15</td>
+<td style="text-align: right;">44</td>
 <td style="text-align: left;">Southern Europe</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">45</td>
 <td style="text-align: left;">United Kingdom</td>
 <td style="text-align: right;">0.06</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.04</td>
 <td style="text-align: right;">0.08</td>
+<td style="text-align: right;">45</td>
 <td style="text-align: left;">Northern Europe</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">46</td>
 <td style="text-align: left;">United States</td>
 <td style="text-align: right;">0.03</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.02</td>
 <td style="text-align: right;">0.04</td>
+<td style="text-align: right;">46</td>
 <td style="text-align: left;">North America</td>
 </tr>
 </tbody>
@@ -1731,7 +1923,7 @@ Result tables for emoji use
 <h2 class="anchored" data-anchor-id="audience-interactions">Audience interactions</h2>
 <section id="addressing-the-audience" class="level3">
 <h3 class="anchored" data-anchor-id="addressing-the-audience">Addressing the audience</h3>
-<p>Overall, we found that only <strong>6%</strong> of short video posts across all platforms, outlet types, and countries addressed the audience. We observed significant differences across platforms: Instagram posts addressed the audience most frequently at <strong>7%</strong>, followed by TikTok at <strong>5%</strong>, while YouTube Shorts posts were least likely to do so at <strong>3%</strong>. Specifically, YouTube Shorts posts addressed the audience 2 percentage points less often than TikTok posts (p = 0.02). Differences across outlet types were small and not statistically significant, ranging from <strong>4%</strong> for private broadcasters to <strong>8%</strong> for print outlets. While we saw some variation by country, with the share ranging from <strong>4%</strong> in Canada and South Korea to <strong>9%</strong> in Denmark, these differences were generally not substantially meaningful or statistically significant as specific contrasts between nations.</p>
+<p>Across all analyzed short video posts, we found that, on average, <strong>5%</strong> addressed the audience directly. Examining platform differences, we observed that Instagram posts had the highest share at <strong>7%</strong>, followed by TikTok at <strong>5%</strong>, and YouTube Shorts at <strong>3%</strong>. Notably, YouTube Shorts posts were significantly less likely to address the audience than TikTok posts. For outlet types, we found small and non-significant differences across categories; digital and print outlets showed a slightly higher share of posts addressing the audience (both at <strong>7%</strong>) compared to private broadcasters (<strong>4%</strong>) and public broadcasters (<strong>5%</strong>). Finally, the share of audience-addressing posts varied by country, ranging from lows of <strong>4%</strong> in countries like Bulgaria, Japan, and the United Kingdom, to highs of <strong>8%</strong> in Germany and Indonesia.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-3-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-1" role="tab" aria-controls="tabset-3-1" aria-selected="true">Addressing the audience by platform</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-2" role="tab" aria-controls="tabset-3-2" aria-selected="false">by outlet type</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-3" role="tab" aria-controls="tabset-3-3" aria-selected="false">by country</a></li></ul>
 <div class="tab-content">
@@ -1795,9 +1987,9 @@ Result tables for addressing the audience
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: right;">0.06</td>
-<td style="text-align: right;">0</td>
 <td style="text-align: right;">0.05</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.04</td>
 <td style="text-align: right;">0.06</td>
 </tr>
 </tbody>
@@ -1828,8 +2020,8 @@ Result tables for addressing the audience
 <tr class="odd">
 <td style="text-align: left;">outlet_type</td>
 <td style="text-align: left;">Print - Digital</td>
-<td style="text-align: right;">0.01</td>
-<td style="text-align: right;">0.69</td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">0.89</td>
 <td style="text-align: right;">-0.03</td>
 <td style="text-align: right;">0.04</td>
 </tr>
@@ -1837,7 +2029,7 @@ Result tables for addressing the audience
 <td style="text-align: left;">outlet_type</td>
 <td style="text-align: left;">Private broadcaster - Digital</td>
 <td style="text-align: right;">-0.02</td>
-<td style="text-align: right;">0.12</td>
+<td style="text-align: right;">0.13</td>
 <td style="text-align: right;">-0.06</td>
 <td style="text-align: right;">0.01</td>
 </tr>
@@ -1845,7 +2037,7 @@ Result tables for addressing the audience
 <td style="text-align: left;">outlet_type</td>
 <td style="text-align: left;">Public broadcaster - Digital</td>
 <td style="text-align: right;">-0.02</td>
-<td style="text-align: right;">0.17</td>
+<td style="text-align: right;">0.22</td>
 <td style="text-align: right;">-0.05</td>
 <td style="text-align: right;">0.01</td>
 </tr>
@@ -1853,15 +2045,15 @@ Result tables for addressing the audience
 <td style="text-align: left;">platform</td>
 <td style="text-align: left;">Instagram - TikTok</td>
 <td style="text-align: right;">0.02</td>
-<td style="text-align: right;">0.12</td>
-<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">0.14</td>
+<td style="text-align: right;">-0.01</td>
 <td style="text-align: right;">0.04</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">platform</td>
 <td style="text-align: left;">YouTube Shorts - TikTok</td>
 <td style="text-align: right;">-0.02</td>
-<td style="text-align: right;">0.02</td>
+<td style="text-align: right;">0.03</td>
 <td style="text-align: right;">-0.04</td>
 <td style="text-align: right;">0.00</td>
 </tr>
@@ -1892,7 +2084,7 @@ Result tables for addressing the audience
 <td style="text-align: left;">Instagram</td>
 <td style="text-align: right;">0.07</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.06</td>
+<td style="text-align: right;">0.05</td>
 <td style="text-align: right;">0.09</td>
 </tr>
 <tr class="odd">
@@ -1927,9 +2119,9 @@ Result tables for addressing the audience
 </tr>
 <tr class="even">
 <td style="text-align: left;">Print</td>
-<td style="text-align: right;">0.08</td>
+<td style="text-align: right;">0.07</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.06</td>
+<td style="text-align: right;">0.05</td>
 <td style="text-align: right;">0.10</td>
 </tr>
 <tr class="odd">
@@ -1953,390 +2145,486 @@ Result tables for addressing the audience
 <h3 class="anchored" data-anchor-id="predictions-by-country-2">Predictions by country</h3>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 22%">
-<col style="width: 13%">
+<col style="width: 7%">
+<col style="width: 17%">
+<col style="width: 10%">
+<col style="width: 9%">
+<col style="width: 10%">
 <col style="width: 11%">
-<col style="width: 13%">
 <col style="width: 14%">
-<col style="width: 23%">
+<col style="width: 18%">
 </colgroup>
 <thead>
 <tr class="header">
+<th style="text-align: right;">rowid</th>
 <th style="text-align: left;">country</th>
 <th style="text-align: right;">estimate</th>
 <th style="text-align: right;">p.value</th>
 <th style="text-align: right;">conf.low</th>
 <th style="text-align: right;">conf.high</th>
+<th style="text-align: right;">rowid_dedup</th>
 <th style="text-align: left;">region</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
+<td style="text-align: right;">1</td>
 <td style="text-align: left;">Argentina</td>
-<td style="text-align: right;">0.07</td>
+<td style="text-align: right;">0.06</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.05</td>
-<td style="text-align: right;">0.08</td>
+<td style="text-align: right;">0.04</td>
+<td style="text-align: right;">0.07</td>
+<td style="text-align: right;">1</td>
 <td style="text-align: left;">Latin America</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">2</td>
 <td style="text-align: left;">Australia</td>
 <td style="text-align: right;">0.05</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.04</td>
 <td style="text-align: right;">0.06</td>
+<td style="text-align: right;">2</td>
 <td style="text-align: left;">Asia-Pacific</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">3</td>
 <td style="text-align: left;">Austria</td>
 <td style="text-align: right;">0.07</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.06</td>
 <td style="text-align: right;">0.08</td>
+<td style="text-align: right;">3</td>
 <td style="text-align: left;">Western Europe</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">4</td>
 <td style="text-align: left;">Belgium</td>
-<td style="text-align: right;">0.06</td>
-<td style="text-align: right;">0</td>
 <td style="text-align: right;">0.05</td>
-<td style="text-align: right;">0.08</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.04</td>
+<td style="text-align: right;">0.05</td>
+<td style="text-align: right;">4</td>
 <td style="text-align: left;">Western Europe</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">5</td>
 <td style="text-align: left;">Brazil</td>
-<td style="text-align: right;">0.06</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.05</td>
 <td style="text-align: right;">0.07</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.06</td>
+<td style="text-align: right;">0.09</td>
+<td style="text-align: right;">5</td>
 <td style="text-align: left;">Latin America</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">6</td>
 <td style="text-align: left;">Bulgaria</td>
-<td style="text-align: right;">0.06</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.04</td>
-<td style="text-align: right;">0.07</td>
-<td style="text-align: left;">Eastern Europe</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Canada</td>
 <td style="text-align: right;">0.04</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.03</td>
 <td style="text-align: right;">0.05</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: left;">Eastern Europe</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">7</td>
+<td style="text-align: left;">Canada</td>
+<td style="text-align: right;">0.05</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.04</td>
+<td style="text-align: right;">0.07</td>
+<td style="text-align: right;">7</td>
 <td style="text-align: left;">North America</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">8</td>
 <td style="text-align: left;">Chile</td>
 <td style="text-align: right;">0.05</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.04</td>
 <td style="text-align: right;">0.06</td>
+<td style="text-align: right;">8</td>
 <td style="text-align: left;">Latin America</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">9</td>
 <td style="text-align: left;">Colombia</td>
 <td style="text-align: right;">0.06</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.05</td>
-<td style="text-align: right;">0.08</td>
+<td style="text-align: right;">0.07</td>
+<td style="text-align: right;">9</td>
 <td style="text-align: left;">Latin America</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">10</td>
 <td style="text-align: left;">Croatia</td>
-<td style="text-align: right;">0.07</td>
+<td style="text-align: right;">0.05</td>
 <td style="text-align: right;">0</td>
+<td style="text-align: right;">0.04</td>
 <td style="text-align: right;">0.06</td>
-<td style="text-align: right;">0.08</td>
+<td style="text-align: right;">10</td>
 <td style="text-align: left;">Southern Europe</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">11</td>
 <td style="text-align: left;">Czech Republic</td>
-<td style="text-align: right;">0.06</td>
+<td style="text-align: right;">0.04</td>
 <td style="text-align: right;">0</td>
+<td style="text-align: right;">0.03</td>
 <td style="text-align: right;">0.05</td>
-<td style="text-align: right;">0.07</td>
+<td style="text-align: right;">11</td>
 <td style="text-align: left;">Eastern Europe</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">12</td>
 <td style="text-align: left;">Denmark</td>
-<td style="text-align: right;">0.09</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.07</td>
-<td style="text-align: right;">0.12</td>
-<td style="text-align: left;">Northern Europe</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Finland</td>
 <td style="text-align: right;">0.07</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.05</td>
 <td style="text-align: right;">0.08</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: left;">Northern Europe</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">13</td>
+<td style="text-align: left;">Finland</td>
+<td style="text-align: right;">0.05</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.04</td>
+<td style="text-align: right;">0.06</td>
+<td style="text-align: right;">13</td>
 <td style="text-align: left;">Northern Europe</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">14</td>
 <td style="text-align: left;">France</td>
 <td style="text-align: right;">0.05</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.04</td>
 <td style="text-align: right;">0.06</td>
+<td style="text-align: right;">14</td>
 <td style="text-align: left;">Western Europe</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">15</td>
 <td style="text-align: left;">Germany</td>
-<td style="text-align: right;">0.06</td>
+<td style="text-align: right;">0.08</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.05</td>
 <td style="text-align: right;">0.07</td>
+<td style="text-align: right;">0.10</td>
+<td style="text-align: right;">15</td>
 <td style="text-align: left;">Western Europe</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">16</td>
 <td style="text-align: left;">Greece</td>
-<td style="text-align: right;">0.06</td>
+<td style="text-align: right;">0.04</td>
 <td style="text-align: right;">0</td>
+<td style="text-align: right;">0.03</td>
 <td style="text-align: right;">0.05</td>
-<td style="text-align: right;">0.07</td>
+<td style="text-align: right;">16</td>
 <td style="text-align: left;">Southern Europe</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">17</td>
 <td style="text-align: left;">Hungary</td>
-<td style="text-align: right;">0.05</td>
-<td style="text-align: right;">0</td>
 <td style="text-align: right;">0.04</td>
-<td style="text-align: right;">0.06</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.03</td>
+<td style="text-align: right;">0.05</td>
+<td style="text-align: right;">17</td>
 <td style="text-align: left;">Eastern Europe</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">18</td>
 <td style="text-align: left;">India</td>
-<td style="text-align: right;">0.05</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.04</td>
-<td style="text-align: right;">0.06</td>
-<td style="text-align: left;">Asia-Pacific</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Indonesia</td>
 <td style="text-align: right;">0.06</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.04</td>
 <td style="text-align: right;">0.07</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: left;">Asia-Pacific</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">19</td>
+<td style="text-align: left;">Indonesia</td>
+<td style="text-align: right;">0.08</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.06</td>
+<td style="text-align: right;">0.09</td>
+<td style="text-align: right;">19</td>
 <td style="text-align: left;">Asia-Pacific</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">20</td>
 <td style="text-align: left;">Ireland</td>
 <td style="text-align: right;">0.05</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.04</td>
 <td style="text-align: right;">0.06</td>
+<td style="text-align: right;">20</td>
 <td style="text-align: left;">Northern Europe</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">21</td>
 <td style="text-align: left;">Italy</td>
 <td style="text-align: right;">0.07</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.06</td>
-<td style="text-align: right;">0.09</td>
+<td style="text-align: right;">0.05</td>
+<td style="text-align: right;">0.08</td>
+<td style="text-align: right;">21</td>
 <td style="text-align: left;">Southern Europe</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">22</td>
 <td style="text-align: left;">Japan</td>
-<td style="text-align: right;">0.05</td>
-<td style="text-align: right;">0</td>
 <td style="text-align: right;">0.04</td>
-<td style="text-align: right;">0.06</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.03</td>
+<td style="text-align: right;">0.05</td>
+<td style="text-align: right;">22</td>
 <td style="text-align: left;">Asia-Pacific</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">23</td>
 <td style="text-align: left;">Kenya</td>
 <td style="text-align: right;">0.05</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.04</td>
 <td style="text-align: right;">0.06</td>
+<td style="text-align: right;">23</td>
 <td style="text-align: left;">Africa</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">24</td>
 <td style="text-align: left;">Malaysia</td>
-<td style="text-align: right;">0.06</td>
+<td style="text-align: right;">0.04</td>
 <td style="text-align: right;">0</td>
+<td style="text-align: right;">0.03</td>
 <td style="text-align: right;">0.05</td>
-<td style="text-align: right;">0.08</td>
+<td style="text-align: right;">24</td>
 <td style="text-align: left;">Asia-Pacific</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">25</td>
 <td style="text-align: left;">Mexico</td>
-<td style="text-align: right;">0.06</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.05</td>
-<td style="text-align: right;">0.08</td>
-<td style="text-align: left;">Latin America</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Morocco</td>
-<td style="text-align: right;">0.06</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.05</td>
-<td style="text-align: right;">0.08</td>
-<td style="text-align: left;">Africa</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Netherlands</td>
-<td style="text-align: right;">0.06</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.05</td>
-<td style="text-align: right;">0.07</td>
-<td style="text-align: left;">Western Europe</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Nigeria</td>
 <td style="text-align: right;">0.05</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.04</td>
 <td style="text-align: right;">0.06</td>
+<td style="text-align: right;">25</td>
+<td style="text-align: left;">Latin America</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">26</td>
+<td style="text-align: left;">Morocco</td>
+<td style="text-align: right;">0.05</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.04</td>
+<td style="text-align: right;">0.06</td>
+<td style="text-align: right;">26</td>
 <td style="text-align: left;">Africa</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">27</td>
+<td style="text-align: left;">Netherlands</td>
+<td style="text-align: right;">0.05</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.04</td>
+<td style="text-align: right;">0.06</td>
+<td style="text-align: right;">27</td>
+<td style="text-align: left;">Western Europe</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">28</td>
+<td style="text-align: left;">Nigeria</td>
+<td style="text-align: right;">0.06</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.05</td>
+<td style="text-align: right;">0.07</td>
+<td style="text-align: right;">28</td>
+<td style="text-align: left;">Africa</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">29</td>
 <td style="text-align: left;">Norway</td>
 <td style="text-align: right;">0.07</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.05</td>
 <td style="text-align: right;">0.08</td>
+<td style="text-align: right;">29</td>
 <td style="text-align: left;">Northern Europe</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">30</td>
 <td style="text-align: left;">Peru</td>
 <td style="text-align: right;">0.06</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.05</td>
 <td style="text-align: right;">0.07</td>
+<td style="text-align: right;">30</td>
 <td style="text-align: left;">Latin America</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">31</td>
 <td style="text-align: left;">Philippines</td>
 <td style="text-align: right;">0.05</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.04</td>
 <td style="text-align: right;">0.06</td>
+<td style="text-align: right;">31</td>
 <td style="text-align: left;">Asia-Pacific</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">32</td>
 <td style="text-align: left;">Poland</td>
-<td style="text-align: right;">0.06</td>
+<td style="text-align: right;">0.05</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.04</td>
-<td style="text-align: right;">0.07</td>
+<td style="text-align: right;">0.06</td>
+<td style="text-align: right;">32</td>
 <td style="text-align: left;">Eastern Europe</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">33</td>
 <td style="text-align: left;">Portugal</td>
-<td style="text-align: right;">0.06</td>
-<td style="text-align: right;">0</td>
 <td style="text-align: right;">0.05</td>
-<td style="text-align: right;">0.07</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.04</td>
+<td style="text-align: right;">0.06</td>
+<td style="text-align: right;">33</td>
 <td style="text-align: left;">Southern Europe</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">34</td>
 <td style="text-align: left;">Romania</td>
 <td style="text-align: right;">0.05</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.04</td>
 <td style="text-align: right;">0.06</td>
+<td style="text-align: right;">34</td>
 <td style="text-align: left;">Eastern Europe</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">35</td>
 <td style="text-align: left;">Singapore</td>
-<td style="text-align: right;">0.05</td>
+<td style="text-align: right;">0.06</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.04</td>
-<td style="text-align: right;">0.06</td>
+<td style="text-align: right;">0.07</td>
+<td style="text-align: right;">35</td>
 <td style="text-align: left;">Asia-Pacific</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">36</td>
 <td style="text-align: left;">Slovakia</td>
-<td style="text-align: right;">0.06</td>
+<td style="text-align: right;">0.07</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.05</td>
-<td style="text-align: right;">0.07</td>
+<td style="text-align: right;">0.08</td>
+<td style="text-align: right;">36</td>
 <td style="text-align: left;">Eastern Europe</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">37</td>
 <td style="text-align: left;">South Africa</td>
 <td style="text-align: right;">0.05</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.04</td>
 <td style="text-align: right;">0.06</td>
+<td style="text-align: right;">37</td>
 <td style="text-align: left;">Africa</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">38</td>
 <td style="text-align: left;">South Korea</td>
-<td style="text-align: right;">0.04</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.03</td>
 <td style="text-align: right;">0.05</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.04</td>
+<td style="text-align: right;">0.06</td>
+<td style="text-align: right;">38</td>
 <td style="text-align: left;">Asia-Pacific</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">39</td>
 <td style="text-align: left;">Spain</td>
-<td style="text-align: right;">0.07</td>
-<td style="text-align: right;">0</td>
 <td style="text-align: right;">0.06</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.05</td>
 <td style="text-align: right;">0.08</td>
+<td style="text-align: right;">39</td>
 <td style="text-align: left;">Southern Europe</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">40</td>
 <td style="text-align: left;">Sweden</td>
-<td style="text-align: right;">0.07</td>
+<td style="text-align: right;">0.05</td>
 <td style="text-align: right;">0</td>
+<td style="text-align: right;">0.04</td>
 <td style="text-align: right;">0.06</td>
-<td style="text-align: right;">0.09</td>
+<td style="text-align: right;">40</td>
 <td style="text-align: left;">Northern Europe</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">41</td>
 <td style="text-align: left;">Switzerland</td>
 <td style="text-align: right;">0.07</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.06</td>
-<td style="text-align: right;">0.09</td>
+<td style="text-align: right;">0.08</td>
+<td style="text-align: right;">41</td>
 <td style="text-align: left;">Western Europe</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">42</td>
 <td style="text-align: left;">Taiwan</td>
-<td style="text-align: right;">0.06</td>
-<td style="text-align: right;">0</td>
 <td style="text-align: right;">0.04</td>
-<td style="text-align: right;">0.07</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.03</td>
+<td style="text-align: right;">0.05</td>
+<td style="text-align: right;">42</td>
 <td style="text-align: left;">Asia-Pacific</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">43</td>
 <td style="text-align: left;">Thailand</td>
 <td style="text-align: right;">0.05</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.04</td>
 <td style="text-align: right;">0.06</td>
+<td style="text-align: right;">43</td>
 <td style="text-align: left;">Asia-Pacific</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">44</td>
 <td style="text-align: left;">Turkey</td>
 <td style="text-align: right;">0.05</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.04</td>
 <td style="text-align: right;">0.06</td>
+<td style="text-align: right;">44</td>
 <td style="text-align: left;">Southern Europe</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">45</td>
 <td style="text-align: left;">United Kingdom</td>
-<td style="text-align: right;">0.05</td>
+<td style="text-align: right;">0.04</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.04</td>
-<td style="text-align: right;">0.06</td>
+<td style="text-align: right;">0.05</td>
+<td style="text-align: right;">45</td>
 <td style="text-align: left;">Northern Europe</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">46</td>
 <td style="text-align: left;">United States</td>
 <td style="text-align: right;">0.05</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.04</td>
 <td style="text-align: right;">0.06</td>
+<td style="text-align: right;">46</td>
 <td style="text-align: left;">North America</td>
 </tr>
 </tbody>
@@ -2348,7 +2636,7 @@ Result tables for addressing the audience
 </section>
 <section id="interaction-calls" class="level3">
 <h3 class="anchored" data-anchor-id="interaction-calls">Interaction calls</h3>
-<p>We found that <strong>25%</strong> of short video posts included calls for audience interactions, such as liking, sharing, commenting, or visiting a website. These patterns varied significantly by platform and outlet type. Instagram posts were considerably more likely to include these prompts, with <strong>49%</strong> featuring calls to action, which was substantially higher than TikTok, where <strong>16%</strong> of posts included such calls. YouTube Shorts posts were the least likely to include interaction prompts, at <strong>8%</strong>. Regarding outlet types, digital outlets led in incorporating calls to action, with <strong>37%</strong> of their posts featuring them. This was significantly higher than print outlets, which included calls to action in <strong>28%</strong> of their posts, and private broadcasters, where only <strong>19%</strong> of posts contained such prompts. Public broadcasters posted calls to action in <strong>26%</strong> of their videos, a figure comparable to print outlets. We also observed notable variations across countries, with the proportion of interactive calls ranging widely from as low as <strong>7%</strong> in South Korea to as high as <strong>48%</strong> in Slovakia.</p>
+<p>We found that, on average, <strong>25%</strong> of short video posts included a call for audience interaction, such as liking, sharing, commenting, or visiting a website. This rate varied substantially across platforms, with posts on Instagram being the most likely to prompt interaction at <strong>49%</strong>. In contrast, YouTube Shorts had the lowest proportion of such calls at just <strong>8%</strong>, while TikTok stood at <strong>16%</strong>. We also observed significant differences by outlet type: digital outlets led the way with <strong>37%</strong> of their posts containing calls for interaction. This was significantly higher than print outlets (<strong>28%</strong>) and private broadcasters (<strong>19%</strong>), with public broadcasters also showing a similar rate to print at <strong>26%</strong>. Finally, the prevalence of calls for interaction also varied notably by country, ranging from a low of <strong>11%</strong> in South Korea to a high of <strong>47%</strong> in Slovakia.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-4-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-1" role="tab" aria-controls="tabset-4-1" aria-selected="true">Interaction calls by platform</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-4-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-2" role="tab" aria-controls="tabset-4-2" aria-selected="false">by outlet type</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-4-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-3" role="tab" aria-controls="tabset-4-3" aria-selected="false">by country</a></li></ul>
 <div class="tab-content">
@@ -2462,8 +2750,8 @@ Result tables for interaction calls
 <td style="text-align: left;">outlet_type</td>
 <td style="text-align: left;">Public broadcaster - Digital</td>
 <td style="text-align: right;">-0.03</td>
-<td style="text-align: right;">0.30</td>
-<td style="text-align: right;">-0.09</td>
+<td style="text-align: right;">0.27</td>
+<td style="text-align: right;">-0.10</td>
 <td style="text-align: right;">0.03</td>
 </tr>
 <tr class="even">
@@ -2472,7 +2760,7 @@ Result tables for interaction calls
 <td style="text-align: right;">0.34</td>
 <td style="text-align: right;">0.00</td>
 <td style="text-align: right;">0.30</td>
-<td style="text-align: right;">0.38</td>
+<td style="text-align: right;">0.39</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">platform</td>
@@ -2540,7 +2828,7 @@ Result tables for interaction calls
 <td style="text-align: right;">0.37</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.31</td>
-<td style="text-align: right;">0.42</td>
+<td style="text-align: right;">0.43</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Print</td>
@@ -2553,14 +2841,14 @@ Result tables for interaction calls
 <td style="text-align: left;">Private broadcaster</td>
 <td style="text-align: right;">0.19</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.15</td>
+<td style="text-align: right;">0.16</td>
 <td style="text-align: right;">0.22</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Public broadcaster</td>
 <td style="text-align: right;">0.26</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.22</td>
+<td style="text-align: right;">0.21</td>
 <td style="text-align: right;">0.30</td>
 </tr>
 </tbody>
@@ -2570,390 +2858,486 @@ Result tables for interaction calls
 <h3 class="anchored" data-anchor-id="predictions-by-country-3">Predictions by country</h3>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 22%">
-<col style="width: 13%">
+<col style="width: 7%">
+<col style="width: 17%">
+<col style="width: 10%">
+<col style="width: 9%">
+<col style="width: 10%">
 <col style="width: 11%">
-<col style="width: 13%">
 <col style="width: 14%">
-<col style="width: 23%">
+<col style="width: 18%">
 </colgroup>
 <thead>
 <tr class="header">
+<th style="text-align: right;">rowid</th>
 <th style="text-align: left;">country</th>
 <th style="text-align: right;">estimate</th>
 <th style="text-align: right;">p.value</th>
 <th style="text-align: right;">conf.low</th>
 <th style="text-align: right;">conf.high</th>
+<th style="text-align: right;">rowid_dedup</th>
 <th style="text-align: left;">region</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
+<td style="text-align: right;">1</td>
 <td style="text-align: left;">Argentina</td>
-<td style="text-align: right;">0.27</td>
+<td style="text-align: right;">0.26</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.24</td>
-<td style="text-align: right;">0.31</td>
+<td style="text-align: right;">0.23</td>
+<td style="text-align: right;">0.29</td>
+<td style="text-align: right;">1</td>
 <td style="text-align: left;">Latin America</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">2</td>
 <td style="text-align: left;">Australia</td>
 <td style="text-align: right;">0.27</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.23</td>
 <td style="text-align: right;">0.30</td>
+<td style="text-align: right;">2</td>
 <td style="text-align: left;">Asia-Pacific</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">3</td>
 <td style="text-align: left;">Austria</td>
 <td style="text-align: right;">0.34</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.31</td>
-<td style="text-align: right;">0.38</td>
+<td style="text-align: right;">0.30</td>
+<td style="text-align: right;">0.37</td>
+<td style="text-align: right;">3</td>
 <td style="text-align: left;">Western Europe</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">4</td>
 <td style="text-align: left;">Belgium</td>
 <td style="text-align: right;">0.25</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.22</td>
 <td style="text-align: right;">0.28</td>
+<td style="text-align: right;">4</td>
 <td style="text-align: left;">Western Europe</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">5</td>
 <td style="text-align: left;">Brazil</td>
-<td style="text-align: right;">0.26</td>
+<td style="text-align: right;">0.28</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.23</td>
-<td style="text-align: right;">0.30</td>
+<td style="text-align: right;">0.25</td>
+<td style="text-align: right;">0.31</td>
+<td style="text-align: right;">5</td>
 <td style="text-align: left;">Latin America</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">6</td>
 <td style="text-align: left;">Bulgaria</td>
-<td style="text-align: right;">0.35</td>
+<td style="text-align: right;">0.34</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.30</td>
-<td style="text-align: right;">0.39</td>
+<td style="text-align: right;">0.37</td>
+<td style="text-align: right;">6</td>
 <td style="text-align: left;">Eastern Europe</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">7</td>
 <td style="text-align: left;">Canada</td>
-<td style="text-align: right;">0.21</td>
+<td style="text-align: right;">0.22</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.18</td>
-<td style="text-align: right;">0.24</td>
+<td style="text-align: right;">0.19</td>
+<td style="text-align: right;">0.25</td>
+<td style="text-align: right;">7</td>
 <td style="text-align: left;">North America</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">8</td>
 <td style="text-align: left;">Chile</td>
+<td style="text-align: right;">0.25</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.22</td>
+<td style="text-align: right;">0.28</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: left;">Latin America</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">9</td>
+<td style="text-align: left;">Colombia</td>
+<td style="text-align: right;">0.31</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.27</td>
+<td style="text-align: right;">0.34</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: left;">Latin America</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">10</td>
+<td style="text-align: left;">Croatia</td>
 <td style="text-align: right;">0.26</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.23</td>
 <td style="text-align: right;">0.30</td>
-<td style="text-align: left;">Latin America</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: left;">Southern Europe</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Colombia</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: left;">Czech Republic</td>
 <td style="text-align: right;">0.32</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.29</td>
 <td style="text-align: right;">0.36</td>
-<td style="text-align: left;">Latin America</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Croatia</td>
-<td style="text-align: right;">0.29</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.26</td>
-<td style="text-align: right;">0.33</td>
-<td style="text-align: left;">Southern Europe</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Czech Republic</td>
-<td style="text-align: right;">0.35</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.31</td>
-<td style="text-align: right;">0.39</td>
+<td style="text-align: right;">11</td>
 <td style="text-align: left;">Eastern Europe</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">12</td>
 <td style="text-align: left;">Denmark</td>
-<td style="text-align: right;">0.32</td>
-<td style="text-align: right;">0</td>
 <td style="text-align: right;">0.27</td>
-<td style="text-align: right;">0.37</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.24</td>
+<td style="text-align: right;">0.30</td>
+<td style="text-align: right;">12</td>
 <td style="text-align: left;">Northern Europe</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">13</td>
 <td style="text-align: left;">Finland</td>
 <td style="text-align: right;">0.31</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.27</td>
-<td style="text-align: right;">0.35</td>
+<td style="text-align: right;">0.34</td>
+<td style="text-align: right;">13</td>
 <td style="text-align: left;">Northern Europe</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">14</td>
 <td style="text-align: left;">France</td>
-<td style="text-align: right;">0.11</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.10</td>
 <td style="text-align: right;">0.13</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.11</td>
+<td style="text-align: right;">0.15</td>
+<td style="text-align: right;">14</td>
 <td style="text-align: left;">Western Europe</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">15</td>
 <td style="text-align: left;">Germany</td>
+<td style="text-align: right;">0.25</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.22</td>
+<td style="text-align: right;">0.28</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: left;">Western Europe</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">16</td>
+<td style="text-align: left;">Greece</td>
 <td style="text-align: right;">0.26</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.23</td>
 <td style="text-align: right;">0.29</td>
-<td style="text-align: left;">Western Europe</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Greece</td>
-<td style="text-align: right;">0.26</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.22</td>
-<td style="text-align: right;">0.29</td>
+<td style="text-align: right;">16</td>
 <td style="text-align: left;">Southern Europe</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">17</td>
 <td style="text-align: left;">Hungary</td>
-<td style="text-align: right;">0.25</td>
+<td style="text-align: right;">0.26</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.21</td>
-<td style="text-align: right;">0.28</td>
+<td style="text-align: right;">0.23</td>
+<td style="text-align: right;">0.29</td>
+<td style="text-align: right;">17</td>
 <td style="text-align: left;">Eastern Europe</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">18</td>
 <td style="text-align: left;">India</td>
 <td style="text-align: right;">0.14</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.12</td>
 <td style="text-align: right;">0.16</td>
+<td style="text-align: right;">18</td>
 <td style="text-align: left;">Asia-Pacific</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">19</td>
 <td style="text-align: left;">Indonesia</td>
-<td style="text-align: right;">0.30</td>
+<td style="text-align: right;">0.31</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.26</td>
+<td style="text-align: right;">0.28</td>
 <td style="text-align: right;">0.34</td>
+<td style="text-align: right;">19</td>
 <td style="text-align: left;">Asia-Pacific</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">20</td>
 <td style="text-align: left;">Ireland</td>
 <td style="text-align: right;">0.24</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.20</td>
+<td style="text-align: right;">0.21</td>
 <td style="text-align: right;">0.27</td>
+<td style="text-align: right;">20</td>
 <td style="text-align: left;">Northern Europe</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">21</td>
 <td style="text-align: left;">Italy</td>
-<td style="text-align: right;">0.18</td>
+<td style="text-align: right;">0.17</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.16</td>
-<td style="text-align: right;">0.21</td>
+<td style="text-align: right;">0.15</td>
+<td style="text-align: right;">0.20</td>
+<td style="text-align: right;">21</td>
 <td style="text-align: left;">Southern Europe</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">22</td>
 <td style="text-align: left;">Japan</td>
-<td style="text-align: right;">0.12</td>
+<td style="text-align: right;">0.17</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.09</td>
-<td style="text-align: right;">0.14</td>
+<td style="text-align: right;">0.15</td>
+<td style="text-align: right;">0.20</td>
+<td style="text-align: right;">22</td>
 <td style="text-align: left;">Asia-Pacific</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">23</td>
 <td style="text-align: left;">Kenya</td>
-<td style="text-align: right;">0.24</td>
+<td style="text-align: right;">0.25</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.21</td>
+<td style="text-align: right;">0.22</td>
 <td style="text-align: right;">0.28</td>
+<td style="text-align: right;">23</td>
 <td style="text-align: left;">Africa</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">24</td>
 <td style="text-align: left;">Malaysia</td>
 <td style="text-align: right;">0.26</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.23</td>
+<td style="text-align: right;">0.22</td>
 <td style="text-align: right;">0.29</td>
+<td style="text-align: right;">24</td>
 <td style="text-align: left;">Asia-Pacific</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">25</td>
 <td style="text-align: left;">Mexico</td>
-<td style="text-align: right;">0.24</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.21</td>
-<td style="text-align: right;">0.27</td>
-<td style="text-align: left;">Latin America</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Morocco</td>
-<td style="text-align: right;">0.18</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.15</td>
-<td style="text-align: right;">0.21</td>
-<td style="text-align: left;">Africa</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Netherlands</td>
 <td style="text-align: right;">0.23</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.20</td>
-<td style="text-align: right;">0.27</td>
+<td style="text-align: right;">0.25</td>
+<td style="text-align: right;">25</td>
+<td style="text-align: left;">Latin America</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">26</td>
+<td style="text-align: left;">Morocco</td>
+<td style="text-align: right;">0.16</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.14</td>
+<td style="text-align: right;">0.18</td>
+<td style="text-align: right;">26</td>
+<td style="text-align: left;">Africa</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">27</td>
+<td style="text-align: left;">Netherlands</td>
+<td style="text-align: right;">0.20</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.18</td>
+<td style="text-align: right;">0.23</td>
+<td style="text-align: right;">27</td>
 <td style="text-align: left;">Western Europe</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">28</td>
 <td style="text-align: left;">Nigeria</td>
-<td style="text-align: right;">0.30</td>
+<td style="text-align: right;">0.29</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.26</td>
-<td style="text-align: right;">0.34</td>
+<td style="text-align: right;">0.33</td>
+<td style="text-align: right;">28</td>
 <td style="text-align: left;">Africa</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">29</td>
 <td style="text-align: left;">Norway</td>
-<td style="text-align: right;">0.37</td>
+<td style="text-align: right;">0.36</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.33</td>
+<td style="text-align: right;">0.32</td>
 <td style="text-align: right;">0.40</td>
+<td style="text-align: right;">29</td>
 <td style="text-align: left;">Northern Europe</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">30</td>
 <td style="text-align: left;">Peru</td>
-<td style="text-align: right;">0.29</td>
+<td style="text-align: right;">0.30</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.25</td>
-<td style="text-align: right;">0.32</td>
+<td style="text-align: right;">0.27</td>
+<td style="text-align: right;">0.34</td>
+<td style="text-align: right;">30</td>
 <td style="text-align: left;">Latin America</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">31</td>
 <td style="text-align: left;">Philippines</td>
-<td style="text-align: right;">0.20</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.17</td>
 <td style="text-align: right;">0.22</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.19</td>
+<td style="text-align: right;">0.25</td>
+<td style="text-align: right;">31</td>
 <td style="text-align: left;">Asia-Pacific</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">32</td>
 <td style="text-align: left;">Poland</td>
 <td style="text-align: right;">0.25</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.22</td>
 <td style="text-align: right;">0.28</td>
+<td style="text-align: right;">32</td>
 <td style="text-align: left;">Eastern Europe</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">33</td>
 <td style="text-align: left;">Portugal</td>
 <td style="text-align: right;">0.32</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.28</td>
 <td style="text-align: right;">0.35</td>
+<td style="text-align: right;">33</td>
 <td style="text-align: left;">Southern Europe</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">34</td>
 <td style="text-align: left;">Romania</td>
-<td style="text-align: right;">0.31</td>
+<td style="text-align: right;">0.34</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.27</td>
-<td style="text-align: right;">0.35</td>
+<td style="text-align: right;">0.30</td>
+<td style="text-align: right;">0.37</td>
+<td style="text-align: right;">34</td>
 <td style="text-align: left;">Eastern Europe</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">35</td>
 <td style="text-align: left;">Singapore</td>
 <td style="text-align: right;">0.23</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.20</td>
+<td style="text-align: right;">0.21</td>
 <td style="text-align: right;">0.26</td>
+<td style="text-align: right;">35</td>
 <td style="text-align: left;">Asia-Pacific</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">36</td>
 <td style="text-align: left;">Slovakia</td>
-<td style="text-align: right;">0.48</td>
+<td style="text-align: right;">0.47</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.45</td>
-<td style="text-align: right;">0.52</td>
+<td style="text-align: right;">0.43</td>
+<td style="text-align: right;">0.51</td>
+<td style="text-align: right;">36</td>
 <td style="text-align: left;">Eastern Europe</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">37</td>
 <td style="text-align: left;">South Africa</td>
 <td style="text-align: right;">0.28</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0.25</td>
 <td style="text-align: right;">0.32</td>
+<td style="text-align: right;">37</td>
 <td style="text-align: left;">Africa</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">38</td>
 <td style="text-align: left;">South Korea</td>
-<td style="text-align: right;">0.07</td>
+<td style="text-align: right;">0.11</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.06</td>
-<td style="text-align: right;">0.08</td>
+<td style="text-align: right;">0.09</td>
+<td style="text-align: right;">0.12</td>
+<td style="text-align: right;">38</td>
 <td style="text-align: left;">Asia-Pacific</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">39</td>
 <td style="text-align: left;">Spain</td>
-<td style="text-align: right;">0.28</td>
+<td style="text-align: right;">0.26</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.25</td>
-<td style="text-align: right;">0.31</td>
+<td style="text-align: right;">0.23</td>
+<td style="text-align: right;">0.29</td>
+<td style="text-align: right;">39</td>
 <td style="text-align: left;">Southern Europe</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">40</td>
 <td style="text-align: left;">Sweden</td>
 <td style="text-align: right;">0.28</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.25</td>
-<td style="text-align: right;">0.32</td>
+<td style="text-align: right;">0.24</td>
+<td style="text-align: right;">0.31</td>
+<td style="text-align: right;">40</td>
 <td style="text-align: left;">Northern Europe</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">41</td>
 <td style="text-align: left;">Switzerland</td>
-<td style="text-align: right;">0.37</td>
+<td style="text-align: right;">0.33</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.34</td>
-<td style="text-align: right;">0.41</td>
+<td style="text-align: right;">0.30</td>
+<td style="text-align: right;">0.37</td>
+<td style="text-align: right;">41</td>
 <td style="text-align: left;">Western Europe</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">42</td>
 <td style="text-align: left;">Taiwan</td>
-<td style="text-align: right;">0.25</td>
+<td style="text-align: right;">0.24</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.22</td>
-<td style="text-align: right;">0.28</td>
+<td style="text-align: right;">0.21</td>
+<td style="text-align: right;">0.27</td>
+<td style="text-align: right;">42</td>
 <td style="text-align: left;">Asia-Pacific</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">43</td>
 <td style="text-align: left;">Thailand</td>
-<td style="text-align: right;">0.18</td>
+<td style="text-align: right;">0.19</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.15</td>
-<td style="text-align: right;">0.20</td>
+<td style="text-align: right;">0.17</td>
+<td style="text-align: right;">0.22</td>
+<td style="text-align: right;">43</td>
 <td style="text-align: left;">Asia-Pacific</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">44</td>
 <td style="text-align: left;">Turkey</td>
-<td style="text-align: right;">0.13</td>
-<td style="text-align: right;">0</td>
-<td style="text-align: right;">0.11</td>
 <td style="text-align: right;">0.15</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.13</td>
+<td style="text-align: right;">0.18</td>
+<td style="text-align: right;">44</td>
 <td style="text-align: left;">Southern Europe</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">45</td>
 <td style="text-align: left;">United Kingdom</td>
-<td style="text-align: right;">0.19</td>
+<td style="text-align: right;">0.20</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.16</td>
+<td style="text-align: right;">0.17</td>
 <td style="text-align: right;">0.22</td>
+<td style="text-align: right;">45</td>
 <td style="text-align: left;">Northern Europe</td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">46</td>
 <td style="text-align: left;">United States</td>
 <td style="text-align: right;">0.24</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0.20</td>
+<td style="text-align: right;">0.21</td>
 <td style="text-align: right;">0.27</td>
+<td style="text-align: right;">46</td>
 <td style="text-align: left;">North America</td>
 </tr>
 </tbody>
