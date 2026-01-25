@@ -1687,5 +1687,12 @@
     "crumbs": [
       "News topics"
     ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Platform News Report",
+    "section": "",
+    "text": "Platformization describes the growing trend of news being produced and distributed through – and increasingly by – digital platforms like TikTok, YouTube, and Instagram. This process fundamentally alters news production, often prioritizing engagement over traditional journalistic norms. Consequently, platform news are supposedly more visually-driven, emotionalized, and personalized, often delivered by non-traditional actors and in new formats.\nTo systematically investigate these shifts, we introduce the Platform News Report, a large-scale computational communication research project examining news content on TikTok, YouTube Shorts, and Instagram.\nComplementing the Reuters Digital News Report, which primarily focuses on survey data and news consumption patterns, our study examines the content and dissemination of news on these platforms. Our sampling scheme directly aligns with the DNR, leveraging the same markets and covering the news brands. This parallel approach ensures comparability and allows for a more holistic understanding of the news ecosystem, bridging insights from both demand and supply sides.\nThe project collects data from 571 news outlets across 46 countries, enabling analysis of the topics covered, the presentation styles employed, and the patterns of publication on these platforms. Through this comprehensive dataset, the Platform News Report aims to provide empirical insights into the evolving landscape of digital news and the consequences of platformization for public discourse.\n\n\n\n\n\n\nWork-in-progress\n\n\n\nThe Platform News Report is work-in-progress, and we actively encourage engagement from the research community and beyond. We welcome suggestions for improvement, new analyses, comments on preliminary findings, and – crucially – bug reports to help ensure the accuracy and robustness of our data and analyses.\n\n\n\nTeam\nThe Platform News Report is a project of the Computational Communication Research Group at the Department of Communication, Johannes-Gutenberg University Mainz, Germany.\nPrinciple investigator: Michael Scharkow\nResearch assistance: Yannick Winkler, Dennis Maus, Charlotte Tryba\n\n\nCitation\nPlease cite as Scharkow, Michael (2026). Platform News Report 2025. Online at https://ccsmainz.github.io/platformnews"
   }
 ]
